@@ -1,0 +1,3 @@
+# Import Bash configurations
+source ~/.bash/aliases
+source ~/.bash/functions

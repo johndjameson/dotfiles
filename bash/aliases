@@ -1,0 +1,18 @@
+# Clear window
+alias c="clear"
+
+# Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+alias cdb="cd ~/.bash"
+alias cdd="cd ~/Desktop"
+alias cdj="cd ~/GitHub/johndjameson.com"
+alias cd.="cd ~/.dotfiles"
+
+# Develop johndjameson.com
+alias jdj="cdj && grunt dev"
+
+# List all files with details
+alias ll="ls -la"
