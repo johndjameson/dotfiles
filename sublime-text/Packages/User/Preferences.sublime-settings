@@ -1,0 +1,60 @@
+{
+  // Sublime Text UI
+  "bold_folder_labels": true,
+  "enable_tab_scrolling": false,
+  "show_encoding": true,
+  "show_tab_close_buttons": true,
+
+  // Sublime Text behavior
+  "open_files_in_new_window": false,
+  "create_window_at_startup": false,
+  "enable_telemetry": false,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+
+  // Editor UI
+  "caret_style": "smooth",
+  "color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
+  "ensure_newline_at_eof_on_save": true,
+  "font_size": 16,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "line_padding_bottom": 1,
+  "line_padding_top": 1,
+  "match_brackets": true,
+  "match_selection": false,
+  "wide_caret": true,
+  "word_wrap": true,
+
+  // Editor behavior
+  "default_encoding": "UTF-8",
+  "default_line_ending": "unix",
+  "detect_indentation": false,
+  "scroll_past_end": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+
+  // Sidebar / Command Palette exclusions
+  "file_exclude_patterns":
+  [
+    ".DS_Store",
+    "Desktop.ini",
+    "*.pyc",
+    "._*",
+    "Thumbs.db",
+    ".Spotlight-V100",
+    ".Trashes"
+  ],
+  "folder_exclude_patterns":
+  [
+    ".bundle",
+    ".git",
+    ".sass-cache",
+    "bin",
+    "node_modules",
+    "tmp"
+  ]
+}
