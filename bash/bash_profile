@@ -1,3 +1,12 @@
+# rbenv
+eval "$(rbenv init -)"
+
+# autojump
+[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+
 # Import Bash configurations
 source ~/.bash/aliases
 source ~/.bash/functions
+
+# PATH variable
+export PATH=/usr/local/bin:$PATH
