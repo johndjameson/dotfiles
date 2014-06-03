@@ -1,6 +1,8 @@
 {
 	"installed_packages":
 	[
-		"Emmet"
+		"Better CoffeeScript",
+		"Emmet",
+		"Sass"
 	]
 }
