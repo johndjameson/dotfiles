@@ -11,6 +11,9 @@ alias cdd="cd ~/Desktop"
 alias cdj="cd ~/GitHub/johndjameson.com"
 alias cd.="cd ~/.dotfiles"
 
+# Download and extract MVCSS
+alias dlmvcss="dlz https://github.com/mvcss/mvcss/archive/v4.0.0.zip; mv mvcss-4.0.0 stylesheets; rm -r stylesheets/_build stylesheets/CHANGELOG.md stylesheets/MIT-LICENSE stylesheets/README.md"
+
 # Develop johndjameson.com
 alias jdj="cdj && grunt dev"
 
