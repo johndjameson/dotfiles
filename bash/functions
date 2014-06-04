@@ -3,3 +3,10 @@ mkcd() {
 	mkdir -p "$1"
 	cd "$1"
 }
+
+# Extract external ZIP archive
+dlz() {
+  wget -O tempzip "$1"
+  unzip tempzip
+  rm tempzip
+}
