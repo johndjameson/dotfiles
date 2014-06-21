@@ -2,7 +2,9 @@
 	"installed_packages":
 	[
 		"Better CoffeeScript",
+		"Colorsublime",
 		"Emmet",
-		"Sass"
+		"Markdown Extended",
+		"Syntax Highlighting for Sass"
 	]
 }
