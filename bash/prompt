@@ -1,0 +1,5 @@
+# Cusomtize prompt
+export PS1="\360\237\224\247  \W: "
+
+# Tab completion case insensitivity
+bind "set completion-ignore-case on"
