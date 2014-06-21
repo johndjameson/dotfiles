@@ -1,7 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "smooth",
-	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
+	"color_scheme": "Packages/User/Colorsublime/themes/Tomorrow_Night.tmTheme",
 	"create_window_at_startup": false,
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
@@ -40,6 +40,10 @@
 	"match_brackets": true,
 	"match_selection": false,
 	"open_files_in_new_window": false,
+	"rulers":
+	[
+		80
+	],
 	"scroll_past_end": true,
 	"show_encoding": true,
 	"show_tab_close_buttons": true,
