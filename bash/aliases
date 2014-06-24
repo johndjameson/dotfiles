@@ -1,6 +1,9 @@
 # Clear window
 alias c="clear"
 
+# Bundler
+alias be="bundle exec "
+
 # Navigation
 alias ..="cd .."
 alias ...="cd ../.."
