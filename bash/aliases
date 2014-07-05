@@ -20,5 +20,12 @@ alias dlmvcss="dlz https://github.com/mvcss/mvcss/archive/v4.0.0.zip; mv mvcss-4
 # Develop johndjameson.com
 alias jdj="cdj && be middleman s"
 
-# List all files with details
-alias ll="ls -la"
+# List all files/directories with details and colors
+alias ll="ls -laFG"
+
+# Middleman
+alias mms="be middleman s"
+alias mmb="be middleman build"
+
+# Vim
+alias v="vim"
