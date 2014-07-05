@@ -1,7 +1,13 @@
 .DS_Store
+*.swp
 
-sublime-text/Packages/User/Package Control.cache
+# Package Control
+sublime-text/Packages/User/Package Control.ca-bundle
+sublime-text/Packages/User/Package Control.ca-list
 sublime-text/Packages/User/Package Control.last-run
+sublime-text/Packages/User/Package Control.system-ca-bundle
+sublime-text/Packages/User/Package Control.cache/
+sublime-text/Packages/User/Package Control.ca-certs/
 
+# Installed Packages
 sublime-text/Packages/Syntax Highlighting for Sass/
-!sublime-text/Packages/User!
