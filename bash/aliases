@@ -21,7 +21,7 @@ alias dlmvcss="dlz https://github.com/mvcss/mvcss/archive/v4.0.0.zip; mv mvcss-4
 alias jdj="cdj && be middleman s"
 
 # List all files/directories with details and colors
-alias ll="ls -laFG"
+alias ll="ls -lAFG"
 
 # Middleman
 alias mms="be middleman s"
