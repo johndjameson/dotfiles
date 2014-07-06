@@ -34,6 +34,7 @@ alias be="bundle exec "
 
 alias g='git'
 alias ga='git add'
+alias gap='git add -p'
 alias gbr='git browse-remote'
 alias gc='git commit'
 alias gcm='git commit -m'
@@ -61,7 +62,7 @@ alias mms="be middleman s"
 # ----- Vim ----- #
 
 alias v="vim"
-alias v.v="vim ~/.vimrc"
+alias v.v="cd ~/.dotfiles && vim vim/vimrc"
 
 # ----------------------------------------------------
 #   User
