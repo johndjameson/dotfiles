@@ -1,0 +1,13 @@
+[user]
+	name = John D. Jameson
+	email = thejohnjameson@gmail.com
+[color]
+	ui = true
+[push]
+	default = simple
+[merge]
+	tool = opendiff
+[commit]
+	template = ~/.dotfiles/git/template 
+[core]
+	editor = vim
