@@ -1,17 +1,28 @@
-# tput color values
-# 0 = black
-# 1 = red
-# 2 = green
-# 3 = yellow
-# 4 = blue
-# 5 = magenta
-# 6 = cyan
-# 7 = white
+# ----------------------------------------------------
+#   Colors
+# ----------------------------------------------------
+
+BLACK=0
+RED=1
+GREEN=2
+YELLOW=3
+BLUE=4
+MAGENTA=5
+CYAN=6
+WHITE=7
+
+# ----------------------------------------------------
+#   Functions
+# ----------------------------------------------------
+
+# ----- Path ----- #
 
 # Show the current path
 current_path (){
   echo $(basename `pwd`)
 }
+
+# ----- Git ----- #
 
 # Get the current git branch
 parse_git_branch() {
@@ -25,25 +36,33 @@ if [ 'which git' ] && [ -f `which rbenv` ] && [ -d ./.git ]; then
 
   # Working directory clean
   if [ $(git status --porcelain | wc -l | tr -d ' ') -eq 0 ]; then
-    printf "$(tput setaf 2)($(parse_git_branch))"
+    printf "$(tput setaf $GREEN)($(parse_git_branch))"
 
   # Working directory dirty
   else
 
     # Untracked files
     if [ $(git status --porcelain | grep "^ \?\?" | wc -l | tr -d ' ') -gt 0 ]; then
-      printf "$(tput setaf 1)($(parse_git_branch))"
+      printf "$(tput setaf $RED)($(parse_git_branch))"
 
     # Modified/removed files
     else
-      printf "$(tput setaf 3)($(parse_git_branch))"
+      printf "$(tput setaf $YELLOW)($(parse_git_branch))"
     fi
   fi
 fi
 }
 
+# ----------------------------------------------------
+#   Prompt
+# ----------------------------------------------------
+
 # Customize prompt
-export PS1='$(current_path)$(branch_if_repo) $(tput sgr0) \n\360\237\224\247  '
+export PS1='$(tput setaf $CYAN)$(current_path)$(branch_if_repo) $(tput sgr0) \n\360\237\224\247  '
+
+# ----------------------------------------------------
+#   Behavior
+# ----------------------------------------------------
 
 # Tab completion case insensitivity
 bind "set completion-ignore-case on"
