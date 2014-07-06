@@ -49,7 +49,7 @@ alias go='git checkout'
 alias gob='git checkout -b'
 alias gp='git push'
 alias gr='git reset'
-alias gs='git status --short'
+alias gs='shorten_git_status'
 alias gsl='git status'
 
 # ----- Middleman ----- #
