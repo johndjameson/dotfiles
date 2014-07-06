@@ -10,6 +10,7 @@ alias ....="cd ../../.."
 
 alias cdb="cd ~/.bash"
 alias cdd="cd ~/Desktop"
+alias cdg="cd ~/.dotfiles/git"
 alias cdj="cd ~/GitHub/johndjameson.com"
 alias cd.="cd ~/.dotfiles"
 
