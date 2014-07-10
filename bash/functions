@@ -12,15 +12,13 @@ dlz() {
 }
 
 shorten_git_status() {
-
   # Working directory clean
   if [ $(git status --porcelain | wc -l | tr -d ' ') -eq 0 ]; then
-    printf "\nnothing to commit, working directory clean\n\n"
+    printf "\nnothing to commit, working directory clean\n"
 
   # Working directory dirty
   else
     printf "\n"
     git status --short
-    printf "\n"
   fi
 }

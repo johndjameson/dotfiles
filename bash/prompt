@@ -17,40 +17,40 @@ WHITE=7
 
 # ----- Path ----- #
 
-# Show the current path
-current_path (){
-  echo $(basename "`pwd`")
+# Echo the working directory without the full path
+current_working_directory() {
+  printf $(basename "$(pwd)")
 }
 
 # ----- Git ----- #
 
-# Get the current git branch
+# Get the current Git branch
 parse_git_branch() {
-  ref=$(/usr/local/bin/git symbolic-ref HEAD 2>/dev/null) || return
+  ref=$(git symbolic-ref HEAD &> /dev/null) || return
   printf "${ref#refs/heads/}"
 }
 
-# Show the git branch if it's a repo
+# Show the Git branch if it's a repo
 branch_if_repo() {
-if [ 'which git' ] && [ -f `which rbenv` ] && [ -d ./.git ]; then
+  if [[ $(which git) ]] && [[ -f $(which rbenv) ]] && [[ -d ./.git ]]; then
 
-  # Working directory clean
-  if [ $(git status --porcelain | wc -l | tr -d ' ') -eq 0 ]; then
-    printf "$(tput setaf $GREEN)($(parse_git_branch))"
+    # Working directory clean
+    if (( $(git status --porcelain | wc -l | tr -d "[:space:]") == 0 )); then
+      printf "$(tput setaf $GREEN)($(parse_git_branch))"
 
-  # Working directory dirty
-  else
-
-    # Untracked files
-    if [ $(git status --porcelain | grep "^ \?\?" | wc -l | tr -d ' ') -gt 0 ]; then
-      printf "$(tput setaf $RED)($(parse_git_branch))"
-
-    # Modified/removed files
+    # Working directory dirty
     else
-      printf "$(tput setaf $YELLOW)($(parse_git_branch))"
+
+      # Untracked files
+      if [[ $(git status --porcelain | grep -c "^ \?\?") -gt 0 ]]; then
+        printf "$(tput setaf $RED)($(parse_git_branch))"
+
+      # Modified/removed files
+      else
+        printf "$(tput setaf $YELLOW)($(parse_git_branch))"
+      fi
     fi
   fi
-fi
 }
 
 # ----------------------------------------------------
@@ -58,7 +58,27 @@ fi
 # ----------------------------------------------------
 
 # Customize prompt
-export PS1='$(tput setaf $CYAN)$(current_path)$(branch_if_repo) $(tput sgr0) \n\360\237\224\247  '
+PS1='$(tput setaf $CYAN)$(current_working_directory)$(branch_if_repo) $(tput sgr0) \n\360\237\224\247  '
+
+PROMPT_COMMAND+="; _add_prompt_headroom; _make_prompt_dirty"
+
+_make_prompt_dirty() {
+  if [[ $PROMPT_DIRTY != true ]]
+  then
+    export PROMPT_DIRTY=true
+  fi
+}
+
+_add_prompt_headroom() {
+  local LAST_BASH_COMMAND=$(fc -ln -1 | tr -d ' \t\n\r\f')
+  if [[ $PROMPT_DIRTY ]]
+  then
+    if [[ "c" != $LAST_BASH_COMMAND && "clear" != $LAST_BASH_COMMAND ]]
+    then
+      printf "\n"
+    fi
+  fi
+}
 
 # ----------------------------------------------------
 #   Behavior
