@@ -16,11 +16,14 @@ alias cd.="cd ~/.dotfiles"
 
 # ----- General ----- #
 
+# Reload Bash profile
+alias spb='. ~/.bash_profile'
+
 # Clear window
 alias c="clear"
 
 # List all files/directories with details and colors
-alias ll="ls -lAFG"
+alias l="ls -lAFGh"
 
 # ----------------------------------------------------
 #   Commands
