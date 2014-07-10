@@ -74,11 +74,6 @@ alias v.v="cd ~/.dotfiles && vim vim/vimrc"
 #   User
 # ----------------------------------------------------
 
-# ----- MVCSS ----- #
-
-# Download and extract MVCSS
-alias dlmvcss="dlz https://github.com/mvcss/mvcss/archive/v4.0.0.zip; mv mvcss-4.0.0 stylesheets; rm -r stylesheets/_build stylesheets/CHANGELOG.md stylesheets/MIT-LICENSE stylesheets/README.md"
-
 # ----- johndjameson.com ----- #
 
 # Develop johndjameson.com
