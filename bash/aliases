@@ -35,6 +35,7 @@ alias be="bundle exec "
 
 # ----- Git ----- #
 
+alias git='hub'
 alias g='git'
 alias ga='git add'
 alias ga.='git add .'
