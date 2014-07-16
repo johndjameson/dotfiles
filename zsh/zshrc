@@ -1,6 +1,5 @@
-# Import Bash configurations
+# Import shell configurations
 . ~/.dotfiles/shell/aliases
-. ~/.dotfiles/bash/config
+. ~/.dotfiles/zsh/config
 . ~/.dotfiles/shell/config
 . ~/.dotfiles/shell/functions
-. ~/.dotfiles/bash/prompt
