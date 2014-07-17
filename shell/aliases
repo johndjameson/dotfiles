@@ -11,29 +11,27 @@
 
 # ----- Bash ----- #
 
-alias spb='. ~/.bash_profile'
+alias sbp=". $HOME/.bash_profile"
 
 # ----- Navigation ----- #
 
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
 
-alias cdb="cd ~/.bash"
-alias cdd="cd ~/Desktop"
-alias cdg="cd ~/.dotfiles/git"
-alias cdj="cd ~/GitHub/johndjameson.com"
-alias cd.="cd ~/.dotfiles"
+alias cdd="cd $HOME/Desktop"
+alias cdj="cd $JDJ"
+alias cd.="cd $HOME/.dotfiles"
 
 # ----- Clear ----- #
 
 # Clear window
-alias c="clear"
+alias c='clear'
 
 # ----- List ----- #
 
 # List all files/directories with details and colors
-alias l="ls -lAFh"
+alias l='ls -lAFh'
 
 # ----------------------------------------------------
 #   Programs
@@ -41,7 +39,7 @@ alias l="ls -lAFh"
 
 # ----- Bundler ----- #
 
-alias be="bundle exec "
+alias be='bundle exec '
 
 # ----- Git ----- #
 
@@ -76,13 +74,13 @@ alias gsl='git status'
 
 # ----- Middleman ----- #
 
-alias mmb="bundle exec middleman build"
-alias mms="bundle exec middleman s"
+alias mmb='bundle exec middleman build'
+alias mms='bundle exec middleman s'
 
 # ----- Vim ----- #
 
-alias v="vim"
-alias v.v="cd ~/.dotfiles && vim vim/vimrc"
+alias v='vim'
+alias v.v="cd $HOME/.dotfiles && vim vim/vimrc"
 
 # ----------------------------------------------------
 #   User
@@ -91,4 +89,4 @@ alias v.v="cd ~/.dotfiles && vim vim/vimrc"
 # ----- johndjameson.com ----- #
 
 # Develop johndjameson.com
-alias jdj="cdj && be middleman s"
+alias jdj="cd $JDJ && bundle exec middleman s"
