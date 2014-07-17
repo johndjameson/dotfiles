@@ -14,8 +14,7 @@
 [[ -s `brew --prefix`/etc/autojump.bash ]] && . `brew --prefix`/etc/autojump.bash
 
 # ----------------------------------------------------
-#   Behavior
+#   History
 # ----------------------------------------------------
 
-# Tab completion case insensitivity
-bind "set completion-ignore-case on"
+export HISTIGNORE='c:clear:cd*'
