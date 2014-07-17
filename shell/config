@@ -17,6 +17,10 @@ export PATH=/usr/local/bin:$PATH
 #   Scripts
 # ----------------------------------------------------
 
+# ----- Autojump ----- #
+
+[ -s "$(brew --prefix)/etc/autojump.$SHELL_EXT" ] && . "$(brew --prefix)/etc/autojump.$SHELL_EXT"
+
 # ----- rbenv ----- #
 
 eval "$(rbenv init -)"

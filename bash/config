@@ -6,12 +6,11 @@
 # ----------------------------------------------------
 
 # ----------------------------------------------------
-#   Scripts
+#   Behavior
 # ----------------------------------------------------
 
-# ----- Autojump ----- #
-
-[[ -s `brew --prefix`/etc/autojump.bash ]] && . `brew --prefix`/etc/autojump.bash
+# Tab completion case insensitivity
+bind 'set completion-ignore-case on'
 
 # ----------------------------------------------------
 #   History

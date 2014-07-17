@@ -9,6 +9,10 @@
 #   Imports
 # ----------------------------------------------------
 
+# ----- Initial ----- #
+
+. ~/.dotfiles/zsh/init
+
 # ----- Shared ----- #
 
 . ~/.dotfiles/shell/variables

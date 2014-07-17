@@ -9,6 +9,10 @@
 #   Imports
 # ----------------------------------------------------
 
+# ----- Initial ----- #
+
+. ~/.dotfiles/bash/init
+
 # ----- Shared ----- #
 
 . ~/.dotfiles/shell/variables
