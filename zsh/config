@@ -1,2 +1,23 @@
-# autojump
+# ----------------------------------------------------
+#   Config
+# ----------------------------------------------------
+
+# ----- Autojump ----- #
+
 [[ -s `brew --prefix`/etc/autojump.zsh ]] && . `brew --prefix`/etc/autojump.zsh
+
+# ----- Color ----- #
+
+export CLICOLOR=1
+
+# ----- Completions ----- #
+
+autoload -U compinit
+compinit
+
+# ----- History ----- #
+
+setopt hist_ignore_all_dups inc_append_history
+HISTFILE=~/.dotfiles/zsh/.zhistory
+HISTSIZE=4096
+SAVEHIST=4096
