@@ -18,24 +18,11 @@ _make_prompt_dirty() {
   fi
 }
 
-# ----- Spacing ----- #
-
-_add_prompt_headroom() {
-  local LAST_BASH_COMMAND=$(fc -ln -1 | tr -d ' \t\n\r\f')
-  if [ "$PROMPT_DIRTY" ]
-  then
-    if [ "c" != "$LAST_BASH_COMMAND" ] && [ "clear" != "$LAST_BASH_COMMAND" ]
-    then
-      printf "\n"
-    fi
-  fi
-}
-
 # ----------------------------------------------------
 #   Commands
 # ----------------------------------------------------
 
-PROMPT_COMMAND+="; _add_prompt_headroom; _make_prompt_dirty"
+PROMPT_COMMAND+="; printf '\n'; _make_prompt_dirty"
 
 # ----------------------------------------------------
 #   Display
