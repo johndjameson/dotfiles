@@ -3,3 +3,4 @@
 . ~/.dotfiles/zsh/config
 . ~/.dotfiles/shell/config
 . ~/.dotfiles/shell/functions
+. ~/.dotfiles/zsh/prompt
