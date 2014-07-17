@@ -15,3 +15,5 @@ sublime-text/Packages/Syntax Highlighting for Sass/
 # Vundle
 vim/bundle
 
+# Zsh
+.zhistory
