@@ -1,14 +1,13 @@
 # ----------------------------------------------------
+#
 #   Config
+#   -> Zsh-specific environment settings
+#
 # ----------------------------------------------------
 
 # ----- Autojump ----- #
 
 [[ -s `brew --prefix`/etc/autojump.zsh ]] && . `brew --prefix`/etc/autojump.zsh
-
-# ----- Color ----- #
-
-export CLICOLOR=1
 
 # ----- Completions ----- #
 

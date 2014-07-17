@@ -1,43 +1,22 @@
-# Make directory and navigate to it
-mkcd() {
-  mkdir -p "$1"
-  cd "$1"
-}
+# ----------------------------------------------------
+#
+#   Functions
+#   -> Specified tasks
+#
+# ----------------------------------------------------
 
-# Extract external ZIP archive
-dlz() {
-  # -L must come before -o to follow redirection
-  curl -s -L -o .tempzip "$1"
-  unzip -q .tempzip
-  rm .tempzip
-}
-
-shorten_git_status() {
-  # Working directory clean
-  if [ $(git status --porcelain | wc -l | tr -d ' ') -eq 0 ]; then
-    printf "\nnothing to commit, working directory clean\n"
-
-  # Working directory dirty
-  else
-    printf "\n"
-    git status --short
-  fi
-}
+# ----------------------------------------------------
+#   Dependencies
+# ----------------------------------------------------
 
 # ----- Path ----- #
 
 # Echo the working directory without the full path
-current_working_directory() {
+working_directory() {
   printf $(basename "$(pwd)")
 }
 
 # ----- Git ----- #
-
-# Get the current Git branch
-parse_git_branch() {
-  ref=$(git symbolic-ref HEAD 2> /dev/null) || return
-  printf "${ref#refs/heads/}"
-}
 
 # Show the Git branch if it's a repo
 branch_if_repo() {
@@ -59,4 +38,41 @@ branch_if_repo() {
       fi
     fi
   fi
+}
+
+# Get the current Git branch
+parse_git_branch() {
+  ref=$(git symbolic-ref HEAD 2> /dev/null) || return
+  printf "${ref#refs/heads/}"
+}
+
+# Beautify `git status` output, add fallback text
+shorten_git_status() {
+  # Working directory clean
+  if [ $(git status --porcelain | wc -l | tr -d ' ') -eq 0 ]; then
+    printf "\nnothing to commit, working directory clean\n"
+
+  # Working directory dirty
+  else
+    printf "\n"
+    git status --short
+  fi
+}
+
+# ----------------------------------------------------
+#   Commands
+# ----------------------------------------------------
+
+# Make directory and navigate to it
+mkcd() {
+  mkdir -p "$1"
+  cd "$1"
+}
+
+# Extract external ZIP archive
+dlz() {
+  # -L must come before -o to follow redirection
+  curl -s -L -o .tempzip "$1"
+  unzip -q .tempzip
+  rm .tempzip
 }

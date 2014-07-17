@@ -1,6 +1,17 @@
 # ----------------------------------------------------
+#
+#   Aliases
+#   -> Shorthand commands
+#
+# ----------------------------------------------------
+
+# ----------------------------------------------------
 #   Shell
 # ----------------------------------------------------
+
+# ----- Bash ----- #
+
+alias spb='. ~/.bash_profile'
 
 # ----- Navigation ----- #
 
@@ -14,19 +25,18 @@ alias cdg="cd ~/.dotfiles/git"
 alias cdj="cd ~/GitHub/johndjameson.com"
 alias cd.="cd ~/.dotfiles"
 
-# ----- General ----- #
-
-# Reload Bash profile
-alias spb='. ~/.bash_profile'
+# ----- Clear ----- #
 
 # Clear window
 alias c="clear"
 
+# ----- List ----- #
+
 # List all files/directories with details and colors
-alias l="ls -lAFGh"
+alias l="ls -lAFh"
 
 # ----------------------------------------------------
-#   Commands
+#   Programs
 # ----------------------------------------------------
 
 # ----- Bundler ----- #
@@ -35,7 +45,9 @@ alias be="bundle exec "
 
 # ----- Git ----- #
 
+# Use Hub gem for Git/GitHub
 alias git='hub'
+
 alias g='git'
 alias ga='git add'
 alias ga.='git add .'
@@ -64,8 +76,8 @@ alias gsl='git status'
 
 # ----- Middleman ----- #
 
-alias mmb="be middleman build"
-alias mms="be middleman s"
+alias mmb="bundle exec middleman build"
+alias mms="bundle exec middleman s"
 
 # ----- Vim ----- #
 

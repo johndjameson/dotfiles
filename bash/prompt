@@ -1,24 +1,30 @@
 # ----------------------------------------------------
+#
 #   Prompt
+#   -> Bash-specific prompt settings
+#
 # ----------------------------------------------------
 
-# Customize prompt
-PS1='$(tput setaf $CYAN)$(current_working_directory)$(branch_if_repo) $(tput sgr0) \n\360\237\224\247  '
+# ----------------------------------------------------
+#   Dependencies
+# ----------------------------------------------------
 
-PROMPT_COMMAND+="; _add_prompt_headroom; _make_prompt_dirty"
+# ----- Status ----- #
 
 _make_prompt_dirty() {
-  if [[ $PROMPT_DIRTY != true ]]
+  if [ "$PROMPT_DIRTY" != true ]
   then
     export PROMPT_DIRTY=true
   fi
 }
 
+# ----- Spacing ----- #
+
 _add_prompt_headroom() {
   local LAST_BASH_COMMAND=$(fc -ln -1 | tr -d ' \t\n\r\f')
-  if [[ $PROMPT_DIRTY ]]
+  if [ "$PROMPT_DIRTY" ]
   then
-    if [[ "c" != $LAST_BASH_COMMAND && "clear" != $LAST_BASH_COMMAND ]]
+    if [ "c" != "$LAST_BASH_COMMAND" ] && [ "clear" != "$LAST_BASH_COMMAND" ]
     then
       printf "\n"
     fi
@@ -26,8 +32,13 @@ _add_prompt_headroom() {
 }
 
 # ----------------------------------------------------
-#   Behavior
+#   Commands
 # ----------------------------------------------------
 
-# Tab completion case insensitivity
-bind "set completion-ignore-case on"
+PROMPT_COMMAND+="; _add_prompt_headroom; _make_prompt_dirty"
+
+# ----------------------------------------------------
+#   Display
+# ----------------------------------------------------
+
+PS1='$(tput setaf $CYAN)$(working_directory)$(branch_if_repo) $(tput sgr0) \n\360\237\224\247  '

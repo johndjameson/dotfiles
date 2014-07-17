@@ -1,7 +1,22 @@
-# Import Bash configurations
+# ----------------------------------------------------
+#
+#   Bash
+#   -> User-defined Bash settings
+#
+# ----------------------------------------------------
+
+# ----------------------------------------------------
+#   Imports
+# ----------------------------------------------------
+
+# ----- Shared ----- #
+
 . ~/.dotfiles/shell/variables
 . ~/.dotfiles/shell/aliases
-. ~/.dotfiles/bash/config
 . ~/.dotfiles/shell/config
 . ~/.dotfiles/shell/functions
+
+# ----- Bash ----- #
+
+. ~/.dotfiles/bash/config
 . ~/.dotfiles/bash/prompt
