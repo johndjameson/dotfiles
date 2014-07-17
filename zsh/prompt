@@ -12,3 +12,12 @@
 # ----- Left Prompt ----- #
 
 PROMPT="%d "
+
+# ----------------------------------------------------
+#   Hooks
+# ----------------------------------------------------
+
+# Add a newline before each prompt
+function precmd() {
+  printf '\n'
+}
