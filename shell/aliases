@@ -71,6 +71,8 @@ alias gp='git push'
 alias gr='git reset'
 alias gs='shorten_git_status'
 alias gsl='git status'
+alias gst='git stash'
+alias gstp='git stash pop'
 
 # ----- Middleman ----- #
 
