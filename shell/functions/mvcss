@@ -1,0 +1,123 @@
+# ----------------------------------------------------
+#
+#   Functions - MVCSS
+#   -> MVCSS command line utilties
+#      https://github.com/drewbarontini/dotfiles/blob/master/bash/functions/mvcss
+#
+# ----------------------------------------------------
+
+# ----------------------------------------------------
+#   Variables
+# ----------------------------------------------------
+
+LOADMSG='Downloading...'
+MVCSSURL='https://raw.githubusercontent.com/mvcss/mvcss/master'
+MVCSSLIBURL='https://raw.githubusercontent.com/mvcss/library/master'
+
+# ----------------------------------------------------
+#   Functions
+# ----------------------------------------------------
+
+# ----- MVCSS ----- #
+
+function mvcss() {
+  if [ "$1" == 'all' ]
+  then
+    echo "$LOADMSG"
+    dlz https://github.com/mvcss/mvcss/archive/master.zip
+    echo "Downloaded MVCSS Zip file to `pwd`!"
+  elif [ "$1" == 'copy' ]
+  then
+    echo "$LOADMSG"
+    if [ "$3" == 'reset' ]
+    then
+      RESPONSE=$(get_curl_response "$MVCSSURL"/"$2"/_"$3".scss)
+    else
+      RESPONSE=$(get_curl_response "$MVCSSURL"/"$2"/_"$3".sass)
+    fi
+    if [[ $RESPONSE =~ .*404.*  ]]
+    then
+      echo "Sorry, $2/$3 not found."
+    else
+      if [ "$3" == 'reset' ]
+      then
+        curl -s "$MVCSSURL"/"$2"/_"$3".scss | pbcopy
+        echo "Copied $2/$3 to the clipboard!"
+      else
+        curl -s "$MVCSSURL"/"$2"/_"$3".sass | pbcopy
+        echo "Copied $2/$3 to the clipboard!"
+      fi
+    fi
+  else
+    echo "$LOADMSG"
+    if [ "$2" == 'reset' ]
+    then
+      RESPONSE=$(get_curl_response "$MVCSSURL"/"$1"/_"$2".scss)
+    else
+      RESPONSE=$(get_curl_response "$MVCSSURL"/"$1"/_"$2".sass)
+    fi
+    if [[ $RESPONSE =~ .*404.*  ]]
+    then
+      echo "Sorry, $1/$2 not found."
+    else
+      if [ "$2" == 'reset' ]
+      then
+        curl -O -s "$MVCSSURL"/"$1"/_"$2".scss
+        echo "Downloaded $1/$2 to `pwd`!"
+      else
+        curl -O -s "$MVCSSURL"/"$1"/_"$2".sass
+        echo "Downloaded $1/$2 to `pwd`!"
+      fi
+    fi
+  fi
+}
+
+# ----- MVCSS Library ----- #
+
+function mvcss-library() {
+  if [ "$1" == 'copy' ]
+  then
+    echo "$LOADMSG"
+    RESPONSE=$(get_curl_response "$MVCSSLIBURL"/"$2"/_"$3".sass)
+    if [[ $RESPONSE =~ .*404.*  ]]
+    then
+      echo "Sorry, $2/$3 not found."
+    else
+      curl -s "$MVCSSLIBURL"/"$2"/_"$3".sass | pbcopy
+      echo "Copied $2/$3 to the clipboard!"
+    fi
+  else
+    echo "$LOADMSG"
+    RESPONSE=$(get_curl_response "$MVCSSLIBURL"/"$1"/_"$2".sass)
+    if [[ $RESPONSE =~ .*404.*  ]]
+    then
+      echo "Sorry, $1/$2 not found."
+    else
+      curl -O -s "$MVCSSLIBURL"/"$1"/_"$2".sass
+      echo "Downloaded $1/$2 to `pwd`!"
+    fi
+  fi
+}
+
+# ----- Get MVCSS Sass Build ----- #
+
+# Pulls down and concatenates MVCSS Sass files
+function mvcss-to-clipboard() {
+  touch .tempmvcss
+  echo "Getting Foundation files..."
+  curl -s "$MVCSSURL"/foundation/_helpers.sass >> .tempmvcss
+  curl -s "$MVCSSURL"/foundation/_config.sass >> .tempmvcss
+  curl -s "$MVCSSURL"/foundation/_base.sass >> .tempmvcss
+  echo "Getting Component files..."
+  curl -s "$MVCSSURL"/components/_bucket.sass >> .tempmvcss
+  curl -s "$MVCSSURL"/components/_card.sass >> .tempmvcss
+  curl -s "$MVCSSURL"/components/_grid.sass >> .tempmvcss
+  curl -s "$MVCSSURL"/components/_row.sass >> .tempmvcss
+  curl -s "$MVCSSURL"/components/_well.sass >> .tempmvcss
+  echo "Getting Tools file..."
+  curl -s "$MVCSSURL"/foundation/_tools.sass >> .tempmvcss
+  cat .tempmvcss | pbcopy
+  rm .tempmvcss
+  echo "Copied MVCSS to clipboard!"
+}
+

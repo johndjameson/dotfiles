@@ -1,6 +1,6 @@
 # ----------------------------------------------------
 #
-#   Functions
+#   Functions - General
 #   -> Specified tasks
 #
 # ----------------------------------------------------
@@ -14,6 +14,12 @@
 # Echo the working directory without the full path
 working_directory() {
   printf $(basename "$(pwd)")
+}
+
+# ----- Curl ----- #
+
+get_curl_response() {
+  curl -s -I $1 | grep HTTP/1.1
 }
 
 # ----- Git ----- #

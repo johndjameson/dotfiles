@@ -18,7 +18,8 @@
 . ~/.dotfiles/shell/variables
 . ~/.dotfiles/shell/aliases
 . ~/.dotfiles/shell/config
-. ~/.dotfiles/shell/functions
+. ~/.dotfiles/shell/functions/general
+. ~/.dotfiles/shell/functions/mvcss
 
 # ----- Zsh ----- #
 
