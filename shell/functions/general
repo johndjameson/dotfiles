@@ -52,19 +52,6 @@ parse_git_branch() {
   printf "${ref#refs/heads/}"
 }
 
-# Beautify `git status` output, add fallback text
-shorten_git_status() {
-  # Working directory clean
-  if [ $(git status --porcelain | wc -l | tr -d ' ') -eq 0 ]; then
-    printf "\nnothing to commit, working directory clean\n"
-
-  # Working directory dirty
-  else
-    printf "\n"
-    git status --short
-  fi
-}
-
 # ----------------------------------------------------
 #   Commands
 # ----------------------------------------------------
