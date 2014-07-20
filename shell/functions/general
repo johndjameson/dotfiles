@@ -12,20 +12,20 @@
 # ----- Path ----- #
 
 # Echo the working directory without the full path
-working_directory() {
+function working_directory() {
   printf $(basename "$(pwd)")
 }
 
 # ----- Curl ----- #
 
-get_curl_response() {
+function get_curl_response() {
   curl -s -I $1 | grep HTTP/1.1
 }
 
 # ----- Git ----- #
 
 # Show the Git branch if it's a repo
-branch_if_repo() {
+function branch_if_repo() {
   if [ "$(which git)" ] && [[ -d ./.git ]]; then
     # Working directory clean
     if (( $(git status --porcelain | wc -l | tr -d "[:space:]") == 0 )); then
@@ -47,7 +47,7 @@ branch_if_repo() {
 }
 
 # Get the current Git branch
-parse_git_branch() {
+function parse_git_branch() {
   ref=$(git symbolic-ref HEAD 2> /dev/null) || return
   printf "${ref#refs/heads/}"
 }
@@ -57,13 +57,13 @@ parse_git_branch() {
 # ----------------------------------------------------
 
 # Make directory and navigate to it
-mkcd() {
+function mkcd() {
   mkdir -p "$1"
   cd "$1"
 }
 
 # Extract external ZIP archive
-dlz() {
+function dlz() {
   # -L must come before -o to follow redirection
   curl -s -L -o .tempzip "$1"
   unzip -q .tempzip

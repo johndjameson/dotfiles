@@ -11,7 +11,7 @@
 
 # ----- Status ----- #
 
-_make_prompt_dirty() {
+function _make_prompt_dirty() {
   if [ "$PROMPT_DIRTY" != true ]
   then
     export PROMPT_DIRTY=true
