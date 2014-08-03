@@ -98,6 +98,13 @@ set ruler
 set showcmd
 set visualbell
 
+" ----- Search ----- "
+
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+
 " ----- Quick Escape ----- "
 
 set noesckeys
