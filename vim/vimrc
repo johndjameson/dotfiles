@@ -139,3 +139,11 @@ nnoremap <Right> :echoe "Use l"<cr>
 nnoremap <Up> :echoe "Use k"<cr>
 nnoremap <Down> :echoe "Use j"<cr>
 
+" ----------------------------------------------------
+"   Functions
+" ----------------------------------------------------
+
+function! MapCR()
+  nnoremap <leader>l :nohlsearch<cr>
+endfunction
+call MapCR()
