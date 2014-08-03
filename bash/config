@@ -16,4 +16,10 @@ bind 'set completion-ignore-case on'
 #   History
 # ----------------------------------------------------
 
+# Prevent useless and duplicate entries
 export HISTIGNORE='c:clear:cd*'
+export HISTCONTROL=ignoredups:erasedups
+
+# Continually append to history
+shopt -s histappend
+PROMPT_COMMAND+="; history -a; history -n"
