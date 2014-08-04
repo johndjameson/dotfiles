@@ -23,7 +23,7 @@ export PATH=/usr/local/bin:$PATH
 
 # ----- rbenv ----- #
 
-eval "$(rbenv init -)"
+eval "$(rbenv init - $SHELL_EXT)"
 
 # ----------------------------------------------------
 #   User Interface
