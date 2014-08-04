@@ -5,10 +5,6 @@
 #
 # ----------------------------------------------------
 
-# ----- Autojump ----- #
-
-[[ -s `brew --prefix`/etc/autojump.zsh ]] && . `brew --prefix`/etc/autojump.zsh
-
 # ----- Completions ----- #
 
 autoload -U compinit
