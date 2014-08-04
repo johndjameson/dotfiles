@@ -9,10 +9,6 @@
 #   Shell
 # ----------------------------------------------------
 
-# ----- Bash ----- #
-
-alias sbp=". $HOME/.bash_profile"
-
 # ----- Navigation ----- #
 
 alias ..='cd ..'

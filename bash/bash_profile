@@ -23,5 +23,6 @@
 
 # ----- Bash ----- #
 
+. ~/.dotfiles/bash/aliases
 . ~/.dotfiles/bash/config
 . ~/.dotfiles/bash/prompt

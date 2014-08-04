@@ -23,5 +23,6 @@
 
 # ----- Zsh ----- #
 
+. ~/.dotfiles/zsh/aliases
 . ~/.dotfiles/zsh/config
 . ~/.dotfiles/zsh/prompt

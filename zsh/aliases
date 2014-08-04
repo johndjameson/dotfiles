@@ -1,0 +1,11 @@
+# ----------------------------------------------------
+#
+#   Aliases
+#   -> Bash-specific shorthand commands
+#
+# ----------------------------------------------------
+
+# ----- Shell ----- #
+
+alias reload="zsh"
+alias switch="bash -l"
