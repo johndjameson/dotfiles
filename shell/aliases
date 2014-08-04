@@ -51,7 +51,10 @@ alias g='git'
 alias ga='git add'
 alias ga.='git add .'
 alias gap='git add -p'
-alias gbr='git browse-remote'
+alias gb='git branch'
+alias gba='git branch -a'
+alias gbd='git branch -d'
+alias gbD='git branch -D'
 alias gc='git commit --verbose'
 alias gcm='git commit -m'
 alias gcn='git commit'
@@ -68,12 +71,17 @@ alias glr='git pull --rebase'
 alias gm='git merge'
 alias go='git checkout'
 alias gob='git checkout -b'
+alias gom='git checkout master'
 alias gp='git push'
 alias gr='git reset'
 alias gs='git status -sb'
 alias gsl='git status'
 alias gst='git stash'
 alias gstp='git stash pop'
+
+# ----- Hub ----- #
+
+alias gh='hub browse'
 
 # ----- Middleman ----- #
 
