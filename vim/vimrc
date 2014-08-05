@@ -36,12 +36,6 @@ let g:airline_right_sep=''
 let g:airline_theme='base16'
 
 " ----------------------------------------------------
-"  CtrlP
-" ----------------------------------------------------
-
-nnoremap ff :CtrlP<cr>
-
-" ----------------------------------------------------
 "   Markdown
 " ----------------------------------------------------
 
@@ -112,39 +106,14 @@ set noesckeys
 set ttimeout
 set ttimeoutlen=100
 
-" ----- Keyboard ----- "
-
-" Normal mode
-nmap ; :
-nmap <space> :
-
-" Insert mode
-imap jj <esc>
-
-" Leader
-let mapleader = ","
-
-nnoremap <leader><leader> <c-^>
-
 " ----- Events ----- "
 
 if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
 endif
 
-" ----- Training Wheels ----- "
-
-" Disable arrow keys
-nnoremap <Left> :echoe "Use h"<cr>
-nnoremap <Right> :echoe "Use l"<cr>
-nnoremap <Up> :echoe "Use k"<cr>
-nnoremap <Down> :echoe "Use j"<cr>
-
 " ----------------------------------------------------
-"   Functions
+"   Mappings
 " ----------------------------------------------------
 
-function! MapCR()
-  nnoremap <leader>l :nohlsearch<cr>
-endfunction
-call MapCR()
+source ~/.dotfiles/vim/mappings.vim
