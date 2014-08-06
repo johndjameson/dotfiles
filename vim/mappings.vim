@@ -19,6 +19,9 @@ let mapleader = ","
 nmap ; :
 nmap <space> :
 
+" Redo
+nmap U :redo<cr>
+
 " Add blank newlines
 nmap J O<esc>Dj
 nmap K o<esc>Dk
