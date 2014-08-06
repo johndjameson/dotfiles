@@ -1,0 +1,162 @@
+snippet cot "Title Comment"
+// *************************************
+//
+//   ${1:`!p res = re.sub(r'_', '', snip.basename.title())`}
+//   -> ${0:Description}
+//
+// *************************************
+endsnippet
+
+snippet cott "Heading Comment with Template"
+// *************************************
+//
+//   ${1:`!p res = re.sub(r'_', '', snip.basename.title())`}
+//   -> ${2:Description}
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// .${0:`!p res = re.sub(r'_', '', snip.basename)`[.`!p res = re.sub(r'_', '', snip.basename)`--modifier](.is-state)}
+//
+// *************************************
+endsnippet
+
+snippet coh "Heading Comment"
+// -------------------------------------
+//   ${0:Comment}
+// -------------------------------------
+endsnippet
+
+snippet comp "Component Template"
+// *************************************
+//
+//   ${1:`!p res = re.sub(r'_', '', snip.basename.title())`}
+//   -> ${2:Description}
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// .${3:`!p res = re.sub(r'_', '', snip.basename)`}[.$3--modifier](.is-state)(.has-context)
+//   .$3-scaffolding
+//
+// *************************************
+
+// .$3
+
+// -------------------------------------
+//   Modifiers
+// -------------------------------------
+
+// .$3--modifier
+
+// -------------------------------------
+//   States
+// -------------------------------------
+
+// .$3-state
+
+// -------------------------------------
+//   Context
+// -------------------------------------
+
+// .has-$3
+
+// -------------------------------------
+//   Scaffolding
+// -------------------------------------
+
+// .$3-scaffolding
+endsnippet
+
+snippet struc "Structure Template"
+// *************************************
+//
+//   ${1:`!p res = re.sub(r'_', '', snip.basename.title())`}
+//   -> ${2:Description}
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// .${3:`!p res = re.sub(r'_', '', snip.basename)`}[.$3--modifier](.is-state)(.has-context)
+//   .$3-scaffolding
+//
+// *************************************
+
+// .$3
+
+// -------------------------------------
+//   Modifiers
+// -------------------------------------
+
+// .$3--modifier
+
+// -------------------------------------
+//   States
+// -------------------------------------
+
+// .$3-state
+
+// -------------------------------------
+//   Context
+// -------------------------------------
+
+// .has-$3
+
+// -------------------------------------
+//   Scaffolding
+// -------------------------------------
+
+// .$3-scaffolding
+endsnippet
+
+snippet cos "Sub-heading Comment"
+// ----- ${0:Comment} ----- //
+endsnippet
+
+snippet ffa "Font-face Mixin"
++font-face(${1:font-family}, ${2:path}${3:, ${4:weight}, ${5:style}, ${6:asset-pipeline}})$0
+endsnippet
+
+snippet rt "Respond-to Mixin"
++respond-to(${0})
+	${0}
+endsnippet
+
+snippet em "Em Function"
+em(${0}px)
+endsnippet
+
+snippet bvar "Base Variable"
+$b-${0}
+endsnippet
+
+snippet bsp "Base Space Variable"
+$b-${0:space}
+endsnippet
+
+snippet cvar "Color Variable"
+$c-${0}
+endsnippet
+
+snippet mod "Modifier Class"
+.${1:element}--${2}
+	${0}
+endsnippet
+
+snippet ste "State Class"
+.${1:element}.is-${2}
+	${0}
+endsnippet
+
+snippet con "Context Class"
+.has-${1}
+	${0}
+endsnippet
+
+snippet sca "Scaffold Class"
+.${1:element}-${2}
+	${0}
+endsnippet
