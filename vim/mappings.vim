@@ -66,8 +66,9 @@ nnoremap _ <C-w><
 
 " ========== CtrlP ========== "
 
-nnoremap ff :CtrlP<cr>
-nnoremap fb :CtrlPBuffer<cr>
+nnoremap <leader>f :CtrlP<cr>
+nnoremap <leader>F :ClearCtrlPCache<cr>:CtrlP<cr>
+nnoremap <leader>b :CtrlPBuffer<cr>
 
 " ========== UltiSnips ========== "
 
