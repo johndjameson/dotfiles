@@ -67,8 +67,10 @@ nnoremap _ <C-w><
 " ========== CtrlP ========== "
 
 nnoremap ff :CtrlP<cr>
+nnoremap fb :CtrlPBuffer<cr>
 
 " ========== UltiSnips ========== "
 
 " Edit snippets for current file type
 nnoremap <leader>se :UltiSnipsEdit<cr>
+nnoremap <leader>sd :e ~/.dotfiles/vim/UltiSnips<cr>
