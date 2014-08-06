@@ -1,6 +1,6 @@
-" ----------------------------------------------------
+" ====================================================
 "   Vundle
-" ----------------------------------------------------
+" ====================================================
 
 set nocompatible
 filetype off
@@ -10,9 +10,9 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
-" ----------------------------------------------------
+" ====================================================
 "   Bundles
-" ----------------------------------------------------
+" ====================================================
 
 Bundle 'airblade/vim-gitgutter'
 Bundle 'bling/vim-airline'
@@ -27,25 +27,25 @@ Bundle 'townk/vim-autoclose'
 
 filetype plugin indent on
 
-" ----------------------------------------------------
+" ====================================================
 "   Airline
-" ----------------------------------------------------
+" ====================================================
 
 let g:airline_left_sep=''
 let g:airline_right_sep=''
 let g:airline_theme='base16'
 
-" ----------------------------------------------------
+" ====================================================
 "   Markdown
-" ----------------------------------------------------
+" ====================================================
 
 let g:vim_markdown_folding_disabled=1
 
-" ----------------------------------------------------
+" ====================================================
 "   Editor
-" ----------------------------------------------------
+" ====================================================
 
-" ----- General ----- "
+" ===== General ===== "
 
 set hidden
 
@@ -66,7 +66,7 @@ set nobackup
 set nowritebackup
 set noswapfile
 
-" ----- Color Scheme ----- "
+" ===== Color Scheme ===== "
 
 syntax on
 
@@ -74,7 +74,7 @@ set t_Co=256
 set background=dark
 colorscheme base16-default
 
-" ----- Text Area ----- "
+" ===== Text Area ===== "
 
 set colorcolumn=80
 set cursorline
@@ -85,7 +85,7 @@ set scrolloff=4
 " Reveal unwanted whitespace
 set list listchars=tab:»·,trail:·
 
-" ----- Interface ----- "
+" ===== Interface ===== "
 
 set laststatus=2
 set noshowmode
@@ -93,27 +93,27 @@ set ruler
 set showcmd
 set visualbell
 
-" ----- Search ----- "
+" ===== Search ===== "
 
 set incsearch
 set hlsearch
 set ignorecase
 set smartcase
 
-" ----- Quick Escape ----- "
+" ===== Quick Escape ===== "
 
 set noesckeys
 set ttimeout
 set ttimeoutlen=100
 
-" ----- Events ----- "
+" ===== Events ===== "
 
 if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
 endif
 
-" ----------------------------------------------------
+" ====================================================
 "   Mappings
-" ----------------------------------------------------
+" ====================================================
 
 source ~/.dotfiles/vim/mappings.vim
