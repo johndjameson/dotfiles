@@ -19,6 +19,10 @@ let mapleader = ","
 nmap ; :
 nmap <space> :
 
+" Add blank newlines
+nmap J O<esc>Dj
+nmap K o<esc>Dk
+
 " Quick escape from insert mode
 imap jj <esc>
 
