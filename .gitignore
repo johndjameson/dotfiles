@@ -12,7 +12,8 @@ sublime-text/Packages/User/Package Control.ca-certs/
 # Installed Packages
 sublime-text/Packages/Syntax Highlighting for Sass/
 
-# Vundle
+# Vim
+vim/.netrwhist
 vim/bundle
 
 # Zsh
