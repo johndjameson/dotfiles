@@ -22,6 +22,10 @@ nmap <space> :
 " Quick escape from insert mode
 imap jj <esc>
 
+" Save file
+map <C-s> <esc>:w<cr>
+imap <C-s> <esc>:w<cr>
+
 " Remove search highlighting
 nnoremap <leader>l :nohlsearch<cr>
 
