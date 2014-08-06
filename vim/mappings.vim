@@ -31,7 +31,7 @@ map <C-s> <esc>:w<cr>
 imap <C-s> <esc>:w<cr>
 
 " Remove search highlighting
-nnoremap <leader>l :nohlsearch<cr>
+nnoremap <silent> <leader>l :nohlsearch<cr>
 
 " Disable arrow keys
 nnoremap <Left> :echoe "Use h"<cr>
