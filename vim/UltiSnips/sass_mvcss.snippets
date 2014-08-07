@@ -121,7 +121,7 @@ snippet ffa "Font-face Mixin"
 endsnippet
 
 snippet rt "Respond-to Mixin"
-+respond-to(${0})
++respond-to(${1})
 	${0}
 endsnippet
 
@@ -129,25 +129,57 @@ snippet em "Em Function"
 em(${0}px)
 endsnippet
 
-snippet bvar "Base Variable"
+snippet B "Base Variable"
 $b-${0}
 endsnippet
 
-snippet bsp "Base Space Variable"
-$b-${0:space}
+snippet BBD "Base Border Variable"
+$b-border
 endsnippet
 
-snippet cvar "Color Variable"
+snippet BFS "Base Font Size Variable"
+$b-fontSize
+endsnippet
+
+snippet BS "Base Space Variable"
+$b-space
+endsnippet
+
+snippet C "Color Variable"
 $c-${0}
 endsnippet
 
+snippet CB "Background Color Variable"
+$c-background
+endsnippet
+
+snippet CBI "Background Invert Color Variable"
+$c-background-invert
+endsnippet
+
+snippet CH "Highlight Color Variable"
+$c-highlight
+endsnippet
+
+snippet CT "Text Color Variable"
+$c-text
+endsnippet
+
+snippet CTI "Text Invert Color Variable"
+$c-text-invert
+endsnippet
+
+snippet CS "Subdue Color Variable"
+$c-subdue
+endsnippet
+
 snippet mod "Modifier Class"
-.${1:element}--${2}
+.${1:`!p res = re.sub(r'_', '', snip.basename)`}--${2}
 	${0}
 endsnippet
 
 snippet ste "State Class"
-.${1:element}.is-${2}
+.${1:`!p res = re.sub(r'_', '', snip.basename)`}.is-${2}
 	${0}
 endsnippet
 
@@ -157,6 +189,6 @@ snippet con "Context Class"
 endsnippet
 
 snippet sca "Scaffold Class"
-.${1:element}-${2}
+.${1:`!p res = re.sub(r'_', '', snip.basename)`}-${2}
 	${0}
 endsnippet
