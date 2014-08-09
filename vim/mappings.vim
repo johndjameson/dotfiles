@@ -29,6 +29,10 @@ nmap K o<esc>Dk
 " Quick escape from insert mode
 imap jj <esc>
 
+" Delete buffer
+nmap <silent> <leader>q :bd<cr>
+nmap <silent> <leader>Q :bd!<cr>
+
 " Save file
 map <C-s> <esc>:w<cr>
 imap <C-s> <esc>:w<cr>
