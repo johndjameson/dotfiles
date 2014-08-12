@@ -26,6 +26,9 @@ nmap U :redo<cr>
 nmap J O<esc>Dj
 nmap K o<esc>Dk
 
+" Sort block
+nmap <C-a> (jV)k :sort<cr>
+
 " Quick escape from insert mode
 imap jj <esc>
 
