@@ -17,7 +17,7 @@ bind 'set completion-ignore-case on'
 # ----------------------------------------------------
 
 # Prevent useless and duplicate entries
-export HISTIGNORE='c:clear:cd*'
+export HISTIGNORE='c:clear:cd*:gs:g status:git status'
 export HISTCONTROL=ignoredups:erasedups
 
 # Continually append to history
