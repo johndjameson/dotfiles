@@ -78,6 +78,7 @@ alias grb='git rebase -i HEAD~10'
 alias gs='git status -sb'
 alias gsl='git status'
 alias gst='git stash'
+alias gstl='git stash list'
 alias gstp='git stash pop'
 
 # ----- Hub ----- #
