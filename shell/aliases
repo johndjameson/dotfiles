@@ -66,6 +66,7 @@ alias ggm='git log --pretty=format:"%C(red)%h%Creset %s %C(magenta)(%cr)" --date
 alias ggl='git log --pretty=format:"%C(red)%h%Creset %s %C(magenta)(%cr)" --date=relative -25'
 alias gga='git log --pretty=format:"%C(red)%h%Creset %s %C(magenta)(%cr)" --date=relative'
 alias ggo='git log --oneline --stat'
+alias ggp='git log --pretty=format:"%C(red)%h%Creset %s %C(magenta)(%cr)" --date=relative -5 --patch'
 alias gl='git pull'
 alias glp='git pull --rebase && git push'
 alias glr='git pull --rebase'
