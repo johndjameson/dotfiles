@@ -24,6 +24,10 @@ alias cd.="cd $HOME/.dotfiles"
 # Clear window
 alias c='clear'
 
+# ----- Finder ----- #
+
+alias here='open .'
+
 # ----- List ----- #
 
 # List all files/directories with details and colors
