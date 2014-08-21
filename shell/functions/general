@@ -82,6 +82,19 @@ function dlz() {
   rm .tempzip
 }
 
+# ----- GZIP Size ----- #
+# Print file size after GZIP compression
+#
+# $1 - File
+#
+# Usage: `gzip_size application.css`
+
+function gzip_size() {
+  gzip -fk "$1" \
+  && ls -hl "$1".gz | awk '{ print $5 }' \
+  && rm "$1".gz
+}
+
 # ----- Tag ----- #
 # Automatically set a git tag based on Semantic Versioning keyword
 # (via @drewbarontini)
