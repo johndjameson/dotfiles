@@ -91,7 +91,8 @@ function dlz() {
 
 function gzip_size() {
   gzip -fk "$1" \
-  && ls -hl "$1".gz | awk '{ print $5 }' \
+  && ls -hl "$1".gz | awk '{ printf $5 }' && printf ' ' \
+  && ls -l "$1".gz | awk '{ print $5 }' \
   && rm "$1".gz
 }
 
