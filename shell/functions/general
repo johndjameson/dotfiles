@@ -135,7 +135,7 @@ function git_tag() {
       echo "If this is your first tag, use 'git tag' to set up your first one."
   esac
 
-  if [[ "$version" ]]
+  if [ "$version" ]
   then
     git tag -a "$prefix$version" -m "Version $version"
     echo "$prefix$version created!"
