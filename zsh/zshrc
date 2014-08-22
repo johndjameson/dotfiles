@@ -18,6 +18,7 @@
 . ~/.dotfiles/shell/variables
 . ~/.dotfiles/shell/aliases
 . ~/.dotfiles/shell/config
+. ~/.dotfiles/shell/functions/dependencies
 . ~/.dotfiles/shell/functions/general
 . ~/.dotfiles/shell/functions/mvcss
 

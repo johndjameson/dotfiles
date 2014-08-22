@@ -6,53 +6,6 @@
 # ----------------------------------------------------
 
 # ----------------------------------------------------
-#   Dependencies
-# ----------------------------------------------------
-
-# ----- Path ----- #
-
-# Echo the working directory without the full path
-function working_directory() {
-  printf $(basename "$(pwd)")
-}
-
-# ----- Curl ----- #
-
-function get_curl_response() {
-  curl -s -I $1 | grep HTTP/1.1
-}
-
-# ----- Git ----- #
-
-# Show the Git branch if it's a repo
-function branch_if_repo() {
-  if [ "$(which git)" ] && [[ -d ./.git ]]; then
-    # Working directory clean
-    if (( $(git status --porcelain | wc -l | tr -d "[:space:]") == 0 )); then
-      printf "$(tput setaf $GREEN)($(parse_git_branch))"
-
-    # Working directory dirty
-    else
-
-      # Untracked files
-      if [[ $(git status --porcelain | grep -c "^ \?\?") -gt 0 ]]; then
-        printf "$(tput setaf $RED)($(parse_git_branch))"
-
-      # Modified/removed files
-      else
-        printf "$(tput setaf $YELLOW)($(parse_git_branch))"
-      fi
-    fi
-  fi
-}
-
-# Get the current Git branch
-function parse_git_branch() {
-  ref=$(git symbolic-ref HEAD 2> /dev/null) || return
-  printf "${ref#refs/heads/}"
-}
-
-# ----------------------------------------------------
 #   Commands
 # ----------------------------------------------------
 
