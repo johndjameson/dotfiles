@@ -96,6 +96,10 @@ alias gh='hub browse'
 alias mmb='bundle exec middleman build'
 alias mms='bundle exec middleman s'
 
+# ----- Powder ----- #
+
+alias pow='powder'
+
 # ----- Vim ----- #
 
 alias v='vim'
