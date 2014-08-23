@@ -1,13 +1,24 @@
 [user]
   name = John D. Jameson
   email = thejohnjameson@gmail.com
+
 [color]
   ui = true
+
 [commit]
   template = ~/.dotfiles/git/template
+
 [core]
   editor = vim
+
 [merge]
   tool = opendiff
+
 [push]
   default = simple
+
+[github]
+  user = johndjameson
+
+[ghi]
+  token = !security find-internet-password -a johndjameson -s github.com -l 'ghi token' -w
