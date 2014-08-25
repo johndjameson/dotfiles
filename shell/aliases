@@ -93,6 +93,10 @@ alias gstp='git stash pop'
 
 alias gh='hub browse'
 
+# ----- GitHub Issues ----- #
+
+alias ghim='ghi list -u --mine'
+
 # ----- Middleman ----- #
 
 alias mmb='bundle exec middleman build'
