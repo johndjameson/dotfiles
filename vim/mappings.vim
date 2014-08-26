@@ -32,6 +32,9 @@ nmap <C-a> (jV)k :sort<cr>
 " Change line from beginning
 nmap <C-c> 0C
 
+" Change line from first non-whitespace character
+nmap <C-i> ^C
+
 " Quick escape from insert mode
 imap jj <esc>
 
