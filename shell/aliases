@@ -109,6 +109,7 @@ alias pow='powder'
 # ----- Vim ----- #
 
 alias v='vim'
+alias v.a="cd $HOME/.dotfiles && vim shell/aliases"
 alias v.v="cd $HOME/.dotfiles && vim vim/vimrc"
 
 # ----------------------------------------------------
