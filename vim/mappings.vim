@@ -29,6 +29,9 @@ nmap K o<esc>Dk
 " Sort block
 nmap <C-a> (jV)k :sort<cr>
 
+" Change line from beginning
+nmap <C-c> 0C
+
 " Quick escape from insert mode
 imap jj <esc>
 
