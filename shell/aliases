@@ -38,6 +38,11 @@ alias l='ls -lAFh'
 alias rmd='rm -rf'
 alias rmorig='find . -name *.orig -delete'
 
+# ----- Look Up ----- #
+
+# Seach aliases for a string
+alias lookup='cat $DOTFILES/shell/aliases $DOTFILES/bash/aliases $DOTFILES/zsh/aliases | grep'
+
 # ----------------------------------------------------
 #   Programs
 # ----------------------------------------------------
