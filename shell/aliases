@@ -41,7 +41,7 @@ alias rmorig='find . -name *.orig -delete'
 # ----- Look Up ----- #
 
 # Seach aliases for a string
-alias lookup='cat $DOTFILES/shell/aliases $DOTFILES/bash/aliases $DOTFILES/zsh/aliases | grep'
+alias lookup='alias | grep'
 
 # ----------------------------------------------------
 #   Programs
