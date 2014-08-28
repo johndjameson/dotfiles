@@ -27,3 +27,7 @@
 . ~/.dotfiles/bash/aliases
 . ~/.dotfiles/bash/config
 . ~/.dotfiles/bash/prompt
+
+# ----- Completion ----- #
+
+. ~/.dotfiles/shell/completion

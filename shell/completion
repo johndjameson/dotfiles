@@ -1,0 +1,23 @@
+# ----------------------------------------------------
+#
+#   Completion
+#   -> Expansion of partial commands
+#
+# ----------------------------------------------------
+
+# ----------------------------------------------------
+#   Git
+# ----------------------------------------------------
+
+# NOTE: Dependent on aliases found in shell/aliases
+
+__git_complete gb _git_branch
+__git_complete gbd _git_branch
+__git_complete gbD _git_branch
+
+__git_complete gm _git_merge
+
+__git_complete go _git_checkout
+
+__git_complete gp _git_branch
+__git_complete gp _git_branch
