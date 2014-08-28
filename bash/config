@@ -16,10 +16,16 @@ bind 'set completion-ignore-case on'
 #   Completion
 # ----------------------------------------------------
 
+# ----- Bash ----- #
+
 if [ -f $(brew --prefix)/share/bash-completion/bash_completion ]
 then
   . $(brew --prefix)/share/bash-completion/bash_completion
 fi
+
+# ----- Git ----- #
+
+. $DOTFILES/git/completion/git-completion.bash
 
 # ----------------------------------------------------
 #   History
