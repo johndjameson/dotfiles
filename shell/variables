@@ -22,4 +22,5 @@ WHITE=7
 #   Paths
 # ----------------------------------------------------
 
+DOTFILES="$HOME/.dotfiles"
 JDJ="$HOME/GitHub/johndjameson.com"
