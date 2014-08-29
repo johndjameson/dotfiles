@@ -1,0 +1,35 @@
+# ----------------------------------------------------
+#
+#   Ackrc
+#   -> Ack configuration
+#
+# ----------------------------------------------------
+
+# ----------------------------------------------------
+#   Color
+# ----------------------------------------------------
+
+--color
+--color-filename=green
+--color-lineno=white
+--color-match=blue
+
+# ----------------------------------------------------
+#   Ignores
+# ----------------------------------------------------
+
+# ----- Filetypes ----- #
+
+--ignore-file=ext:css
+
+# ----- Directories ----- #
+
+--ignore-dir=build
+--ignore-dir=bundle
+--ignore-dir=log
+--ignore-dir=tmp
+
+# ----- Search ----- #
+
+# Ignore case in lowercase searches
+--smart-case
