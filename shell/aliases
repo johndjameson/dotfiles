@@ -31,7 +31,7 @@ alias here='open .'
 # ----- List ----- #
 
 # List all files/directories with details and colors
-alias l='ls -lAFh'
+alias l='ls -hloAF'
 
 # ----- Remove ----- #
 
