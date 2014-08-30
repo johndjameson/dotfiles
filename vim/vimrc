@@ -24,13 +24,19 @@ source ~/.dotfiles/vim/vundle.vim
 
 let g:airline_left_sep=''
 let g:airline_right_sep=''
-let g:airline_theme='base16'
+let g:airline_theme='solarized'
 
 " ====================================================
 "   Markdown
 " ====================================================
 
 let g:vim_markdown_folding_disabled=1
+
+" ====================================================
+"   Solarized
+" ====================================================
+
+let g:solarized_termtrans=1
 
 " ====================================================
 "   Editor
@@ -63,7 +69,12 @@ syntax on
 
 set t_Co=256
 set background=dark
-colorscheme base16-default
+colorscheme solarized
+
+" Solarized setup (via @drewbarontini)
+hi! LineNR guibg=NONE ctermbg=NONE
+hi FoldColumn ctermbg=NONE
+hi SignColumn ctermbg=NONE
 
 " ===== Text Area ===== "
 

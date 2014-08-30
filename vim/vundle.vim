@@ -21,8 +21,8 @@ Bundle 'gmarik/vundle'
 " ====================================================
 
 Bundle 'airblade/vim-gitgutter'
+Bundle 'altercation/vim-colors-solarized'
 Bundle 'bling/vim-airline'
-Bundle 'chriskempson/base16-vim'
 Bundle 'godlygeek/tabular'
 Bundle 'goldfeld/vim-seek'
 Bundle 'kchmck/vim-coffee-script'
