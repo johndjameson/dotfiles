@@ -6,23 +6,6 @@
 # ----------------------------------------------------
 
 # ----------------------------------------------------
-#   Bindings
-# ----------------------------------------------------
-
-# ----- Completion ----- #
-
-# Enable <tab> completion case insensitivity
-bind 'set completion-ignore-case on'
-
-# Show completion after <tab> press without bell
-bind 'set show-all-if-ambiguous on'
-bind 'set show-all-if-unmodified on'
-
-# Style <tab> completion list
-bind 'set colored-stats on'
-bind 'set visible-stats on'
-
-# ----------------------------------------------------
 #   Completion
 # ----------------------------------------------------
 
