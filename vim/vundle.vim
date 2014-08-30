@@ -32,6 +32,7 @@ Bundle 'plasticboy/vim-markdown'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'sirver/ultisnips'
 Bundle 'townk/vim-autoclose'
+Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
 
 " ====================================================
