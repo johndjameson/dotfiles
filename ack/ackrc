@@ -20,7 +20,7 @@
 
 # ----- Filetypes ----- #
 
---ignore-file=ext:css
+--nocss
 
 # ----- Directories ----- #
 
@@ -29,7 +29,9 @@
 --ignore-dir=log
 --ignore-dir=tmp
 
-# ----- Search ----- #
+# ----------------------------------------------------
+#   Search
+# ----------------------------------------------------
 
 # Ignore case in lowercase searches
 --smart-case
