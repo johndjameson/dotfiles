@@ -85,6 +85,10 @@ nnoremap _ <C-w><
 nnoremap <C-f> :CtrlP<cr>
 nnoremap <C-r> :ClearCtrlPCache<cr>:CtrlP<cr>
 
+" ========== EasyMotion ========== "
+
+map L <Plug>(easymotion-bd-jk)
+
 " ========== UltiSnips ========== "
 
 " Edit snippets for current file type
