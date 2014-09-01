@@ -1,7 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "smooth",
-	"color_scheme": "Packages/Color Scheme - User/base16-tomorrow.dark.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
 	"create_window_at_startup": false,
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
