@@ -43,7 +43,7 @@ function get_curl_response() {
 # Usage: `branch_if_repo`
 
 function branch_if_repo() {
-  if [ "$(which git)" ] && [[ -d ./.git ]]; then
+  if [ $( git rev-parse --is-inside-work-tree 2> /dev/null ) ]; then
     # Working directory clean
     if (( $(git status --porcelain | wc -l | tr -d "[:space:]") == 0 )); then
       printf "$(tput setaf $GREEN)($(parse_git_branch))"
