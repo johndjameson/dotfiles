@@ -10,7 +10,7 @@
 # ----------------------------------------------------
 
 PS1='\n'
-PS1+="$(tput setaf $CYAN)"
+PS1+="$CYAN"
 PS1+='$(working_directory)$(branch_if_repo)'
 PS1+='\n'
 PS1+="$(tput sgr0)"
