@@ -87,7 +87,7 @@ nnoremap <C-r> :ClearCtrlPCache<cr>:CtrlP<cr>
 
 " ========== EasyMotion ========== "
 
-map L <Plug>(easymotion-bd-jk)
+map L <Plug>(easymotion-bd-W)
 
 " ========== UltiSnips ========== "
 

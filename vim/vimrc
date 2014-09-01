@@ -40,6 +40,9 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 
 let g:EasyMotion_leader_key = '<leader>e'
 
+" Remove x, z, and ; from default key set, set group key priority
+let g:EasyMotion_keys = 'asdhjklqwertyuimnocvbpgf'
+
 " ====================================================
 "   Markdown
 " ====================================================
