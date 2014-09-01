@@ -18,7 +18,11 @@ stty -ixon
 
 # ----- Homebrew ----- #
 
-export PATH=/usr/local/bin:$PATH
+export PATH="/usr/local/bin:$PATH"
+
+# ----- Scripts ----- #
+
+export PATH="$HOME/.dotfiles/shell/scripts:$PATH"
 
 # ----------------------------------------------------
 #   Scripts
