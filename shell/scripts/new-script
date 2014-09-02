@@ -15,11 +15,16 @@ set -o pipefail
 # ----------------------------------------------------
 
 # Exit if file already exists
-[ -e "$*" ] && echo "$* already exists" && exit
+[ -e "$1" ] && echo "$1 already exists" && exit
 
 # ----------------------------------------------------
 #   Main
 # ----------------------------------------------------
 
-echo '#!/usr/bin/env bash' >> "$*"
-chmod +x "$*"
+if (( "$#" == 1 )); then
+  echo '#!/usr/bin/env bash' >> "$1"
+else
+  echo "#!/usr/bin/env $2" >> "$1"
+fi
+
+chmod +x "$1"
