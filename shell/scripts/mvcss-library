@@ -1,0 +1,60 @@
+#!/usr/bin/env bash
+# ----------------------------------------------------
+#
+#   MVCSS Library
+#   -> Download MVCSS Library files or copy to clipboard
+#
+# ----------------------------------------------------
+#   Dependencies
+# ----------------------------------------------------
+#
+#  - download-zip
+#
+# ----------------------------------------------------
+
+set -o errexit
+set -o nounset
+set -o pipefail
+
+# ----------------------------------------------------
+#   Variables
+# ----------------------------------------------------
+
+EXT='sass'
+URL='https://raw.githubusercontent.com/mvcss/library/master'
+
+# ----------------------------------------------------
+#   Error Handling
+# ----------------------------------------------------
+
+function _on-exit() {
+  [ "$?" != 0 ] && echo 'File not found!'
+}
+
+trap _on-exit EXIT
+
+# ----------------------------------------------------
+#   Main
+# ----------------------------------------------------
+
+if (( "$#" == 0 )); then
+
+  download-zip 'https://github.com/mvcss/library/archive/master.zip'
+  echo 'Downloaded MVCSS to library-master/'
+  exit
+
+fi
+
+[[ "$*" =~ 'reset' ]] && EXT='scss'
+
+if [ "$1" != 'copy' ]; then
+
+  curl -fsO "$URL/$1/_$2.$EXT"
+  echo "Downloaded $1/$2!"
+
+else
+
+  curl -fs "$URL/$2/_$3.$EXT" | pbcopy
+  echo "Copied $2/$3 to the clipboard!"
+
+fi
