@@ -19,21 +19,6 @@ function working_directory() {
 }
 
 # ----------------------------------------------------
-#   Curl
-# ----------------------------------------------------
-
-# ----- Get Curl Response ----- #
-# Curl a URL and return the response if successful
-#
-# $1 - URL
-#
-# Usage: `get_curl_response http://johndjameson.com`
-
-function get_curl_response() {
-  curl -s -I $1 | grep HTTP/1.1
-}
-
-# ----------------------------------------------------
 #   Git
 # ----------------------------------------------------
 
