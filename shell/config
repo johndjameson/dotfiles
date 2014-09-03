@@ -22,7 +22,7 @@ export PATH="/usr/local/bin:$PATH"
 
 # ----- Scripts ----- #
 
-export PATH="$HOME/.dotfiles/shell/scripts:$PATH"
+export PATH="$HOME/.dotfiles/bin:$PATH"
 
 # ----------------------------------------------------
 #   Scripts
