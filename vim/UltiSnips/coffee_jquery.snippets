@@ -1,6 +1,5 @@
-snippet jor "jQuery Document Ready"
-jQuery ($) ->
-	$0
+snippet job "jQuery Object"
+$('$1')$0
 endsnippet
 
 snippet jon "jQuery 'on'"
@@ -8,10 +7,15 @@ $('${1:}').on '${2:click}', (e) ->
 	$0
 endsnippet
 
+snippet jor "jQuery Document Ready"
+jQuery ($) ->
+	$0
+endsnippet
+
 snippet jpd "jQuery Prevent Default"
 ${1:event}.preventDefault()$0
 endsnippet
 
-snippet job "jQuery Object"
-$('$1')$0
+snippet jt "jQuery This"
+$(@).$0
 endsnippet
