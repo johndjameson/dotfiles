@@ -82,7 +82,6 @@ nnoremap _ <C-w><
 
 " ========== CtrlP ========== "
 
-nnoremap <C-f> :CtrlP<cr>
 nnoremap <C-r> :ClearCtrlPCache<cr>:CtrlP<cr>
 
 " ========== EasyMotion ========== "

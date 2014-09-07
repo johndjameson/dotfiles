@@ -38,6 +38,7 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 "   CtrlP
 " ====================================================
 
+let g:ctrlp_map = '<c-f>'
 let g:ctrlp_custom_ignore = 'bundle\|build\|Packages'
 
 " ====================================================
