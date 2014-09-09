@@ -17,6 +17,7 @@ alias ....='cd ../../..'
 
 alias cdd="cd $HOME/Desktop"
 alias cdj="cd $JDJ"
+alias cdl="cd -"
 alias cd.="cd $HOME/.dotfiles"
 
 # ----- Clear ----- #
