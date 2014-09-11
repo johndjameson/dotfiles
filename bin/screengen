@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+# ****************************************************
+#
+#   Screengen
+#   -> Generate website screenshots
+#
+# ----------------------------------------------------
+#
+#   Dependencies
+#   - webkit2png (`brew install webkit2png`)
+#
+# ****************************************************
+
+set -o errexit
+set -o nounset
+set -o pipefail
+
+# ----------------------------------------------------
+#   Variables
+# ----------------------------------------------------
+
+DIR='screengen'
+FILE='urls.txt'
+
+# ----------------------------------------------------
+#   Main
+# ----------------------------------------------------
+
+if [ "$1" == 'init' ]; then
+
+  mkdir -p "$DIR"
+  cd "$DIR"
+  touch "$FILE"
+
+  echo "Created $DIR and $DIR/$FILE!"
+  printf '\n'
+  echo "Now, add your URLs (without 'http://') in that file."
+
+  exit
+
+fi
+
+while read line; do
+
+  dirname="$( dirname $1 )"
+  url=$( echo $line | awk '{print $1}' )
+  filename=$( echo "$url" | sed 's/\.[[:alnum:]]*//' | tr ./_ - )
+  width=$( echo $line | awk '{print $2}' )
+
+  webkit2png --fullsize --width $width --filename "$dirname/screenshot-$filename-$width" "http://$url"
+
+done < $1
