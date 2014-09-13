@@ -30,12 +30,12 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
 Bundle 'lokaltog/vim-easymotion'
 Bundle 'mileszs/ack.vim'
-Bundle 'plasticboy/vim-markdown'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'sirver/ultisnips'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'townk/vim-autoclose'
 Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-surround'
 
 " ====================================================
