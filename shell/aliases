@@ -42,7 +42,7 @@ alias rmorig='find . -name *.orig -delete'
 # ----- Look Up ----- #
 
 # Seach aliases for a string
-alias lookup='alias | grep'
+alias lookup='alias | ack'
 
 # ----------------------------------------------------
 #   Programs
