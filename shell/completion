@@ -13,6 +13,8 @@
 
 __git_complete g __git_main
 
+__git_complete ga _git_add
+
 __git_complete gb _git_branch
 __git_complete gbd _git_branch
 __git_complete gbD _git_branch
