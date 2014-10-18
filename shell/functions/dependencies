@@ -15,7 +15,7 @@
 # Usage: `working_directory`
 
 function working_directory() {
-  printf $(basename "$(pwd)")
+  echo $( basename "$(pwd)" )
 }
 
 # ----------------------------------------------------
