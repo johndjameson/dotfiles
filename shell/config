@@ -16,13 +16,8 @@ stty -ixon
 #   Path
 # ----------------------------------------------------
 
-# ----- Homebrew ----- #
-
-export PATH="/usr/local/bin:$PATH"
-
-# ----- Scripts ----- #
-
-export PATH="$HOME/.dotfiles/bin:$PATH"
+# Includes user user scripts, Homebrew, system defaults, and Postgres
+export PATH="$HOME/.dotfiles/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/9.3/bin"
 
 # ----------------------------------------------------
 #   Scripts
