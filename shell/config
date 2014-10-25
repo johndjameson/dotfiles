@@ -17,7 +17,7 @@ stty -ixon
 # ----------------------------------------------------
 
 # Includes user user scripts, Homebrew, system defaults, and Postgres
-export PATH="$HOME/.dotfiles/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/9.3/bin"
+export PATH="$HOME/.dotfiles/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin"
 
 # ----------------------------------------------------
 #   Scripts
