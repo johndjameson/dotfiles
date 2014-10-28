@@ -20,6 +20,7 @@ PATH_DIRECTORIES=(
   "$HOME/.dotfiles/bin"
   '/Applications/MAMP/Library/bin'
   '/Applications/Postgres.app/Contents/Versions/9.3/bin'
+  '/usr/local/heroku/bin'
   '/usr/local/bin'
   '/usr/bin'
   '/bin'
