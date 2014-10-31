@@ -101,6 +101,7 @@ alias gsl='git status'
 alias gst='git stash'
 alias gstl='git stash list'
 alias gstp='git stash pop'
+alias gtl='git tag -l'
 alias 'g?'='git help'
 
 # ----- Hub ----- #
