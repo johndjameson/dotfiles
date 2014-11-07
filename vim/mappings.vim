@@ -80,6 +80,10 @@ nnoremap _ <C-w><
 "   Plugins
 " ====================================================
 
+" ========== Ack ========== "
+
+nnoremap <leader>a :Ack! 
+
 " ========== CtrlP ========== "
 
 nnoremap <C-r> :ClearCtrlPCache<cr>:CtrlP<cr>
