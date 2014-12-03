@@ -92,6 +92,10 @@ nnoremap <C-r> :ClearCtrlPCache<cr>:CtrlP<cr>
 
 map L <Plug>(easymotion-bd-w)
 
+" ========== Tabularize ========== "
+
+vnoremap <leader>t= :Tabularize /=<cr>
+
 " ========== UltiSnips ========== "
 
 " Edit snippets for current file type
