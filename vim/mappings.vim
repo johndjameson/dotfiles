@@ -95,6 +95,7 @@ map L <Plug>(easymotion-bd-w)
 " ========== Tabularize ========== "
 
 vnoremap <leader>t= :Tabularize /=<cr>
+vnoremap <leader>t: :Tabularize /:<cr>
 
 " ========== UltiSnips ========== "
 
