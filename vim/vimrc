@@ -135,6 +135,11 @@ set hlsearch
 set ignorecase
 set smartcase
 
+" ===== Ignores ===== "
+
+set wildignore+=*.gif,*.jpg,*.jpeg,*.png,*.psd
+set wildignore+=*/cache/*,*/log/*,*/tmp/*
+
 " ===== Quick Escape ===== "
 
 set noesckeys
