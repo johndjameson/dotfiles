@@ -1,5 +1,5 @@
 snippet _change "CHANGELOG"
-${1:`git describe --abbrev=0 --tags`} - `!v strftime("%Y-%m-%d")`
+${1:`git describe --abbrev=0 --tags | sed 's/^v//'`} - `!v strftime("%Y-%m-%d")`
 -------------------
 
 ### Added
