@@ -82,7 +82,7 @@ nnoremap _ <C-w><
 
 " ========== Ack ========== "
 
-nnoremap <leader>a :Ack! 
+nnoremap <leader>a :Ack! ''<left>
 
 " ========== CtrlP ========== "
 
