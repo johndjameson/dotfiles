@@ -34,6 +34,20 @@ snippet bk "Bucket"
 		$0
 endsnippet
 
+snippet dd "Dropdown"
+.dropdown${1:.dropdown--center}${2:.dropdown--floating}.js-dropdown
+	%button.js-dropdown-btn ${3:Menu}
+	%ul.dropdown-menu.js-dropdown-menu
+		%li.dropdown-menu-item
+			= link_to ${4:Text}, ${0:Link}, class: 'dropdown-menu-item-link'
+endsnippet
+
+snippet ddi "Dropdown Item"
+%li.dropdown-menu-item
+	= link_to ${1:Text}, ${2:Link}, class: 'dropdown-menu-item-link'
+	$0
+endsnippet
+
 snippet split "Split Component"
 .split
 	.split-item
