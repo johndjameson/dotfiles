@@ -21,6 +21,10 @@
 . ~/.dotfiles/shell/functions/dependencies
 . ~/.dotfiles/shell/functions/general
 
+# Local
+
+[ -d ~/.dotfiles-local ] && . ~/.dotfiles-local/shell/aliases
+
 # ----- Bash ----- #
 
 . ~/.dotfiles/bash/aliases
