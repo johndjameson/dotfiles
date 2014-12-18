@@ -20,6 +20,8 @@ alias cdj="cd $JDJ"
 alias cdl="cd -"
 alias cd.="cd $HOME/.dotfiles"
 
+alias path='pwd | pbcopy'
+
 # ----- Clear ----- #
 
 # Clear window
