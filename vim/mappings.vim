@@ -84,7 +84,9 @@ nnoremap _ <c-w><
 
 " ========== Ack ========== "
 
-nnoremap <leader>a :Ack! ''<left>
+nnoremap <leader>aa :Ack! ''<left>
+nnoremap <leader>as :Ack! --sass ''<left>
+nnoremap <leader>ah :Ack! --html ''<left>
 
 " ========== CtrlP ========== "
 
