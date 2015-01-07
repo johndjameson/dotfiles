@@ -27,7 +27,7 @@ nmap J O<esc>Dj
 nmap K o<esc>Dk
 
 " Sort block
-nmap <c-a> (jV)k :sort<cr>
+nmap <silent> <c-a> (jV)k :sort<cr>
 
 " Change line from beginning
 nmap <c-c> 0C
