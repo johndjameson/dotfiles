@@ -2,12 +2,11 @@
 *.swp
 
 # Package Control
-sublime-text/Packages/User/Package Control.ca-bundle
-sublime-text/Packages/User/Package Control.ca-list
-sublime-text/Packages/User/Package Control.last-run
-sublime-text/Packages/User/Package Control.system-ca-bundle
-sublime-text/Packages/User/Package Control.cache/
-sublime-text/Packages/User/Package Control.ca-certs/
+sublime-text/Packages/*
+!sublime-text/Packages/Color Scheme - User
+!sublime-text/Packages/User
+sublime-text/Packages/User/Package Control*
+!sublime-text/Packages/User/Package Control.sublime-settings
 
 # Installed Packages
 sublime-text/Packages/Syntax Highlighting for Sass/
