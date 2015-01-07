@@ -1,9 +1,18 @@
 {
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
 	"installed_packages":
 	[
 		"Better CoffeeScript",
 		"Emmet",
 		"Markdown Extended",
+		"Package Control",
 		"SideBarEnhancements",
 		"Syntax Highlighting for Sass"
 	]
