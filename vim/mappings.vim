@@ -38,6 +38,9 @@ nmap <c-i> ^C
 " Quick escape from insert mode
 imap jj <esc>
 
+" Copy to end of line
+nnoremap Y y$
+
 " Delete buffer
 nmap <silent> <leader>q :bd<cr>
 nmap <silent> <leader>Q :bd!<cr>
