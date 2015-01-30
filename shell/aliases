@@ -20,7 +20,7 @@ alias cdj="cd $JDJ"
 alias cdl="cd -"
 alias cd.="cd $HOME/.dotfiles"
 
-alias path='pwd | pbcopy'
+alias path="echo $( pwd ) 'copied to clipboard!' && pwd | pbcopy"
 
 # ----- Clear ----- #
 
