@@ -33,6 +33,7 @@
 
 # ----- Directories ----- #
 
+--ignore-dir=bower_components
 --ignore-dir=build
 --ignore-dir=bundle
 --ignore-dir=log
