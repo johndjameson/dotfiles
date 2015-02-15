@@ -22,6 +22,8 @@
 --type-add=ruby=.haml
 --type-set=coffee=.coffee
 --type-set=haml=.haml
+--type-set=markdown=.markdown,.md
+--type-set=md=.markdown,.md
 --type-set=svg=.svg
 
 # ----------------------------------------------------
