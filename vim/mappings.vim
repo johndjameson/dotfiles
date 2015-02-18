@@ -41,6 +41,9 @@ imap jj <esc>
 " Copy to end of line
 nnoremap Y y$
 
+" Change end of line to clipboard text
+nnoremap P v$<left>"_dp
+
 " Delete buffer
 nmap <silent> <leader>q :bd<cr>
 nmap <silent> <leader>Q :bd!<cr>
