@@ -119,7 +119,7 @@ alias ghim='ghi list -u --mine'
 # ----- Middleman ----- #
 
 alias mmb='bundle exec middleman build'
-alias mms='bundle exec middleman s'
+alias mms='bundle exec middleman s --reload-paths data/'
 
 # ----- Powder ----- #
 
