@@ -24,6 +24,7 @@
 		".bundle",
 		".git",
 		".sass-cache",
+		"_site",
 		"bin",
 		"node_modules",
 		"tmp"
