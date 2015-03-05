@@ -125,6 +125,10 @@ alias mms='bundle exec middleman s --reload-paths data/'
 # ----- Powder ----- #
 
 alias pow='powder'
+alias pd='powder'
+alias pdl='powder link'
+alias pdo='powder open'
+alias pdr='powder restart'
 
 # ----- Vim ----- #
 
