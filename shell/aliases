@@ -131,6 +131,11 @@ alias pdl='powder link'
 alias pdo='powder open'
 alias pdr='powder restart'
 
+# ----- Rake ----- #
+
+alias rk='bundle exec rake'
+alias rkd='bundle exec rake deploy'
+
 # ----- Vim ----- #
 
 alias v='vim'
