@@ -118,6 +118,14 @@ alias gpr='hub pull-request'
 
 alias ghim='ghi list -u --mine'
 
+# ----- Lorem ----- #
+
+alias li='lorem 1 -p'
+alias li2='lorem 2 -p'
+alias li3='lorem 3 -p'
+alias li4='lorem 4 -p'
+alias li5='lorem 5 -p'
+
 # ----- Middleman ----- #
 
 alias mmb='bundle exec middleman build'
