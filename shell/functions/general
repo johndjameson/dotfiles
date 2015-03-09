@@ -9,18 +9,6 @@
 #   Commands
 # ----------------------------------------------------
 
-# ----- mkcd ----- #
-# Make directory and navigate to it
-#
-# $1 - Directory name
-#
-# Usage: `mkcd directory-name`
-
-function mkcd() {
-  mkdir -p "$1"
-  cd "$1"
-}
-
 # ----- GZIP Size ----- #
 # Print file size after GZIP compression
 #
@@ -35,7 +23,19 @@ function gzip_size() {
   && rm "$1".gz
 }
 
-# ----- Tag ----- #
+# ----- mkcd ----- #
+# Make directory and navigate to it
+#
+# $1 - Directory name
+#
+# Usage: `mkcd directory-name`
+
+function mkcd() {
+  mkdir -p "$1"
+  cd "$1"
+}
+
+# ----- Git Tag ----- #
 # Automatically set a git tag based on Semantic Versioning keyword
 # (via @drewbarontini)
 #
