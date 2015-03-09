@@ -42,6 +42,11 @@ export PATH=$( IFS=:; echo "${PATH_DIRECTORIES[*]}" )
 
 eval "$(rbenv init - $SHELL_EXT)"
 
+# ----- NVM ----- #
+
+export NVM_DIR="$HOME/.nvm"
+source $(brew --prefix nvm)/nvm.sh
+
 # ----------------------------------------------------
 #   User Interface
 # ----------------------------------------------------
