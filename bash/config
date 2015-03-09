@@ -11,14 +11,13 @@
 
 # ----- Bash ----- #
 
-if [ -f $(brew --prefix)/share/bash-completion/bash_completion ]
-then
-  . $(brew --prefix)/share/bash-completion/bash_completion
+if [ -f "$( brew --prefix )"/share/bash-completion/bash_completion ]; then
+  . "$( brew --prefix )"/share/bash-completion/bash_completion
 fi
 
 # ----- Git ----- #
 
-. $DOTFILES/git/completion/git-completion.bash
+. "$DOTFILES/git/completion/git-completion.bash"
 
 # ----------------------------------------------------
 #   History
@@ -30,4 +29,4 @@ export HISTCONTROL=ignoredups:erasedups
 
 # Continually append to history
 shopt -s histappend
-PROMPT_COMMAND+="; history -a; history -n"
+PROMPT_COMMAND+='; history -a; history -n'
