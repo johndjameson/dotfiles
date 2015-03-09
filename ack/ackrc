@@ -39,6 +39,7 @@
 
 # ----- Directories ----- #
 
+--ignore-dir=.sass-cache
 --ignore-dir=bower_components
 --ignore-dir=build
 --ignore-dir=bundle
