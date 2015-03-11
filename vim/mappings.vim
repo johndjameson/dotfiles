@@ -93,6 +93,7 @@ nnoremap _ <c-w><
 nnoremap <leader>aa :Ack! ''<left>
 nnoremap <leader>ac :Ack! --coffee ''<left>
 nnoremap <leader>ah :Ack! --html ''<left>
+nnoremap <leader>ad :Ack! --jade ''<left>
 nnoremap <leader>aj :Ack! --js ''<left>
 nnoremap <leader>am :Ack! --markdown ''<left>
 nnoremap <leader>as :Ack! --sass ''<left>
