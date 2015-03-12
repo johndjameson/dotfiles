@@ -29,6 +29,7 @@ alias c='clear'
 
 # ----- Finder ----- #
 
+alias browse='open -a "Google Chrome" .'
 alias here='open .'
 
 # ----- List ----- #
