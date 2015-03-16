@@ -12,8 +12,6 @@
 # ----- Navigation ----- #
 
 alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
 
 alias cdd="cd $HOME/Desktop"
 alias cdj="cd $JDJ"
