@@ -80,3 +80,14 @@ function git_tag() {
     echo "$prefix$version created!"
   fi
 }
+
+# ----- Git Reset Soft ----- #
+# Soft reset the branch back a number of commits
+#
+# $1 - '1', '2', ...
+#
+# Usage: `git_reset_soft 1`
+
+function git_reset_soft() {
+  git reset --soft "HEAD~$1"
+}
