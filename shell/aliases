@@ -138,6 +138,10 @@ alias pdl='powder link'
 alias pdo='powder open'
 alias pdr='powder restart'
 
+# ----- Rails ----- #
+
+alias rc='bundle exec rails console'
+
 # ----- Rake ----- #
 
 alias rk='bundle exec rake'
