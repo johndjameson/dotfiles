@@ -129,6 +129,18 @@ alias li5='lorem 5 -p'
 alias mmb='bundle exec middleman build'
 alias mms='bundle exec middleman s --reload-paths data/'
 
+# ----- Node ----- #
+
+alias n='node'
+
+# NPM
+
+alias ni='npm install'
+
+# NVM
+
+alias nc='nvm current'
+
 # ----- Powder ----- #
 
 alias pow='powder'
