@@ -136,6 +136,7 @@ alias n='node'
 # NPM
 
 alias ni='npm install'
+alias ns='npm start'
 
 # NVM
 
