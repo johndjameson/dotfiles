@@ -153,6 +153,7 @@ alias pdr='powder restart'
 # ----- Rails ----- #
 
 alias rc='bundle exec rails console'
+alias rs='bundle exec rails server'
 
 # ----- Rake ----- #
 
