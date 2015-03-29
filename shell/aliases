@@ -148,9 +148,11 @@ alias nc='nvm current'
 
 alias pow='powder'
 alias pd='powder'
+alias pdd='powder down'
 alias pdl='powder link'
 alias pdo='powder open'
 alias pdr='powder restart'
+alias pdu='powder up'
 
 # ----- Rails ----- #
 
