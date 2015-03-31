@@ -164,6 +164,7 @@ alias rs='bundle exec rails server'
 alias rk='bundle exec rake'
 alias rkdy='bundle exec rake deploy'
 alias rkdbm='bundle exec rake db:migrate'
+alias rkt='bundle exec rake -T'
 
 # ----- Vim ----- #
 
