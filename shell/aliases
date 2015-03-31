@@ -16,6 +16,7 @@ alias ..='cd ..'
 alias cdd="cd $HOME/Desktop"
 alias cdj="cd $JDJ"
 alias cdl="cd -"
+alias cds="cd $DOTFILES/vim/UltiSnips"
 alias cd.="cd $DOTFILES"
 
 alias path="echo $( pwd ) 'copied to clipboard!' && pwd | pbcopy"
