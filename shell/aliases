@@ -167,6 +167,8 @@ alias rk='bundle exec rake'
 alias rkap='RAILS_ENV=development bundle exec rake assets:precompile'
 alias rkdy='bundle exec rake deploy'
 alias rkdbm='bundle exec rake db:migrate'
+alias rkj='bundle exec rake jasmine:ci'
+alias rkjw='bundle exec rake jasmine'
 alias rkt='bundle exec rake -T'
 
 # ----- Vim ----- #
