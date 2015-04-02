@@ -141,6 +141,8 @@ alias n='node'
 # NPM
 
 alias ni='npm install'
+alias nis='npm install --save'
+alias nisd='npm install --save-dev'
 alias ns='npm start'
 
 # NVM
