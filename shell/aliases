@@ -99,7 +99,7 @@ alias gpbD='git push origin --delete'
 alias gpt='git push --tags'
 alias gr='git reset'
 alias grs='git_reset_soft'
-alias grb='git rebase -i HEAD~$(( $( git log --oneline -11 | wc -l ) - 1 ))'
+alias grb='git rebase --interactive HEAD~$(( $( git log --oneline -11 | wc -l ) - 1 ))'
 alias gs='git status --short --branch'
 alias gsu='git status --short --branch | grep "U\|orig"'
 alias gsl='git status'
@@ -109,7 +109,7 @@ alias gsta='git add . && git stash'
 alias gsti='git stash --patch'
 alias gstl='git stash list'
 alias gstp='git stash pop'
-alias gtl='git tag -l'
+alias gtl='git tag --list'
 alias 'g?'='git help'
 
 # ----- Hub ----- #
@@ -132,7 +132,7 @@ alias li5='lorem 5 -p'
 # ----- Middleman ----- #
 
 alias mmb='bundle exec middleman build'
-alias mms='bundle exec middleman s --reload-paths data/'
+alias mms='bundle exec middleman server --reload-paths data/'
 
 # ----- Node ----- #
 
@@ -170,7 +170,7 @@ alias rkdy='bundle exec rake deploy'
 alias rkdbm='bundle exec rake db:migrate'
 alias rkj='bundle exec rake jasmine:ci'
 alias rkjw='bundle exec rake jasmine'
-alias rkt='bundle exec rake -T'
+alias rkt='bundle exec rake --tasks'
 
 # ----- Vim ----- #
 
@@ -186,4 +186,4 @@ alias v.v="cd $HOME/.dotfiles && vim vim/vimrc"
 # ----- johndjameson.com ----- #
 
 # Develop johndjameson.com
-alias jdj="cd $JDJ && bundle exec middleman s"
+alias jdj="cd $JDJ && bundle exec middleman server"
