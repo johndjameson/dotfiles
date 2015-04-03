@@ -50,6 +50,16 @@ alias lookup='alias | ack'
 #   Programs
 # ----------------------------------------------------
 
+# ----- Bower ----- #
+
+alias bw='bower'
+alias bwi='bower install'
+alias bwis='bower install --save'
+alias bwisd='bower install --save-dev'
+alias bwp='bower prune'
+alias bws='bower search'
+alias bwu='bower update'
+
 # ----- Bundler ----- #
 
 alias be='bundle exec'
