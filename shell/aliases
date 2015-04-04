@@ -23,7 +23,6 @@ alias path="echo $( pwd ) 'copied to clipboard!' && pwd | pbcopy"
 
 # ----- Clear ----- #
 
-# Clear window
 alias c='clear'
 
 # ----- Finder ----- #
@@ -33,7 +32,6 @@ alias here='open .'
 
 # ----- List ----- #
 
-# List all files/directories with details and colors
 alias l='ls -hloAF'
 
 # ----- Remove ----- #
@@ -43,7 +41,6 @@ alias rmorig='find . -name *.orig -delete'
 
 # ----- Look Up ----- #
 
-# Seach aliases for a string
 alias lookup='alias | ack'
 
 # ----------------------------------------------------
@@ -66,7 +63,6 @@ alias be='bundle exec'
 
 # ----- Git ----- #
 
-# Use Hub gem for Git/GitHub
 alias git='hub'
 
 alias g='git'
@@ -197,5 +193,4 @@ alias v.v="cd $HOME/.dotfiles && vim vim/vimrc"
 
 # ----- johndjameson.com ----- #
 
-# Develop johndjameson.com
 alias jdj="cd $JDJ && bundle exec middleman server"
