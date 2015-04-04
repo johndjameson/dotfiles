@@ -14,7 +14,6 @@
 alias ..='cd ..'
 
 alias cdd="cd $HOME/Desktop"
-alias cdj="cd $JDJ"
 alias cdl="cd -"
 alias cds="cd $DOTFILES/vim/UltiSnips"
 alias cd.="cd $DOTFILES"
@@ -186,11 +185,3 @@ alias v='vim'
 alias v.a="cd $HOME/.dotfiles && vim shell/aliases"
 alias v.m="cd $HOME/.dotfiles && vim vim/mappings.vim"
 alias v.v="cd $HOME/.dotfiles && vim vim/vimrc"
-
-# ----------------------------------------------------
-#   User
-# ----------------------------------------------------
-
-# ----- johndjameson.com ----- #
-
-alias jdj="cd $JDJ && bundle exec middleman server"

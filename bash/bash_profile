@@ -24,7 +24,12 @@
 
 # Local
 
-[ -d ~/.dotfiles-local ] && . ~/.dotfiles-local/shell/aliases
+if [ -d ~/.dotfiles-local ]; then
+
+  . ~/.dotfiles-local/shell/variables
+  . ~/.dotfiles-local/shell/aliases
+
+fi
 
 # ----- Bash ----- #
 

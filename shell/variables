@@ -31,4 +31,3 @@ ICON_WRENCH='\360\237\224\247'
 # ----------------------------------------------------
 
 DOTFILES="$HOME/.dotfiles"
-JDJ="$HOME/GitHub/johndjameson.com"
