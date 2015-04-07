@@ -9,16 +9,9 @@
 #   Shell
 # ----------------------------------------------------
 
-# ----- Navigation ----- #
+# ----- Bash ----- #
 
-alias ..='cd ..'
-
-alias cdd="cd $HOME/Desktop"
-alias cdl="cd -"
-alias cds="cd $DOTFILES/vim/UltiSnips"
-alias cd.="cd $DOTFILES"
-
-alias path="echo $( pwd ) 'copied to clipboard!' && pwd | pbcopy"
+alias reload="bash -l"
 
 # ----- Clear ----- #
 
@@ -33,14 +26,25 @@ alias here='open .'
 
 alias l='ls -hloAF'
 
+# ----- Look Up ----- #
+
+alias lookup='alias | ack'
+
+# ----- Navigation ----- #
+
+alias ..='cd ..'
+
+alias cdd="cd $HOME/Desktop"
+alias cdl="cd -"
+alias cds="cd $DOTFILES/vim/UltiSnips"
+alias cd.="cd $DOTFILES"
+
+alias path="echo $( pwd ) 'copied to clipboard!' && pwd | pbcopy"
+
 # ----- Remove ----- #
 
 alias rmd='rm -rf'
 alias rmorig='find . -name *.orig -delete'
-
-# ----- Look Up ----- #
-
-alias lookup='alias | ack'
 
 # ----------------------------------------------------
 #   Programs
