@@ -52,6 +52,9 @@ nmap <silent> <leader>Q :bd!<cr>
 map <c-s> <esc>:w<cr>
 imap <c-s> <esc>:w<cr>
 
+" Reveal file in Finder
+map <c-o> :Reveal<cr>
+
 " Yank path
 nmap <silent> <leader>y :let @*=expand("%")<cr>
 
