@@ -53,7 +53,10 @@ map <c-s> <esc>:w<cr>
 imap <c-s> <esc>:w<cr>
 
 " Reveal file in Finder
-map <c-o> :Reveal<cr>
+nnoremap <leader>of :Reveal<cr>
+
+" Open file in Sublime Text
+nnoremap <leader>os :! sublime %:p<cr>
 
 " Yank path
 nmap <silent> <leader>y :let @*=expand("%")<cr>
