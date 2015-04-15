@@ -56,7 +56,7 @@ imap <c-s> <esc>:w<cr>
 nnoremap <leader>of :Reveal<cr>
 
 " Open file in Sublime Text
-nnoremap <leader>os :! sublime %:p<cr>
+nnoremap <leader>os :! sublime '%:p'<cr>
 
 " Yank path
 nmap <silent> <leader>y :let @*=expand("%")<cr>
