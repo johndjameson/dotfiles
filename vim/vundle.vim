@@ -41,6 +41,7 @@ Bundle 'townk/vim-autoclose'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-vinegar'
 
 " ====================================================
 "   Setup (Continued)
