@@ -39,7 +39,7 @@ alias cdl="cd -"
 alias cds="cd $DOTFILES/vim/UltiSnips"
 alias cd.="cd $DOTFILES"
 
-alias path="echo $( pwd ) 'copied to clipboard!' && pwd | pbcopy"
+alias path="echo $(pwd) 'copied to clipboard!' && pwd | pbcopy"
 
 # ----- Remove ----- #
 
@@ -108,7 +108,7 @@ alias gpbD='git push origin --delete'
 alias gpt='git push --tags'
 alias gr='git reset'
 alias grs='git_reset_soft'
-alias grb='git rebase --interactive HEAD~$(( $( git log --oneline -11 | wc -l ) - 1 ))'
+alias grb='git rebase --interactive HEAD~$(( $(git log --oneline -11 | wc -l) - 1 ))'
 alias gs='git status --short --branch'
 alias gsu='git status --short --branch | grep "U\|orig"'
 alias gsl='git status'

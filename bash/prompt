@@ -10,7 +10,7 @@
 # ----------------------------------------------------
 
 PS1='\n'
-PS1+="$( font default )$( font cyan )"
+PS1+="$(font default)$(font cyan)"
 PS1+='$(working_directory)$(branch_if_repo)'
-PS1+="$( font default )\n"
+PS1+="$(font default)\n"
 PS1+="$ICON_WRENCH  "

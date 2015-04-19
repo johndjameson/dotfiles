@@ -28,7 +28,7 @@ PATH_DIRECTORIES=(
   '/opt/X11/bin'
 )
 
-export PATH=$( IFS=:; echo "${PATH_DIRECTORIES[*]}" )
+export PATH=$(IFS=:; echo "${PATH_DIRECTORIES[*]}")
 
 # ----------------------------------------------------
 #   Scripts

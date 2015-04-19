@@ -15,7 +15,7 @@
 # Usage: `working_directory`
 
 function working_directory() {
-  echo $( basename "$(pwd)" )
+  echo $(basename "$(pwd)")
 }
 
 # ----------------------------------------------------
@@ -28,7 +28,7 @@ function working_directory() {
 # Usage: `branch_if_repo`
 
 function branch_if_repo() {
-  if [ $( git rev-parse --is-inside-work-tree 2> /dev/null ) ]; then
+  if [ $(git rev-parse --is-inside-work-tree 2> /dev/null) ]; then
     # Working directory clean
     if (( $(git status --porcelain | wc -l | tr -d "[:space:]") == 0 )); then
       printf "$GREEN($(parse_git_branch))"
