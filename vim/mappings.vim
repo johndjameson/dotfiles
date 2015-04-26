@@ -66,6 +66,9 @@ nnoremap <silent> <leader>l :nohlsearch<cr>
 
 nnoremap <leader>r :%s///g<left><left><left>
 
+" Wrap line of text
+nnoremap <leader>w Vgq
+
 " Disable arrow keys
 nnoremap <left> :echoe 'Use h'<cr>
 nnoremap <right> :echoe 'Use l'<cr>
