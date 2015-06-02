@@ -46,6 +46,10 @@ alias path="echo $(pwd) 'copied to clipboard!' && pwd | pbcopy"
 alias rmd='rm -rf'
 alias rmorig='find . -name *.orig -delete'
 
+# ----- SSH ----- #
+
+alias ssh_key='pbcopy < ~/.ssh/id_rsa.pub'
+
 # ----------------------------------------------------
 #   Programs
 # ----------------------------------------------------
