@@ -41,6 +41,10 @@ alias cd.="cd $DOTFILES"
 
 alias path="echo $(pwd) 'copied to clipboard!' && pwd | pbcopy"
 
+# ----- Rbenv ----- #
+
+alias rehash='rbenv rehash'
+
 # ----- Remove ----- #
 
 alias rmd='rm -rf'
