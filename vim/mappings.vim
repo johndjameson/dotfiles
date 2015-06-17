@@ -52,6 +52,9 @@ nmap <silent> <leader>Q :bd!<cr>
 map <c-s> <esc>:w<cr>
 imap <c-s> <esc>:w<cr>
 
+" Open file on GitHub
+nnoremap <leader>og :Gbrowse<cr>
+
 " Reveal file in Finder
 nnoremap <leader>of :Reveal<cr>
 
