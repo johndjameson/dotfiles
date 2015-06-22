@@ -158,6 +158,7 @@ alias n='node'
 # NPM
 
 alias nD='rm -rf node_modules/'
+alias ngi='npm --global install'
 alias ni='npm install'
 alias nis='npm install --save'
 alias nisd='npm install --save-dev'
