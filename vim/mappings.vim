@@ -52,15 +52,6 @@ nmap <silent> <leader>Q :bd!<cr>
 map <c-s> <esc>:w<cr>
 imap <c-s> <esc>:w<cr>
 
-" Open file on GitHub
-nnoremap <leader>og :Gbrowse<cr>
-
-" Reveal file in Finder
-nnoremap <leader>of :Reveal<cr>
-
-" Open file in Sublime Text
-nnoremap <leader>os :! sublime '%:p'<cr>
-
 " Yank path
 nmap <silent> <leader>y :let @*=expand("%")<cr>
 
@@ -132,3 +123,16 @@ vnoremap <leader>t{ :Tabularize /{<cr>
 " Edit snippets for current file type
 nnoremap <leader>se :UltiSnipsEdit<cr>
 nnoremap <leader>sd :e ~/.dotfiles/vim/UltiSnips<cr>
+
+" ====================================================
+"   External Applications
+" ====================================================
+
+" Open file on GitHub
+nnoremap <leader>og :Gbrowse<cr>
+
+" Reveal file in Finder
+nnoremap <leader>of :Reveal<cr>
+
+" Open file in Sublime Text
+nnoremap <leader>os :! sublime '%:p'<cr>
