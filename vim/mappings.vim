@@ -112,6 +112,10 @@ nnoremap <c-r> :ClearCtrlPCache<cr>:CtrlP<cr>
 
 map L <plug>(easymotion-bd-w)
 
+" ========== Fugitive ========== "
+
+nnoremap <leader>b :Gblame<cr>
+
 " ========== Tabularize ========== "
 
 vnoremap <leader>t= :Tabularize /=<cr>
