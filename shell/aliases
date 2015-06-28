@@ -162,6 +162,7 @@ alias ngi='npm --global install'
 alias ni='npm install'
 alias nis='npm install --save'
 alias nisd='npm install --save-dev'
+alias np='npm prune'
 alias ns='npm start'
 
 # NVM
