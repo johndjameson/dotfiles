@@ -45,6 +45,8 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:ctrlp_map = '<c-f>'
 let g:ctrlp_custom_ignore = 'bundle\|build\|Packages\|bower_components\|node_modules'
 
+call ctrlp_bdelete#init()
+
 " ====================================================
 "   EasyMotion
 " ====================================================
