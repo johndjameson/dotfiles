@@ -122,6 +122,11 @@ vnoremap <leader>t= :Tabularize /=<cr>
 vnoremap <leader>t: :Tabularize /:<cr>
 vnoremap <leader>t{ :Tabularize /{<cr>
 
+" ========== Surround ========== "
+
+map <leader>( f(cs()
+map <leader>) f(cs)(
+
 " ========== UltiSnips ========== "
 
 " Edit snippets for current file type
