@@ -164,6 +164,7 @@ alias nis='npm install --save'
 alias nisd='npm install --save-dev'
 alias np='npm prune'
 alias ns='npm start'
+alias nu='npm uninstall'
 
 # NVM
 
