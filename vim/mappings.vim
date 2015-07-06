@@ -112,6 +112,10 @@ nnoremap <c-r> :ClearCtrlPCache<cr>:CtrlP<cr>
 
 map L <plug>(easymotion-bd-w)
 
+" ========== Eunuch ========== "
+
+nnoremap <leader>R :Rename ./
+
 " ========== Fugitive ========== "
 
 nnoremap <leader>b :Gblame<cr>
