@@ -46,7 +46,7 @@ nnoremap P v$<left>"_dp
 
 " Delete buffer
 nmap <silent> <leader>q :bd<cr>
-nmap <silent> <leader>Q :bd!<cr>
+nmap <silent> <leader>Q :q<cr>
 
 " Save file
 map <c-s> <esc>:w<cr>
