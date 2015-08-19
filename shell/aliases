@@ -133,6 +133,12 @@ alias gstp='git stash pop'
 alias gtl='git tag --list'
 alias 'g?'='git help'
 
+# ----- Homebrew ----- #
+
+alias br='brew'
+alias bri='brew install'
+alias brs='brew search'
+
 # ----- Hub ----- #
 
 alias gh='hub browse'
