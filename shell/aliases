@@ -41,6 +41,10 @@ alias cd.="cd $DOTFILES"
 
 alias path="echo $(pwd) 'copied to clipboard!' && pwd | pbcopy"
 
+# ----- Python ----- #
+
+alias serve='python -m SimpleHTTPServer'
+
 # ----- Rbenv ----- #
 
 alias rehash='rbenv rehash'
