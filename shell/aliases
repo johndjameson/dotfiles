@@ -139,6 +139,12 @@ alias br='brew'
 alias bri='brew install'
 alias brs='brew search'
 
+# Cask
+
+alias brc='brew cask'
+alias brci='brew cask install'
+alias brcs='brew cask search'
+
 # ----- Hub ----- #
 
 alias gh='hub browse'
