@@ -205,6 +205,7 @@ alias rs='bundle exec rails server'
 
 alias rk='bundle exec rake'
 alias rkap='RAILS_ENV=development bundle exec rake assets:precompile'
+alias rkapd='rm -rf public/assets/'
 alias rkdy='bundle exec rake deploy'
 alias rkdbm='bundle exec rake db:migrate'
 alias rkj='bundle exec rake jasmine:ci'
