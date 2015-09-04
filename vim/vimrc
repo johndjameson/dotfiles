@@ -43,7 +43,7 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 " ====================================================
 
 let g:ctrlp_map = '<c-f>'
-let g:ctrlp_custom_ignore = 'bundle\|build\|Packages\|bower_components\|node_modules'
+let g:ctrlp_custom_ignore = 'bower_components\|build\|bundle\|node_modules\|public'
 
 call ctrlp_bdelete#init()
 
