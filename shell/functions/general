@@ -34,3 +34,14 @@ function mkcd() {
   mkdir -p "$1"
   cd "$1"
 }
+
+# ----- Words ----- #
+# Find English words containing a string
+#
+# $1 - String
+#
+# Usage: `words ffi`
+
+function words() {
+  grep "$1" '/usr/share/dict/words'
+}
