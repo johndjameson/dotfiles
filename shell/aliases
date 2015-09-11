@@ -165,6 +165,7 @@ alias li5='lorem 5 -p'
 # ----- Middleman ----- #
 
 alias mb='bundle exec middleman build'
+alias mbc='bundle exec middleman build --clean'
 alias ms='bundle exec middleman server --reload-paths data/'
 
 # ----- Node ----- #
