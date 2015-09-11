@@ -154,8 +154,11 @@ set ttimeoutlen=100
 
 " ===== Events ===== "
 
-if has("autocmd")
+if has('autocmd')
   autocmd bufwritepost .vimrc source $MYVIMRC
+  autocmd BufNewFile,BufRead *.coffee.erb set filetype=coffee
+  autocmd BufNewFile,BufRead *.haml.erb set filetype=haml
+  autocmd BufNewFile,BufRead *.sass.erb set filetype=sass
 endif
 
 " ====================================================
