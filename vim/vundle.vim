@@ -14,36 +14,36 @@ filetype off
 set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
 " ====================================================
 "   Bundles
 " ====================================================
 
-Bundle 'airblade/vim-gitgutter'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'bling/vim-airline'
-Bundle 'd11wtq/ctrlp_bdelete.vim'
-Bundle 'digitaltoad/vim-jade'
-Bundle 'ervandew/supertab'
-Bundle 'godlygeek/tabular'
-Bundle 'goldfeld/vim-seek'
-Bundle 'henrik/vim-reveal-in-finder'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'kien/ctrlp.vim'
-Bundle 'lokaltog/vim-easymotion'
-Bundle 'mattn/emmet-vim'
-Bundle 'mileszs/ack.vim'
-Bundle 'nelstrom/vim-qargs'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'sirver/ultisnips'
-Bundle 'terryma/vim-multiple-cursors'
-Bundle 'townk/vim-autoclose'
-Bundle 'tpope/vim-eunuch'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-markdown'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-vinegar'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'bling/vim-airline'
+Plugin 'd11wtq/ctrlp_bdelete.vim'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'ervandew/supertab'
+Plugin 'godlygeek/tabular'
+Plugin 'goldfeld/vim-seek'
+Plugin 'henrik/vim-reveal-in-finder'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'kien/ctrlp.vim'
+Plugin 'lokaltog/vim-easymotion'
+Plugin 'mattn/emmet-vim'
+Plugin 'mileszs/ack.vim'
+Plugin 'nelstrom/vim-qargs'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'sirver/ultisnips'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'townk/vim-autoclose'
+Plugin 'tpope/vim-eunuch'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-markdown'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-vinegar'
 
 " ====================================================
 "   Setup (Continued)
