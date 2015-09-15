@@ -96,13 +96,13 @@ nnoremap _ <c-w><
 
 " ========== Ack ========== "
 
-nnoremap <leader>aa :Ack! ''<left>
-nnoremap <leader>ac :Ack! --coffee ''<left>
-nnoremap <leader>ah :Ack! --html ''<left>
-nnoremap <leader>ad :Ack! --jade ''<left>
-nnoremap <leader>aj :Ack! --js ''<left>
-nnoremap <leader>am :Ack! --markdown ''<left>
-nnoremap <leader>as :Ack! --sass ''<left>
+nnoremap <leader>aa :Ag! ''<left>
+nnoremap <leader>ac :Ag! --coffee ''<left>
+nnoremap <leader>ah :Ag! --html ''<left>
+nnoremap <leader>ad :Ag! --jade ''<left>
+nnoremap <leader>aj :Ag! --js ''<left>
+nnoremap <leader>am :Ag! --markdown ''<left>
+nnoremap <leader>as :Ag! --sass ''<left>
 
 " ========== CtrlP ========== "
 
