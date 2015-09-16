@@ -159,6 +159,7 @@ if has('autocmd')
   autocmd BufNewFile,BufRead *.coffee.erb set filetype=coffee
   autocmd BufNewFile,BufRead *.haml.erb set filetype=haml
   autocmd BufNewFile,BufRead *.sass.erb set filetype=sass
+  autocmd BufNewFile,BufRead *.md.erb set filetype=markdown
 endif
 
 " ====================================================
