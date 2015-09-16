@@ -214,6 +214,10 @@ alias rkj='bundle exec rake jasmine:ci'
 alias rkjw='bundle exec rake jasmine'
 alias rkt='bundle exec rake --tasks'
 
+# ----- The Silver Searcher ----- #
+
+alias agf='ag -g'
+
 # ----- Vim ----- #
 
 alias v='vim'
