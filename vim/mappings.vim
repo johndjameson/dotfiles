@@ -122,8 +122,9 @@ nnoremap <leader>b :Gblame<cr>
 
 " ========== Tabularize ========== "
 
-vnoremap <leader>t= :Tabularize /=<cr>
+vnoremap <leader>t- :Tabularize /-<cr>
 vnoremap <leader>t: :Tabularize /:<cr>
+vnoremap <leader>t= :Tabularize /=<cr>
 vnoremap <leader>t{ :Tabularize /{<cr>
 
 " ========== Surround ========== "
