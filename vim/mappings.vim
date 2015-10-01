@@ -126,7 +126,7 @@ vnoremap <leader>t- :Tabularize /-<cr>
 vnoremap <leader>t: :Tabularize /:<cr>
 vnoremap <leader>t= :Tabularize /=<cr>
 vnoremap <leader>t{ :Tabularize /{<cr>
-nnoremap <c-l> (jV)k :Tabularize /:<cr>
+nnoremap <c-e> (A<cr><esc>jjV)k :Tabularize /:<cr>kkdd
 
 " ========== Surround ========== "
 
