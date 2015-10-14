@@ -130,7 +130,7 @@ alias gst='git add . && git stash'
 alias gstD='git stash drop'
 alias gsti='git stash --patch'
 alias gstl='git stash list'
-alias gstp='git stash pop'
+alias gstp='git stash pop && git reset'
 alias gtl='git tag --list'
 alias 'g?'='git help'
 
