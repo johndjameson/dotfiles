@@ -98,7 +98,7 @@ nnoremap _ <c-w><
 
 nnoremap <leader>aa :Ag! ''<left>
 nnoremap <leader>ac :Ag! --coffee ''<left>
-nnoremap <leader>ah :Ag! --html ''<left>
+nnoremap <leader>ah :Ag! --haml ''<left>
 nnoremap <leader>ad :Ag! --jade ''<left>
 nnoremap <leader>aj :Ag! --js ''<left>
 nnoremap <leader>am :Ag! --markdown ''<left>
