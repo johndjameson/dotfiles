@@ -139,7 +139,10 @@ alias 'g?'='git help'
 
 alias br='brew'
 alias bri='brew install'
+alias bro='brew outdated'
 alias brs='brew search'
+alias bru='brew update'
+alias brU='brew upgrade'
 
 # Cask
 
