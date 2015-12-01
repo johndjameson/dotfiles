@@ -32,12 +32,13 @@ alias lookup='alias | ack'
 
 # ----- Navigation ----- #
 
-alias ..='cd ..'
+alias ..='cd ../'
 
-alias cdd="cd $HOME/Desktop"
+alias cd.="cd $DOTFILES/"
+alias cdb="cd $DOTFILES/bin/"
+alias cdd="cd $HOME/Desktop/"
 alias cdl='cd -'
-alias cds="cd $DOTFILES/vim/UltiSnips"
-alias cd.="cd $DOTFILES"
+alias cds="cd $DOTFILES/vim/UltiSnips/"
 
 alias path="echo $(pwd) 'copied to clipboard!' && pwd | pbcopy"
 
