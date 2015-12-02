@@ -1,0 +1,21 @@
+# ****************************************************
+#
+#   Functions - Vim
+#   -> Vim-specified tasks
+#
+# ****************************************************
+
+# ----------------------------------------------------
+#   Commands
+# ----------------------------------------------------
+
+# ----- Search ----- #
+# Soft reset the branch back a number of commits
+#
+# $1 - 'something', 'idk', ...
+#
+# Usage: `vim_search 'something'`
+
+function vim_search() {
+  vim -c "Ag! '$1'"
+}
