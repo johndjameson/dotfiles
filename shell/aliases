@@ -229,3 +229,4 @@ alias v='vim'
 alias v.a="cd $HOME/.dotfiles && vim shell/aliases"
 alias v.m="cd $HOME/.dotfiles && vim vim/mappings.vim"
 alias v.v="cd $HOME/.dotfiles && vim vim/vimrc"
+alias vs="vim_search"
