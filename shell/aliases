@@ -133,6 +133,7 @@ alias gstD='git stash drop'
 alias gsti='git stash --patch'
 alias gstl='git stash list'
 alias gstp='git stash pop && git reset'
+alias gsts='git stash save --keep-index'
 alias gtl='git tag --list'
 alias 'g?'='git help'
 
