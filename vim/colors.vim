@@ -23,3 +23,10 @@ hi javascriptOpSymbol ctermfg=DarkGreen
 hi javascriptParens ctermfg=DarkRed
 hi javascriptTemplateSB ctermfg=DarkRed
 hi javascriptTemplateSubstitution ctermfg=12
+
+" ====================================================
+"   JSON
+" ====================================================
+
+hi jsonKeyword ctermfg=DarkBlue
+hi jsonNoise ctermfg=DarkRed
