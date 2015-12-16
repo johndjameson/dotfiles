@@ -58,6 +58,8 @@ nmap <silent> <leader>y :let @*=expand("%")<cr>
 " Remove search highlighting
 nnoremap <silent> <leader>l :nohlsearch<cr>
 
+nnoremap <leader>" :%s/\'/"/g<cr>
+nnoremap <leader>' :%s/\"/'/g<cr>
 nnoremap <leader>r :%s///g<left><left><left>
 
 " Wrap line of text
