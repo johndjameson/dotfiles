@@ -69,6 +69,11 @@ nnoremap <right> :echoe 'Use l'<cr>
 nnoremap <up> :echoe 'Use k'<cr>
 nnoremap <down> :echoe 'Use j'<cr>
 
+" View cursor syntax keyword
+map <f10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
+\ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
+\ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<cr>
+
 " ====================================================
 "   Window Management
 " ====================================================
