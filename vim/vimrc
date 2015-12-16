@@ -16,7 +16,7 @@ set nocompatible
 "   Vundle
 " ====================================================
 
-source ~/.dotfiles/vim/vundle.vim
+source ~/.dotfiles/vim/plugins.vim
 
 " ====================================================
 "   Airline
