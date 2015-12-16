@@ -126,6 +126,7 @@ nnoremap <leader>R :Rename ./
 " ========== Fugitive ========== "
 
 nnoremap <leader>b :Gblame<cr>
+nnoremap <leader>g :Gdiff<cr>
 
 " ========== Tabularize ========== "
 
