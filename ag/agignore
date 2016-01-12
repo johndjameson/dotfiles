@@ -9,6 +9,8 @@
 #   Directories
 # ----------------------------------------------------
 
+# ----- General ----- #
+
 .sass-cache/
 .tmp/
 bower_components/
@@ -18,10 +20,17 @@ dist/
 log/
 node_modules/
 public/
-spec/fixtures/
-sublime-text/Packages/
 tmp/
-vendor/
+
+# ----- Specific ----- #
+
+codeschool/vendor/
+sublime-text/Packages/
+
+# ----- Rails ----- #
+
+app/assets/javascripts/vendor/
+spec/fixtures/
 
 # ----------------------------------------------------
 #   Files
