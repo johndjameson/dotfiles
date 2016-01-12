@@ -18,6 +18,7 @@ dist/
 log/
 node_modules/
 public/
+spec/fixtures/
 tmp/
 vendor/
 
