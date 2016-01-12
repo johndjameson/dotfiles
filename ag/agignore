@@ -19,6 +19,7 @@ log/
 node_modules/
 public/
 spec/fixtures/
+sublime-text/Packages/
 tmp/
 vendor/
 
