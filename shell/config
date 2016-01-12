@@ -45,7 +45,7 @@ eval "$(rbenv init - $SHELL_EXT)"
 # ----- NVM ----- #
 
 export NVM_DIR="$HOME/.nvm"
-source $(brew --prefix nvm)/nvm.sh
+. $(brew --prefix nvm)/nvm.sh
 
 # Grunt
 
