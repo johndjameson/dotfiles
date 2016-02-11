@@ -22,7 +22,6 @@ Plugin 'gmarik/vundle'
 
 Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'bling/vim-airline'
 Plugin 'd11wtq/ctrlp_bdelete.vim'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'ervandew/supertab'
@@ -45,6 +44,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-markdown'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-vinegar'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-scripts/loremipsum'
 
 " ====================================================
