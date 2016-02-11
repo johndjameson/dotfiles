@@ -45,6 +45,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-markdown'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-vinegar'
+Plugin 'vim-scripts/loremipsum'
 
 " ====================================================
 "   Setup (Continued)
