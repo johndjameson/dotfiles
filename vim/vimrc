@@ -156,10 +156,6 @@ set ttimeoutlen=100
 
 if has('autocmd')
   autocmd bufwritepost .vimrc source $MYVIMRC
-  autocmd BufNewFile,BufRead *.coffee.erb set filetype=coffee
-  autocmd BufNewFile,BufRead *.haml.erb set filetype=haml
-  autocmd BufNewFile,BufRead *.sass.erb set filetype=sass
-  autocmd BufNewFile,BufRead *.md.erb set filetype=markdown
 endif
 
 " ====================================================
@@ -169,6 +165,13 @@ endif
 autocmd Filetype markdown setlocal wrap
 autocmd Filetype markdown setlocal linebreak
 autocmd Filetype markdown setlocal nolist
+
+autocmd BufNewFile,BufRead *.coffee.erb set filetype=coffee
+autocmd BufNewFile,BufRead *.com set filetype=nginx
+autocmd BufNewFile,BufRead *.conf set filetype=nginx
+autocmd BufNewFile,BufRead *.haml.erb set filetype=haml
+autocmd BufNewFile,BufRead *.md.erb set filetype=markdown
+autocmd BufNewFile,BufRead *.sass.erb set filetype=sass
 autocmd BufRead,BufNewFile *.thor set filetype=ruby
 
 " ====================================================
