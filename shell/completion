@@ -25,4 +25,3 @@ __git_complete gmf _git_merge
 __git_complete go _git_checkout
 
 __git_complete gp _git_branch
-__git_complete gp _git_branch
