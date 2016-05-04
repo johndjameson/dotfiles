@@ -107,6 +107,8 @@ alias gga='git log --pretty=format:"%C(red)%h%Creset %s %C(magenta)(%cr)" --date
 alias ggl='git log --pretty=format:"%C(red)%h%Creset %s %C(magenta)(%cr)" --date=relative -1 --patch'
 alias ggo='git log --oneline --stat -1'
 alias ggp='git log --pretty=format:"%C(red)%h%Creset %s %C(magenta)(%cr)" --date=relative -5 --patch'
+alias gh='hub browse'
+alias ghim='ghi list -u --mine'
 alias gk='git clone'
 alias gl='git pull --rebase'
 alias glp='git pull --rebase && git push'
@@ -124,6 +126,7 @@ alias gpb='git push --set-upstream origin'
 alias gpbD='git push origin --delete'
 alias gpbc='git push --set-upstream origin $(parse_git_branch)'
 alias gpomp='git push origin master:production'
+alias gpr='hub pull-request'
 alias gpt='git push --tags'
 alias gr='git reset'
 alias grb='git rebase --interactive HEAD~$(( $(git log --oneline -11 | wc -l) - 1 ))'
@@ -155,14 +158,9 @@ alias brc='brew cask'
 alias brci='brew cask install'
 alias brcs='brew cask search'
 
-# ----- Hub ----- #
+# ----- html2haml ----- #
 
-alias gh='hub browse'
-alias gpr='hub pull-request'
-
-# ----- GitHub Issues ----- #
-
-alias ghim='ghi list -u --mine'
+alias pbhaml='pbpaste | html2haml --ruby19-attributes | pbcopy'
 
 # ----- Lorem ----- #
 
