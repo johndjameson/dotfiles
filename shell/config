@@ -38,9 +38,9 @@ export PATH=$(IFS=:; echo "${PATH_DIRECTORIES[*]}")
 
 [ -s "$(brew --prefix)/etc/profile.d/autojump.sh" ] && . "$(brew --prefix)/etc/profile.d/autojump.sh"
 
-# ----- rbenv ----- #
+# ----- Homebrew ----- #
 
-eval "$(rbenv init - $SHELL_EXT)"
+export HOMEBREW_CASK_OPTS='--appdir=/Applications'
 
 # ----- NVM ----- #
 
@@ -54,6 +54,10 @@ eval "$(grunt --completion=$SHELL_EXT)"
 # Gulp
 
 eval "$(gulp --completion=$SHELL_EXT)"
+
+# ----- rbenv ----- #
+
+eval "$(rbenv init - $SHELL_EXT)"
 
 # ----------------------------------------------------
 #   User Interface
