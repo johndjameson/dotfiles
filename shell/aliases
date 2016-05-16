@@ -36,6 +36,7 @@ alias ..='cd ../'
 
 alias cd.="cd $DOTFILES/"
 alias cdb="cd $DOTFILES/bin/"
+alias cdbr="cd $DOTFILES/brew/"
 alias cdd="cd $HOME/Desktop/"
 alias cdl='cd -'
 alias cds="cd $DOTFILES/vim/UltiSnips/"
@@ -146,6 +147,8 @@ alias gtl='git tag --list'
 # ----- Homebrew ----- #
 
 alias br='brew'
+alias brb='brew bundle'
+alias brb.="cd $DOTFILES/brew/ && brew bundle"
 alias bri='brew install'
 alias bro='brew outdated'
 alias brs='brew search'
@@ -229,7 +232,8 @@ alias agf='ag -g'
 # ----- Vim ----- #
 
 alias v='vim'
-alias v.a="cd $HOME/.dotfiles && vim shell/aliases"
-alias v.m="cd $HOME/.dotfiles && vim vim/mappings.vim"
-alias v.v="cd $HOME/.dotfiles && vim vim/vimrc"
+alias v.a="cd $DOTFILES && vim shell/aliases"
+alias v.br="cd $DOTFILES/brew && vim Brewfile"
+alias v.m="cd $DOTFILES && vim vim/mappings.vim"
+alias v.v="cd $DOTFILES && vim vim/vimrc"
 alias vs="vim_search"
