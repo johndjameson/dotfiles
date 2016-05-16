@@ -1,0 +1,39 @@
+# ****************************************************
+#
+#   Functions - mas
+#   -> Mac App Store
+#
+# ****************************************************
+
+# ----------------------------------------------------
+#   Commands
+# ----------------------------------------------------
+
+# ----- Bundle ----- #
+# Install all apps in user file
+#
+# Usage: `mas_bundle`
+
+mas_bundle() {
+  while read line; do
+    mas_install $(echo $line | awk '{ print $1 }')
+  done < $DOTFILES/mas/apps
+}
+
+# ----- Install ----- #
+# Install a single app if it isn’t already installed
+#
+# Usage: `mas_install 441258766`
+
+mas_install() {
+  mas list | grep $1 || mas install $1
+}
+
+# ----- List ----- #
+# List apps in alphabetical order and store in user file
+#
+# Usage: `mas_list`
+
+mas_list() {
+  mas list | sort -k2 -f | tee /dev/tty > $DOTFILES/mas/apps
+}

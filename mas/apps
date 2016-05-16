@@ -1,45 +1,14 @@
-mas_install() {
-  mas list | grep $1 || mas install $1
-}
-
-# Airmail
-mas_install 918858936
-
-# ColorSnapper
-mas_install 969418666
-
-# Evernote
-mas_install 406056744
-
-# Fantastical
-mas_install 975937182
-
-# iA Writer
-mas_install 775737590
-
-# Inboard
-mas_install 944109819
-
-# Keynote
-mas_install 409183694
-
-# Magnet
-mas_install 441258766
-
-# Monosnap
-mas_install 540348655
-
-# Name Mangler
-mas_install 603637384
-
-# Numbers
-mas_install 409203825
-
-# Slack
-mas_install 803453959
-
-# Tweetbot
-mas_install 557168941
-
-# Typeface
-mas_install 1062679359
+918858936 Airmail 2
+969418666 ColorSnapper2
+406056744 Evernote
+975937182 Fantastical 2
+775737590 iA Writer
+944109819 Inboard
+409183694 Keynote
+441258766 Magnet
+540348655 Monosnap
+603637384 Name Mangler 3
+409203825 Numbers
+803453959 Slack
+557168941 Tweetbot
+1062679359 typeface
