@@ -18,7 +18,7 @@ stty -ixon
 
 PATH_DIRECTORIES=(
   "$HOME/.dotfiles/bin"
-  '/Applications/Postgres.app/Contents/Versions/9.4/bin'
+  '/Applications/Postgres.app/Contents/Versions/latest/bin'
   '/usr/local/heroku/bin'
   '/usr/local/bin'
   '/usr/bin'
