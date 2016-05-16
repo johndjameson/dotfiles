@@ -22,6 +22,7 @@ brew 'xz'
 
 cask '1password'
 cask 'adobe-creative-cloud'
+cask 'bartender'
 cask 'cleanmymac'
 cask 'dropbox'
 cask 'firefox'
