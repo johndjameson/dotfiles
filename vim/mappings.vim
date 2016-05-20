@@ -158,4 +158,4 @@ nnoremap <leader>og :Gbrowse<cr>
 nnoremap <leader>of :Reveal<cr>
 
 " Open file in Sublime Text
-nnoremap <leader>os :! sublime '%:p'<cr>
+nnoremap <leader>os :! subl '%:p'<cr>
