@@ -1,0 +1,36 @@
+FONTS_TO_REMOVE=(
+  'Apple Braille Outline 6 Dot.ttf'
+  'Apple Braille Outline 8 Dot.ttf'
+  'Apple Braille Pinpoint 6 Dot.ttf'
+  'Apple Braille Pinpoint 8 Dot.ttf'
+  'Apple Symbols.ttc'
+  'AppleSDGothicNeo.ttc'
+  'AquaKana.ttc'
+  'GeezaPro.ttc'
+  'Geneva.dfont'
+  'Hiragino Sans GB W3.ttc'
+  'Hiragino Sans GB W6.ttc'
+  'Kohinoor.ttc'
+  'KohinoorBangla.ttc'
+  'KohinoorTelugu.ttc'
+  'MarkerFelt.ttc'
+  'Optima.ttc'
+  'Thonburi.ttc'
+  'ZapfDingbats.ttf'
+  'ヒラギノ明朝 ProN W3.ttc'
+  'ヒラギノ明朝 ProN W6.ttc'
+  'ヒラギノ角ゴシック W0.ttc'
+  'ヒラギノ角ゴシック W1.ttc'
+  'ヒラギノ角ゴシック W2.ttc'
+  'ヒラギノ角ゴシック W3.ttc'
+  'ヒラギノ角ゴシック W4.ttc'
+  'ヒラギノ角ゴシック W5.ttc'
+  'ヒラギノ角ゴシック W6.ttc'
+  'ヒラギノ角ゴシック W7.ttc'
+  'ヒラギノ角ゴシック W8.ttc'
+  'ヒラギノ角ゴシック W9.ttc'
+)
+
+for font in "${FONTS_TO_DELETE[@]}"; do
+  sudo rm -f "/System/Library/Fonts/$font"
+done
