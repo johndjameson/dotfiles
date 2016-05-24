@@ -1,4 +1,4 @@
-FONTS_TO_REMOVE=(
+FONTS_TO_DELETE=(
   'Apple Braille Outline 6 Dot.ttf'
   'Apple Braille Outline 8 Dot.ttf'
   'Apple Braille Pinpoint 6 Dot.ttf'
@@ -15,6 +15,10 @@ FONTS_TO_REMOVE=(
   'KohinoorTelugu.ttc'
   'MarkerFelt.ttc'
   'Optima.ttc'
+  'STHeiti Light.ttc'
+  'STHeiti Medium.ttc'
+  'STHeiti Thin.ttc'
+  'STHeiti UltraLight.ttc'
   'Thonburi.ttc'
   'ZapfDingbats.ttf'
   'ヒラギノ明朝 ProN W3.ttc'
