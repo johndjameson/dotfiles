@@ -1,4 +1,7 @@
 FONTS_TO_DELETE=(
+  'Al Nile.ttc'
+  'Al Tarikh.ttc'
+  'AlBayan.ttc'
   'AmericanTypewriter.ttc'
   'Apple Chancery.ttf'
   'AppleGothic.ttf'
