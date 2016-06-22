@@ -15,6 +15,9 @@ defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 # Trackpad, mouse, keyboard, and input                                        #
 ###############################################################################
 
+# Only show scrollbars when scrolling
+defaults write NSGlobalDomain AppleShowScrollBars -string 'WhenScrolling'
+
 # Trackpad: enable tap to click for this user and for the login screen
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
@@ -29,6 +32,9 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # Finder: show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# Set sidebar icon size to Small
+defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
 # Finder: show path bar
 defaults write com.apple.finder ShowPathbar -bool true
@@ -47,7 +53,7 @@ defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
 # Use list view in all Finder windows by default
 # Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
-defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+defaults write com.apple.finder FXPreferredViewStyle -string 'clmv'
 
 ###############################################################################
 # Dock & hot corners                                                          #
@@ -59,11 +65,25 @@ defaults write com.apple.dock tilesize -int 60
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+# Dock magnification
+defaults write com.apple.dock magnification -bool true
+
+# Set magnification size of Dock items
+defaults write com.apple.dock largesize -float 65
+
+# Animate opening applications
+defaults write com.apple.dock launchanim -bool true
+
+# Minimize to application
+defaults write com.apple.dock minimize-to-application -bool true
+
+# Show indicator lights for open applications
+defaults write com.apple.dock show-process-indicators -bool true
+
 # Hot corners
 # Bottom right screen corner → Desktop
 defaults write com.apple.dock wvous-br-corner -int 4
 defaults write com.apple.dock wvous-br-modifier -int 0
-
 
 ###############################################################################
 # Quicktime X                                                                 #
