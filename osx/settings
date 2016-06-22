@@ -11,6 +11,9 @@ defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 # Check for software updates daily, not just once per week
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
+# Disable screenshot shadow
+defaults write com.apple.screencapture disable-shadow -bool true
+
 ###############################################################################
 # Trackpad, mouse, keyboard, and input                                        #
 ###############################################################################
