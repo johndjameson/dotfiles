@@ -150,6 +150,7 @@ alias br='brew'
 alias brb='brew bundle'
 alias brb.="cd $DOTFILES/brew/ && brew bundle"
 alias bri='brew install'
+alias brl='brew list'
 alias bro='brew outdated'
 alias brs='brew search'
 alias bru='brew update'
@@ -159,6 +160,7 @@ alias brU='brew upgrade'
 
 alias brc='brew cask'
 alias brci='brew cask install'
+alias brcl='brew cask list'
 alias brcs='brew cask search'
 
 # ----- html2haml ----- #
