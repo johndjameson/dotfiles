@@ -15,6 +15,11 @@ symbolic link to its packages:
 ln -s ~/.dotfiles/sublime-text/Packages/ /Users/john/Library/Application\ Support/Sublime\ Text\ 3/Packages
 ```
 
+Random Apps
+-----------
+
+[Craft][craft]
+
 Sources
 -------
 
