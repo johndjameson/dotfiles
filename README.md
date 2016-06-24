@@ -34,6 +34,7 @@ Based on the dotfiles of:
 
 
 [ben]: https://github.com/r00k/dotfiles
+[craft]: https://s3.amazonaws.com/www-assets.invisionapp.com/labs/craft/manager/CraftInstaller.zip
 [drew]: https://github.com/drewbarontini/dotfiles
 [harry]: https://github.com/csswizardry/dotfiles
 [mathias]: https://github.com/mathiasbynens/dotfiles
