@@ -1,57 +1,61 @@
 {
-	"bold_folder_labels": true,
-	"caret_style": "smooth",
-	"color_scheme": "Packages/User/SublimeLinter/Solarized (Dark) (SL).tmTheme",
-	"create_window_at_startup": false,
-	"default_encoding": "UTF-8",
-	"default_line_ending": "unix",
-	"detect_indentation": false,
-	"enable_tab_scrolling": false,
-	"enable_telemetry": false,
-	"ensure_newline_at_eof_on_save": true,
-	"file_exclude_patterns":
-	[
-		".DS_Store",
-		"Desktop.ini",
-		"*.pyc",
-		"._*",
-		"Thumbs.db",
-		".Spotlight-V100",
-		".Trashes"
-	],
-	"folder_exclude_patterns":
-	[
-		".bundle",
-		".git",
-		".sass-cache",
-		"_site",
-		"bin",
-		"node_modules",
-		"tmp"
-	],
-	"font_face": "Monaco",
-	"font_size": 15,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
-	"match_brackets": true,
-	"match_selection": false,
-	"open_files_in_new_window": false,
-	"rulers":
-	[
-		80
-	],
-	"scroll_past_end": true,
-	"show_encoding": true,
-	"show_tab_close_buttons": true,
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"wide_caret": true,
-	"word_wrap": true
+  // ----- Application Behavior ----- //
+
+  "create_window_at_startup": false,
+  "hot_exit": false,
+  "remember_open_files": false,
+  "show_encoding": true,
+
+  "ignored_packages": [
+    "Vintage"
+  ],
+
+  // ----- Application Interface ----- //
+
+  "bold_folder_labels": true,
+  "show_tab_close_buttons": false,
+
+  // ----- Editor Interface ----- //
+
+  "caret_style": "smooth",
+  "color_scheme": "Packages/User/SublimeLinter/Solarized (Dark) (SL).tmTheme",
+  "font_face": "Monaco",
+  "font_size": 15,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "line_padding_bottom": 2,
+  "line_padding_top": 0,
+
+  // ----- Editor Behavior ----- //
+
+  "default_line_ending": "unix",
+  "ensure_newline_at_eof_on_save": true,
+  "rulers": [80],
+  "scroll_past_end": false,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": true,
+
+  // ----- Exclusions ----- //
+
+  "file_exclude_patterns": [
+    "*.pyc",
+    "._*",
+    ".DS_Store",
+    ".Spotlight-V100",
+    ".Trashes",
+    "Desktop.ini",
+    "Thumbs.db"
+  ],
+
+  "folder_exclude_patterns": [
+    ".bundle",
+    ".git",
+    ".sass-cache",
+    "_site",
+    "bin",
+    "node_modules",
+    "tmp"
+  ]
 }
