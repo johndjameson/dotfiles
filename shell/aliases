@@ -233,6 +233,10 @@ alias rkt='bundle exec rake --tasks'
 
 alias agf='ag -g'
 
+# ----- Sublime Text ----- #
+
+alias s='subl'
+
 # ----- Vim ----- #
 
 alias v='vim'
