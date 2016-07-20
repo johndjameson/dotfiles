@@ -18,7 +18,7 @@ sublime() {
   if [ $# -gt 0 ]; then
     subl "$@"
   else
-    ls -1 *.sublime-project 2> /dev/null
+    ls -1 *.sublime-project &> /dev/null
 
     if [ "$?" -eq 0 ]; then
       subl "$(ls -1 *.sublime-project)"
