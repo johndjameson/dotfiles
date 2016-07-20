@@ -235,7 +235,7 @@ alias agf='ag -g'
 
 # ----- Sublime Text ----- #
 
-alias s='subl'
+alias s='sublime'
 
 # ----- Vim ----- #
 
