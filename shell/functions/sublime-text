@@ -15,12 +15,24 @@
 # Usage: `sublime`
 
 sublime() {
-  if [ $# -gt 0 ]; then
-    subl "$@"
-  else
-    ls -1 *.sublime-project &> /dev/null
+  ls -1 *.sublime-project &> /dev/null
+  project_exists="$?"
 
-    if [ "$?" -eq 0 ]; then
+  # If there are arguments...
+  if [ $# -gt 0 ]; then
+
+    # And there’s a .sublime-project...
+    if [ "$project_exists" -eq 0 ]; then
+      subl "$(ls -1 *.sublime-project)" "$@"
+    else
+      subl "$@"
+    fi
+
+  # If there aren’t arguments...
+  else
+
+    # And there’s a .sublime-project...
+    if [ "$project_exists" -eq 0 ]; then
       subl "$(ls -1 *.sublime-project)"
     else
       subl .
