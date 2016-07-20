@@ -241,7 +241,7 @@ alias s='subl'
 
 alias v='vim'
 alias v.a="cd $DOTFILES && vim shell/aliases"
-alias v.br="cd $DOTFILES/brew && vim Brewfile"
+alias v.br="vim $DOTFILES/brew/Brewfile"
 alias v.m="cd $DOTFILES && vim vim/mappings.vim"
 alias v.v="cd $DOTFILES && vim vim/vimrc"
 alias vs="vim_search"
