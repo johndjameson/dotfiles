@@ -42,6 +42,9 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Set sidebar icon size to Small
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
+# Finder: show path in title bar
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+
 # Finder: show path bar
 defaults write com.apple.finder ShowPathbar -bool true
 
