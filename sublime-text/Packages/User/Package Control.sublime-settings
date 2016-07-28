@@ -7,6 +7,7 @@
 	[
 		"Babel",
 		"Better CoffeeScript",
+		"CSScomb",
 		"Emmet",
 		"GitGutter",
 		"Jade",
@@ -15,6 +16,7 @@
 		"nginx",
 		"Package Control",
 		"SideBarEnhancements",
+		"Slugify",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"Syntax Highlighting for Sass"
