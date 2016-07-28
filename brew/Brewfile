@@ -28,6 +28,7 @@ brew 'tree'
 brew 'vim'
 brew 'webkit2png'
 brew 'xz'
+brew 'youtube-dl'
 
 cask '1password'
 cask 'adobe-creative-cloud'
