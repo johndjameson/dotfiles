@@ -41,7 +41,7 @@
 	[
 		80
 	],
-	"scroll_past_end": false,
+	"scroll_past_end": true,
 	"show_encoding": true,
 	"show_tab_close_buttons": false,
 	"tab_size": 2,
