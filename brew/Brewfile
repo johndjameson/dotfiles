@@ -33,6 +33,7 @@ brew 'youtube-dl'
 
 cask '1password'
 cask 'adobe-creative-cloud'
+cask 'applepi-baker'
 cask 'bartender'
 cask 'beamer'
 cask 'caffeine'
