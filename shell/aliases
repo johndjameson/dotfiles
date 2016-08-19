@@ -239,7 +239,7 @@ alias s='sublime'
 
 # ----- Vim ----- #
 
-alias v='vim'
+alias v='vim_launch'
 alias v.a="cd $DOTFILES && vim shell/aliases"
 alias v.br="vim $DOTFILES/brew/Brewfile"
 alias v.m="cd $DOTFILES && vim vim/mappings.vim"
