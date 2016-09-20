@@ -26,7 +26,7 @@
 		"tmp"
 	],
 	"font_face": "Monaco",
-	"font_size": 15,
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
