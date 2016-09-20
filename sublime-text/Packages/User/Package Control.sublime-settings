@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"Arduino-like IDE",
 		"Babel",
 		"Better CoffeeScript",
 		"CSScomb",
