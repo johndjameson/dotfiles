@@ -1,5 +1,5 @@
-John D. Jameson's Dotfiles
-==========================
+Dotfiles
+========
 
 Shell configuration for a Vim and Sass lovin' front-end developer.
 
@@ -15,10 +15,19 @@ symbolic link to its packages:
 ln -s ~/.dotfiles/sublime-text/Packages/ /Users/john/Library/Application\ Support/Sublime\ Text\ 3/Packages
 ```
 
-Random Apps
------------
+Non-Cask Apps
+-------------
 
 [Craft][craft]
+
+Miscellaneous
+-------------
+
+Run these after `brew install` on a fresh OS X:
+
+```shell
+brew services start redis
+```
 
 Sources
 -------
