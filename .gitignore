@@ -7,6 +7,7 @@ sublime-text/Packages/*
 !sublime-text/Packages/User
 sublime-text/Packages/User/Package Control*
 !sublime-text/Packages/User/Package Control.sublime-settings
+sublime-text/Packages/User/oscrypto-ca-bundle.crt
 
 # Installed Packages
 sublime-text/Packages/Syntax Highlighting for Sass/
