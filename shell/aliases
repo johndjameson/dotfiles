@@ -16,6 +16,7 @@ alias reload='bash -l'
 # ----- Clear ----- #
 
 alias c='clear'
+alias cc='clear'
 
 # ----- Finder ----- #
 
