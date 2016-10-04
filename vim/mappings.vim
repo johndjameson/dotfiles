@@ -44,6 +44,9 @@ nnoremap Y y$
 " Change end of line to clipboard text
 nnoremap P v$<left>"_dp
 
+" Replace the current word with clipboard text
+nnoremap <leader>p viwp
+
 " Delete buffer
 nmap <silent> <leader>q :bd<cr>
 nmap <silent> <leader>Q :qa!<cr>
