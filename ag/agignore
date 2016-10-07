@@ -19,13 +19,18 @@ bundle/
 dist/
 log/
 node_modules/
-public/
 tmp/
 
 # ----- Specific ----- #
 
 codeschool/vendor/
 sublime-text/Packages/
+
+# ----- Express ----- #
+
+client/javascripts/vendor/
+public/javascripts/
+public/stylesheets/
 
 # ----- Rails ----- #
 
