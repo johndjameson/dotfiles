@@ -27,6 +27,7 @@ Run these after `brew install` on a fresh OS X:
 
 ```shell
 brew services start redis
+xcode-select --install
 ```
 
 Sources
