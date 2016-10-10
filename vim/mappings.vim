@@ -107,9 +107,9 @@ nnoremap _ <c-w><
 " ========== Ack ========== "
 
 nnoremap <leader>aH :Ag! --html ''<left>
-nnoremap <leader>aJ :Ag! --jade ''<left>
 nnoremap <leader>aa :Ag! ''<left>
 nnoremap <leader>ac :Ag! --coffee ''<left>
+nnoremap <leader>ad :Ag! --jade ''<left>
 nnoremap <leader>ah :Ag! --haml ''<left>
 nnoremap <leader>aj :Ag! --js ''<left>
 nnoremap <leader>am :Ag! --markdown ''<left>
