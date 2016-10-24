@@ -42,6 +42,7 @@ alias cdd="cd $HOME/Desktop/"
 alias cdi="cd $HOME/Library/Mobile\ Documents/com~apple~CloudDocs"
 alias cdl='cd -'
 alias cds="cd $DOTFILES/vim/UltiSnips/"
+alias cdv='cd /Volumes'
 
 alias path="echo $(pwd) 'copied to clipboard!' && pwd | pbcopy"
 
