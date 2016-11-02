@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 tap 'homebrew/core'
 
 brew 'ack'
+brew 'aria2'
 brew 'autoconf'
 brew 'autojump'
 brew 'bash'
