@@ -32,6 +32,7 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"SideBarEnhancements",
 		"Vintage"
 	],
 	"line_padding_bottom": 2,
