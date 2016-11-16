@@ -35,7 +35,11 @@ public/stylesheets/
 # ----- Rails ----- #
 
 app/assets/javascripts/vendor/
+db/seeds/
+lib/
+public/humans.txt
 spec/fixtures/
+spec/support/
 
 # ----------------------------------------------------
 #   Files
