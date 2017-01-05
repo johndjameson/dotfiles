@@ -59,6 +59,10 @@ eval "$(gulp --completion=$SHELL_EXT)"
 
 eval "$(rbenv init - $SHELL_EXT)"
 
+# ----- SSH ----- #
+
+ssh-add -K ~/.ssh/id_rsa &> /dev/null
+
 # ----------------------------------------------------
 #   User Interface
 # ----------------------------------------------------
