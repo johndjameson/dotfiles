@@ -249,3 +249,7 @@ alias v.br="vim $DOTFILES/brew/Brewfile"
 alias v.m="cd $DOTFILES && vim vim/mappings.vim"
 alias v.v="cd $DOTFILES && vim vim/vimrc"
 alias vs="vim_search"
+
+# ----- YouTube-DL ----- #
+
+alias ytd="youtube-dl -f 'mp4/best'"
