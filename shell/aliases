@@ -29,7 +29,7 @@ alias l='ls -hloAF'
 
 # ----- Look Up ----- #
 
-alias lookup='alias | ack'
+alias '?'='alias | ack'
 
 # ----- Navigation ----- #
 
