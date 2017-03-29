@@ -1,0 +1,89 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Import Library",
+				"id": "stino_import_library",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_libraries",
+						"command": "stino_refresh_libraries"
+					},
+					{"caption": "-"},
+					{
+						"caption": "Bounce2",
+						"id": "stino_library_Bounce2",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/Bounce2"}
+					},
+					{
+						"caption": "Bridge",
+						"id": "stino_library_Bridge",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/Bridge"}
+					},
+					{
+						"caption": "Firmata",
+						"id": "stino_library_Firmata",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/Firmata"}
+					},
+					{
+						"caption": "MIDI_Library",
+						"id": "stino_library_MIDI_Library",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/MIDI_Library"}
+					},
+					{
+						"caption": "MIDIUSB",
+						"id": "stino_library_MIDIUSB",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/MIDIUSB"}
+					},
+					{
+						"caption": "MsTimer2",
+						"id": "stino_library_MsTimer2",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/MsTimer2"}
+					},
+					{
+						"caption": "PCM",
+						"id": "stino_library_PCM",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/PCM"}
+					},
+					{
+						"caption": "SD",
+						"id": "stino_library_SD",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/SD"}
+					},
+					{
+						"caption": "SpacebrewYun",
+						"id": "stino_library_SpacebrewYun",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/SpacebrewYun"}
+					},
+					{
+						"caption": "Temboo",
+						"id": "stino_library_Temboo",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/Temboo"}
+					},
+					{
+						"caption": "TMRpcm",
+						"id": "stino_library_TMRpcm",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/TMRpcm"}
+					}
+				]
+			}
+		]
+	}
+]
