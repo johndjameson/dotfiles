@@ -140,6 +140,11 @@
 										"id": "stino_platform_1.6.17",
 										"command": "stino_install_platform",
 										"args": {"package_name": "arduino", "platform_name": "Arduino AVR Boards", "version": "1.6.17"}
+									},
+									{										"caption": "1.6.18",
+										"id": "stino_platform_1.6.18",
+										"command": "stino_install_platform",
+										"args": {"package_name": "arduino", "platform_name": "Arduino AVR Boards", "version": "1.6.18"}
 									}
 								]							},
 							{
@@ -267,6 +272,11 @@
 										"id": "stino_platform_1.6.12",
 										"command": "stino_install_platform",
 										"args": {"package_name": "arduino", "platform_name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+)", "version": "1.6.12"}
+									},
+									{										"caption": "1.6.13",
+										"id": "stino_platform_1.6.13",
+										"command": "stino_install_platform",
+										"args": {"package_name": "arduino", "platform_name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+)", "version": "1.6.13"}
 									}
 								]							},
 							{

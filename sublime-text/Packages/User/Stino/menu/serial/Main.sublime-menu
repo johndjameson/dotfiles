@@ -7,7 +7,7 @@
 		[
 			{
 				"caption": "Serial Port",
-				"id": "serial_port",
+				"id": "stino_serial_port",
 				"children":
 				[
 					{

@@ -304,8 +304,8 @@
 							}						]
 					},
 					{
-						"caption": "MIDI_Library",
-						"id": "stino_example_MIDI_Library",
+						"caption": "MIDI Library",
+						"id": "stino_example_MIDI Library",
 						"children":
 						[
 							{"caption": "-"},

@@ -17,14 +17,6 @@
 					},
 					{"caption": "-"},
 					{
-						"caption": "Sketchbook",
-						"id": "stino_package_Sketchbook",
-						"children":
-						[
-							{"caption": "-"}
-						]
-					},
-					{
 						"caption": "arduino",
 						"id": "stino_package_arduino",
 						"children":

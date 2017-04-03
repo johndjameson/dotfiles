@@ -35,8 +35,8 @@
 						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/Firmata"}
 					},
 					{
-						"caption": "MIDI_Library",
-						"id": "stino_library_MIDI_Library",
+						"caption": "MIDI Library",
+						"id": "stino_library_MIDI Library",
 						"command": "stino_import_library",
 						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/MIDI_Library"}
 					},
