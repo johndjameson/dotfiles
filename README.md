@@ -15,11 +15,6 @@ symbolic link to its packages:
 ln -s ~/.dotfiles/sublime-text/Packages/ /Users/john/Library/Application\ Support/Sublime\ Text\ 3/Packages
 ```
 
-Non-Cask Apps
--------------
-
-[Craft][craft]
-
 Miscellaneous
 -------------
 
@@ -29,24 +24,3 @@ Run these after `brew install` on a fresh OS X:
 brew services start redis
 xcode-select --install
 ```
-
-Sources
--------
-
-Based on the dotfiles of:
-
-- [Drew Barontini][drew]
-- [Ben Orenstein][ben]
-- [Nicolas Gallagher][necolas]
-- [Mathias Bynens][mathias]
-- [Harry Roberts][harry]
-- [thoughtbot][thoughtbot]
-
-
-[ben]: https://github.com/r00k/dotfiles
-[craft]: https://s3.amazonaws.com/www-assets.invisionapp.com/labs/craft/manager/CraftInstaller.zip
-[drew]: https://github.com/drewbarontini/dotfiles
-[harry]: https://github.com/csswizardry/dotfiles
-[mathias]: https://github.com/mathiasbynens/dotfiles
-[necolas]: https://github.com/necolas/dotfiles
-[thoughtbot]: https://github.com/thoughtbot/dotfiles
