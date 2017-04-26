@@ -17,6 +17,115 @@
 					},
 					{"caption": "-"},
 					{
+						"caption": "Bridge",
+						"id": "stino_library_Bridge",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge"}
+					},
+					{
+						"caption": "Esplora",
+						"id": "stino_library_Esplora",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/Esplora"}
+					},
+					{
+						"caption": "Ethernet",
+						"id": "stino_library_Ethernet",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/Ethernet"}
+					},
+					{
+						"caption": "Firmata",
+						"id": "stino_library_Firmata",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/Firmata"}
+					},
+					{
+						"caption": "GSM",
+						"id": "stino_library_GSM",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/GSM"}
+					},
+					{
+						"caption": "Keyboard",
+						"id": "stino_library_Keyboard",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/Keyboard"}
+					},
+					{
+						"caption": "LiquidCrystal",
+						"id": "stino_library_LiquidCrystal",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/LiquidCrystal"}
+					},
+					{
+						"caption": "Mouse",
+						"id": "stino_library_Mouse",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/Mouse"}
+					},
+					{
+						"caption": "Robot Control",
+						"id": "stino_library_Robot Control",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control"}
+					},
+					{
+						"caption": "Robot Motor",
+						"id": "stino_library_Robot Motor",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Motor"}
+					},
+					{
+						"caption": "Robot IR Remote",
+						"id": "stino_library_Robot IR Remote",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/RobotIRremote"}
+					},
+					{
+						"caption": "SD",
+						"id": "stino_library_SD",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/SD"}
+					},
+					{
+						"caption": "Servo",
+						"id": "stino_library_Servo",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/Servo"}
+					},
+					{
+						"caption": "SpacebrewYun",
+						"id": "stino_library_SpacebrewYun",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/SpacebrewYun"}
+					},
+					{
+						"caption": "Stepper",
+						"id": "stino_library_Stepper",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/Stepper"}
+					},
+					{
+						"caption": "Temboo",
+						"id": "stino_library_Temboo",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/Temboo"}
+					},
+					{
+						"caption": "TFT",
+						"id": "stino_library_TFT",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/TFT"}
+					},
+					{
+						"caption": "WiFi",
+						"id": "stino_library_WiFi",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/WiFi"}
+					},
+					{"caption": "-"},
+					{
 						"caption": "Bounce2",
 						"id": "stino_library_Bounce2",
 						"command": "stino_import_library",

@@ -17,6 +17,21 @@
 					},
 					{"caption": "-"},
 					{
+						"caption": "Arduino IDE",
+						"id": "stino_package_Arduino IDE",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "arduino",
+								"id": "stino_platform_arduino",
+								"command": "stino_select_platform",
+								"args": {"package_name": "Arduino IDE", "platform_name": "arduino"},
+								"checkbox": true
+							}
+						]
+					},
+					{
 						"caption": "arduino",
 						"id": "stino_package_arduino",
 						"children":

@@ -277,6 +277,11 @@
 										"id": "stino_platform_1.6.13",
 										"command": "stino_install_platform",
 										"args": {"package_name": "arduino", "platform_name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+)", "version": "1.6.13"}
+									},
+									{										"caption": "1.6.14",
+										"id": "stino_platform_1.6.14",
+										"command": "stino_install_platform",
+										"args": {"package_name": "arduino", "platform_name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+)", "version": "1.6.14"}
 									}
 								]							},
 							{
@@ -288,6 +293,22 @@
 										"id": "stino_platform_1.0.0",
 										"command": "stino_install_platform",
 										"args": {"package_name": "arduino", "platform_name": "Arduino STM32F4 Boards", "version": "1.0.0"}
+									},
+									{										"caption": "1.0.1",
+										"id": "stino_platform_1.0.1",
+										"command": "stino_install_platform",
+										"args": {"package_name": "arduino", "platform_name": "Arduino STM32F4 Boards", "version": "1.0.1"}
+									}
+								]							},
+							{
+								"caption": "Arduino NRF52 Boards",
+								"id": "stino_platform_Arduino NRF52 Boards",
+								"children":
+								[									{"caption": "-"},
+									{										"caption": "1.0.0",
+										"id": "stino_platform_1.0.0",
+										"command": "stino_install_platform",
+										"args": {"package_name": "arduino", "platform_name": "Arduino NRF52 Boards", "version": "1.0.0"}
 									}
 								]							}
 						]
@@ -441,6 +462,11 @@
 										"id": "stino_platform_1.0.7",
 										"command": "stino_install_platform",
 										"args": {"package_name": "Intel", "platform_name": "Intel Curie Boards", "version": "1.0.7"}
+									},
+									{										"caption": "2.0.2",
+										"id": "stino_platform_2.0.2",
+										"command": "stino_install_platform",
+										"args": {"package_name": "Intel", "platform_name": "Intel Curie Boards", "version": "2.0.2"}
 									}
 								]							}
 						]

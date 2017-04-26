@@ -16,6 +16,2804 @@
 						"command": "stino_refresh_examples"
 					},
 					{"caption": "-"},
+					{
+						"caption": "01.Basics",
+						"id": "stino_example_01.Basics",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "AnalogReadSerial",
+								"id": "stino_example_AnalogReadSerial",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/01.Basics/AnalogReadSerial"}
+							},
+							{
+								"caption": "BareMinimum",
+								"id": "stino_example_BareMinimum",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/01.Basics/BareMinimum"}
+							},
+							{
+								"caption": "Blink",
+								"id": "stino_example_Blink",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/01.Basics/Blink"}
+							},
+							{
+								"caption": "DigitalReadSerial",
+								"id": "stino_example_DigitalReadSerial",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/01.Basics/DigitalReadSerial"}
+							},
+							{
+								"caption": "Fade",
+								"id": "stino_example_Fade",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/01.Basics/Fade"}
+							},
+							{
+								"caption": "ReadAnalogVoltage",
+								"id": "stino_example_ReadAnalogVoltage",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/01.Basics/ReadAnalogVoltage"}
+							}						]
+					},
+					{
+						"caption": "02.Digital",
+						"id": "stino_example_02.Digital",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "BlinkWithoutDelay",
+								"id": "stino_example_BlinkWithoutDelay",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/02.Digital/BlinkWithoutDelay"}
+							},
+							{
+								"caption": "Button",
+								"id": "stino_example_Button",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/02.Digital/Button"}
+							},
+							{
+								"caption": "Debounce",
+								"id": "stino_example_Debounce",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/02.Digital/Debounce"}
+							},
+							{
+								"caption": "DigitalInputPullup",
+								"id": "stino_example_DigitalInputPullup",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/02.Digital/DigitalInputPullup"}
+							},
+							{
+								"caption": "StateChangeDetection",
+								"id": "stino_example_StateChangeDetection",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/02.Digital/StateChangeDetection"}
+							},
+							{
+								"caption": "toneKeyboard",
+								"id": "stino_example_toneKeyboard",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/02.Digital/toneKeyboard"}
+							},
+							{
+								"caption": "toneMelody",
+								"id": "stino_example_toneMelody",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/02.Digital/toneMelody"}
+							},
+							{
+								"caption": "toneMultiple",
+								"id": "stino_example_toneMultiple",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/02.Digital/toneMultiple"}
+							},
+							{
+								"caption": "tonePitchFollower",
+								"id": "stino_example_tonePitchFollower",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/02.Digital/tonePitchFollower"}
+							}						]
+					},
+					{
+						"caption": "03.Analog",
+						"id": "stino_example_03.Analog",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "AnalogInOutSerial",
+								"id": "stino_example_AnalogInOutSerial",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/03.Analog/AnalogInOutSerial"}
+							},
+							{
+								"caption": "AnalogInput",
+								"id": "stino_example_AnalogInput",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/03.Analog/AnalogInput"}
+							},
+							{
+								"caption": "AnalogWriteMega",
+								"id": "stino_example_AnalogWriteMega",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/03.Analog/AnalogWriteMega"}
+							},
+							{
+								"caption": "Calibration",
+								"id": "stino_example_Calibration",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/03.Analog/Calibration"}
+							},
+							{
+								"caption": "Fading",
+								"id": "stino_example_Fading",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/03.Analog/Fading"}
+							},
+							{
+								"caption": "Smoothing",
+								"id": "stino_example_Smoothing",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/03.Analog/Smoothing"}
+							}						]
+					},
+					{
+						"caption": "04.Communication",
+						"id": "stino_example_04.Communication",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "ASCIITable",
+								"id": "stino_example_ASCIITable",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/04.Communication/ASCIITable"}
+							},
+							{
+								"caption": "Dimmer",
+								"id": "stino_example_Dimmer",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/04.Communication/Dimmer"}
+							},
+							{
+								"caption": "Graph",
+								"id": "stino_example_Graph",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/04.Communication/Graph"}
+							},
+							{
+								"caption": "Midi",
+								"id": "stino_example_Midi",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/04.Communication/Midi"}
+							},
+							{
+								"caption": "MultiSerial",
+								"id": "stino_example_MultiSerial",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/04.Communication/MultiSerial"}
+							},
+							{
+								"caption": "PhysicalPixel",
+								"id": "stino_example_PhysicalPixel",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/04.Communication/PhysicalPixel"}
+							},
+							{
+								"caption": "ReadASCIIString",
+								"id": "stino_example_ReadASCIIString",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/04.Communication/ReadASCIIString"}
+							},
+							{
+								"caption": "SerialCallResponse",
+								"id": "stino_example_SerialCallResponse",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/04.Communication/SerialCallResponse"}
+							},
+							{
+								"caption": "SerialCallResponseASCII",
+								"id": "stino_example_SerialCallResponseASCII",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/04.Communication/SerialCallResponseASCII"}
+							},
+							{
+								"caption": "SerialEvent",
+								"id": "stino_example_SerialEvent",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/04.Communication/SerialEvent"}
+							},
+							{
+								"caption": "SerialPassthrough",
+								"id": "stino_example_SerialPassthrough",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/04.Communication/SerialPassthrough"}
+							},
+							{
+								"caption": "VirtualColorMixer",
+								"id": "stino_example_VirtualColorMixer",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/04.Communication/VirtualColorMixer"}
+							}						]
+					},
+					{
+						"caption": "05.Control",
+						"id": "stino_example_05.Control",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "Arrays",
+								"id": "stino_example_Arrays",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/05.Control/Arrays"}
+							},
+							{
+								"caption": "ForLoopIteration",
+								"id": "stino_example_ForLoopIteration",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/05.Control/ForLoopIteration"}
+							},
+							{
+								"caption": "IfStatementConditional",
+								"id": "stino_example_IfStatementConditional",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/05.Control/IfStatementConditional"}
+							},
+							{
+								"caption": "switchCase",
+								"id": "stino_example_switchCase",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/05.Control/switchCase"}
+							},
+							{
+								"caption": "switchCase2",
+								"id": "stino_example_switchCase2",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/05.Control/switchCase2"}
+							},
+							{
+								"caption": "WhileStatementConditional",
+								"id": "stino_example_WhileStatementConditional",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/05.Control/WhileStatementConditional"}
+							}						]
+					},
+					{
+						"caption": "06.Sensors",
+						"id": "stino_example_06.Sensors",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "ADXL3xx",
+								"id": "stino_example_ADXL3xx",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/06.Sensors/ADXL3xx"}
+							},
+							{
+								"caption": "Knock",
+								"id": "stino_example_Knock",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/06.Sensors/Knock"}
+							},
+							{
+								"caption": "Memsic2125",
+								"id": "stino_example_Memsic2125",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/06.Sensors/Memsic2125"}
+							},
+							{
+								"caption": "Ping",
+								"id": "stino_example_Ping",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/06.Sensors/Ping"}
+							}						]
+					},
+					{
+						"caption": "07.Display",
+						"id": "stino_example_07.Display",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "barGraph",
+								"id": "stino_example_barGraph",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/07.Display/barGraph"}
+							},
+							{
+								"caption": "RowColumnScanning",
+								"id": "stino_example_RowColumnScanning",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/07.Display/RowColumnScanning"}
+							}						]
+					},
+					{
+						"caption": "08.Strings",
+						"id": "stino_example_08.Strings",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "CharacterAnalysis",
+								"id": "stino_example_CharacterAnalysis",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/08.Strings/CharacterAnalysis"}
+							},
+							{
+								"caption": "StringAdditionOperator",
+								"id": "stino_example_StringAdditionOperator",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/08.Strings/StringAdditionOperator"}
+							},
+							{
+								"caption": "StringAppendOperator",
+								"id": "stino_example_StringAppendOperator",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/08.Strings/StringAppendOperator"}
+							},
+							{
+								"caption": "StringCaseChanges",
+								"id": "stino_example_StringCaseChanges",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/08.Strings/StringCaseChanges"}
+							},
+							{
+								"caption": "StringCharacters",
+								"id": "stino_example_StringCharacters",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/08.Strings/StringCharacters"}
+							},
+							{
+								"caption": "StringComparisonOperators",
+								"id": "stino_example_StringComparisonOperators",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/08.Strings/StringComparisonOperators"}
+							},
+							{
+								"caption": "StringConstructors",
+								"id": "stino_example_StringConstructors",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/08.Strings/StringConstructors"}
+							},
+							{
+								"caption": "StringIndexOf",
+								"id": "stino_example_StringIndexOf",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/08.Strings/StringIndexOf"}
+							},
+							{
+								"caption": "StringLength",
+								"id": "stino_example_StringLength",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/08.Strings/StringLength"}
+							},
+							{
+								"caption": "StringLengthTrim",
+								"id": "stino_example_StringLengthTrim",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/08.Strings/StringLengthTrim"}
+							},
+							{
+								"caption": "StringReplace",
+								"id": "stino_example_StringReplace",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/08.Strings/StringReplace"}
+							},
+							{
+								"caption": "StringStartsWithEndsWith",
+								"id": "stino_example_StringStartsWithEndsWith",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/08.Strings/StringStartsWithEndsWith"}
+							},
+							{
+								"caption": "StringSubstring",
+								"id": "stino_example_StringSubstring",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/08.Strings/StringSubstring"}
+							},
+							{
+								"caption": "StringToInt",
+								"id": "stino_example_StringToInt",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/08.Strings/StringToInt"}
+							}						]
+					},
+					{
+						"caption": "09.USB",
+						"id": "stino_example_09.USB",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "Keyboard",
+								"id": "stino_example_Keyboard",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "KeyboardLogout",
+										"id": "stino_example_KeyboardLogout",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/09.USB/Keyboard/KeyboardLogout"}
+									},
+									{
+										"caption": "KeyboardMessage",
+										"id": "stino_example_KeyboardMessage",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/09.USB/Keyboard/KeyboardMessage"}
+									},
+									{
+										"caption": "KeyboardReprogram",
+										"id": "stino_example_KeyboardReprogram",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/09.USB/Keyboard/KeyboardReprogram"}
+									},
+									{
+										"caption": "KeyboardSerial",
+										"id": "stino_example_KeyboardSerial",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/09.USB/Keyboard/KeyboardSerial"}
+									}								]
+							},
+							{
+								"caption": "KeyboardAndMouseControl",
+								"id": "stino_example_KeyboardAndMouseControl",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/09.USB/KeyboardAndMouseControl"}
+							},
+							{
+								"caption": "Mouse",
+								"id": "stino_example_Mouse",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "ButtonMouseControl",
+										"id": "stino_example_ButtonMouseControl",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/09.USB/Mouse/ButtonMouseControl"}
+									},
+									{
+										"caption": "JoystickMouseControl",
+										"id": "stino_example_JoystickMouseControl",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/09.USB/Mouse/JoystickMouseControl"}
+									}								]
+							}						]
+					},
+					{
+						"caption": "10.StarterKit_BasicKit",
+						"id": "stino_example_10.StarterKit_BasicKit",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "p02_SpaceshipInterface",
+								"id": "stino_example_p02_SpaceshipInterface",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/10.StarterKit_BasicKit/p02_SpaceshipInterface"}
+							},
+							{
+								"caption": "p03_LoveOMeter",
+								"id": "stino_example_p03_LoveOMeter",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/10.StarterKit_BasicKit/p03_LoveOMeter"}
+							},
+							{
+								"caption": "p04_ColorMixingLamp",
+								"id": "stino_example_p04_ColorMixingLamp",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/10.StarterKit_BasicKit/p04_ColorMixingLamp"}
+							},
+							{
+								"caption": "p05_ServoMoodIndicator",
+								"id": "stino_example_p05_ServoMoodIndicator",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/10.StarterKit_BasicKit/p05_ServoMoodIndicator"}
+							},
+							{
+								"caption": "p06_LightTheremin",
+								"id": "stino_example_p06_LightTheremin",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/10.StarterKit_BasicKit/p06_LightTheremin"}
+							},
+							{
+								"caption": "p07_Keyboard",
+								"id": "stino_example_p07_Keyboard",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/10.StarterKit_BasicKit/p07_Keyboard"}
+							},
+							{
+								"caption": "p08_DigitalHourglass",
+								"id": "stino_example_p08_DigitalHourglass",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/10.StarterKit_BasicKit/p08_DigitalHourglass"}
+							},
+							{
+								"caption": "p09_MotorizedPinwheel",
+								"id": "stino_example_p09_MotorizedPinwheel",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/10.StarterKit_BasicKit/p09_MotorizedPinwheel"}
+							},
+							{
+								"caption": "p10_Zoetrope",
+								"id": "stino_example_p10_Zoetrope",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/10.StarterKit_BasicKit/p10_Zoetrope"}
+							},
+							{
+								"caption": "p11_CrystalBall",
+								"id": "stino_example_p11_CrystalBall",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/10.StarterKit_BasicKit/p11_CrystalBall"}
+							},
+							{
+								"caption": "p12_KnockLock",
+								"id": "stino_example_p12_KnockLock",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/10.StarterKit_BasicKit/p12_KnockLock"}
+							},
+							{
+								"caption": "p13_TouchSensorLamp",
+								"id": "stino_example_p13_TouchSensorLamp",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/10.StarterKit_BasicKit/p13_TouchSensorLamp"}
+							},
+							{
+								"caption": "p14_TweakTheArduinoLogo",
+								"id": "stino_example_p14_TweakTheArduinoLogo",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/10.StarterKit_BasicKit/p14_TweakTheArduinoLogo"}
+							},
+							{
+								"caption": "p15_HackingButtons",
+								"id": "stino_example_p15_HackingButtons",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/10.StarterKit_BasicKit/p15_HackingButtons"}
+							}						]
+					},
+					{
+						"caption": "11.ArduinoISP",
+						"id": "stino_example_11.ArduinoISP",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "ArduinoISP",
+								"id": "stino_example_ArduinoISP",
+								"command": "stino_open_example",
+								"args": {"example_path": "/applications/Arduino.app/Contents/Java/examples/11.ArduinoISP/ArduinoISP"}
+							}						]
+					},
+					{"caption": "-"},
+					{
+						"caption": "Bridge",
+						"id": "stino_example_Bridge",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "Bridge",
+										"id": "stino_example_Bridge",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/Bridge"}
+									},
+									{
+										"caption": "ConsoleAsciiTable",
+										"id": "stino_example_ConsoleAsciiTable",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/ConsoleAsciiTable"}
+									},
+									{
+										"caption": "ConsolePixel",
+										"id": "stino_example_ConsolePixel",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/ConsolePixel"}
+									},
+									{
+										"caption": "ConsoleRead",
+										"id": "stino_example_ConsoleRead",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/ConsoleRead"}
+									},
+									{
+										"caption": "Datalogger",
+										"id": "stino_example_Datalogger",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/Datalogger"}
+									},
+									{
+										"caption": "FileWriteScript",
+										"id": "stino_example_FileWriteScript",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/FileWriteScript"}
+									},
+									{
+										"caption": "HttpClient",
+										"id": "stino_example_HttpClient",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/HttpClient"}
+									},
+									{
+										"caption": "HttpClientConsole",
+										"id": "stino_example_HttpClientConsole",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/HttpClientConsole"}
+									},
+									{
+										"caption": "MailboxReadMessage",
+										"id": "stino_example_MailboxReadMessage",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/MailboxReadMessage"}
+									},
+									{
+										"caption": "Process",
+										"id": "stino_example_Process",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/Process"}
+									},
+									{
+										"caption": "RemoteDueBlink",
+										"id": "stino_example_RemoteDueBlink",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/RemoteDueBlink"}
+									},
+									{
+										"caption": "ShellCommands",
+										"id": "stino_example_ShellCommands",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/ShellCommands"}
+									},
+									{
+										"caption": "TemperatureWebPanel",
+										"id": "stino_example_TemperatureWebPanel",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/TemperatureWebPanel"}
+									},
+									{
+										"caption": "TimeCheck",
+										"id": "stino_example_TimeCheck",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/TimeCheck"}
+									},
+									{
+										"caption": "WiFiStatus",
+										"id": "stino_example_WiFiStatus",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/WiFiStatus"}
+									},
+									{
+										"caption": "YunFirstConfig",
+										"id": "stino_example_YunFirstConfig",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/YunFirstConfig"}
+									},
+									{
+										"caption": "YunSerialTerminal",
+										"id": "stino_example_YunSerialTerminal",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Bridge/examples/YunSerialTerminal"}
+									}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "Esplora",
+						"id": "stino_example_Esplora",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "Beginners",
+										"id": "stino_example_Beginners",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "EsploraAccelerometer",
+												"id": "stino_example_EsploraAccelerometer",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraAccelerometer"}
+											},
+											{
+												"caption": "EsploraBlink",
+												"id": "stino_example_EsploraBlink",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraBlink"}
+											},
+											{
+												"caption": "EsploraJoystickMouse",
+												"id": "stino_example_EsploraJoystickMouse",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraJoystickMouse"}
+											},
+											{
+												"caption": "EsploraLedShow",
+												"id": "stino_example_EsploraLedShow",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraLedShow"}
+											},
+											{
+												"caption": "EsploraLedShow2",
+												"id": "stino_example_EsploraLedShow2",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraLedShow2"}
+											},
+											{
+												"caption": "EsploraLightCalibrator",
+												"id": "stino_example_EsploraLightCalibrator",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraLightCalibrator"}
+											},
+											{
+												"caption": "EsploraMusic",
+												"id": "stino_example_EsploraMusic",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraMusic"}
+											},
+											{
+												"caption": "EsploraSoundSensor",
+												"id": "stino_example_EsploraSoundSensor",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraSoundSensor"}
+											},
+											{
+												"caption": "EsploraTemperatureSensor",
+												"id": "stino_example_EsploraTemperatureSensor",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Esplora/examples/Beginners/EsploraTemperatureSensor"}
+											}										]
+									},
+									{
+										"caption": "Experts",
+										"id": "stino_example_Experts",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "EsploraKart",
+												"id": "stino_example_EsploraKart",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Esplora/examples/Experts/EsploraKart"}
+											},
+											{
+												"caption": "EsploraPong",
+												"id": "stino_example_EsploraPong",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Esplora/examples/Experts/EsploraPong"}
+											},
+											{
+												"caption": "EsploraRemote",
+												"id": "stino_example_EsploraRemote",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Esplora/examples/Experts/EsploraRemote"}
+											},
+											{
+												"caption": "EsploraTable",
+												"id": "stino_example_EsploraTable",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Esplora/examples/Experts/EsploraTable"}
+											}										]
+									}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "Ethernet",
+						"id": "stino_example_Ethernet",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "AdvancedChatServer",
+										"id": "stino_example_AdvancedChatServer",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Ethernet/examples/AdvancedChatServer"}
+									},
+									{
+										"caption": "BarometricPressureWebServer",
+										"id": "stino_example_BarometricPressureWebServer",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Ethernet/examples/BarometricPressureWebServer"}
+									},
+									{
+										"caption": "ChatServer",
+										"id": "stino_example_ChatServer",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Ethernet/examples/ChatServer"}
+									},
+									{
+										"caption": "DhcpAddressPrinter",
+										"id": "stino_example_DhcpAddressPrinter",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Ethernet/examples/DhcpAddressPrinter"}
+									},
+									{
+										"caption": "DhcpChatServer",
+										"id": "stino_example_DhcpChatServer",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Ethernet/examples/DhcpChatServer"}
+									},
+									{
+										"caption": "TelnetClient",
+										"id": "stino_example_TelnetClient",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Ethernet/examples/TelnetClient"}
+									},
+									{
+										"caption": "UdpNtpClient",
+										"id": "stino_example_UdpNtpClient",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Ethernet/examples/UdpNtpClient"}
+									},
+									{
+										"caption": "UDPSendReceiveString",
+										"id": "stino_example_UDPSendReceiveString",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Ethernet/examples/UDPSendReceiveString"}
+									},
+									{
+										"caption": "WebClient",
+										"id": "stino_example_WebClient",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Ethernet/examples/WebClient"}
+									},
+									{
+										"caption": "WebClientRepeating",
+										"id": "stino_example_WebClientRepeating",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Ethernet/examples/WebClientRepeating"}
+									},
+									{
+										"caption": "WebServer",
+										"id": "stino_example_WebServer",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Ethernet/examples/WebServer"}
+									}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "utility",
+										"id": "stino_example_utility",
+										"children":
+										[
+											{"caption": "-"}										]
+									}								]
+							}						]
+					},
+					{
+						"caption": "Firmata",
+						"id": "stino_example_Firmata",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "AllInputsFirmata",
+										"id": "stino_example_AllInputsFirmata",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Firmata/examples/AllInputsFirmata"}
+									},
+									{
+										"caption": "AnalogFirmata",
+										"id": "stino_example_AnalogFirmata",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Firmata/examples/AnalogFirmata"}
+									},
+									{
+										"caption": "EchoString",
+										"id": "stino_example_EchoString",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Firmata/examples/EchoString"}
+									},
+									{
+										"caption": "OldStandardFirmata",
+										"id": "stino_example_OldStandardFirmata",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Firmata/examples/OldStandardFirmata"}
+									},
+									{
+										"caption": "ServoFirmata",
+										"id": "stino_example_ServoFirmata",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Firmata/examples/ServoFirmata"}
+									},
+									{
+										"caption": "SimpleAnalogFirmata",
+										"id": "stino_example_SimpleAnalogFirmata",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Firmata/examples/SimpleAnalogFirmata"}
+									},
+									{
+										"caption": "SimpleDigitalFirmata",
+										"id": "stino_example_SimpleDigitalFirmata",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Firmata/examples/SimpleDigitalFirmata"}
+									},
+									{
+										"caption": "StandardFirmata",
+										"id": "stino_example_StandardFirmata",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmata"}
+									},
+									{
+										"caption": "StandardFirmataBLE",
+										"id": "stino_example_StandardFirmataBLE",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataBLE"}
+									},
+									{
+										"caption": "StandardFirmataChipKIT",
+										"id": "stino_example_StandardFirmataChipKIT",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataChipKIT"}
+									},
+									{
+										"caption": "StandardFirmataEthernet",
+										"id": "stino_example_StandardFirmataEthernet",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataEthernet"}
+									},
+									{
+										"caption": "StandardFirmataPlus",
+										"id": "stino_example_StandardFirmataPlus",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataPlus"}
+									},
+									{
+										"caption": "StandardFirmataWiFi",
+										"id": "stino_example_StandardFirmataWiFi",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Firmata/examples/StandardFirmataWiFi"}
+									}								]
+							},
+							{
+								"caption": "extras",
+								"id": "stino_example_extras",
+								"children":
+								[
+									{"caption": "-"}								]
+							},
+							{
+								"caption": "test",
+								"id": "stino_example_test",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "firmata_test",
+										"id": "stino_example_firmata_test",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Firmata/test/firmata_test"}
+									}								]
+							},
+							{
+								"caption": "utility",
+								"id": "stino_example_utility",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "GSM",
+						"id": "stino_example_GSM",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "GsmWebClient",
+										"id": "stino_example_GsmWebClient",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/GSM/examples/GsmWebClient"}
+									},
+									{
+										"caption": "GsmWebServer",
+										"id": "stino_example_GsmWebServer",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/GSM/examples/GsmWebServer"}
+									},
+									{
+										"caption": "MakeVoiceCall",
+										"id": "stino_example_MakeVoiceCall",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/GSM/examples/MakeVoiceCall"}
+									},
+									{
+										"caption": "ReceiveSMS",
+										"id": "stino_example_ReceiveSMS",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/GSM/examples/ReceiveSMS"}
+									},
+									{
+										"caption": "ReceiveVoiceCall",
+										"id": "stino_example_ReceiveVoiceCall",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/GSM/examples/ReceiveVoiceCall"}
+									},
+									{
+										"caption": "SendSMS",
+										"id": "stino_example_SendSMS",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/GSM/examples/SendSMS"}
+									},
+									{
+										"caption": "Tools",
+										"id": "stino_example_Tools",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "BandManagement",
+												"id": "stino_example_BandManagement",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/GSM/examples/Tools/BandManagement"}
+											},
+											{
+												"caption": "GsmScanNetworks",
+												"id": "stino_example_GsmScanNetworks",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/GSM/examples/Tools/GsmScanNetworks"}
+											},
+											{
+												"caption": "PinManagement",
+												"id": "stino_example_PinManagement",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/GSM/examples/Tools/PinManagement"}
+											},
+											{
+												"caption": "TestGPRS",
+												"id": "stino_example_TestGPRS",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/GSM/examples/Tools/TestGPRS"}
+											},
+											{
+												"caption": "TestModem",
+												"id": "stino_example_TestModem",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/GSM/examples/Tools/TestModem"}
+											},
+											{
+												"caption": "TestWebServer",
+												"id": "stino_example_TestWebServer",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/GSM/examples/Tools/TestWebServer"}
+											}										]
+									}								]
+							},
+							{
+								"caption": "extras",
+								"id": "stino_example_extras",
+								"children":
+								[
+									{"caption": "-"}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "Keyboard",
+						"id": "stino_example_Keyboard",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "LiquidCrystal",
+						"id": "stino_example_LiquidCrystal",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "Autoscroll",
+										"id": "stino_example_Autoscroll",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/Autoscroll"}
+									},
+									{
+										"caption": "Blink",
+										"id": "stino_example_Blink",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/Blink"}
+									},
+									{
+										"caption": "Cursor",
+										"id": "stino_example_Cursor",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/Cursor"}
+									},
+									{
+										"caption": "CustomCharacter",
+										"id": "stino_example_CustomCharacter",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/CustomCharacter"}
+									},
+									{
+										"caption": "Display",
+										"id": "stino_example_Display",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/Display"}
+									},
+									{
+										"caption": "HelloWorld",
+										"id": "stino_example_HelloWorld",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/HelloWorld"}
+									},
+									{
+										"caption": "Scroll",
+										"id": "stino_example_Scroll",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/Scroll"}
+									},
+									{
+										"caption": "SerialDisplay",
+										"id": "stino_example_SerialDisplay",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/SerialDisplay"}
+									},
+									{
+										"caption": "setCursor",
+										"id": "stino_example_setCursor",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/setCursor"}
+									},
+									{
+										"caption": "TextDirection",
+										"id": "stino_example_TextDirection",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/LiquidCrystal/examples/TextDirection"}
+									}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "Mouse",
+						"id": "stino_example_Mouse",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "Robot Control",
+						"id": "stino_example_Robot Control",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "explore",
+										"id": "stino_example_explore",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "R01_Logo",
+												"id": "stino_example_R01_Logo",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R01_Logo"}
+											},
+											{
+												"caption": "R02_Line_Follow",
+												"id": "stino_example_R02_Line_Follow",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R02_Line_Follow"}
+											},
+											{
+												"caption": "R03_Disco_Bot",
+												"id": "stino_example_R03_Disco_Bot",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R03_Disco_Bot"}
+											},
+											{
+												"caption": "R04_Compass",
+												"id": "stino_example_R04_Compass",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R04_Compass"}
+											},
+											{
+												"caption": "R05_Inputs",
+												"id": "stino_example_R05_Inputs",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R05_Inputs"}
+											},
+											{
+												"caption": "R06_Wheel_Calibration",
+												"id": "stino_example_R06_Wheel_Calibration",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R06_Wheel_Calibration"}
+											},
+											{
+												"caption": "R07_Runaway_Robot",
+												"id": "stino_example_R07_Runaway_Robot",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R07_Runaway_Robot"}
+											},
+											{
+												"caption": "R08_Remote_Control",
+												"id": "stino_example_R08_Remote_Control",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R08_Remote_Control"}
+											},
+											{
+												"caption": "R09_Picture_Browser",
+												"id": "stino_example_R09_Picture_Browser",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R09_Picture_Browser"}
+											},
+											{
+												"caption": "R10_Rescue",
+												"id": "stino_example_R10_Rescue",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R10_Rescue"}
+											},
+											{
+												"caption": "R11_Hello_User",
+												"id": "stino_example_R11_Hello_User",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/explore/R11_Hello_User"}
+											}										]
+									},
+									{
+										"caption": "learn",
+										"id": "stino_example_learn",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "AllIOPorts",
+												"id": "stino_example_AllIOPorts",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/AllIOPorts"}
+											},
+											{
+												"caption": "Beep",
+												"id": "stino_example_Beep",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/Beep"}
+											},
+											{
+												"caption": "CleanEEPROM",
+												"id": "stino_example_CleanEEPROM",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/CleanEEPROM"}
+											},
+											{
+												"caption": "Compass",
+												"id": "stino_example_Compass",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/Compass"}
+											},
+											{
+												"caption": "IRArray",
+												"id": "stino_example_IRArray",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/IRArray"}
+											},
+											{
+												"caption": "keyboardTest",
+												"id": "stino_example_keyboardTest",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/keyboardTest"}
+											},
+											{
+												"caption": "LCDDebugPrint",
+												"id": "stino_example_LCDDebugPrint",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/LCDDebugPrint"}
+											},
+											{
+												"caption": "LCDPrint",
+												"id": "stino_example_LCDPrint",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/LCDPrint"}
+											},
+											{
+												"caption": "LCDWriteText",
+												"id": "stino_example_LCDWriteText",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/LCDWriteText"}
+											},
+											{
+												"caption": "LineFollowWithPause",
+												"id": "stino_example_LineFollowWithPause",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/LineFollowWithPause"}
+											},
+											{
+												"caption": "Melody",
+												"id": "stino_example_Melody",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/Melody"}
+											},
+											{
+												"caption": "MotorTest",
+												"id": "stino_example_MotorTest",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/MotorTest"}
+											},
+											{
+												"caption": "SpeedByPotentiometer",
+												"id": "stino_example_SpeedByPotentiometer",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/SpeedByPotentiometer"}
+											},
+											{
+												"caption": "TurnTest",
+												"id": "stino_example_TurnTest",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Control/examples/learn/TurnTest"}
+											}										]
+									}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "utility",
+										"id": "stino_example_utility",
+										"children":
+										[
+											{"caption": "-"}										]
+									}								]
+							}						]
+					},
+					{
+						"caption": "Robot Motor",
+						"id": "stino_example_Robot Motor",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "Robot_IR_Array_Test",
+										"id": "stino_example_Robot_IR_Array_Test",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Motor/examples/Robot_IR_Array_Test"}
+									},
+									{
+										"caption": "Robot_Motor_Core",
+										"id": "stino_example_Robot_Motor_Core",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Robot_Motor/examples/Robot_Motor_Core"}
+									}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "Robot IR Remote",
+						"id": "stino_example_Robot IR Remote",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "extras",
+								"id": "stino_example_extras",
+								"children":
+								[
+									{"caption": "-"}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "SD",
+						"id": "stino_example_SD",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "CardInfo",
+										"id": "stino_example_CardInfo",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/SD/examples/CardInfo"}
+									},
+									{
+										"caption": "Datalogger",
+										"id": "stino_example_Datalogger",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/SD/examples/Datalogger"}
+									},
+									{
+										"caption": "DumpFile",
+										"id": "stino_example_DumpFile",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/SD/examples/DumpFile"}
+									},
+									{
+										"caption": "Files",
+										"id": "stino_example_Files",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/SD/examples/Files"}
+									},
+									{
+										"caption": "listfiles",
+										"id": "stino_example_listfiles",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/SD/examples/listfiles"}
+									},
+									{
+										"caption": "ReadWrite",
+										"id": "stino_example_ReadWrite",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/SD/examples/ReadWrite"}
+									}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "utility",
+										"id": "stino_example_utility",
+										"children":
+										[
+											{"caption": "-"}										]
+									}								]
+							}						]
+					},
+					{
+						"caption": "Servo",
+						"id": "stino_example_Servo",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "Knob",
+										"id": "stino_example_Knob",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Servo/examples/Knob"}
+									},
+									{
+										"caption": "Sweep",
+										"id": "stino_example_Sweep",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Servo/examples/Sweep"}
+									}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "avr",
+										"id": "stino_example_avr",
+										"children":
+										[
+											{"caption": "-"}										]
+									},
+									{
+										"caption": "sam",
+										"id": "stino_example_sam",
+										"children":
+										[
+											{"caption": "-"}										]
+									},
+									{
+										"caption": "samd",
+										"id": "stino_example_samd",
+										"children":
+										[
+											{"caption": "-"}										]
+									}								]
+							}						]
+					},
+					{
+						"caption": "SpacebrewYun",
+						"id": "stino_example_SpacebrewYun",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "inputOutput",
+										"id": "stino_example_inputOutput",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/SpacebrewYun/examples/inputOutput"}
+									},
+									{
+										"caption": "spacebrewBoolean",
+										"id": "stino_example_spacebrewBoolean",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/SpacebrewYun/examples/spacebrewBoolean"}
+									},
+									{
+										"caption": "spacebrewRange",
+										"id": "stino_example_spacebrewRange",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/SpacebrewYun/examples/spacebrewRange"}
+									},
+									{
+										"caption": "spacebrewString",
+										"id": "stino_example_spacebrewString",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/SpacebrewYun/examples/spacebrewString"}
+									}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "Stepper",
+						"id": "stino_example_Stepper",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "MotorKnob",
+										"id": "stino_example_MotorKnob",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Stepper/examples/MotorKnob"}
+									},
+									{
+										"caption": "stepper_oneRevolution",
+										"id": "stino_example_stepper_oneRevolution",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Stepper/examples/stepper_oneRevolution"}
+									},
+									{
+										"caption": "stepper_oneStepAtATime",
+										"id": "stino_example_stepper_oneStepAtATime",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Stepper/examples/stepper_oneStepAtATime"}
+									},
+									{
+										"caption": "stepper_speedControl",
+										"id": "stino_example_stepper_speedControl",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Stepper/examples/stepper_speedControl"}
+									}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "Temboo",
+						"id": "stino_example_Temboo",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "ArduinoYun",
+										"id": "stino_example_ArduinoYun",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "CloudControlsConfig",
+												"id": "stino_example_CloudControlsConfig",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/CloudControlsConfig"}
+											},
+											{
+												"caption": "GetYahooWeatherReport",
+												"id": "stino_example_GetYahooWeatherReport",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/GetYahooWeatherReport"}
+											},
+											{
+												"caption": "ReadATweet",
+												"id": "stino_example_ReadATweet",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/ReadATweet"}
+											},
+											{
+												"caption": "SendAnEmail",
+												"id": "stino_example_SendAnEmail",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/SendAnEmail"}
+											},
+											{
+												"caption": "SendAnSMS",
+												"id": "stino_example_SendAnSMS",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/SendAnSMS"}
+											},
+											{
+												"caption": "SendATweet",
+												"id": "stino_example_SendATweet",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/SendATweet"}
+											},
+											{
+												"caption": "SendDataToGoogleSpreadsheet",
+												"id": "stino_example_SendDataToGoogleSpreadsheet",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/SendDataToGoogleSpreadsheet"}
+											},
+											{
+												"caption": "ToxicFacilitiesSearch",
+												"id": "stino_example_ToxicFacilitiesSearch",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/ToxicFacilitiesSearch"}
+											},
+											{
+												"caption": "UpdateFacebookStatus",
+												"id": "stino_example_UpdateFacebookStatus",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/UpdateFacebookStatus"}
+											},
+											{
+												"caption": "UploadToDropbox",
+												"id": "stino_example_UploadToDropbox",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/Temboo/examples/ArduinoYun/UploadToDropbox"}
+											}										]
+									}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "utility",
+										"id": "stino_example_utility",
+										"children":
+										[
+											{"caption": "-"}										]
+									}								]
+							}						]
+					},
+					{
+						"caption": "TFT",
+						"id": "stino_example_TFT",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "Arduino",
+										"id": "stino_example_Arduino",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "TFTBitmapLogo",
+												"id": "stino_example_TFTBitmapLogo",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/TFT/examples/Arduino/TFTBitmapLogo"}
+											},
+											{
+												"caption": "TFTColorPicker",
+												"id": "stino_example_TFTColorPicker",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/TFT/examples/Arduino/TFTColorPicker"}
+											},
+											{
+												"caption": "TFTDisplayText",
+												"id": "stino_example_TFTDisplayText",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/TFT/examples/Arduino/TFTDisplayText"}
+											},
+											{
+												"caption": "TFTEtchASketch",
+												"id": "stino_example_TFTEtchASketch",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/TFT/examples/Arduino/TFTEtchASketch"}
+											},
+											{
+												"caption": "TFTGraph",
+												"id": "stino_example_TFTGraph",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/TFT/examples/Arduino/TFTGraph"}
+											},
+											{
+												"caption": "TFTPong",
+												"id": "stino_example_TFTPong",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/TFT/examples/Arduino/TFTPong"}
+											}										]
+									},
+									{
+										"caption": "Esplora",
+										"id": "stino_example_Esplora",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "EsploraTFTBitmapLogo",
+												"id": "stino_example_EsploraTFTBitmapLogo",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/TFT/examples/Esplora/EsploraTFTBitmapLogo"}
+											},
+											{
+												"caption": "EsploraTFTColorPicker",
+												"id": "stino_example_EsploraTFTColorPicker",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/TFT/examples/Esplora/EsploraTFTColorPicker"}
+											},
+											{
+												"caption": "EsploraTFTEtchASketch",
+												"id": "stino_example_EsploraTFTEtchASketch",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/TFT/examples/Esplora/EsploraTFTEtchASketch"}
+											},
+											{
+												"caption": "EsploraTFTGraph",
+												"id": "stino_example_EsploraTFTGraph",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/TFT/examples/Esplora/EsploraTFTGraph"}
+											},
+											{
+												"caption": "EsploraTFTHorizon",
+												"id": "stino_example_EsploraTFTHorizon",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/TFT/examples/Esplora/EsploraTFTHorizon"}
+											},
+											{
+												"caption": "EsploraTFTPong",
+												"id": "stino_example_EsploraTFTPong",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/TFT/examples/Esplora/EsploraTFTPong"}
+											},
+											{
+												"caption": "EsploraTFTTemp",
+												"id": "stino_example_EsploraTFTTemp",
+												"command": "stino_open_example",
+												"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/TFT/examples/Esplora/EsploraTFTTemp"}
+											}										]
+									}								]
+							},
+							{
+								"caption": "extras",
+								"id": "stino_example_extras",
+								"children":
+								[
+									{"caption": "-"}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "utility",
+										"id": "stino_example_utility",
+										"children":
+										[
+											{"caption": "-"}										]
+									}								]
+							}						]
+					},
+					{
+						"caption": "WiFi",
+						"id": "stino_example_WiFi",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "ConnectNoEncryption",
+										"id": "stino_example_ConnectNoEncryption",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/WiFi/examples/ConnectNoEncryption"}
+									},
+									{
+										"caption": "ConnectWithWEP",
+										"id": "stino_example_ConnectWithWEP",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/WiFi/examples/ConnectWithWEP"}
+									},
+									{
+										"caption": "ConnectWithWPA",
+										"id": "stino_example_ConnectWithWPA",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/WiFi/examples/ConnectWithWPA"}
+									},
+									{
+										"caption": "ScanNetworks",
+										"id": "stino_example_ScanNetworks",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/WiFi/examples/ScanNetworks"}
+									},
+									{
+										"caption": "SimpleWebServerWiFi",
+										"id": "stino_example_SimpleWebServerWiFi",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/WiFi/examples/SimpleWebServerWiFi"}
+									},
+									{
+										"caption": "WiFiChatServer",
+										"id": "stino_example_WiFiChatServer",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/WiFi/examples/WiFiChatServer"}
+									},
+									{
+										"caption": "WiFiUdpNtpClient",
+										"id": "stino_example_WiFiUdpNtpClient",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/WiFi/examples/WiFiUdpNtpClient"}
+									},
+									{
+										"caption": "WiFiUdpSendReceiveString",
+										"id": "stino_example_WiFiUdpSendReceiveString",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/WiFi/examples/WiFiUdpSendReceiveString"}
+									},
+									{
+										"caption": "WiFiWebClient",
+										"id": "stino_example_WiFiWebClient",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/WiFi/examples/WiFiWebClient"}
+									},
+									{
+										"caption": "WiFiWebClientRepeating",
+										"id": "stino_example_WiFiWebClientRepeating",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/WiFi/examples/WiFiWebClientRepeating"}
+									},
+									{
+										"caption": "WiFiWebServer",
+										"id": "stino_example_WiFiWebServer",
+										"command": "stino_open_example",
+										"args": {"example_path": "/applications/Arduino.app/Contents/Java/libraries/WiFi/examples/WiFiWebServer"}
+									}								]
+							},
+							{
+								"caption": "extras",
+								"id": "stino_example_extras",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "binary",
+										"id": "stino_example_binary",
+										"children":
+										[
+											{"caption": "-"}										]
+									},
+									{
+										"caption": "scripts",
+										"id": "stino_example_scripts",
+										"children":
+										[
+											{"caption": "-"}										]
+									},
+									{
+										"caption": "wifi_dnld",
+										"id": "stino_example_wifi_dnld",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "Release",
+												"id": "stino_example_Release",
+												"children":
+												[
+													{"caption": "-"}												]
+											},
+											{
+												"caption": "src",
+												"id": "stino_example_src",
+												"children":
+												[
+													{"caption": "-"},
+													{
+														"caption": "CONFIG",
+														"id": "stino_example_CONFIG",
+														"children":
+														[
+															{"caption": "-"}														]
+													},
+													{
+														"caption": "Doc",
+														"id": "stino_example_Doc",
+														"children":
+														[
+															{"caption": "-"}														]
+													},
+													{
+														"caption": "SOFTWARE_FRAMEWORK",
+														"id": "stino_example_SOFTWARE_FRAMEWORK",
+														"children":
+														[
+															{"caption": "-"},
+															{
+																"caption": "ASM",
+																"id": "stino_example_ASM",
+																"children":
+																[
+																	{"caption": "-"}																]
+															},
+															{
+																"caption": "BOARDS",
+																"id": "stino_example_BOARDS",
+																"children":
+																[
+																	{"caption": "-"},
+																	{
+																		"caption": "ARDUINO",
+																		"id": "stino_example_ARDUINO",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "EVK1105",
+																		"id": "stino_example_EVK1105",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	}																]
+															},
+															{
+																"caption": "COMPONENTS",
+																"id": "stino_example_COMPONENTS",
+																"children":
+																[
+																	{"caption": "-"},
+																	{
+																		"caption": "MEMORY",
+																		"id": "stino_example_MEMORY",
+																		"children":
+																		[
+																			{"caption": "-"},
+																			{
+																				"caption": "DATA_FLASH",
+																				"id": "stino_example_DATA_FLASH",
+																				"children":
+																				[
+																					{"caption": "-"},
+																					{
+																						"caption": "AT45DBX",
+																						"id": "stino_example_AT45DBX",
+																						"children":
+																						[
+																							{"caption": "-"}																						]
+																					}																				]
+																			}																		]
+																	}																]
+															},
+															{
+																"caption": "DRIVERS",
+																"id": "stino_example_DRIVERS",
+																"children":
+																[
+																	{"caption": "-"},
+																	{
+																		"caption": "FLASHC",
+																		"id": "stino_example_FLASHC",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "GPIO",
+																		"id": "stino_example_GPIO",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "INTC",
+																		"id": "stino_example_INTC",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "PM",
+																		"id": "stino_example_PM",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "SPI",
+																		"id": "stino_example_SPI",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "USART",
+																		"id": "stino_example_USART",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	}																]
+															},
+															{
+																"caption": "SERVICES",
+																"id": "stino_example_SERVICES",
+																"children":
+																[
+																	{"caption": "-"},
+																	{
+																		"caption": "MEMORY",
+																		"id": "stino_example_MEMORY",
+																		"children":
+																		[
+																			{"caption": "-"},
+																			{
+																				"caption": "CTRL_ACCESS",
+																				"id": "stino_example_CTRL_ACCESS",
+																				"children":
+																				[
+																					{"caption": "-"}																				]
+																			}																		]
+																	}																]
+															},
+															{
+																"caption": "UTILS",
+																"id": "stino_example_UTILS",
+																"children":
+																[
+																	{"caption": "-"},
+																	{
+																		"caption": "DEBUG",
+																		"id": "stino_example_DEBUG",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "LIBS",
+																		"id": "stino_example_LIBS",
+																		"children":
+																		[
+																			{"caption": "-"},
+																			{
+																				"caption": "NEWLIB_ADDONS",
+																				"id": "stino_example_NEWLIB_ADDONS",
+																				"children":
+																				[
+																					{"caption": "-"},
+																					{
+																						"caption": "INCLUDE",
+																						"id": "stino_example_INCLUDE",
+																						"children":
+																						[
+																							{"caption": "-"}																						]
+																					}																				]
+																			}																		]
+																	},
+																	{
+																		"caption": "LINKER_SCRIPTS",
+																		"id": "stino_example_LINKER_SCRIPTS",
+																		"children":
+																		[
+																			{"caption": "-"},
+																			{
+																				"caption": "AT32UC3A",
+																				"id": "stino_example_AT32UC3A",
+																				"children":
+																				[
+																					{"caption": "-"},
+																					{
+																						"caption": "0512",
+																						"id": "stino_example_0512",
+																						"children":
+																						[
+																							{"caption": "-"},
+																							{
+																								"caption": "GCC",
+																								"id": "stino_example_GCC",
+																								"children":
+																								[
+																									{"caption": "-"}																								]
+																							}																						]
+																					},
+																					{
+																						"caption": "1256",
+																						"id": "stino_example_1256",
+																						"children":
+																						[
+																							{"caption": "-"},
+																							{
+																								"caption": "GCC",
+																								"id": "stino_example_GCC",
+																								"children":
+																								[
+																									{"caption": "-"}																								]
+																							}																						]
+																					}																				]
+																			}																		]
+																	},
+																	{
+																		"caption": "PREPROCESSOR",
+																		"id": "stino_example_PREPROCESSOR",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "STARTUP_FILES",
+																		"id": "stino_example_STARTUP_FILES",
+																		"children":
+																		[
+																			{"caption": "-"},
+																			{
+																				"caption": "GCC",
+																				"id": "stino_example_GCC",
+																				"children":
+																				[
+																					{"caption": "-"}																				]
+																			}																		]
+																	}																]
+															}														]
+													}												]
+											}										]
+									},
+									{
+										"caption": "wifiHD",
+										"id": "stino_example_wifiHD",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "Release",
+												"id": "stino_example_Release",
+												"children":
+												[
+													{"caption": "-"}												]
+											},
+											{
+												"caption": "src",
+												"id": "stino_example_src",
+												"children":
+												[
+													{"caption": "-"},
+													{
+														"caption": "CONFIG",
+														"id": "stino_example_CONFIG",
+														"children":
+														[
+															{"caption": "-"}														]
+													},
+													{
+														"caption": "SOFTWARE_FRAMEWORK",
+														"id": "stino_example_SOFTWARE_FRAMEWORK",
+														"children":
+														[
+															{"caption": "-"},
+															{
+																"caption": "ASM",
+																"id": "stino_example_ASM",
+																"children":
+																[
+																	{"caption": "-"}																]
+															},
+															{
+																"caption": "BOARDS",
+																"id": "stino_example_BOARDS",
+																"children":
+																[
+																	{"caption": "-"},
+																	{
+																		"caption": "ARDUINO",
+																		"id": "stino_example_ARDUINO",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "EVK1105",
+																		"id": "stino_example_EVK1105",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	}																]
+															},
+															{
+																"caption": "COMPONENTS",
+																"id": "stino_example_COMPONENTS",
+																"children":
+																[
+																	{"caption": "-"},
+																	{
+																		"caption": "MEMORY",
+																		"id": "stino_example_MEMORY",
+																		"children":
+																		[
+																			{"caption": "-"},
+																			{
+																				"caption": "DATA_FLASH",
+																				"id": "stino_example_DATA_FLASH",
+																				"children":
+																				[
+																					{"caption": "-"},
+																					{
+																						"caption": "AT45DBX",
+																						"id": "stino_example_AT45DBX",
+																						"children":
+																						[
+																							{"caption": "-"}																						]
+																					}																				]
+																			}																		]
+																	},
+																	{
+																		"caption": "WIFI",
+																		"id": "stino_example_WIFI",
+																		"children":
+																		[
+																			{"caption": "-"},
+																			{
+																				"caption": "HD",
+																				"id": "stino_example_HD",
+																				"children":
+																				[
+																					{"caption": "-"},
+																					{
+																						"caption": "v2.7.0",
+																						"id": "stino_example_v2.7.0",
+																						"children":
+																						[
+																							{"caption": "-"},
+																							{
+																								"caption": "UCR1",
+																								"id": "stino_example_UCR1",
+																								"children":
+																								[
+																									{"caption": "-"},
+																									{
+																										"caption": "GCC",
+																										"id": "stino_example_GCC",
+																										"children":
+																										[
+																											{"caption": "-"}																										]
+																									}																								]
+																							},
+																							{
+																								"caption": "UCR2",
+																								"id": "stino_example_UCR2",
+																								"children":
+																								[
+																									{"caption": "-"},
+																									{
+																										"caption": "GCC",
+																										"id": "stino_example_GCC",
+																										"children":
+																										[
+																											{"caption": "-"}																										]
+																									}																								]
+																							}																						]
+																					}																				]
+																			}																		]
+																	}																]
+															},
+															{
+																"caption": "DRIVERS",
+																"id": "stino_example_DRIVERS",
+																"children":
+																[
+																	{"caption": "-"},
+																	{
+																		"caption": "CPU",
+																		"id": "stino_example_CPU",
+																		"children":
+																		[
+																			{"caption": "-"},
+																			{
+																				"caption": "CYCLE_COUNTER",
+																				"id": "stino_example_CYCLE_COUNTER",
+																				"children":
+																				[
+																					{"caption": "-"}																				]
+																			}																		]
+																	},
+																	{
+																		"caption": "EBI",
+																		"id": "stino_example_EBI",
+																		"children":
+																		[
+																			{"caption": "-"},
+																			{
+																				"caption": "SMC",
+																				"id": "stino_example_SMC",
+																				"children":
+																				[
+																					{"caption": "-"}																				]
+																			}																		]
+																	},
+																	{
+																		"caption": "EIC",
+																		"id": "stino_example_EIC",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "FLASHC",
+																		"id": "stino_example_FLASHC",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "GPIO",
+																		"id": "stino_example_GPIO",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "INTC",
+																		"id": "stino_example_INTC",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "PDCA",
+																		"id": "stino_example_PDCA",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "PM",
+																		"id": "stino_example_PM",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "RTC",
+																		"id": "stino_example_RTC",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "SPI",
+																		"id": "stino_example_SPI",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "TC",
+																		"id": "stino_example_TC",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "USART",
+																		"id": "stino_example_USART",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	}																]
+															},
+															{
+																"caption": "SERVICES",
+																"id": "stino_example_SERVICES",
+																"children":
+																[
+																	{"caption": "-"},
+																	{
+																		"caption": "DELAY",
+																		"id": "stino_example_DELAY",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "LWIP",
+																		"id": "stino_example_LWIP",
+																		"children":
+																		[
+																			{"caption": "-"},
+																			{
+																				"caption": "lwip-1.3.2",
+																				"id": "stino_example_lwip-1.3.2",
+																				"children":
+																				[
+																					{"caption": "-"},
+																					{
+																						"caption": "src",
+																						"id": "stino_example_src",
+																						"children":
+																						[
+																							{"caption": "-"},
+																							{
+																								"caption": "core",
+																								"id": "stino_example_core",
+																								"children":
+																								[
+																									{"caption": "-"},
+																									{
+																										"caption": "ipv4",
+																										"id": "stino_example_ipv4",
+																										"children":
+																										[
+																											{"caption": "-"}																										]
+																									}																								]
+																							},
+																							{
+																								"caption": "include",
+																								"id": "stino_example_include",
+																								"children":
+																								[
+																									{"caption": "-"},
+																									{
+																										"caption": "ipv4",
+																										"id": "stino_example_ipv4",
+																										"children":
+																										[
+																											{"caption": "-"},
+																											{
+																												"caption": "lwip",
+																												"id": "stino_example_lwip",
+																												"children":
+																												[
+																													{"caption": "-"}																												]
+																											}																										]
+																									},
+																									{
+																										"caption": "lwip",
+																										"id": "stino_example_lwip",
+																										"children":
+																										[
+																											{"caption": "-"}																										]
+																									},
+																									{
+																										"caption": "netif",
+																										"id": "stino_example_netif",
+																										"children":
+																										[
+																											{"caption": "-"}																										]
+																									}																								]
+																							},
+																							{
+																								"caption": "netif",
+																								"id": "stino_example_netif",
+																								"children":
+																								[
+																									{"caption": "-"}																								]
+																							}																						]
+																					}																				]
+																			},
+																			{
+																				"caption": "lwip-port-1.3.2",
+																				"id": "stino_example_lwip-port-1.3.2",
+																				"children":
+																				[
+																					{"caption": "-"},
+																					{
+																						"caption": "HD",
+																						"id": "stino_example_HD",
+																						"children":
+																						[
+																							{"caption": "-"},
+																							{
+																								"caption": "if",
+																								"id": "stino_example_if",
+																								"children":
+																								[
+																									{"caption": "-"},
+																									{
+																										"caption": "include",
+																										"id": "stino_example_include",
+																										"children":
+																										[
+																											{"caption": "-"},
+																											{
+																												"caption": "arch",
+																												"id": "stino_example_arch",
+																												"children":
+																												[
+																													{"caption": "-"}																												]
+																											},
+																											{
+																												"caption": "netif",
+																												"id": "stino_example_netif",
+																												"children":
+																												[
+																													{"caption": "-"}																												]
+																											}																										]
+																									},
+																									{
+																										"caption": "netif",
+																										"id": "stino_example_netif",
+																										"children":
+																										[
+																											{"caption": "-"}																										]
+																									}																								]
+																							}																						]
+																					}																				]
+																			}																		]
+																	},
+																	{
+																		"caption": "MEMORY",
+																		"id": "stino_example_MEMORY",
+																		"children":
+																		[
+																			{"caption": "-"},
+																			{
+																				"caption": "CTRL_ACCESS",
+																				"id": "stino_example_CTRL_ACCESS",
+																				"children":
+																				[
+																					{"caption": "-"}																				]
+																			}																		]
+																	}																]
+															},
+															{
+																"caption": "UTILS",
+																"id": "stino_example_UTILS",
+																"children":
+																[
+																	{"caption": "-"},
+																	{
+																		"caption": "DEBUG",
+																		"id": "stino_example_DEBUG",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "LIBS",
+																		"id": "stino_example_LIBS",
+																		"children":
+																		[
+																			{"caption": "-"},
+																			{
+																				"caption": "NEWLIB_ADDONS",
+																				"id": "stino_example_NEWLIB_ADDONS",
+																				"children":
+																				[
+																					{"caption": "-"},
+																					{
+																						"caption": "INCLUDE",
+																						"id": "stino_example_INCLUDE",
+																						"children":
+																						[
+																							{"caption": "-"}																						]
+																					}																				]
+																			}																		]
+																	},
+																	{
+																		"caption": "LINKER_SCRIPTS",
+																		"id": "stino_example_LINKER_SCRIPTS",
+																		"children":
+																		[
+																			{"caption": "-"},
+																			{
+																				"caption": "AT32UC3A",
+																				"id": "stino_example_AT32UC3A",
+																				"children":
+																				[
+																					{"caption": "-"},
+																					{
+																						"caption": "0512",
+																						"id": "stino_example_0512",
+																						"children":
+																						[
+																							{"caption": "-"},
+																							{
+																								"caption": "GCC",
+																								"id": "stino_example_GCC",
+																								"children":
+																								[
+																									{"caption": "-"}																								]
+																							}																						]
+																					},
+																					{
+																						"caption": "1256",
+																						"id": "stino_example_1256",
+																						"children":
+																						[
+																							{"caption": "-"},
+																							{
+																								"caption": "GCC",
+																								"id": "stino_example_GCC",
+																								"children":
+																								[
+																									{"caption": "-"}																								]
+																							}																						]
+																					}																				]
+																			}																		]
+																	},
+																	{
+																		"caption": "PREPROCESSOR",
+																		"id": "stino_example_PREPROCESSOR",
+																		"children":
+																		[
+																			{"caption": "-"}																		]
+																	},
+																	{
+																		"caption": "STARTUP_FILES",
+																		"id": "stino_example_STARTUP_FILES",
+																		"children":
+																		[
+																			{"caption": "-"},
+																			{
+																				"caption": "GCC",
+																				"id": "stino_example_GCC",
+																				"children":
+																				[
+																					{"caption": "-"}																				]
+																			}																		]
+																	}																]
+															}														]
+													}												]
+											}										]
+									}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "utility",
+										"id": "stino_example_utility",
+										"children":
+										[
+											{"caption": "-"}										]
+									}								]
+							}						]
+					},
+					{"caption": "-"},
 					{"caption": "-"},
 					{
 						"caption": "Bounce2",
