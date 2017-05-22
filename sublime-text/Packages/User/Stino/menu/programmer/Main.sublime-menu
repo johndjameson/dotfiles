@@ -80,6 +80,13 @@
 						"checkbox": true
 					},
 					{
+						"caption": "BusPirate as ISP",
+						"id": "stino_programmer_BusPirate as ISP",
+						"command": "stino_select_programmer",
+						"args": {"programmer_name": "BusPirate as ISP"},
+						"checkbox": true
+					},
+					{
 						"caption": "Atmel STK500 development board",
 						"id": "stino_programmer_Atmel STK500 development board",
 						"command": "stino_select_programmer",
@@ -87,10 +94,24 @@
 						"checkbox": true
 					},
 					{
-						"caption": "BusPirate as ISP",
-						"id": "stino_programmer_BusPirate as ISP",
+						"caption": "Atmel JTAGICE3 (ISP mode)",
+						"id": "stino_programmer_Atmel JTAGICE3 (ISP mode)",
 						"command": "stino_select_programmer",
-						"args": {"programmer_name": "BusPirate as ISP"},
+						"args": {"programmer_name": "Atmel JTAGICE3 (ISP mode)"},
+						"checkbox": true
+					},
+					{
+						"caption": "Atmel JTAGICE3 (JTAG mode)",
+						"id": "stino_programmer_Atmel JTAGICE3 (JTAG mode)",
+						"command": "stino_select_programmer",
+						"args": {"programmer_name": "Atmel JTAGICE3 (JTAG mode)"},
+						"checkbox": true
+					},
+					{
+						"caption": "Atmel-ICE (AVR)",
+						"id": "stino_programmer_Atmel-ICE (AVR)",
+						"command": "stino_select_programmer",
+						"args": {"programmer_name": "Atmel-ICE (AVR)"},
 						"checkbox": true
 					}
 				]

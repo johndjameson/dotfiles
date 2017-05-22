@@ -17,6 +17,12 @@
 					},
 					{"caption": "-"},
 					{
+						"caption": "Adafruit Circuit Playground",
+						"id": "stino_library_Adafruit Circuit Playground",
+						"command": "stino_import_library",
+						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/Adafruit_CircuitPlayground"}
+					},
+					{
 						"caption": "Bridge",
 						"id": "stino_library_Bridge",
 						"command": "stino_import_library",
@@ -124,73 +130,7 @@
 						"command": "stino_import_library",
 						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/WiFi"}
 					},
-					{"caption": "-"},
-					{
-						"caption": "Bounce2",
-						"id": "stino_library_Bounce2",
-						"command": "stino_import_library",
-						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/Bounce2"}
-					},
-					{
-						"caption": "Bridge",
-						"id": "stino_library_Bridge",
-						"command": "stino_import_library",
-						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/Bridge"}
-					},
-					{
-						"caption": "Firmata",
-						"id": "stino_library_Firmata",
-						"command": "stino_import_library",
-						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/Firmata"}
-					},
-					{
-						"caption": "MIDI Library",
-						"id": "stino_library_MIDI Library",
-						"command": "stino_import_library",
-						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/MIDI_Library"}
-					},
-					{
-						"caption": "MIDIUSB",
-						"id": "stino_library_MIDIUSB",
-						"command": "stino_import_library",
-						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/MIDIUSB"}
-					},
-					{
-						"caption": "MsTimer2",
-						"id": "stino_library_MsTimer2",
-						"command": "stino_import_library",
-						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/MsTimer2"}
-					},
-					{
-						"caption": "PCM",
-						"id": "stino_library_PCM",
-						"command": "stino_import_library",
-						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/PCM"}
-					},
-					{
-						"caption": "SD",
-						"id": "stino_library_SD",
-						"command": "stino_import_library",
-						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/SD"}
-					},
-					{
-						"caption": "SpacebrewYun",
-						"id": "stino_library_SpacebrewYun",
-						"command": "stino_import_library",
-						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/SpacebrewYun"}
-					},
-					{
-						"caption": "Temboo",
-						"id": "stino_library_Temboo",
-						"command": "stino_import_library",
-						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/Temboo"}
-					},
-					{
-						"caption": "TMRpcm",
-						"id": "stino_library_TMRpcm",
-						"command": "stino_import_library",
-						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/TMRpcm"}
-					}
+					{"caption": "-"}
 				]
 			}
 		]

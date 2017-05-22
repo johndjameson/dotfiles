@@ -22,10 +22,10 @@
 					},
 					{"caption": "-"},
 					{
-						"caption": "1.6.16",
-						"id": "stino_version_1.6.16",
+						"caption": "avr",
+						"id": "stino_version_avr",
 						"command": "stino_select_version",
-						"args": {"version": "1.6.16"},
+						"args": {"version": "avr"},
 						"checkbox": true
 					}
 				]
