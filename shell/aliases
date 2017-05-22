@@ -227,8 +227,8 @@ alias rs='bundle exec rails server'
 alias rk='bundle exec rake'
 alias rkap='RAILS_ENV=development bundle exec rake assets:precompile'
 alias rkapd='rm -rf public/assets/'
-alias rkdy='bundle exec rake deploy'
 alias rkdbm='bundle exec rake db:migrate'
+alias rkdy='bundle exec rake deploy'
 alias rkj='bundle exec rake jasmine:ci'
 alias rkjw='bundle exec rake jasmine'
 alias rkt='bundle exec rake --tasks'
@@ -243,11 +243,11 @@ alias s='sublime'
 
 # ----- Vim ----- #
 
-alias v='vim_launch'
 alias v.a="cd $DOTFILES && vim shell/aliases"
 alias v.br="vim $DOTFILES/brew/Brewfile"
 alias v.m="cd $DOTFILES && vim vim/mappings.vim"
 alias v.v="cd $DOTFILES && vim vim/vimrc"
+alias v='vim_launch'
 alias vs="vim_search"
 
 # ----- YouTube-DL ----- #
