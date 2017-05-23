@@ -17230,6 +17230,11 @@
 											"id": "stino_lib_cat_name_ver_1.1.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "Pozyx", "version": "1.1.1"}
+										},
+										{											"caption": "1.1.2",
+											"id": "stino_lib_cat_name_ver_1.1.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "Pozyx", "version": "1.1.2"}
 										}
 									]								},
 									{
