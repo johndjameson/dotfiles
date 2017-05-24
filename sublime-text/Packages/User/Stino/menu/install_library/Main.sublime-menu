@@ -1739,6 +1739,22 @@
 										}
 									]								},
 									{
+									"caption": "EasyUI",
+									"id": "stino_lib_cat_name_EasyUI",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.5.0",
+											"id": "stino_lib_cat_name_ver_0.5.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "EasyUI", "version": "0.5.0"}
+										},
+										{											"caption": "0.6.0",
+											"id": "stino_lib_cat_name_ver_0.6.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "EasyUI", "version": "0.6.0"}
+										}
+									]								},
+									{
 									"caption": "EasyWebServer",
 									"id": "stino_lib_cat_name_EasyWebServer",
 									"children":
@@ -2184,6 +2200,17 @@
 								"children":
 								[									{"caption": "-"},
 									{
+									"caption": "ghaemShopSmSim",
+									"id": "stino_lib_cat_name_ghaemShopSmSim",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "3.1.0",
+											"id": "stino_lib_cat_name_ver_3.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "ghaemShopSmSim", "version": "3.1.0"}
+										}
+									]								},
+									{
 									"caption": "GoogleMapsApi",
 									"id": "stino_lib_cat_name_GoogleMapsApi",
 									"children":
@@ -2527,6 +2554,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.4",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "J1850-PWM Encoding Library", "version": "1.0.4"}
+										},
+										{											"caption": "1.0.5",
+											"id": "stino_lib_cat_name_ver_1.0.5",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "J1850-PWM Encoding Library", "version": "1.0.5"}
 										}
 									]								},
 									{
@@ -2551,6 +2583,17 @@
 								"id": "stino_lib_cat_initial_K",
 								"children":
 								[									{"caption": "-"},
+									{
+									"caption": "Kerbal Sim Pit",
+									"id": "stino_lib_cat_name_Kerbal Sim Pit",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Kerbal Sim Pit", "version": "1.0.0"}
+										}
+									]								},
 									{
 									"caption": "KONNEKTING Device Library",
 									"id": "stino_lib_cat_name_KONNEKTING Device Library",
@@ -4242,6 +4285,17 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "SparkFun MG2639 CellShield", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "StatsD",
+									"id": "stino_lib_cat_name_StatsD",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "StatsD", "version": "1.0.0"}
 										}
 									]								},
 									{
@@ -11209,6 +11263,17 @@
 										}
 									]								},
 									{
+									"caption": "EmSevenSegment",
+									"id": "stino_lib_cat_name_EmSevenSegment",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.3",
+											"id": "stino_lib_cat_name_ver_1.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "EmSevenSegment", "version": "1.0.3"}
+										}
+									]								},
+									{
 									"caption": "ESP8266 Oled Driver for SSD1306 display",
 									"id": "stino_lib_cat_name_ESP8266 Oled Driver for SSD1306 display",
 									"children":
@@ -14559,6 +14624,17 @@
 										}
 									]								},
 									{
+									"caption": "micro-ecc",
+									"id": "stino_lib_cat_name_micro-ecc",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "micro-ecc", "version": "1.0.0"}
+										}
+									]								},
+									{
 									"caption": "MicroDebug",
 									"id": "stino_lib_cat_name_MicroDebug",
 									"children":
@@ -15813,6 +15889,17 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "ADCTouch", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "ADSWeather",
+									"id": "stino_lib_cat_name_ADSWeather",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.1.0",
+											"id": "stino_lib_cat_name_ver_0.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "ADSWeather", "version": "0.1.0"}
 										}
 									]								},
 									{

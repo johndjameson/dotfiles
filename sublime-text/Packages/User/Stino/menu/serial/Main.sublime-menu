@@ -17,17 +17,17 @@
 					},
 					{"caption": "-"},
 					{
-						"caption": "/dev/cu.lpss-serial2",
-						"id": "stino_serial_/dev/cu.lpss-serial2",
-						"command": "stino_select_serial",
-						"args": {"serial_port": "/dev/cu.lpss-serial2"},
-						"checkbox": true
-					},
-					{
 						"caption": "/dev/cu.lpss-serial1",
 						"id": "stino_serial_/dev/cu.lpss-serial1",
 						"command": "stino_select_serial",
 						"args": {"serial_port": "/dev/cu.lpss-serial1"},
+						"checkbox": true
+					},
+					{
+						"caption": "/dev/cu.lpss-serial2",
+						"id": "stino_serial_/dev/cu.lpss-serial2",
+						"command": "stino_select_serial",
+						"args": {"serial_port": "/dev/cu.lpss-serial2"},
 						"checkbox": true
 					},
 					{
