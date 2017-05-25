@@ -46,10 +46,6 @@ alias cdv='cd /Volumes'
 
 alias path="echo $(pwd) 'copied to clipboard!' && pwd | pbcopy"
 
-# ----- Python ----- #
-
-alias serve='python -m SimpleHTTPServer'
-
 # ----- Rbenv ----- #
 
 alias rehash='rbenv rehash'
@@ -249,7 +245,3 @@ alias v.m="cd $DOTFILES && vim vim/mappings.vim"
 alias v.v="cd $DOTFILES && vim vim/vimrc"
 alias v='vim_launch'
 alias vs="vim_search"
-
-# ----- YouTube-DL ----- #
-
-alias ytd="youtube-dl -f 'mp4/best'"
