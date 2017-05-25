@@ -15900,6 +15900,11 @@
 											"id": "stino_lib_cat_name_ver_0.1.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "ADSWeather", "version": "0.1.0"}
+										},
+										{											"caption": "0.1.1",
+											"id": "stino_lib_cat_name_ver_0.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "ADSWeather", "version": "0.1.1"}
 										}
 									]								},
 									{
@@ -16041,6 +16046,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "BlueRobotics MS5837-30BA Library", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "BlueRobotics MS5837-30BA Library", "version": "1.0.1"}
 										}
 									]								},
 									{
