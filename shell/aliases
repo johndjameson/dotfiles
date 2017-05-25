@@ -77,6 +77,13 @@ alias bwu='bower update'
 
 alias be='bundle exec'
 
+# ----- Docker ----- #
+
+alias d='docker'
+alias dc='docker-compose'
+alias dcs='docker-compose start'
+alias dm='docker-machine'
+
 # ----- Git ----- #
 
 alias git='hub'
