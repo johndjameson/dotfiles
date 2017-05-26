@@ -186,7 +186,3 @@ autocmd BufRead,BufNewFile *.thor set filetype=ruby
 
 source ~/.dotfiles/vim/colors.vim
 source ~/.dotfiles/vim/mappings.vim
-
-if filereadable( expand( '~/.dotfiles-local/vim/vimrc' ) )
-  source ~/.dotfiles-local/vim/vimrc
-endif
