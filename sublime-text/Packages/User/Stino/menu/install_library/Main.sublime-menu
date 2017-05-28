@@ -19368,6 +19368,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.3",
 											"command": "stino_install_lib",
 											"args": {"category": "Signal Input/Output", "name": "MCP41XXX", "version": "1.0.3"}
+										},
+										{											"caption": "1.0.6",
+											"id": "stino_lib_cat_name_ver_1.0.6",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "MCP41XXX", "version": "1.0.6"}
 										}
 									]								},
 									{
