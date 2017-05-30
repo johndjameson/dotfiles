@@ -2592,6 +2592,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "Kerbal Sim Pit", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Kerbal Sim Pit", "version": "1.0.1"}
 										}
 									]								},
 									{
@@ -2730,6 +2735,11 @@
 											"id": "stino_lib_cat_name_ver_0.2.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "LoRa", "version": "0.2.1"}
+										},
+										{											"caption": "0.3.0",
+											"id": "stino_lib_cat_name_ver_0.3.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "LoRa", "version": "0.3.0"}
 										}
 									]								},
 									{
@@ -2794,6 +2804,17 @@
 											"id": "stino_lib_cat_name_ver_1.0.3",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "MakestroCloudClient", "version": "1.0.3"}
+										}
+									]								},
+									{
+									"caption": "Meeo",
+									"id": "stino_lib_cat_name_Meeo",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Meeo", "version": "1.0.0"}
 										}
 									]								},
 									{
@@ -3421,6 +3442,11 @@
 											"id": "stino_lib_cat_name_ver_8.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "PJON", "version": "8.0.0"}
+										},
+										{											"caption": "8.1.0",
+											"id": "stino_lib_cat_name_ver_8.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "PJON", "version": "8.1.0"}
 										}
 									]								},
 									{
@@ -3700,6 +3726,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "redkea", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "redkea", "version": "1.1.0"}
 										}
 									]								},
 									{
@@ -4296,6 +4327,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "StatsD", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "StatsD", "version": "1.1.0"}
 										}
 									]								},
 									{
@@ -5502,884 +5538,991 @@
 						[
 							{"caption": "-"},
 							{
-								"caption": "arduinoFFT",
-								"id": "stino_lib_cat_name_arduinoFFT",
+								"caption": "A",
+								"id": "stino_lib_cat_initial_A",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "arduinoFFT", "version": "1.0.0"}
-									},
-									{										"caption": "1.1.0",
-										"id": "stino_lib_cat_name_ver_1.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "arduinoFFT", "version": "1.1.0"}
-									}
+									{
+									"caption": "arduinoFFT",
+									"id": "stino_lib_cat_name_arduinoFFT",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "arduinoFFT", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "arduinoFFT", "version": "1.1.0"}
+										}
+									]								},
+									{
+									"caption": "ArduinoJson",
+									"id": "stino_lib_cat_name_ArduinoJson",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "4.0.0",
+											"id": "stino_lib_cat_name_ver_4.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "4.0.0"}
+										},
+										{											"caption": "5.0.0",
+											"id": "stino_lib_cat_name_ver_5.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.0"}
+										},
+										{											"caption": "5.0.1",
+											"id": "stino_lib_cat_name_ver_5.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.1"}
+										},
+										{											"caption": "5.0.2",
+											"id": "stino_lib_cat_name_ver_5.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.2"}
+										},
+										{											"caption": "5.0.3",
+											"id": "stino_lib_cat_name_ver_5.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.3"}
+										},
+										{											"caption": "5.0.4",
+											"id": "stino_lib_cat_name_ver_5.0.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.4"}
+										},
+										{											"caption": "5.0.5",
+											"id": "stino_lib_cat_name_ver_5.0.5",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.5"}
+										},
+										{											"caption": "5.0.6",
+											"id": "stino_lib_cat_name_ver_5.0.6",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.6"}
+										},
+										{											"caption": "5.0.7",
+											"id": "stino_lib_cat_name_ver_5.0.7",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.7"}
+										},
+										{											"caption": "5.0.8",
+											"id": "stino_lib_cat_name_ver_5.0.8",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.8"}
+										},
+										{											"caption": "5.1.0",
+											"id": "stino_lib_cat_name_ver_5.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.1.0"}
+										},
+										{											"caption": "5.1.0-beta.1",
+											"id": "stino_lib_cat_name_ver_5.1.0-beta.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.1.0-beta.1"}
+										},
+										{											"caption": "5.1.0-beta.2",
+											"id": "stino_lib_cat_name_ver_5.1.0-beta.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.1.0-beta.2"}
+										},
+										{											"caption": "5.1.1",
+											"id": "stino_lib_cat_name_ver_5.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.1.1"}
+										},
+										{											"caption": "5.10.0",
+											"id": "stino_lib_cat_name_ver_5.10.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.10.0"}
+										},
+										{											"caption": "5.2.0",
+											"id": "stino_lib_cat_name_ver_5.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.2.0"}
+										},
+										{											"caption": "5.3.0",
+											"id": "stino_lib_cat_name_ver_5.3.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.3.0"}
+										},
+										{											"caption": "5.4.0",
+											"id": "stino_lib_cat_name_ver_5.4.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.4.0"}
+										},
+										{											"caption": "5.5.0",
+											"id": "stino_lib_cat_name_ver_5.5.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.5.0"}
+										},
+										{											"caption": "5.5.1",
+											"id": "stino_lib_cat_name_ver_5.5.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.5.1"}
+										},
+										{											"caption": "5.6.0",
+											"id": "stino_lib_cat_name_ver_5.6.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.6.0"}
+										},
+										{											"caption": "5.6.1",
+											"id": "stino_lib_cat_name_ver_5.6.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.6.1"}
+										},
+										{											"caption": "5.6.2",
+											"id": "stino_lib_cat_name_ver_5.6.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.6.2"}
+										},
+										{											"caption": "5.6.3",
+											"id": "stino_lib_cat_name_ver_5.6.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.6.3"}
+										},
+										{											"caption": "5.6.4",
+											"id": "stino_lib_cat_name_ver_5.6.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.6.4"}
+										},
+										{											"caption": "5.6.5",
+											"id": "stino_lib_cat_name_ver_5.6.5",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.6.5"}
+										},
+										{											"caption": "5.6.6",
+											"id": "stino_lib_cat_name_ver_5.6.6",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.6.6"}
+										},
+										{											"caption": "5.6.7",
+											"id": "stino_lib_cat_name_ver_5.6.7",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.6.7"}
+										},
+										{											"caption": "5.7.0",
+											"id": "stino_lib_cat_name_ver_5.7.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.7.0"}
+										},
+										{											"caption": "5.7.1",
+											"id": "stino_lib_cat_name_ver_5.7.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.7.1"}
+										},
+										{											"caption": "5.7.2",
+											"id": "stino_lib_cat_name_ver_5.7.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.7.2"}
+										},
+										{											"caption": "5.7.3",
+											"id": "stino_lib_cat_name_ver_5.7.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.7.3"}
+										},
+										{											"caption": "5.8.0",
+											"id": "stino_lib_cat_name_ver_5.8.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.8.0"}
+										},
+										{											"caption": "5.8.1",
+											"id": "stino_lib_cat_name_ver_5.8.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.8.1"}
+										},
+										{											"caption": "5.8.2",
+											"id": "stino_lib_cat_name_ver_5.8.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.8.2"}
+										},
+										{											"caption": "5.8.3",
+											"id": "stino_lib_cat_name_ver_5.8.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.8.3"}
+										},
+										{											"caption": "5.8.4",
+											"id": "stino_lib_cat_name_ver_5.8.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.8.4"}
+										},
+										{											"caption": "5.9.0",
+											"id": "stino_lib_cat_name_ver_5.9.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.9.0"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "ArduinoJson",
-								"id": "stino_lib_cat_name_ArduinoJson",
+								"caption": "B",
+								"id": "stino_lib_cat_initial_B",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "4.0.0",
-										"id": "stino_lib_cat_name_ver_4.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "4.0.0"}
-									},
-									{										"caption": "5.0.0",
-										"id": "stino_lib_cat_name_ver_5.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.0"}
-									},
-									{										"caption": "5.0.1",
-										"id": "stino_lib_cat_name_ver_5.0.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.1"}
-									},
-									{										"caption": "5.0.2",
-										"id": "stino_lib_cat_name_ver_5.0.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.2"}
-									},
-									{										"caption": "5.0.3",
-										"id": "stino_lib_cat_name_ver_5.0.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.3"}
-									},
-									{										"caption": "5.0.4",
-										"id": "stino_lib_cat_name_ver_5.0.4",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.4"}
-									},
-									{										"caption": "5.0.5",
-										"id": "stino_lib_cat_name_ver_5.0.5",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.5"}
-									},
-									{										"caption": "5.0.6",
-										"id": "stino_lib_cat_name_ver_5.0.6",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.6"}
-									},
-									{										"caption": "5.0.7",
-										"id": "stino_lib_cat_name_ver_5.0.7",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.7"}
-									},
-									{										"caption": "5.0.8",
-										"id": "stino_lib_cat_name_ver_5.0.8",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.0.8"}
-									},
-									{										"caption": "5.1.0",
-										"id": "stino_lib_cat_name_ver_5.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.1.0"}
-									},
-									{										"caption": "5.1.0-beta.1",
-										"id": "stino_lib_cat_name_ver_5.1.0-beta.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.1.0-beta.1"}
-									},
-									{										"caption": "5.1.0-beta.2",
-										"id": "stino_lib_cat_name_ver_5.1.0-beta.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.1.0-beta.2"}
-									},
-									{										"caption": "5.1.1",
-										"id": "stino_lib_cat_name_ver_5.1.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.1.1"}
-									},
-									{										"caption": "5.10.0",
-										"id": "stino_lib_cat_name_ver_5.10.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.10.0"}
-									},
-									{										"caption": "5.2.0",
-										"id": "stino_lib_cat_name_ver_5.2.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.2.0"}
-									},
-									{										"caption": "5.3.0",
-										"id": "stino_lib_cat_name_ver_5.3.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.3.0"}
-									},
-									{										"caption": "5.4.0",
-										"id": "stino_lib_cat_name_ver_5.4.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.4.0"}
-									},
-									{										"caption": "5.5.0",
-										"id": "stino_lib_cat_name_ver_5.5.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.5.0"}
-									},
-									{										"caption": "5.5.1",
-										"id": "stino_lib_cat_name_ver_5.5.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.5.1"}
-									},
-									{										"caption": "5.6.0",
-										"id": "stino_lib_cat_name_ver_5.6.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.6.0"}
-									},
-									{										"caption": "5.6.1",
-										"id": "stino_lib_cat_name_ver_5.6.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.6.1"}
-									},
-									{										"caption": "5.6.2",
-										"id": "stino_lib_cat_name_ver_5.6.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.6.2"}
-									},
-									{										"caption": "5.6.3",
-										"id": "stino_lib_cat_name_ver_5.6.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.6.3"}
-									},
-									{										"caption": "5.6.4",
-										"id": "stino_lib_cat_name_ver_5.6.4",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.6.4"}
-									},
-									{										"caption": "5.6.5",
-										"id": "stino_lib_cat_name_ver_5.6.5",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.6.5"}
-									},
-									{										"caption": "5.6.6",
-										"id": "stino_lib_cat_name_ver_5.6.6",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.6.6"}
-									},
-									{										"caption": "5.6.7",
-										"id": "stino_lib_cat_name_ver_5.6.7",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.6.7"}
-									},
-									{										"caption": "5.7.0",
-										"id": "stino_lib_cat_name_ver_5.7.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.7.0"}
-									},
-									{										"caption": "5.7.1",
-										"id": "stino_lib_cat_name_ver_5.7.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.7.1"}
-									},
-									{										"caption": "5.7.2",
-										"id": "stino_lib_cat_name_ver_5.7.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.7.2"}
-									},
-									{										"caption": "5.7.3",
-										"id": "stino_lib_cat_name_ver_5.7.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.7.3"}
-									},
-									{										"caption": "5.8.0",
-										"id": "stino_lib_cat_name_ver_5.8.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.8.0"}
-									},
-									{										"caption": "5.8.1",
-										"id": "stino_lib_cat_name_ver_5.8.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.8.1"}
-									},
-									{										"caption": "5.8.2",
-										"id": "stino_lib_cat_name_ver_5.8.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.8.2"}
-									},
-									{										"caption": "5.8.3",
-										"id": "stino_lib_cat_name_ver_5.8.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.8.3"}
-									},
-									{										"caption": "5.8.4",
-										"id": "stino_lib_cat_name_ver_5.8.4",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.8.4"}
-									},
-									{										"caption": "5.9.0",
-										"id": "stino_lib_cat_name_ver_5.9.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.9.0"}
-									}
+									{
+									"caption": "Base64",
+									"id": "stino_lib_cat_name_Base64",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.0.1",
+											"id": "stino_lib_cat_name_ver_0.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Base64", "version": "0.0.1"}
+										}
+									]								},
+									{
+									"caption": "BitBool",
+									"id": "stino_lib_cat_name_BitBool",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.1.1",
+											"id": "stino_lib_cat_name_ver_1.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "BitBool", "version": "1.1.1"}
+										},
+										{											"caption": "1.1.2",
+											"id": "stino_lib_cat_name_ver_1.1.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "BitBool", "version": "1.1.2"}
+										},
+										{											"caption": "1.1.3",
+											"id": "stino_lib_cat_name_ver_1.1.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "BitBool", "version": "1.1.3"}
+										},
+										{											"caption": "1.2.0",
+											"id": "stino_lib_cat_name_ver_1.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "BitBool", "version": "1.2.0"}
+										}
+									]								},
+									{
+									"caption": "Boodskap Message library",
+									"id": "stino_lib_cat_name_Boodskap Message library",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Boodskap Message library", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Boodskap Message library", "version": "1.0.1"}
+										},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Boodskap Message library", "version": "1.0.2"}
+										}
+									]								},
+									{
+									"caption": "BufferUtils",
+									"id": "stino_lib_cat_name_BufferUtils",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "BufferUtils", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "BufferUtils", "version": "1.0.2"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "Base64",
-								"id": "stino_lib_cat_name_Base64",
+								"caption": "C",
+								"id": "stino_lib_cat_initial_C",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "0.0.1",
-										"id": "stino_lib_cat_name_ver_0.0.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Base64", "version": "0.0.1"}
-									}
+									{
+									"caption": "Cardinal",
+									"id": "stino_lib_cat_name_Cardinal",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Cardinal", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "CmdParser",
+									"id": "stino_lib_cat_name_CmdParser",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "CmdParser", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "CmdParser", "version": "1.1.0"}
+										},
+										{											"caption": "1.2.0",
+											"id": "stino_lib_cat_name_ver_1.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "CmdParser", "version": "1.2.0"}
+										}
+									]								},
+									{
+									"caption": "Coordinates",
+									"id": "stino_lib_cat_name_Coordinates",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Coordinates", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "CRC32",
+									"id": "stino_lib_cat_name_CRC32",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "CRC32", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "CRC32", "version": "1.0.2"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "CRC32", "version": "1.1.0"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "BitBool",
-								"id": "stino_lib_cat_name_BitBool",
+								"caption": "E",
+								"id": "stino_lib_cat_initial_E",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.1.1",
-										"id": "stino_lib_cat_name_ver_1.1.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "BitBool", "version": "1.1.1"}
-									},
-									{										"caption": "1.1.2",
-										"id": "stino_lib_cat_name_ver_1.1.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "BitBool", "version": "1.1.2"}
-									},
-									{										"caption": "1.1.3",
-										"id": "stino_lib_cat_name_ver_1.1.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "BitBool", "version": "1.1.3"}
-									},
-									{										"caption": "1.2.0",
-										"id": "stino_lib_cat_name_ver_1.2.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "BitBool", "version": "1.2.0"}
-									}
+									{
+									"caption": "Etherkit JTEncode",
+									"id": "stino_lib_cat_name_Etherkit JTEncode",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Etherkit JTEncode", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Etherkit JTEncode", "version": "1.0.1"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Etherkit JTEncode", "version": "1.1.0"}
+										},
+										{											"caption": "1.1.1",
+											"id": "stino_lib_cat_name_ver_1.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Etherkit JTEncode", "version": "1.1.1"}
+										},
+										{											"caption": "1.1.2",
+											"id": "stino_lib_cat_name_ver_1.1.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Etherkit JTEncode", "version": "1.1.2"}
+										},
+										{											"caption": "1.1.3",
+											"id": "stino_lib_cat_name_ver_1.1.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Etherkit JTEncode", "version": "1.1.3"}
+										}
+									]								},
+									{
+									"caption": "ExponentMap",
+									"id": "stino_lib_cat_name_ExponentMap",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ExponentMap", "version": "1.0.0"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "Boodskap Message library",
-								"id": "stino_lib_cat_name_Boodskap Message library",
+								"caption": "G",
+								"id": "stino_lib_cat_initial_G",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Boodskap Message library", "version": "1.0.0"}
-									},
-									{										"caption": "1.0.1",
-										"id": "stino_lib_cat_name_ver_1.0.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Boodskap Message library", "version": "1.0.1"}
-									},
-									{										"caption": "1.0.2",
-										"id": "stino_lib_cat_name_ver_1.0.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Boodskap Message library", "version": "1.0.2"}
-									}
+									{
+									"caption": "Gaussian",
+									"id": "stino_lib_cat_name_Gaussian",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.4",
+											"id": "stino_lib_cat_name_ver_1.0.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Gaussian", "version": "1.0.4"}
+										},
+										{											"caption": "1.0.5",
+											"id": "stino_lib_cat_name_ver_1.0.5",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Gaussian", "version": "1.0.5"}
+										},
+										{											"caption": "1.0.6",
+											"id": "stino_lib_cat_name_ver_1.0.6",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Gaussian", "version": "1.0.6"}
+										},
+										{											"caption": "1.0.7",
+											"id": "stino_lib_cat_name_ver_1.0.7",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Gaussian", "version": "1.0.7"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "BufferUtils",
-								"id": "stino_lib_cat_name_BufferUtils",
+								"caption": "I",
+								"id": "stino_lib_cat_initial_I",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "BufferUtils", "version": "1.0.0"}
-									},
-									{										"caption": "1.0.2",
-										"id": "stino_lib_cat_name_ver_1.0.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "BufferUtils", "version": "1.0.2"}
-									}
+									{
+									"caption": "Iobeam",
+									"id": "stino_lib_cat_name_Iobeam",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.1.0",
+											"id": "stino_lib_cat_name_ver_0.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Iobeam", "version": "0.1.0"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "Cardinal",
-								"id": "stino_lib_cat_name_Cardinal",
+								"caption": "J",
+								"id": "stino_lib_cat_initial_J",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Cardinal", "version": "1.0.0"}
-									}
+									{
+									"caption": "Json Streaming Parser",
+									"id": "stino_lib_cat_name_Json Streaming Parser",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Json Streaming Parser", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Json Streaming Parser", "version": "1.0.2"}
+										},
+										{											"caption": "1.0.3",
+											"id": "stino_lib_cat_name_ver_1.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Json Streaming Parser", "version": "1.0.3"}
+										},
+										{											"caption": "1.0.4",
+											"id": "stino_lib_cat_name_ver_1.0.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Json Streaming Parser", "version": "1.0.4"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "CmdParser",
-								"id": "stino_lib_cat_name_CmdParser",
+								"caption": "L",
+								"id": "stino_lib_cat_initial_L",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "CmdParser", "version": "1.0.0"}
-									},
-									{										"caption": "1.1.0",
-										"id": "stino_lib_cat_name_ver_1.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "CmdParser", "version": "1.1.0"}
-									},
-									{										"caption": "1.2.0",
-										"id": "stino_lib_cat_name_ver_1.2.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "CmdParser", "version": "1.2.0"}
-									}
+									{
+									"caption": "LinkedList",
+									"id": "stino_lib_cat_name_LinkedList",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.2.2",
+											"id": "stino_lib_cat_name_ver_1.2.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "LinkedList", "version": "1.2.2"}
+										},
+										{											"caption": "1.2.3",
+											"id": "stino_lib_cat_name_ver_1.2.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "LinkedList", "version": "1.2.3"}
+										}
+									]								},
+									{
+									"caption": "Lora Serialization",
+									"id": "stino_lib_cat_name_Lora Serialization",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "2.1.0",
+											"id": "stino_lib_cat_name_ver_2.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Lora Serialization", "version": "2.1.0"}
+										},
+										{											"caption": "2.2.0",
+											"id": "stino_lib_cat_name_ver_2.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Lora Serialization", "version": "2.2.0"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "Coordinates",
-								"id": "stino_lib_cat_name_Coordinates",
+								"caption": "M",
+								"id": "stino_lib_cat_initial_M",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Coordinates", "version": "1.0.0"}
-									}
+									{
+									"caption": "Madgwick",
+									"id": "stino_lib_cat_name_Madgwick",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Madgwick", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Madgwick", "version": "1.1.0"}
+										},
+										{											"caption": "1.2.0",
+											"id": "stino_lib_cat_name_ver_1.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Madgwick", "version": "1.2.0"}
+										}
+									]								},
+									{
+									"caption": "Mahony",
+									"id": "stino_lib_cat_name_Mahony",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Mahony", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Mahony", "version": "1.1.0"}
+										}
+									]								},
+									{
+									"caption": "MD_Menu",
+									"id": "stino_lib_cat_name_MD_Menu",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "MD_Menu", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "MD_TTT",
+									"id": "stino_lib_cat_name_MD_TTT",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "MD_TTT", "version": "1.0.0"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "CRC32",
-								"id": "stino_lib_cat_name_CRC32",
+								"caption": "N",
+								"id": "stino_lib_cat_initial_N",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "CRC32", "version": "1.0.0"}
-									},
-									{										"caption": "1.0.2",
-										"id": "stino_lib_cat_name_ver_1.0.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "CRC32", "version": "1.0.2"}
-									},
-									{										"caption": "1.1.0",
-										"id": "stino_lib_cat_name_ver_1.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "CRC32", "version": "1.1.0"}
-									}
+									{
+									"caption": "Neurona",
+									"id": "stino_lib_cat_name_Neurona",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Neurona", "version": "1.0.0"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "Etherkit JTEncode",
-								"id": "stino_lib_cat_name_Etherkit JTEncode",
+								"caption": "P",
+								"id": "stino_lib_cat_initial_P",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Etherkit JTEncode", "version": "1.0.0"}
-									},
-									{										"caption": "1.0.1",
-										"id": "stino_lib_cat_name_ver_1.0.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Etherkit JTEncode", "version": "1.0.1"}
-									},
-									{										"caption": "1.1.0",
-										"id": "stino_lib_cat_name_ver_1.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Etherkit JTEncode", "version": "1.1.0"}
-									},
-									{										"caption": "1.1.1",
-										"id": "stino_lib_cat_name_ver_1.1.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Etherkit JTEncode", "version": "1.1.1"}
-									},
-									{										"caption": "1.1.2",
-										"id": "stino_lib_cat_name_ver_1.1.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Etherkit JTEncode", "version": "1.1.2"}
-									},
-									{										"caption": "1.1.3",
-										"id": "stino_lib_cat_name_ver_1.1.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Etherkit JTEncode", "version": "1.1.3"}
-									}
+									{
+									"caption": "Plotter",
+									"id": "stino_lib_cat_name_Plotter",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Plotter", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Plotter", "version": "1.0.1"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Plotter", "version": "1.1.0"}
+										},
+										{											"caption": "2.0.0",
+											"id": "stino_lib_cat_name_ver_2.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Plotter", "version": "2.0.0"}
+										},
+										{											"caption": "2.1.0",
+											"id": "stino_lib_cat_name_ver_2.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Plotter", "version": "2.1.0"}
+										},
+										{											"caption": "2.2.0",
+											"id": "stino_lib_cat_name_ver_2.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Plotter", "version": "2.2.0"}
+										},
+										{											"caption": "2.2.1",
+											"id": "stino_lib_cat_name_ver_2.2.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Plotter", "version": "2.2.1"}
+										},
+										{											"caption": "2.3.0",
+											"id": "stino_lib_cat_name_ver_2.3.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Plotter", "version": "2.3.0"}
+										},
+										{											"caption": "2.3.1",
+											"id": "stino_lib_cat_name_ver_2.3.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Plotter", "version": "2.3.1"}
+										},
+										{											"caption": "2.3.2",
+											"id": "stino_lib_cat_name_ver_2.3.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Plotter", "version": "2.3.2"}
+										}
+									]								},
+									{
+									"caption": "pRNG",
+									"id": "stino_lib_cat_name_pRNG",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.2.1",
+											"id": "stino_lib_cat_name_ver_1.2.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "pRNG", "version": "1.2.1"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "ExponentMap",
-								"id": "stino_lib_cat_name_ExponentMap",
+								"caption": "Q",
+								"id": "stino_lib_cat_initial_Q",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "ExponentMap", "version": "1.0.0"}
-									}
+									{
+									"caption": "QList",
+									"id": "stino_lib_cat_name_QList",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.1.0",
+											"id": "stino_lib_cat_name_ver_0.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "QList", "version": "0.1.0"}
+										},
+										{											"caption": "0.3.0",
+											"id": "stino_lib_cat_name_ver_0.3.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "QList", "version": "0.3.0"}
+										},
+										{											"caption": "0.5.0",
+											"id": "stino_lib_cat_name_ver_0.5.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "QList", "version": "0.5.0"}
+										},
+										{											"caption": "0.5.1",
+											"id": "stino_lib_cat_name_ver_0.5.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "QList", "version": "0.5.1"}
+										}
+									]								},
+									{
+									"caption": "Queuetue Digital Balance Library",
+									"id": "stino_lib_cat_name_Queuetue Digital Balance Library",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Queuetue Digital Balance Library", "version": "1.0.2"}
+										},
+										{											"caption": "1.0.3",
+											"id": "stino_lib_cat_name_ver_1.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Queuetue Digital Balance Library", "version": "1.0.3"}
+										},
+										{											"caption": "1.0.4",
+											"id": "stino_lib_cat_name_ver_1.0.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Queuetue Digital Balance Library", "version": "1.0.4"}
+										},
+										{											"caption": "1.0.5",
+											"id": "stino_lib_cat_name_ver_1.0.5",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Queuetue Digital Balance Library", "version": "1.0.5"}
+										},
+										{											"caption": "1.0.6",
+											"id": "stino_lib_cat_name_ver_1.0.6",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Queuetue Digital Balance Library", "version": "1.0.6"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "Gaussian",
-								"id": "stino_lib_cat_name_Gaussian",
+								"caption": "R",
+								"id": "stino_lib_cat_initial_R",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.4",
-										"id": "stino_lib_cat_name_ver_1.0.4",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Gaussian", "version": "1.0.4"}
-									},
-									{										"caption": "1.0.5",
-										"id": "stino_lib_cat_name_ver_1.0.5",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Gaussian", "version": "1.0.5"}
-									},
-									{										"caption": "1.0.6",
-										"id": "stino_lib_cat_name_ver_1.0.6",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Gaussian", "version": "1.0.6"}
-									},
-									{										"caption": "1.0.7",
-										"id": "stino_lib_cat_name_ver_1.0.7",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Gaussian", "version": "1.0.7"}
-									}
+									{
+									"caption": "RBD_Threshold",
+									"id": "stino_lib_cat_name_RBD_Threshold",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "RBD_Threshold", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "RBD_Threshold", "version": "1.0.1"}
+										},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "RBD_Threshold", "version": "1.0.2"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "Iobeam",
-								"id": "stino_lib_cat_name_Iobeam",
+								"caption": "S",
+								"id": "stino_lib_cat_initial_S",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "0.1.0",
-										"id": "stino_lib_cat_name_ver_0.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Iobeam", "version": "0.1.0"}
-									}
+									{
+									"caption": "SpritzCipher",
+									"id": "stino_lib_cat_name_SpritzCipher",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.1.2",
+											"id": "stino_lib_cat_name_ver_0.1.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.1.2"}
+										},
+										{											"caption": "0.1.3",
+											"id": "stino_lib_cat_name_ver_0.1.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.1.3"}
+										},
+										{											"caption": "0.1.4",
+											"id": "stino_lib_cat_name_ver_0.1.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.1.4"}
+										},
+										{											"caption": "0.1.5",
+											"id": "stino_lib_cat_name_ver_0.1.5",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.1.5"}
+										},
+										{											"caption": "0.2.0",
+											"id": "stino_lib_cat_name_ver_0.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.2.0"}
+										},
+										{											"caption": "0.2.1",
+											"id": "stino_lib_cat_name_ver_0.2.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.2.1"}
+										},
+										{											"caption": "0.2.2",
+											"id": "stino_lib_cat_name_ver_0.2.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.2.2"}
+										},
+										{											"caption": "0.3.0",
+											"id": "stino_lib_cat_name_ver_0.3.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.3.0"}
+										},
+										{											"caption": "0.3.1",
+											"id": "stino_lib_cat_name_ver_0.3.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.3.1"}
+										},
+										{											"caption": "0.4.0",
+											"id": "stino_lib_cat_name_ver_0.4.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.4.0"}
+										},
+										{											"caption": "0.4.1",
+											"id": "stino_lib_cat_name_ver_0.4.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.4.1"}
+										},
+										{											"caption": "0.4.2",
+											"id": "stino_lib_cat_name_ver_0.4.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.4.2"}
+										},
+										{											"caption": "0.4.3",
+											"id": "stino_lib_cat_name_ver_0.4.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.4.3"}
+										},
+										{											"caption": "0.4.4",
+											"id": "stino_lib_cat_name_ver_0.4.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.4.4"}
+										},
+										{											"caption": "0.5.0",
+											"id": "stino_lib_cat_name_ver_0.5.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.5.0"}
+										},
+										{											"caption": "0.5.1",
+											"id": "stino_lib_cat_name_ver_0.5.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.5.1"}
+										},
+										{											"caption": "0.5.2",
+											"id": "stino_lib_cat_name_ver_0.5.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.5.2"}
+										},
+										{											"caption": "0.5.3",
+											"id": "stino_lib_cat_name_ver_0.5.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.5.3"}
+										},
+										{											"caption": "0.9.0",
+											"id": "stino_lib_cat_name_ver_0.9.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.9.0"}
+										},
+										{											"caption": "0.9.1",
+											"id": "stino_lib_cat_name_ver_0.9.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.9.1"}
+										},
+										{											"caption": "0.9.2",
+											"id": "stino_lib_cat_name_ver_0.9.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.9.2"}
+										},
+										{											"caption": "0.9.3",
+											"id": "stino_lib_cat_name_ver_0.9.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.9.3"}
+										},
+										{											"caption": "0.9.4",
+											"id": "stino_lib_cat_name_ver_0.9.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.9.4"}
+										},
+										{											"caption": "0.9.5",
+											"id": "stino_lib_cat_name_ver_0.9.5",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.9.5"}
+										},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "1.0.1"}
+										},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "1.0.2"}
+										},
+										{											"caption": "1.0.3",
+											"id": "stino_lib_cat_name_ver_1.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "1.0.3"}
+										}
+									]								},
+									{
+									"caption": "StringSplitter",
+									"id": "stino_lib_cat_name_StringSplitter",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "StringSplitter", "version": "1.0.0"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "Json Streaming Parser",
-								"id": "stino_lib_cat_name_Json Streaming Parser",
+								"caption": "T",
+								"id": "stino_lib_cat_initial_T",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Json Streaming Parser", "version": "1.0.0"}
-									},
-									{										"caption": "1.0.2",
-										"id": "stino_lib_cat_name_ver_1.0.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Json Streaming Parser", "version": "1.0.2"}
-									},
-									{										"caption": "1.0.3",
-										"id": "stino_lib_cat_name_ver_1.0.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Json Streaming Parser", "version": "1.0.3"}
-									},
-									{										"caption": "1.0.4",
-										"id": "stino_lib_cat_name_ver_1.0.4",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Json Streaming Parser", "version": "1.0.4"}
-									}
+									{
+									"caption": "TimedPID",
+									"id": "stino_lib_cat_name_TimedPID",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "TimedPID", "version": "1.0.0"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "LinkedList",
-								"id": "stino_lib_cat_name_LinkedList",
+								"caption": "X",
+								"id": "stino_lib_cat_initial_X",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.2.2",
-										"id": "stino_lib_cat_name_ver_1.2.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "LinkedList", "version": "1.2.2"}
-									},
-									{										"caption": "1.2.3",
-										"id": "stino_lib_cat_name_ver_1.2.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "LinkedList", "version": "1.2.3"}
-									}
-								]							},
-							{
-								"caption": "Lora Serialization",
-								"id": "stino_lib_cat_name_Lora Serialization",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "2.1.0",
-										"id": "stino_lib_cat_name_ver_2.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Lora Serialization", "version": "2.1.0"}
-									},
-									{										"caption": "2.2.0",
-										"id": "stino_lib_cat_name_ver_2.2.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Lora Serialization", "version": "2.2.0"}
-									}
-								]							},
-							{
-								"caption": "Madgwick",
-								"id": "stino_lib_cat_name_Madgwick",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Madgwick", "version": "1.0.0"}
-									},
-									{										"caption": "1.1.0",
-										"id": "stino_lib_cat_name_ver_1.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Madgwick", "version": "1.1.0"}
-									},
-									{										"caption": "1.2.0",
-										"id": "stino_lib_cat_name_ver_1.2.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Madgwick", "version": "1.2.0"}
-									}
-								]							},
-							{
-								"caption": "Mahony",
-								"id": "stino_lib_cat_name_Mahony",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Mahony", "version": "1.0.0"}
-									},
-									{										"caption": "1.1.0",
-										"id": "stino_lib_cat_name_ver_1.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Mahony", "version": "1.1.0"}
-									}
-								]							},
-							{
-								"caption": "MD_TTT",
-								"id": "stino_lib_cat_name_MD_TTT",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "MD_TTT", "version": "1.0.0"}
-									}
-								]							},
-							{
-								"caption": "Neurona",
-								"id": "stino_lib_cat_name_Neurona",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Neurona", "version": "1.0.0"}
-									}
-								]							},
-							{
-								"caption": "Plotter",
-								"id": "stino_lib_cat_name_Plotter",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Plotter", "version": "1.0.0"}
-									},
-									{										"caption": "1.0.1",
-										"id": "stino_lib_cat_name_ver_1.0.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Plotter", "version": "1.0.1"}
-									},
-									{										"caption": "1.1.0",
-										"id": "stino_lib_cat_name_ver_1.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Plotter", "version": "1.1.0"}
-									},
-									{										"caption": "2.0.0",
-										"id": "stino_lib_cat_name_ver_2.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Plotter", "version": "2.0.0"}
-									},
-									{										"caption": "2.1.0",
-										"id": "stino_lib_cat_name_ver_2.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Plotter", "version": "2.1.0"}
-									},
-									{										"caption": "2.2.0",
-										"id": "stino_lib_cat_name_ver_2.2.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Plotter", "version": "2.2.0"}
-									},
-									{										"caption": "2.2.1",
-										"id": "stino_lib_cat_name_ver_2.2.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Plotter", "version": "2.2.1"}
-									},
-									{										"caption": "2.3.0",
-										"id": "stino_lib_cat_name_ver_2.3.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Plotter", "version": "2.3.0"}
-									},
-									{										"caption": "2.3.1",
-										"id": "stino_lib_cat_name_ver_2.3.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Plotter", "version": "2.3.1"}
-									},
-									{										"caption": "2.3.2",
-										"id": "stino_lib_cat_name_ver_2.3.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Plotter", "version": "2.3.2"}
-									}
-								]							},
-							{
-								"caption": "pRNG",
-								"id": "stino_lib_cat_name_pRNG",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.2.1",
-										"id": "stino_lib_cat_name_ver_1.2.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "pRNG", "version": "1.2.1"}
-									}
-								]							},
-							{
-								"caption": "QList",
-								"id": "stino_lib_cat_name_QList",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "0.1.0",
-										"id": "stino_lib_cat_name_ver_0.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "QList", "version": "0.1.0"}
-									},
-									{										"caption": "0.3.0",
-										"id": "stino_lib_cat_name_ver_0.3.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "QList", "version": "0.3.0"}
-									},
-									{										"caption": "0.5.0",
-										"id": "stino_lib_cat_name_ver_0.5.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "QList", "version": "0.5.0"}
-									},
-									{										"caption": "0.5.1",
-										"id": "stino_lib_cat_name_ver_0.5.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "QList", "version": "0.5.1"}
-									}
-								]							},
-							{
-								"caption": "Queuetue Digital Balance Library",
-								"id": "stino_lib_cat_name_Queuetue Digital Balance Library",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.2",
-										"id": "stino_lib_cat_name_ver_1.0.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Queuetue Digital Balance Library", "version": "1.0.2"}
-									},
-									{										"caption": "1.0.3",
-										"id": "stino_lib_cat_name_ver_1.0.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Queuetue Digital Balance Library", "version": "1.0.3"}
-									},
-									{										"caption": "1.0.4",
-										"id": "stino_lib_cat_name_ver_1.0.4",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Queuetue Digital Balance Library", "version": "1.0.4"}
-									},
-									{										"caption": "1.0.5",
-										"id": "stino_lib_cat_name_ver_1.0.5",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Queuetue Digital Balance Library", "version": "1.0.5"}
-									},
-									{										"caption": "1.0.6",
-										"id": "stino_lib_cat_name_ver_1.0.6",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "Queuetue Digital Balance Library", "version": "1.0.6"}
-									}
-								]							},
-							{
-								"caption": "RBD_Threshold",
-								"id": "stino_lib_cat_name_RBD_Threshold",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "RBD_Threshold", "version": "1.0.0"}
-									},
-									{										"caption": "1.0.1",
-										"id": "stino_lib_cat_name_ver_1.0.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "RBD_Threshold", "version": "1.0.1"}
-									},
-									{										"caption": "1.0.2",
-										"id": "stino_lib_cat_name_ver_1.0.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "RBD_Threshold", "version": "1.0.2"}
-									}
-								]							},
-							{
-								"caption": "SpritzCipher",
-								"id": "stino_lib_cat_name_SpritzCipher",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "0.1.2",
-										"id": "stino_lib_cat_name_ver_0.1.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.1.2"}
-									},
-									{										"caption": "0.1.3",
-										"id": "stino_lib_cat_name_ver_0.1.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.1.3"}
-									},
-									{										"caption": "0.1.4",
-										"id": "stino_lib_cat_name_ver_0.1.4",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.1.4"}
-									},
-									{										"caption": "0.1.5",
-										"id": "stino_lib_cat_name_ver_0.1.5",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.1.5"}
-									},
-									{										"caption": "0.2.0",
-										"id": "stino_lib_cat_name_ver_0.2.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.2.0"}
-									},
-									{										"caption": "0.2.1",
-										"id": "stino_lib_cat_name_ver_0.2.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.2.1"}
-									},
-									{										"caption": "0.2.2",
-										"id": "stino_lib_cat_name_ver_0.2.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.2.2"}
-									},
-									{										"caption": "0.3.0",
-										"id": "stino_lib_cat_name_ver_0.3.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.3.0"}
-									},
-									{										"caption": "0.3.1",
-										"id": "stino_lib_cat_name_ver_0.3.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.3.1"}
-									},
-									{										"caption": "0.4.0",
-										"id": "stino_lib_cat_name_ver_0.4.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.4.0"}
-									},
-									{										"caption": "0.4.1",
-										"id": "stino_lib_cat_name_ver_0.4.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.4.1"}
-									},
-									{										"caption": "0.4.2",
-										"id": "stino_lib_cat_name_ver_0.4.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.4.2"}
-									},
-									{										"caption": "0.4.3",
-										"id": "stino_lib_cat_name_ver_0.4.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.4.3"}
-									},
-									{										"caption": "0.4.4",
-										"id": "stino_lib_cat_name_ver_0.4.4",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.4.4"}
-									},
-									{										"caption": "0.5.0",
-										"id": "stino_lib_cat_name_ver_0.5.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.5.0"}
-									},
-									{										"caption": "0.5.1",
-										"id": "stino_lib_cat_name_ver_0.5.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.5.1"}
-									},
-									{										"caption": "0.5.2",
-										"id": "stino_lib_cat_name_ver_0.5.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.5.2"}
-									},
-									{										"caption": "0.5.3",
-										"id": "stino_lib_cat_name_ver_0.5.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.5.3"}
-									},
-									{										"caption": "0.9.0",
-										"id": "stino_lib_cat_name_ver_0.9.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.9.0"}
-									},
-									{										"caption": "0.9.1",
-										"id": "stino_lib_cat_name_ver_0.9.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.9.1"}
-									},
-									{										"caption": "0.9.2",
-										"id": "stino_lib_cat_name_ver_0.9.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.9.2"}
-									},
-									{										"caption": "0.9.3",
-										"id": "stino_lib_cat_name_ver_0.9.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.9.3"}
-									},
-									{										"caption": "0.9.4",
-										"id": "stino_lib_cat_name_ver_0.9.4",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.9.4"}
-									},
-									{										"caption": "0.9.5",
-										"id": "stino_lib_cat_name_ver_0.9.5",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "0.9.5"}
-									},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "1.0.0"}
-									},
-									{										"caption": "1.0.1",
-										"id": "stino_lib_cat_name_ver_1.0.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "1.0.1"}
-									},
-									{										"caption": "1.0.2",
-										"id": "stino_lib_cat_name_ver_1.0.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "1.0.2"}
-									},
-									{										"caption": "1.0.3",
-										"id": "stino_lib_cat_name_ver_1.0.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "SpritzCipher", "version": "1.0.3"}
-									}
-								]							},
-							{
-								"caption": "StringSplitter",
-								"id": "stino_lib_cat_name_StringSplitter",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "StringSplitter", "version": "1.0.0"}
-									}
-								]							},
-							{
-								"caption": "TimedPID",
-								"id": "stino_lib_cat_name_TimedPID",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "TimedPID", "version": "1.0.0"}
-									}
-								]							},
-							{
-								"caption": "XLR8Float",
-								"id": "stino_lib_cat_name_XLR8Float",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "XLR8Float", "version": "1.0.0"}
-									},
-									{										"caption": "1.0.1",
-										"id": "stino_lib_cat_name_ver_1.0.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Processing", "name": "XLR8Float", "version": "1.0.1"}
-									}
+									{
+									"caption": "XLR8Float",
+									"id": "stino_lib_cat_name_XLR8Float",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "XLR8Float", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "XLR8Float", "version": "1.0.1"}
+										}
+									]								}
 								]							}
 						]
 					},
@@ -6390,569 +6533,646 @@
 						[
 							{"caption": "-"},
 							{
-								"caption": "Adafruit FRAM I2C",
-								"id": "stino_lib_cat_name_Adafruit FRAM I2C",
+								"caption": "A",
+								"id": "stino_lib_cat_initial_A",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "Adafruit FRAM I2C", "version": "1.0.0"}
-									}
+									{
+									"caption": "Adafruit FRAM I2C",
+									"id": "stino_lib_cat_name_Adafruit FRAM I2C",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Adafruit FRAM I2C", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "Adafruit FRAM SPI",
+									"id": "stino_lib_cat_name_Adafruit FRAM SPI",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Adafruit FRAM SPI", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "Adafruit SPIFlash",
+									"id": "stino_lib_cat_name_Adafruit SPIFlash",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Adafruit SPIFlash", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "Adafruit TinyFlash",
+									"id": "stino_lib_cat_name_Adafruit TinyFlash",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Adafruit TinyFlash", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "arduino-NVM",
+									"id": "stino_lib_cat_name_arduino-NVM",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.9.0",
+											"id": "stino_lib_cat_name_ver_0.9.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "arduino-NVM", "version": "0.9.0"}
+										},
+										{											"caption": "0.9.1",
+											"id": "stino_lib_cat_name_ver_0.9.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "arduino-NVM", "version": "0.9.1"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "Adafruit FRAM SPI",
-								"id": "stino_lib_cat_name_Adafruit FRAM SPI",
+								"caption": "D",
+								"id": "stino_lib_cat_initial_D",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "Adafruit FRAM SPI", "version": "1.0.0"}
-									}
+									{
+									"caption": "DueFlashStorage",
+									"id": "stino_lib_cat_name_DueFlashStorage",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "DueFlashStorage", "version": "1.0.0"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "Adafruit SPIFlash",
-								"id": "stino_lib_cat_name_Adafruit SPIFlash",
+								"caption": "E",
+								"id": "stino_lib_cat_initial_E",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "Adafruit SPIFlash", "version": "1.0.0"}
-									}
+									{
+									"caption": "EDB",
+									"id": "stino_lib_cat_name_EDB",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "EDB", "version": "1.0.2"}
+										},
+										{											"caption": "1.0.3",
+											"id": "stino_lib_cat_name_ver_1.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "EDB", "version": "1.0.3"}
+										},
+										{											"caption": "1.0.4",
+											"id": "stino_lib_cat_name_ver_1.0.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "EDB", "version": "1.0.4"}
+										}
+									]								},
+									{
+									"caption": "EEPROMEx",
+									"id": "stino_lib_cat_name_EEPROMEx",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "EEPROMEx", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "EEWrap",
+									"id": "stino_lib_cat_name_EEWrap",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "EEWrap", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "extEEPROM",
+									"id": "stino_lib_cat_name_extEEPROM",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "3.1.0",
+											"id": "stino_lib_cat_name_ver_3.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "extEEPROM", "version": "3.1.0"}
+										},
+										{											"caption": "3.2.0",
+											"id": "stino_lib_cat_name_ver_3.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "extEEPROM", "version": "3.2.0"}
+										},
+										{											"caption": "3.3.0",
+											"id": "stino_lib_cat_name_ver_3.3.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "extEEPROM", "version": "3.3.0"}
+										},
+										{											"caption": "3.3.1",
+											"id": "stino_lib_cat_name_ver_3.3.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "extEEPROM", "version": "3.3.1"}
+										},
+										{											"caption": "3.3.2",
+											"id": "stino_lib_cat_name_ver_3.3.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "extEEPROM", "version": "3.3.2"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "Adafruit TinyFlash",
-								"id": "stino_lib_cat_name_Adafruit TinyFlash",
+								"caption": "F",
+								"id": "stino_lib_cat_initial_F",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "Adafruit TinyFlash", "version": "1.0.0"}
-									}
+									{
+									"caption": "Flash",
+									"id": "stino_lib_cat_name_Flash",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Flash", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Flash", "version": "1.0.1"}
+										}
+									]								},
+									{
+									"caption": "FlashStorage",
+									"id": "stino_lib_cat_name_FlashStorage",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.5.0",
+											"id": "stino_lib_cat_name_ver_0.5.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "FlashStorage", "version": "0.5.0"}
+										},
+										{											"caption": "0.6.0",
+											"id": "stino_lib_cat_name_ver_0.6.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "FlashStorage", "version": "0.6.0"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "arduino-NVM",
-								"id": "stino_lib_cat_name_arduino-NVM",
+								"caption": "I",
+								"id": "stino_lib_cat_initial_I",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "0.9.0",
-										"id": "stino_lib_cat_name_ver_0.9.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "arduino-NVM", "version": "0.9.0"}
-									},
-									{										"caption": "0.9.1",
-										"id": "stino_lib_cat_name_ver_0.9.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "arduino-NVM", "version": "0.9.1"}
-									}
+									{
+									"caption": "Iondb",
+									"id": "stino_lib_cat_name_Iondb",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Iondb", "version": "1.1.0"}
+										},
+										{											"caption": "1.1.1",
+											"id": "stino_lib_cat_name_ver_1.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Iondb", "version": "1.1.1"}
+										},
+										{											"caption": "1.2.0",
+											"id": "stino_lib_cat_name_ver_1.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Iondb", "version": "1.2.0"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "DueFlashStorage",
-								"id": "stino_lib_cat_name_DueFlashStorage",
+								"caption": "M",
+								"id": "stino_lib_cat_initial_M",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "DueFlashStorage", "version": "1.0.0"}
-									}
+									{
+									"caption": "MD_CirQueue",
+									"id": "stino_lib_cat_name_MD_CirQueue",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "MD_CirQueue", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "MD_CirQueue", "version": "1.0.1"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "EDB",
-								"id": "stino_lib_cat_name_EDB",
+								"caption": "P",
+								"id": "stino_lib_cat_initial_P",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.2",
-										"id": "stino_lib_cat_name_ver_1.0.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "EDB", "version": "1.0.2"}
-									},
-									{										"caption": "1.0.3",
-										"id": "stino_lib_cat_name_ver_1.0.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "EDB", "version": "1.0.3"}
-									},
-									{										"caption": "1.0.4",
-										"id": "stino_lib_cat_name_ver_1.0.4",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "EDB", "version": "1.0.4"}
-									}
+									{
+									"caption": "PGMWrap",
+									"id": "stino_lib_cat_name_PGMWrap",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "PGMWrap", "version": "1.0.0"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "EEPROMEx",
-								"id": "stino_lib_cat_name_EEPROMEx",
+								"caption": "Q",
+								"id": "stino_lib_cat_initial_Q",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "EEPROMEx", "version": "1.0.0"}
-									}
+									{
+									"caption": "Queue",
+									"id": "stino_lib_cat_name_Queue",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Queue", "version": "1.0.0"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "EEWrap",
-								"id": "stino_lib_cat_name_EEWrap",
+								"caption": "R",
+								"id": "stino_lib_cat_initial_R",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "EEWrap", "version": "1.0.0"}
-									}
+									{
+									"caption": "RfidDb",
+									"id": "stino_lib_cat_name_RfidDb",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "RfidDb", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "RingBuf",
+									"id": "stino_lib_cat_name_RingBuf",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "RingBuf", "version": "1.1.0"}
+										},
+										{											"caption": "1.2.0",
+											"id": "stino_lib_cat_name_ver_1.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "RingBuf", "version": "1.2.0"}
+										},
+										{											"caption": "1.3.0",
+											"id": "stino_lib_cat_name_ver_1.3.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "RingBuf", "version": "1.3.0"}
+										},
+										{											"caption": "2.0.0",
+											"id": "stino_lib_cat_name_ver_2.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "RingBuf", "version": "2.0.0"}
+										}
+									]								},
+									{
+									"caption": "RingBufCPP",
+									"id": "stino_lib_cat_name_RingBufCPP",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "RingBufCPP", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "RingBufCPP", "version": "1.1.0"}
+										}
+									]								},
+									{
+									"caption": "RogueMP3",
+									"id": "stino_lib_cat_name_RogueMP3",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "2.0.0",
+											"id": "stino_lib_cat_name_ver_2.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "RogueMP3", "version": "2.0.0"}
+										}
+									]								},
+									{
+									"caption": "RogueSD",
+									"id": "stino_lib_cat_name_RogueSD",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "2.0.0",
+											"id": "stino_lib_cat_name_ver_2.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "RogueSD", "version": "2.0.0"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "extEEPROM",
-								"id": "stino_lib_cat_name_extEEPROM",
+								"caption": "S",
+								"id": "stino_lib_cat_initial_S",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "3.1.0",
-										"id": "stino_lib_cat_name_ver_3.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "extEEPROM", "version": "3.1.0"}
-									},
-									{										"caption": "3.2.0",
-										"id": "stino_lib_cat_name_ver_3.2.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "extEEPROM", "version": "3.2.0"}
-									},
-									{										"caption": "3.3.0",
-										"id": "stino_lib_cat_name_ver_3.3.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "extEEPROM", "version": "3.3.0"}
-									},
-									{										"caption": "3.3.1",
-										"id": "stino_lib_cat_name_ver_3.3.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "extEEPROM", "version": "3.3.1"}
-									},
-									{										"caption": "3.3.2",
-										"id": "stino_lib_cat_name_ver_3.3.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "extEEPROM", "version": "3.3.2"}
-									}
+									{
+									"caption": "SD",
+									"id": "stino_lib_cat_name_SD",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SD", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SD", "version": "1.0.1"}
+										},
+										{											"caption": "1.0.3",
+											"id": "stino_lib_cat_name_ver_1.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SD", "version": "1.0.3"}
+										},
+										{											"caption": "1.0.4",
+											"id": "stino_lib_cat_name_ver_1.0.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SD", "version": "1.0.4"}
+										},
+										{											"caption": "1.0.5",
+											"id": "stino_lib_cat_name_ver_1.0.5",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SD", "version": "1.0.5"}
+										},
+										{											"caption": "1.0.6",
+											"id": "stino_lib_cat_name_ver_1.0.6",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SD", "version": "1.0.6"}
+										},
+										{											"caption": "1.0.7",
+											"id": "stino_lib_cat_name_ver_1.0.7",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SD", "version": "1.0.7"}
+										},
+										{											"caption": "1.0.8",
+											"id": "stino_lib_cat_name_ver_1.0.8",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SD", "version": "1.0.8"}
+										},
+										{											"caption": "1.0.9",
+											"id": "stino_lib_cat_name_ver_1.0.9",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SD", "version": "1.0.9"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SD", "version": "1.1.0"}
+										},
+										{											"caption": "1.1.1",
+											"id": "stino_lib_cat_name_ver_1.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SD", "version": "1.1.1"}
+										}
+									]								},
+									{
+									"caption": "SdFat",
+									"id": "stino_lib_cat_name_SdFat",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SdFat", "version": "1.0.1"}
+										}
+									]								},
+									{
+									"caption": "SerialFlash",
+									"id": "stino_lib_cat_name_SerialFlash",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.1.0",
+											"id": "stino_lib_cat_name_ver_0.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SerialFlash", "version": "0.1.0"}
+										},
+										{											"caption": "0.3.0",
+											"id": "stino_lib_cat_name_ver_0.3.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SerialFlash", "version": "0.3.0"}
+										},
+										{											"caption": "0.4.0",
+											"id": "stino_lib_cat_name_ver_0.4.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SerialFlash", "version": "0.4.0"}
+										},
+										{											"caption": "0.5.0",
+											"id": "stino_lib_cat_name_ver_0.5.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SerialFlash", "version": "0.5.0"}
+										}
+									]								},
+									{
+									"caption": "SmartCardReader",
+									"id": "stino_lib_cat_name_SmartCardReader",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SmartCardReader", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "Sodaq_dataflash",
+									"id": "stino_lib_cat_name_Sodaq_dataflash",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Sodaq_dataflash", "version": "1.0.1"}
+										},
+										{											"caption": "1.0.3",
+											"id": "stino_lib_cat_name_ver_1.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Sodaq_dataflash", "version": "1.0.3"}
+										}
+									]								},
+									{
+									"caption": "SPIFlash",
+									"id": "stino_lib_cat_name_SPIFlash",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "1.0.1"}
+										},
+										{											"caption": "1.2.0",
+											"id": "stino_lib_cat_name_ver_1.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "1.2.0"}
+										},
+										{											"caption": "1.2.1",
+											"id": "stino_lib_cat_name_ver_1.2.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "1.2.1"}
+										},
+										{											"caption": "1.2.2",
+											"id": "stino_lib_cat_name_ver_1.2.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "1.2.2"}
+										},
+										{											"caption": "1.3.0",
+											"id": "stino_lib_cat_name_ver_1.3.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "1.3.0"}
+										},
+										{											"caption": "1.3.1",
+											"id": "stino_lib_cat_name_ver_1.3.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "1.3.1"}
+										},
+										{											"caption": "1.3.2",
+											"id": "stino_lib_cat_name_ver_1.3.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "1.3.2"}
+										},
+										{											"caption": "2.0.0",
+											"id": "stino_lib_cat_name_ver_2.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.0.0"}
+										},
+										{											"caption": "2.1.0",
+											"id": "stino_lib_cat_name_ver_2.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.1.0"}
+										},
+										{											"caption": "2.1.1",
+											"id": "stino_lib_cat_name_ver_2.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.1.1"}
+										},
+										{											"caption": "2.2.0",
+											"id": "stino_lib_cat_name_ver_2.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.2.0"}
+										},
+										{											"caption": "2.3.0",
+											"id": "stino_lib_cat_name_ver_2.3.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.3.0"}
+										},
+										{											"caption": "2.3.1",
+											"id": "stino_lib_cat_name_ver_2.3.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.3.1"}
+										},
+										{											"caption": "2.4.0",
+											"id": "stino_lib_cat_name_ver_2.4.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.4.0"}
+										},
+										{											"caption": "2.5.0",
+											"id": "stino_lib_cat_name_ver_2.5.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.5.0"}
+										},
+										{											"caption": "2.6.0",
+											"id": "stino_lib_cat_name_ver_2.6.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.6.0"}
+										}
+									]								},
+									{
+									"caption": "SRAM",
+									"id": "stino_lib_cat_name_SRAM",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SRAM", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SRAM", "version": "1.0.1"}
+										}
+									]								},
+									{
+									"caption": "SRAM_23LC",
+									"id": "stino_lib_cat_name_SRAM_23LC",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SRAM_23LC", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "SST25VF",
+									"id": "stino_lib_cat_name_SST25VF",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.1.0",
+											"id": "stino_lib_cat_name_ver_0.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SST25VF", "version": "0.1.0"}
+										}
+									]								}
 								]							},
 							{
-								"caption": "Flash",
-								"id": "stino_lib_cat_name_Flash",
+								"caption": "V",
+								"id": "stino_lib_cat_initial_V",
 								"children":
 								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "Flash", "version": "1.0.0"}
-									},
-									{										"caption": "1.0.1",
-										"id": "stino_lib_cat_name_ver_1.0.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "Flash", "version": "1.0.1"}
-									}
-								]							},
-							{
-								"caption": "FlashStorage",
-								"id": "stino_lib_cat_name_FlashStorage",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "0.5.0",
-										"id": "stino_lib_cat_name_ver_0.5.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "FlashStorage", "version": "0.5.0"}
-									},
-									{										"caption": "0.6.0",
-										"id": "stino_lib_cat_name_ver_0.6.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "FlashStorage", "version": "0.6.0"}
-									}
-								]							},
-							{
-								"caption": "Iondb",
-								"id": "stino_lib_cat_name_Iondb",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.1.0",
-										"id": "stino_lib_cat_name_ver_1.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "Iondb", "version": "1.1.0"}
-									},
-									{										"caption": "1.1.1",
-										"id": "stino_lib_cat_name_ver_1.1.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "Iondb", "version": "1.1.1"}
-									},
-									{										"caption": "1.2.0",
-										"id": "stino_lib_cat_name_ver_1.2.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "Iondb", "version": "1.2.0"}
-									}
-								]							},
-							{
-								"caption": "MD_CirQueue",
-								"id": "stino_lib_cat_name_MD_CirQueue",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "MD_CirQueue", "version": "1.0.0"}
-									},
-									{										"caption": "1.0.1",
-										"id": "stino_lib_cat_name_ver_1.0.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "MD_CirQueue", "version": "1.0.1"}
-									}
-								]							},
-							{
-								"caption": "PGMWrap",
-								"id": "stino_lib_cat_name_PGMWrap",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "PGMWrap", "version": "1.0.0"}
-									}
-								]							},
-							{
-								"caption": "Queue",
-								"id": "stino_lib_cat_name_Queue",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "Queue", "version": "1.0.0"}
-									}
-								]							},
-							{
-								"caption": "RfidDb",
-								"id": "stino_lib_cat_name_RfidDb",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "RfidDb", "version": "1.0.0"}
-									}
-								]							},
-							{
-								"caption": "RingBuf",
-								"id": "stino_lib_cat_name_RingBuf",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.1.0",
-										"id": "stino_lib_cat_name_ver_1.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "RingBuf", "version": "1.1.0"}
-									},
-									{										"caption": "1.2.0",
-										"id": "stino_lib_cat_name_ver_1.2.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "RingBuf", "version": "1.2.0"}
-									},
-									{										"caption": "1.3.0",
-										"id": "stino_lib_cat_name_ver_1.3.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "RingBuf", "version": "1.3.0"}
-									},
-									{										"caption": "2.0.0",
-										"id": "stino_lib_cat_name_ver_2.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "RingBuf", "version": "2.0.0"}
-									}
-								]							},
-							{
-								"caption": "RingBufCPP",
-								"id": "stino_lib_cat_name_RingBufCPP",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "RingBufCPP", "version": "1.0.0"}
-									},
-									{										"caption": "1.1.0",
-										"id": "stino_lib_cat_name_ver_1.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "RingBufCPP", "version": "1.1.0"}
-									}
-								]							},
-							{
-								"caption": "RogueMP3",
-								"id": "stino_lib_cat_name_RogueMP3",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "2.0.0",
-										"id": "stino_lib_cat_name_ver_2.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "RogueMP3", "version": "2.0.0"}
-									}
-								]							},
-							{
-								"caption": "RogueSD",
-								"id": "stino_lib_cat_name_RogueSD",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "2.0.0",
-										"id": "stino_lib_cat_name_ver_2.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "RogueSD", "version": "2.0.0"}
-									}
-								]							},
-							{
-								"caption": "SD",
-								"id": "stino_lib_cat_name_SD",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SD", "version": "1.0.0"}
-									},
-									{										"caption": "1.0.1",
-										"id": "stino_lib_cat_name_ver_1.0.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SD", "version": "1.0.1"}
-									},
-									{										"caption": "1.0.3",
-										"id": "stino_lib_cat_name_ver_1.0.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SD", "version": "1.0.3"}
-									},
-									{										"caption": "1.0.4",
-										"id": "stino_lib_cat_name_ver_1.0.4",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SD", "version": "1.0.4"}
-									},
-									{										"caption": "1.0.5",
-										"id": "stino_lib_cat_name_ver_1.0.5",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SD", "version": "1.0.5"}
-									},
-									{										"caption": "1.0.6",
-										"id": "stino_lib_cat_name_ver_1.0.6",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SD", "version": "1.0.6"}
-									},
-									{										"caption": "1.0.7",
-										"id": "stino_lib_cat_name_ver_1.0.7",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SD", "version": "1.0.7"}
-									},
-									{										"caption": "1.0.8",
-										"id": "stino_lib_cat_name_ver_1.0.8",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SD", "version": "1.0.8"}
-									},
-									{										"caption": "1.0.9",
-										"id": "stino_lib_cat_name_ver_1.0.9",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SD", "version": "1.0.9"}
-									},
-									{										"caption": "1.1.0",
-										"id": "stino_lib_cat_name_ver_1.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SD", "version": "1.1.0"}
-									},
-									{										"caption": "1.1.1",
-										"id": "stino_lib_cat_name_ver_1.1.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SD", "version": "1.1.1"}
-									}
-								]							},
-							{
-								"caption": "SdFat",
-								"id": "stino_lib_cat_name_SdFat",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.1",
-										"id": "stino_lib_cat_name_ver_1.0.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SdFat", "version": "1.0.1"}
-									}
-								]							},
-							{
-								"caption": "SerialFlash",
-								"id": "stino_lib_cat_name_SerialFlash",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "0.1.0",
-										"id": "stino_lib_cat_name_ver_0.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SerialFlash", "version": "0.1.0"}
-									},
-									{										"caption": "0.3.0",
-										"id": "stino_lib_cat_name_ver_0.3.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SerialFlash", "version": "0.3.0"}
-									},
-									{										"caption": "0.4.0",
-										"id": "stino_lib_cat_name_ver_0.4.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SerialFlash", "version": "0.4.0"}
-									},
-									{										"caption": "0.5.0",
-										"id": "stino_lib_cat_name_ver_0.5.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SerialFlash", "version": "0.5.0"}
-									}
-								]							},
-							{
-								"caption": "SmartCardReader",
-								"id": "stino_lib_cat_name_SmartCardReader",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SmartCardReader", "version": "1.0.0"}
-									}
-								]							},
-							{
-								"caption": "Sodaq_dataflash",
-								"id": "stino_lib_cat_name_Sodaq_dataflash",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.1",
-										"id": "stino_lib_cat_name_ver_1.0.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "Sodaq_dataflash", "version": "1.0.1"}
-									},
-									{										"caption": "1.0.3",
-										"id": "stino_lib_cat_name_ver_1.0.3",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "Sodaq_dataflash", "version": "1.0.3"}
-									}
-								]							},
-							{
-								"caption": "SPIFlash",
-								"id": "stino_lib_cat_name_SPIFlash",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "1.0.0"}
-									},
-									{										"caption": "1.0.1",
-										"id": "stino_lib_cat_name_ver_1.0.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "1.0.1"}
-									},
-									{										"caption": "1.2.0",
-										"id": "stino_lib_cat_name_ver_1.2.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "1.2.0"}
-									},
-									{										"caption": "1.2.1",
-										"id": "stino_lib_cat_name_ver_1.2.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "1.2.1"}
-									},
-									{										"caption": "1.2.2",
-										"id": "stino_lib_cat_name_ver_1.2.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "1.2.2"}
-									},
-									{										"caption": "1.3.0",
-										"id": "stino_lib_cat_name_ver_1.3.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "1.3.0"}
-									},
-									{										"caption": "1.3.1",
-										"id": "stino_lib_cat_name_ver_1.3.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "1.3.1"}
-									},
-									{										"caption": "1.3.2",
-										"id": "stino_lib_cat_name_ver_1.3.2",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "1.3.2"}
-									},
-									{										"caption": "2.0.0",
-										"id": "stino_lib_cat_name_ver_2.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.0.0"}
-									},
-									{										"caption": "2.1.0",
-										"id": "stino_lib_cat_name_ver_2.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.1.0"}
-									},
-									{										"caption": "2.1.1",
-										"id": "stino_lib_cat_name_ver_2.1.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.1.1"}
-									},
-									{										"caption": "2.2.0",
-										"id": "stino_lib_cat_name_ver_2.2.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.2.0"}
-									},
-									{										"caption": "2.3.0",
-										"id": "stino_lib_cat_name_ver_2.3.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.3.0"}
-									},
-									{										"caption": "2.3.1",
-										"id": "stino_lib_cat_name_ver_2.3.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.3.1"}
-									},
-									{										"caption": "2.4.0",
-										"id": "stino_lib_cat_name_ver_2.4.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.4.0"}
-									},
-									{										"caption": "2.5.0",
-										"id": "stino_lib_cat_name_ver_2.5.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.5.0"}
-									},
-									{										"caption": "2.6.0",
-										"id": "stino_lib_cat_name_ver_2.6.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SPIFlash", "version": "2.6.0"}
-									}
-								]							},
-							{
-								"caption": "SRAM",
-								"id": "stino_lib_cat_name_SRAM",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SRAM", "version": "1.0.0"}
-									},
-									{										"caption": "1.0.1",
-										"id": "stino_lib_cat_name_ver_1.0.1",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SRAM", "version": "1.0.1"}
-									}
-								]							},
-							{
-								"caption": "SST25VF",
-								"id": "stino_lib_cat_name_SST25VF",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "0.1.0",
-										"id": "stino_lib_cat_name_ver_0.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "SST25VF", "version": "0.1.0"}
-									}
-								]							},
-							{
-								"caption": "virtmem",
-								"id": "stino_lib_cat_name_virtmem",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.0.0",
-										"id": "stino_lib_cat_name_ver_1.0.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Data Storage", "name": "virtmem", "version": "1.0.0"}
-									}
+									{
+									"caption": "virtmem",
+									"id": "stino_lib_cat_name_virtmem",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "virtmem", "version": "1.0.0"}
+										}
+									]								}
 								]							}
 						]
 					},
@@ -7266,6 +7486,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "Arduino SigFox for MKRFox1200", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "Arduino SigFox for MKRFox1200", "version": "1.0.1"}
 										}
 									]								},
 									{
@@ -7619,6 +7844,17 @@
 											"id": "stino_lib_cat_name_ver_0.2.3",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "CRC Simula Library", "version": "0.2.3"}
+										}
+									]								},
+									{
+									"caption": "Cytron 3A Motor Driver Shield",
+									"id": "stino_lib_cat_name_Cytron 3A Motor Driver Shield",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "Cytron 3A Motor Driver Shield", "version": "1.0.0"}
 										}
 									]								},
 									{
@@ -12097,6 +12333,22 @@
 										}
 									]								},
 									{
+									"caption": "Mini Grafx",
+									"id": "stino_lib_cat_name_Mini Grafx",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.0.8",
+											"id": "stino_lib_cat_name_ver_0.0.8",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "Mini Grafx", "version": "0.0.8"}
+										},
+										{											"caption": "0.0.9",
+											"id": "stino_lib_cat_name_ver_0.0.9",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "Mini Grafx", "version": "0.0.9"}
+										}
+									]								},
+									{
 									"caption": "MultiLcd",
 									"id": "stino_lib_cat_name_MultiLcd",
 									"children":
@@ -13193,6 +13445,11 @@
 											"id": "stino_lib_cat_name_ver_1.6.4",
 											"command": "stino_install_lib",
 											"args": {"category": "Other", "name": "Adafruit Circuit Playground", "version": "1.6.4"}
+										},
+										{											"caption": "1.6.5",
+											"id": "stino_lib_cat_name_ver_1.6.5",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "Adafruit Circuit Playground", "version": "1.6.5"}
 										}
 									]								},
 									{
@@ -15444,6 +15701,11 @@
 											"id": "stino_lib_cat_name_ver_1.1.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "Adafruit FXOS8700", "version": "1.1.0"}
+										},
+										{											"caption": "1.1.3",
+											"id": "stino_lib_cat_name_ver_1.1.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "Adafruit FXOS8700", "version": "1.1.3"}
 										}
 									]								},
 									{
@@ -19384,6 +19646,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Signal Input/Output", "name": "MD_AButton", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "MD_AButton", "version": "1.1.0"}
 										}
 									]								},
 									{
@@ -19400,6 +19667,11 @@
 											"id": "stino_lib_cat_name_ver_1.4.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Signal Input/Output", "name": "MD_KeySwitch", "version": "1.4.1"}
+										},
+										{											"caption": "1.4.2",
+											"id": "stino_lib_cat_name_ver_1.4.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "MD_KeySwitch", "version": "1.4.2"}
 										}
 									]								},
 									{
