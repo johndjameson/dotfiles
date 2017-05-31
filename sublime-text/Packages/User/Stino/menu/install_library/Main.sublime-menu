@@ -19426,6 +19426,11 @@
 											"id": "stino_lib_cat_name_ver_1.1.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Signal Input/Output", "name": "InputDebounce", "version": "1.1.0"}
+										},
+										{											"caption": "1.2.0",
+											"id": "stino_lib_cat_name_ver_1.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "InputDebounce", "version": "1.2.0"}
 										}
 									]								},
 									{
