@@ -46,10 +46,6 @@ alias cdv='cd /Volumes'
 
 alias path="echo $(pwd) 'copied to clipboard!' && pwd | pbcopy"
 
-# ----- Rbenv ----- #
-
-alias rehash='rbenv rehash'
-
 # ----- Remove ----- #
 
 alias rmd='rm -rf'
@@ -234,6 +230,10 @@ alias rkdy='bundle exec rake deploy'
 alias rkj='bundle exec rake jasmine:ci'
 alias rkjw='bundle exec rake jasmine'
 alias rkt='bundle exec rake --tasks'
+
+# ----- Rbenv ----- #
+
+alias rehash='rbenv rehash'
 
 # ----- The Silver Searcher ----- #
 
