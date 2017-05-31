@@ -215,6 +215,10 @@ alias pdo='powder open'
 alias pdr='powder restart'
 alias pdu='powder up'
 
+# ----- Python ----- #
+
+alias serve='python -m SimpleHTTPServer'
+
 # ----- Rails ----- #
 
 alias rc='bundle exec rails console'
