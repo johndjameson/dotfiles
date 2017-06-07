@@ -654,6 +654,11 @@
 											"id": "stino_lib_cat_name_ver_1.3.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "ArduinoMqtt", "version": "1.3.1"}
+										},
+										{											"caption": "1.4.0",
+											"id": "stino_lib_cat_name_ver_1.4.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "ArduinoMqtt", "version": "1.4.0"}
 										}
 									]								},
 									{
@@ -800,6 +805,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.30",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "AzureIoTHub", "version": "1.0.30"}
+										},
+										{											"caption": "1.0.34",
+											"id": "stino_lib_cat_name_ver_1.0.34",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "AzureIoTHub", "version": "1.0.34"}
 										}
 									]								},
 									{
@@ -837,6 +847,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.30",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "AzureIoTProtocol_HTTP", "version": "1.0.30"}
+										},
+										{											"caption": "1.0.34",
+											"id": "stino_lib_cat_name_ver_1.0.34",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "AzureIoTProtocol_HTTP", "version": "1.0.34"}
 										}
 									]								},
 									{
@@ -858,6 +873,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.30",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "AzureIoTProtocol_MQTT", "version": "1.0.30"}
+										},
+										{											"caption": "1.0.34",
+											"id": "stino_lib_cat_name_ver_1.0.34",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "AzureIoTProtocol_MQTT", "version": "1.0.34"}
 										}
 									]								},
 									{
@@ -879,6 +899,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.30",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "AzureIoTUtility", "version": "1.0.30"}
+										},
+										{											"caption": "1.0.34",
+											"id": "stino_lib_cat_name_ver_1.0.34",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "AzureIoTUtility", "version": "1.0.34"}
 										}
 									]								}
 								]							},
@@ -7420,6 +7445,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.2",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "Adafruit VS1053 Library", "version": "1.0.2"}
+										},
+										{											"caption": "1.0.3",
+											"id": "stino_lib_cat_name_ver_1.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "Adafruit VS1053 Library", "version": "1.0.3"}
 										}
 									]								},
 									{
@@ -8205,6 +8235,11 @@
 											"id": "stino_lib_cat_name_ver_2.0.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "FingerLib", "version": "2.0.1"}
+										},
+										{											"caption": "2.0.3",
+											"id": "stino_lib_cat_name_ver_2.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "FingerLib", "version": "2.0.3"}
 										}
 									]								},
 									{
@@ -8631,6 +8666,11 @@
 											"id": "stino_lib_cat_name_ver_1.2.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "IRremoteESP8266", "version": "1.2.0"}
+										},
+										{											"caption": "2.0.0",
+											"id": "stino_lib_cat_name_ver_2.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "IRremoteESP8266", "version": "2.0.0"}
 										}
 									]								}
 								]							},
@@ -9232,6 +9272,17 @@
 											"id": "stino_lib_cat_name_ver_1.9.2",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "OneSheeld", "version": "1.9.2"}
+										}
+									]								},
+									{
+									"caption": "Onion Arduino Library",
+									"id": "stino_lib_cat_name_Onion Arduino Library",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.1.1",
+											"id": "stino_lib_cat_name_ver_0.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "Onion Arduino Library", "version": "0.1.1"}
 										}
 									]								}
 								]							},
@@ -10118,6 +10169,17 @@
 										}
 									]								},
 									{
+									"caption": "Sodaq_wdt",
+									"id": "stino_lib_cat_name_Sodaq_wdt",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "Sodaq_wdt", "version": "1.0.1"}
+										}
+									]								},
+									{
 									"caption": "SoftwareReset",
 									"id": "stino_lib_cat_name_SoftwareReset",
 									"children":
@@ -10584,6 +10646,23 @@
 											"id": "stino_lib_cat_name_ver_1.2.2",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "uStepper", "version": "1.2.2"}
+										}
+									]								}
+								]							},
+							{
+								"caption": "V",
+								"id": "stino_lib_cat_initial_V",
+								"children":
+								[									{"caption": "-"},
+									{
+									"caption": "VS1053 for use with SdFat",
+									"id": "stino_lib_cat_name_VS1053 for use with SdFat",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.3.0",
+											"id": "stino_lib_cat_name_ver_1.3.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "VS1053 for use with SdFat", "version": "1.3.0"}
 										}
 									]								}
 								]							},
@@ -14056,6 +14135,17 @@
 								"id": "stino_lib_cat_initial_B",
 								"children":
 								[									{"caption": "-"},
+									{
+									"caption": "Babelduino",
+									"id": "stino_lib_cat_name_Babelduino",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.5.0",
+											"id": "stino_lib_cat_name_ver_0.5.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "Babelduino", "version": "0.5.0"}
+										}
+									]								},
 									{
 									"caption": "BasicLinearAlgebra",
 									"id": "stino_lib_cat_name_BasicLinearAlgebra",
@@ -19292,6 +19382,11 @@
 											"command": "stino_install_lib",
 											"args": {"category": "Signal Input/Output", "name": "ESPiLight", "version": "0.11.0"}
 										},
+										{											"caption": "0.11.1",
+											"id": "stino_lib_cat_name_ver_0.11.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "ESPiLight", "version": "0.11.1"}
+										},
 										{											"caption": "0.9.0",
 											"id": "stino_lib_cat_name_ver_0.9.0",
 											"command": "stino_install_lib",
@@ -20147,6 +20242,17 @@
 								"id": "stino_lib_cat_initial_S",
 								"children":
 								[									{"caption": "-"},
+									{
+									"caption": "Sensor",
+									"id": "stino_lib_cat_name_Sensor",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.1.0",
+											"id": "stino_lib_cat_name_ver_0.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "Sensor", "version": "0.1.0"}
+										}
+									]								},
 									{
 									"caption": "SeqButton",
 									"id": "stino_lib_cat_name_SeqButton",

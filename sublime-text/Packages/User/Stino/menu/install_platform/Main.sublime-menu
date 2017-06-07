@@ -145,6 +145,11 @@
 										"id": "stino_platform_1.6.18",
 										"command": "stino_install_platform",
 										"args": {"package_name": "arduino", "platform_name": "Arduino AVR Boards", "version": "1.6.18"}
+									},
+									{										"caption": "1.6.19",
+										"id": "stino_platform_1.6.19",
+										"command": "stino_install_platform",
+										"args": {"package_name": "arduino", "platform_name": "Arduino AVR Boards", "version": "1.6.19"}
 									}
 								]							},
 							{
