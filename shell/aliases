@@ -78,6 +78,7 @@ alias be='bundle exec'
 alias d='docker'
 alias dc='docker-compose'
 alias dcs='docker-compose start'
+alias dcu='docker-compose up'
 alias dm='docker-machine'
 alias dp='docker ps'
 
