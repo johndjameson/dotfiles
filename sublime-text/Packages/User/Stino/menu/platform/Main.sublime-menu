@@ -30,6 +30,21 @@
 								"checkbox": true
 							}
 						]
+					},
+					{
+						"caption": "arduino",
+						"id": "stino_package_arduino",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "Arduino AVR Boards",
+								"id": "stino_platform_Arduino AVR Boards",
+								"command": "stino_select_platform",
+								"args": {"package_name": "arduino", "platform_name": "Arduino AVR Boards"},
+								"checkbox": true
+							}
+						]
 					}
 				]
 			}

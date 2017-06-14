@@ -130,7 +130,37 @@
 						"command": "stino_import_library",
 						"args": {"library_path": "/applications/Arduino.app/Contents/Java/libraries/WiFi"}
 					},
-					{"caption": "-"}
+					{"caption": "-"},
+					{
+						"caption": "Adafruit Circuit Playground",
+						"id": "stino_library_Adafruit Circuit Playground",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground"}
+					},
+					{
+						"caption": "PS2KeyAdvanced",
+						"id": "stino_library_PS2KeyAdvanced",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/PS2KeyAdvanced"}
+					},
+					{
+						"caption": "PS2Keyboard",
+						"id": "stino_library_PS2Keyboard",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/PS2Keyboard"}
+					},
+					{
+						"caption": "PS2KeyMap",
+						"id": "stino_library_PS2KeyMap",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/PS2KeyMap"}
+					},
+					{
+						"caption": "PS2KeyRaw",
+						"id": "stino_library_PS2KeyRaw",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/john/Documents/Arduino/libraries/PS2KeyRaw"}
+					}
 				]
 			}
 		]

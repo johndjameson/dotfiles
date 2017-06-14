@@ -3040,7 +3040,405 @@
 							}						]
 					},
 					{"caption": "-"},
-					{"caption": "-"}
+					{"caption": "-"},
+					{
+						"caption": "Adafruit Circuit Playground",
+						"id": "stino_example_Adafruit Circuit Playground",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "accel_mouse",
+										"id": "stino_example_accel_mouse",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/accel_mouse"}
+									},
+									{
+										"caption": "accelTap",
+										"id": "stino_example_accelTap",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/accelTap"}
+									},
+									{
+										"caption": "analog_sensors",
+										"id": "stino_example_analog_sensors",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/analog_sensors"}
+									},
+									{
+										"caption": "CircuitPlaygroundFirmata",
+										"id": "stino_example_CircuitPlaygroundFirmata",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/CircuitPlaygroundFirmata"}
+									},
+									{
+										"caption": "color_sense",
+										"id": "stino_example_color_sense",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/color_sense"}
+									},
+									{
+										"caption": "comm_badge",
+										"id": "stino_example_comm_badge",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/comm_badge"}
+									},
+									{
+										"caption": "demo",
+										"id": "stino_example_demo",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/demo"}
+									},
+									{
+										"caption": "FidgetSpinner",
+										"id": "stino_example_FidgetSpinner",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/FidgetSpinner"}
+									},
+									{
+										"caption": "Hello_CircuitPlayground",
+										"id": "stino_example_Hello_CircuitPlayground",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "Hello_Accelerometer",
+												"id": "stino_example_Hello_Accelerometer",
+												"command": "stino_open_example",
+												"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_Accelerometer"}
+											},
+											{
+												"caption": "Hello_Blink",
+												"id": "stino_example_Hello_Blink",
+												"command": "stino_open_example",
+												"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_Blink"}
+											},
+											{
+												"caption": "Hello_Buttons",
+												"id": "stino_example_Hello_Buttons",
+												"command": "stino_open_example",
+												"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_Buttons"}
+											},
+											{
+												"caption": "Hello_LightSensor",
+												"id": "stino_example_Hello_LightSensor",
+												"command": "stino_open_example",
+												"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_LightSensor"}
+											},
+											{
+												"caption": "Hello_NeoPixels",
+												"id": "stino_example_Hello_NeoPixels",
+												"command": "stino_open_example",
+												"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_NeoPixels"}
+											},
+											{
+												"caption": "Hello_SlideSwitch",
+												"id": "stino_example_Hello_SlideSwitch",
+												"command": "stino_open_example",
+												"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_SlideSwitch"}
+											},
+											{
+												"caption": "Hello_SoundSensor",
+												"id": "stino_example_Hello_SoundSensor",
+												"command": "stino_open_example",
+												"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_SoundSensor"}
+											},
+											{
+												"caption": "Hello_Speaker",
+												"id": "stino_example_Hello_Speaker",
+												"command": "stino_open_example",
+												"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_Speaker"}
+											},
+											{
+												"caption": "Hello_Temperature",
+												"id": "stino_example_Hello_Temperature",
+												"command": "stino_open_example",
+												"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Hello_CircuitPlayground/Hello_Temperature"}
+											}										]
+									},
+									{
+										"caption": "Infrared_NeoPixel",
+										"id": "stino_example_Infrared_NeoPixel",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Infrared_NeoPixel"}
+									},
+									{
+										"caption": "Infrared_Read",
+										"id": "stino_example_Infrared_Read",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Infrared_Read"}
+									},
+									{
+										"caption": "Infrared_Record",
+										"id": "stino_example_Infrared_Record",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Infrared_Record"}
+									},
+									{
+										"caption": "Infrared_Testpattern",
+										"id": "stino_example_Infrared_Testpattern",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Infrared_Testpattern"}
+									},
+									{
+										"caption": "mega_demo",
+										"id": "stino_example_mega_demo",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/mega_demo"}
+									},
+									{
+										"caption": "Microphone",
+										"id": "stino_example_Microphone",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "mic_fft",
+												"id": "stino_example_mic_fft",
+												"command": "stino_open_example",
+												"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Microphone/mic_fft"}
+											},
+											{
+												"caption": "mic_meter",
+												"id": "stino_example_mic_meter",
+												"command": "stino_open_example",
+												"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Microphone/mic_meter"}
+											}										]
+									},
+									{
+										"caption": "ScatchSensorBoard",
+										"id": "stino_example_ScatchSensorBoard",
+										"children":
+										[
+											{"caption": "-"}										]
+									},
+									{
+										"caption": "Speech",
+										"id": "stino_example_Speech",
+										"children":
+										[
+											{"caption": "-"},
+											{
+												"caption": "Talk_UK_Acorn",
+												"id": "stino_example_Talk_UK_Acorn",
+												"command": "stino_open_example",
+												"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Speech/Talk_UK_Acorn"}
+											},
+											{
+												"caption": "Talk_US_Clock",
+												"id": "stino_example_Talk_US_Clock",
+												"command": "stino_open_example",
+												"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Speech/Talk_US_Clock"}
+											},
+											{
+												"caption": "Talk_US_Large",
+												"id": "stino_example_Talk_US_Large",
+												"command": "stino_open_example",
+												"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Speech/Talk_US_Large"}
+											},
+											{
+												"caption": "Talk_US_Male",
+												"id": "stino_example_Talk_US_Male",
+												"command": "stino_open_example",
+												"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Speech/Talk_US_Male"}
+											},
+											{
+												"caption": "Talk_US_TI99",
+												"id": "stino_example_Talk_US_TI99",
+												"command": "stino_open_example",
+												"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/Speech/Talk_US_TI99"}
+											}										]
+									},
+									{
+										"caption": "vu_meter",
+										"id": "stino_example_vu_meter",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/Adafruit_Circuit_Playground/examples/vu_meter"}
+									}								]
+							},
+							{
+								"caption": "utility",
+								"id": "stino_example_utility",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "PS2KeyAdvanced",
+						"id": "stino_example_PS2KeyAdvanced",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "advcodetest",
+										"id": "stino_example_advcodetest",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/PS2KeyAdvanced/examples/advcodetest"}
+									},
+									{
+										"caption": "KeyToLCD",
+										"id": "stino_example_KeyToLCD",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/PS2KeyAdvanced/examples/KeyToLCD"}
+									},
+									{
+										"caption": "SimpleTest",
+										"id": "stino_example_SimpleTest",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/PS2KeyAdvanced/examples/SimpleTest"}
+									}								]
+							},
+							{
+								"caption": "extra",
+								"id": "stino_example_extra",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "Images",
+										"id": "stino_example_Images",
+										"children":
+										[
+											{"caption": "-"}										]
+									}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "PS2Keyboard",
+						"id": "stino_example_PS2Keyboard",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "International",
+										"id": "stino_example_International",
+										"children":
+										[
+											{"caption": "-"}										]
+									},
+									{
+										"caption": "Simple_Test",
+										"id": "stino_example_Simple_Test",
+										"children":
+										[
+											{"caption": "-"}										]
+									}								]
+							},
+							{
+								"caption": "utility",
+								"id": "stino_example_utility",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "PS2KeyMap",
+						"id": "stino_example_PS2KeyMap",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "International",
+										"id": "stino_example_International",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/PS2KeyMap/examples/International"}
+									},
+									{
+										"caption": "KeyToLCD",
+										"id": "stino_example_KeyToLCD",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/PS2KeyMap/examples/KeyToLCD"}
+									}								]
+							},
+							{
+								"caption": "extra",
+								"id": "stino_example_extra",
+								"children":
+								[
+									{"caption": "-"}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					},
+					{
+						"caption": "PS2KeyRaw",
+						"id": "stino_example_PS2KeyRaw",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "SimpleTest",
+										"id": "stino_example_SimpleTest",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/john/Documents/Arduino/libraries/PS2KeyRaw/examples/SimpleTest"}
+									}								]
+							},
+							{
+								"caption": "extra",
+								"id": "stino_example_extra",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "Images",
+										"id": "stino_example_Images",
+										"children":
+										[
+											{"caption": "-"}										]
+									}								]
+							},
+							{
+								"caption": "src",
+								"id": "stino_example_src",
+								"children":
+								[
+									{"caption": "-"}								]
+							}						]
+					}
 				]
 			}
 		]
