@@ -282,6 +282,11 @@
 											"id": "stino_lib_cat_name_ver_2.5.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "Adafruit IO Arduino", "version": "2.5.0"}
+										},
+										{											"caption": "2.6.0",
+											"id": "stino_lib_cat_name_ver_2.6.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Adafruit IO Arduino", "version": "2.6.0"}
 										}
 									]								},
 									{
@@ -500,6 +505,11 @@
 											"id": "stino_lib_cat_name_ver_0.7.2",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "anto-esp8266-arduino", "version": "0.7.2"}
+										},
+										{											"caption": "0.7.3",
+											"id": "stino_lib_cat_name_ver_0.7.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "anto-esp8266-arduino", "version": "0.7.3"}
 										}
 									]								},
 									{
@@ -787,6 +797,22 @@
 										}
 									]								},
 									{
+									"caption": "AWS-SDK-ESP8266",
+									"id": "stino_lib_cat_name_AWS-SDK-ESP8266",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.9.1-beta",
+											"id": "stino_lib_cat_name_ver_0.9.1-beta",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "AWS-SDK-ESP8266", "version": "0.9.1-beta"}
+										},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "AWS-SDK-ESP8266", "version": "1.0.0"}
+										}
+									]								},
+									{
 									"caption": "AzureIoTHub",
 									"id": "stino_lib_cat_name_AzureIoTHub",
 									"children":
@@ -815,6 +841,16 @@
 											"id": "stino_lib_cat_name_ver_1.0.34",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "AzureIoTHub", "version": "1.0.34"}
+										},
+										{											"caption": "1.0.35",
+											"id": "stino_lib_cat_name_ver_1.0.35",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "AzureIoTHub", "version": "1.0.35"}
+										},
+										{											"caption": "1.0.36",
+											"id": "stino_lib_cat_name_ver_1.0.36",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "AzureIoTHub", "version": "1.0.36"}
 										}
 									]								},
 									{
@@ -857,6 +893,16 @@
 											"id": "stino_lib_cat_name_ver_1.0.34",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "AzureIoTProtocol_HTTP", "version": "1.0.34"}
+										},
+										{											"caption": "1.0.35",
+											"id": "stino_lib_cat_name_ver_1.0.35",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "AzureIoTProtocol_HTTP", "version": "1.0.35"}
+										},
+										{											"caption": "1.0.36",
+											"id": "stino_lib_cat_name_ver_1.0.36",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "AzureIoTProtocol_HTTP", "version": "1.0.36"}
 										}
 									]								},
 									{
@@ -883,6 +929,16 @@
 											"id": "stino_lib_cat_name_ver_1.0.34",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "AzureIoTProtocol_MQTT", "version": "1.0.34"}
+										},
+										{											"caption": "1.0.35",
+											"id": "stino_lib_cat_name_ver_1.0.35",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "AzureIoTProtocol_MQTT", "version": "1.0.35"}
+										},
+										{											"caption": "1.0.36",
+											"id": "stino_lib_cat_name_ver_1.0.36",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "AzureIoTProtocol_MQTT", "version": "1.0.36"}
 										}
 									]								},
 									{
@@ -909,6 +965,16 @@
 											"id": "stino_lib_cat_name_ver_1.0.34",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "AzureIoTUtility", "version": "1.0.34"}
+										},
+										{											"caption": "1.0.35",
+											"id": "stino_lib_cat_name_ver_1.0.35",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "AzureIoTUtility", "version": "1.0.35"}
+										},
+										{											"caption": "1.0.36",
+											"id": "stino_lib_cat_name_ver_1.0.36",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "AzureIoTUtility", "version": "1.0.36"}
 										}
 									]								}
 								]							},
@@ -1100,6 +1166,11 @@
 											"id": "stino_lib_cat_name_ver_0.4.7",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "Blynk", "version": "0.4.7"}
+										},
+										{											"caption": "0.4.8",
+											"id": "stino_lib_cat_name_ver_0.4.8",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Blynk", "version": "0.4.8"}
 										}
 									]								},
 									{
@@ -1336,6 +1407,16 @@
 											"id": "stino_lib_cat_name_ver_1.0.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "Buffered Streams", "version": "1.0.1"}
+										},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Buffered Streams", "version": "1.0.2"}
+										},
+										{											"caption": "1.0.3",
+											"id": "stino_lib_cat_name_ver_1.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Buffered Streams", "version": "1.0.3"}
 										}
 									]								}
 								]							},
@@ -1369,6 +1450,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "CayenneMQTT", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "CayenneMQTT", "version": "1.0.1"}
 										}
 									]								},
 									{
@@ -1396,6 +1482,11 @@
 											"id": "stino_lib_cat_name_ver_0.5.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "cI2C", "version": "0.5.0"}
+										},
+										{											"caption": "0.6.0",
+											"id": "stino_lib_cat_name_ver_0.6.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "cI2C", "version": "0.6.0"}
 										}
 									]								},
 									{
@@ -1538,6 +1629,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "CoinMarketCapApi", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "CoinMarketCapApi", "version": "1.0.1"}
 										}
 									]								},
 									{
@@ -1579,6 +1675,11 @@
 											"id": "stino_lib_cat_name_ver_0.7.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "ConfigManager", "version": "0.7.0"}
+										},
+										{											"caption": "0.8.0",
+											"id": "stino_lib_cat_name_ver_0.8.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "ConfigManager", "version": "0.8.0"}
 										}
 									]								},
 									{
@@ -1680,6 +1781,17 @@
 											"id": "stino_lib_cat_name_ver_0.2.4",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "DFW", "version": "0.2.4"}
+										}
+									]								},
+									{
+									"caption": "DLPacket",
+									"id": "stino_lib_cat_name_DLPacket",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "DLPacket", "version": "1.0.0"}
 										}
 									]								},
 									{
@@ -2017,6 +2129,22 @@
 										}
 									]								},
 									{
+									"caption": "ESPMail",
+									"id": "stino_lib_cat_name_ESPMail",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "ESPMail", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "ESPMail", "version": "1.0.1"}
+										}
+									]								},
+									{
 									"caption": "Ethernet",
 									"id": "stino_lib_cat_name_Ethernet",
 									"children":
@@ -2215,6 +2343,11 @@
 											"id": "stino_lib_cat_name_ver_2.5.2",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "Exosite", "version": "2.5.2"}
+										},
+										{											"caption": "2.5.3",
+											"id": "stino_lib_cat_name_ver_2.5.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Exosite", "version": "2.5.3"}
 										},
 										{											"caption": "2.6.0",
 											"id": "stino_lib_cat_name_ver_2.6.0",
@@ -2426,6 +2559,67 @@
 										}
 									]								},
 									{
+									"caption": "Helium",
+									"id": "stino_lib_cat_name_Helium",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.1.14",
+											"id": "stino_lib_cat_name_ver_0.1.14",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Helium", "version": "0.1.14"}
+										},
+										{											"caption": "0.1.15",
+											"id": "stino_lib_cat_name_ver_0.1.15",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Helium", "version": "0.1.15"}
+										},
+										{											"caption": "0.1.16",
+											"id": "stino_lib_cat_name_ver_0.1.16",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Helium", "version": "0.1.16"}
+										},
+										{											"caption": "0.1.17",
+											"id": "stino_lib_cat_name_ver_0.1.17",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Helium", "version": "0.1.17"}
+										},
+										{											"caption": "0.1.18",
+											"id": "stino_lib_cat_name_ver_0.1.18",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Helium", "version": "0.1.18"}
+										},
+										{											"caption": "0.1.19",
+											"id": "stino_lib_cat_name_ver_0.1.19",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Helium", "version": "0.1.19"}
+										},
+										{											"caption": "0.1.20",
+											"id": "stino_lib_cat_name_ver_0.1.20",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Helium", "version": "0.1.20"}
+										},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Helium", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Helium", "version": "1.0.1"}
+										},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Helium", "version": "1.0.2"}
+										},
+										{											"caption": "1.0.3",
+											"id": "stino_lib_cat_name_ver_1.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Helium", "version": "1.0.3"}
+										}
+									]								},
+									{
 									"caption": "HID-Project",
 									"id": "stino_lib_cat_name_HID-Project",
 									"children":
@@ -2518,6 +2712,22 @@
 										}
 									]								},
 									{
+									"caption": "IOTAppStory-ESP8266",
+									"id": "stino_lib_cat_name_IOTAppStory-ESP8266",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "IOTAppStory-ESP8266", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "IOTAppStory-ESP8266", "version": "1.0.1"}
+										}
+									]								},
+									{
 									"caption": "IoTPipe",
 									"id": "stino_lib_cat_name_IoTPipe",
 									"children":
@@ -2587,27 +2797,6 @@
 								"children":
 								[									{"caption": "-"},
 									{
-									"caption": "J1850-PWM Encoding Library",
-									"id": "stino_lib_cat_name_J1850-PWM Encoding Library",
-									"children":
-									[										{"caption": "-"},
-										{											"caption": "1.0.1",
-											"id": "stino_lib_cat_name_ver_1.0.1",
-											"command": "stino_install_lib",
-											"args": {"category": "Communication", "name": "J1850-PWM Encoding Library", "version": "1.0.1"}
-										},
-										{											"caption": "1.0.4",
-											"id": "stino_lib_cat_name_ver_1.0.4",
-											"command": "stino_install_lib",
-											"args": {"category": "Communication", "name": "J1850-PWM Encoding Library", "version": "1.0.4"}
-										},
-										{											"caption": "1.0.5",
-											"id": "stino_lib_cat_name_ver_1.0.5",
-											"command": "stino_install_lib",
-											"args": {"category": "Communication", "name": "J1850-PWM Encoding Library", "version": "1.0.5"}
-										}
-									]								},
-									{
 									"caption": "jm_Wire",
 									"id": "stino_lib_cat_name_jm_Wire",
 									"children":
@@ -2643,6 +2832,16 @@
 											"id": "stino_lib_cat_name_ver_1.0.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "Kerbal Sim Pit", "version": "1.0.1"}
+										},
+										{											"caption": "1.1.1",
+											"id": "stino_lib_cat_name_ver_1.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Kerbal Sim Pit", "version": "1.1.1"}
+										},
+										{											"caption": "1.1.3",
+											"id": "stino_lib_cat_name_ver_1.1.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Kerbal Sim Pit", "version": "1.1.3"}
 										}
 									]								},
 									{
@@ -2797,6 +2996,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "LoRa Node", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "LoRa Node", "version": "1.0.1"}
 										}
 									]								},
 									{
@@ -3136,6 +3340,11 @@
 											"id": "stino_lib_cat_name_ver_1.9.6",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "MQTT", "version": "1.9.6"}
+										},
+										{											"caption": "2.0.0",
+											"id": "stino_lib_cat_name_ver_2.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "MQTT", "version": "2.0.0"}
 										}
 									]								},
 									{
@@ -3247,6 +3456,11 @@
 											"id": "stino_lib_cat_name_ver_3.0.4",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "NeoSWSerial", "version": "3.0.4"}
+										},
+										{											"caption": "3.0.5",
+											"id": "stino_lib_cat_name_ver_3.0.5",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "NeoSWSerial", "version": "3.0.5"}
 										}
 									]								},
 									{
@@ -3569,6 +3783,17 @@
 										}
 									]								},
 									{
+									"caption": "Ps2KeyboardHost",
+									"id": "stino_lib_cat_name_Ps2KeyboardHost",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Ps2KeyboardHost", "version": "1.0.0"}
+										}
+									]								},
+									{
 									"caption": "Pubnub",
 									"id": "stino_lib_cat_name_Pubnub",
 									"children":
@@ -3612,6 +3837,11 @@
 											"id": "stino_lib_cat_name_ver_2.1.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "Pubnub", "version": "2.1.0"}
+										},
+										{											"caption": "2.1.1",
+											"id": "stino_lib_cat_name_ver_2.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Pubnub", "version": "2.1.1"}
 										}
 									]								},
 									{
@@ -4046,6 +4276,11 @@
 											"id": "stino_lib_cat_name_ver_1.1.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "SakuraIO", "version": "1.1.1"}
+										},
+										{											"caption": "1.1.2",
+											"id": "stino_lib_cat_name_ver_1.1.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "SakuraIO", "version": "1.1.2"}
 										}
 									]								},
 									{
@@ -4057,6 +4292,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "SerialTerminal", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "SerialTerminal", "version": "1.1.0"}
 										}
 									]								},
 									{
@@ -4210,6 +4450,27 @@
 											"id": "stino_lib_cat_name_ver_1.1.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "Sodaq_LIS3DE", "version": "1.1.0"}
+										}
+									]								},
+									{
+									"caption": "Sodaq_nbIOT",
+									"id": "stino_lib_cat_name_Sodaq_nbIOT",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Sodaq_nbIOT", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Sodaq_nbIOT", "version": "1.0.1"}
+										},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Sodaq_nbIOT", "version": "1.0.2"}
 										}
 									]								},
 									{
@@ -4688,6 +4949,11 @@
 											"id": "stino_lib_cat_name_ver_2.5.3",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "TheThingsNetwork", "version": "2.5.3"}
+										},
+										{											"caption": "2.5.4",
+											"id": "stino_lib_cat_name_ver_2.5.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "TheThingsNetwork", "version": "2.5.4"}
 										}
 									]								},
 									{
@@ -5087,6 +5353,28 @@
 									]								}
 								]							},
 							{
+								"caption": "V",
+								"id": "stino_lib_cat_initial_V",
+								"children":
+								[									{"caption": "-"},
+									{
+									"caption": "VitconIOT",
+									"id": "stino_lib_cat_name_VitconIOT",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "VitconIOT", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "VitconIOT", "version": "1.1.0"}
+										}
+									]								}
+								]							},
+							{
 								"caption": "W",
 								"id": "stino_lib_cat_initial_W",
 								"children":
@@ -5151,6 +5439,17 @@
 											"id": "stino_lib_cat_name_ver_2.0.6",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "WebSockets", "version": "2.0.6"}
+										}
+									]								},
+									{
+									"caption": "WEDO 2.0 BLE for ESP32",
+									"id": "stino_lib_cat_name_WEDO 2.0 BLE for ESP32",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "WEDO 2.0 BLE for ESP32", "version": "1.0.0"}
 										}
 									]								},
 									{
@@ -5483,6 +5782,16 @@
 											"id": "stino_lib_cat_name_ver_0.2.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "WireWrapper", "version": "0.2.0"}
+										},
+										{											"caption": "0.3.0",
+											"id": "stino_lib_cat_name_ver_0.3.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "WireWrapper", "version": "0.3.0"}
+										},
+										{											"caption": "0.4.0",
+											"id": "stino_lib_cat_name_ver_0.4.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "WireWrapper", "version": "0.4.0"}
 										}
 									]								},
 									{
@@ -5719,6 +6028,16 @@
 											"command": "stino_install_lib",
 											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.10.1"}
 										},
+										{											"caption": "5.11.0",
+											"id": "stino_lib_cat_name_ver_5.11.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.11.0"}
+										},
+										{											"caption": "5.11.1",
+											"id": "stino_lib_cat_name_ver_5.11.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "ArduinoJson", "version": "5.11.1"}
+										},
 										{											"caption": "5.2.0",
 											"id": "stino_lib_cat_name_ver_5.2.0",
 											"command": "stino_install_lib",
@@ -5951,6 +6270,21 @@
 											"id": "stino_lib_cat_name_ver_1.2.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Data Processing", "name": "CmdParser", "version": "1.2.0"}
+										},
+										{											"caption": "1.3.0",
+											"id": "stino_lib_cat_name_ver_1.3.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "CmdParser", "version": "1.3.0"}
+										},
+										{											"caption": "1.4.0",
+											"id": "stino_lib_cat_name_ver_1.4.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "CmdParser", "version": "1.4.0"}
+										},
+										{											"caption": "1.5.0",
+											"id": "stino_lib_cat_name_ver_1.5.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "CmdParser", "version": "1.5.0"}
 										}
 									]								},
 									{
@@ -6155,6 +6489,11 @@
 											"id": "stino_lib_cat_name_ver_2.2.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Data Processing", "name": "Lora Serialization", "version": "2.2.0"}
+										},
+										{											"caption": "3.0.0",
+											"id": "stino_lib_cat_name_ver_3.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "Lora Serialization", "version": "3.0.0"}
 										}
 									]								}
 								]							},
@@ -6219,6 +6558,11 @@
 											"id": "stino_lib_cat_name_ver_1.1.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Data Processing", "name": "MD_Menu", "version": "1.1.0"}
+										},
+										{											"caption": "1.2.0",
+											"id": "stino_lib_cat_name_ver_1.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "MD_Menu", "version": "1.2.0"}
 										}
 									]								},
 									{
@@ -6733,6 +7077,22 @@
 										}
 									]								},
 									{
+									"caption": "EEPROM_CAT25",
+									"id": "stino_lib_cat_name_EEPROM_CAT25",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "EEPROM_CAT25", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "EEPROM_CAT25", "version": "1.0.1"}
+										}
+									]								},
+									{
 									"caption": "EEPROMEx",
 									"id": "stino_lib_cat_name_EEPROMEx",
 									"children":
@@ -6783,6 +7143,16 @@
 											"id": "stino_lib_cat_name_ver_3.3.2",
 											"command": "stino_install_lib",
 											"args": {"category": "Data Storage", "name": "extEEPROM", "version": "3.3.2"}
+										},
+										{											"caption": "3.3.3",
+											"id": "stino_lib_cat_name_ver_3.3.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "extEEPROM", "version": "3.3.3"}
+										},
+										{											"caption": "3.3.4",
+											"id": "stino_lib_cat_name_ver_3.3.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "extEEPROM", "version": "3.3.4"}
 										}
 									]								}
 								]							},
@@ -6848,6 +7218,21 @@
 											"id": "stino_lib_cat_name_ver_1.2.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Data Storage", "name": "Iondb", "version": "1.2.0"}
+										},
+										{											"caption": "2.0.0",
+											"id": "stino_lib_cat_name_ver_2.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Iondb", "version": "2.0.0"}
+										},
+										{											"caption": "2.1.1",
+											"id": "stino_lib_cat_name_ver_2.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Iondb", "version": "2.1.1"}
+										},
+										{											"caption": "2.1.3",
+											"id": "stino_lib_cat_name_ver_2.1.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Iondb", "version": "2.1.3"}
 										}
 									]								}
 								]							},
@@ -6904,6 +7289,21 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Data Storage", "name": "Queue", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Queue", "version": "1.1.0"}
+										},
+										{											"caption": "1.2.0",
+											"id": "stino_lib_cat_name_ver_1.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Queue", "version": "1.2.0"}
+										},
+										{											"caption": "1.3.0",
+											"id": "stino_lib_cat_name_ver_1.3.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "Queue", "version": "1.3.0"}
 										}
 									]								}
 								]							},
@@ -7063,6 +7463,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Data Storage", "name": "SdFat", "version": "1.0.1"}
+										},
+										{											"caption": "1.0.3",
+											"id": "stino_lib_cat_name_ver_1.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SdFat", "version": "1.0.3"}
 										}
 									]								},
 									{
@@ -7239,6 +7644,11 @@
 											"id": "stino_lib_cat_name_ver_1.1.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Data Storage", "name": "SRAM_23LC", "version": "1.1.0"}
+										},
+										{											"caption": "1.1.1",
+											"id": "stino_lib_cat_name_ver_1.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "SRAM_23LC", "version": "1.1.1"}
 										}
 									]								},
 									{
@@ -7563,6 +7973,17 @@
 										}
 									]								},
 									{
+									"caption": "Arduino Commander",
+									"id": "stino_lib_cat_name_Arduino Commander",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "Arduino Commander", "version": "1.0.0"}
+										}
+									]								},
+									{
 									"caption": "Arduino Low Power",
 									"id": "stino_lib_cat_name_Arduino Low Power",
 									"children":
@@ -7576,6 +7997,11 @@
 											"id": "stino_lib_cat_name_ver_1.1.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "Arduino Low Power", "version": "1.1.0"}
+										},
+										{											"caption": "1.2.0",
+											"id": "stino_lib_cat_name_ver_1.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "Arduino Low Power", "version": "1.2.0"}
 										}
 									]								},
 									{
@@ -7725,6 +8151,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "Balboa32U4", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "Balboa32U4", "version": "1.0.1"}
 										}
 									]								},
 									{
@@ -8009,6 +8440,16 @@
 											"id": "stino_lib_cat_name_ver_0.1.5",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "DABDUINO", "version": "0.1.5"}
+										},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "DABDUINO", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "DABDUINO", "version": "1.0.1"}
 										}
 									]								},
 									{
@@ -8211,6 +8652,16 @@
 											"id": "stino_lib_cat_name_ver_2.0.4",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "Etherkit Si5351", "version": "2.0.4"}
+										},
+										{											"caption": "2.0.5",
+											"id": "stino_lib_cat_name_ver_2.0.5",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "Etherkit Si5351", "version": "2.0.5"}
+										},
+										{											"caption": "2.0.6",
+											"id": "stino_lib_cat_name_ver_2.0.6",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "Etherkit Si5351", "version": "2.0.6"}
 										}
 									]								}
 								]							},
@@ -8528,6 +8979,17 @@
 										}
 									]								},
 									{
+									"caption": "Guarateca_Demo",
+									"id": "stino_lib_cat_name_Guarateca_Demo",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "Guarateca_Demo", "version": "1.0.0"}
+										}
+									]								},
+									{
 									"caption": "GuaraTeca_Hardware",
 									"id": "stino_lib_cat_name_GuaraTeca_Hardware",
 									"children":
@@ -8536,6 +8998,16 @@
 											"id": "stino_lib_cat_name_ver_1.2.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "GuaraTeca_Hardware", "version": "1.2.0"}
+										},
+										{											"caption": "1.5.0",
+											"id": "stino_lib_cat_name_ver_1.5.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "GuaraTeca_Hardware", "version": "1.5.0"}
+										},
+										{											"caption": "1.5.2",
+											"id": "stino_lib_cat_name_ver_1.5.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "GuaraTeca_Hardware", "version": "1.5.2"}
 										}
 									]								},
 									{
@@ -8547,6 +9019,11 @@
 											"id": "stino_lib_cat_name_ver_1.2.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "GuaraTeca_Menu", "version": "1.2.0"}
+										},
+										{											"caption": "1.5.0",
+											"id": "stino_lib_cat_name_ver_1.5.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "GuaraTeca_Menu", "version": "1.5.0"}
 										}
 									]								},
 									{
@@ -8558,6 +9035,11 @@
 											"id": "stino_lib_cat_name_ver_1.2.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "GuaraTeca_OBR", "version": "1.2.0"}
+										},
+										{											"caption": "1.5.0",
+											"id": "stino_lib_cat_name_ver_1.5.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "GuaraTeca_OBR", "version": "1.5.0"}
 										}
 									]								}
 								]							},
@@ -8722,6 +9204,31 @@
 											"id": "stino_lib_cat_name_ver_2.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "IRremoteESP8266", "version": "2.0.0"}
+										},
+										{											"caption": "2.0.1",
+											"id": "stino_lib_cat_name_ver_2.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "IRremoteESP8266", "version": "2.0.1"}
+										},
+										{											"caption": "2.0.2",
+											"id": "stino_lib_cat_name_ver_2.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "IRremoteESP8266", "version": "2.0.2"}
+										},
+										{											"caption": "2.0.3",
+											"id": "stino_lib_cat_name_ver_2.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "IRremoteESP8266", "version": "2.0.3"}
+										},
+										{											"caption": "2.1.0",
+											"id": "stino_lib_cat_name_ver_2.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "IRremoteESP8266", "version": "2.1.0"}
+										},
+										{											"caption": "2.1.1",
+											"id": "stino_lib_cat_name_ver_2.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "IRremoteESP8266", "version": "2.1.1"}
 										}
 									]								}
 								]							},
@@ -9911,6 +10418,11 @@
 											"id": "stino_lib_cat_name_ver_2.2.3",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "ROKduino", "version": "2.2.3"}
+										},
+										{											"caption": "2.2.4",
+											"id": "stino_lib_cat_name_ver_2.2.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "ROKduino", "version": "2.2.4"}
 										}
 									]								},
 									{
@@ -9927,6 +10439,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "Romi32U4", "version": "1.0.1"}
+										},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "Romi32U4", "version": "1.0.2"}
 										}
 									]								},
 									{
@@ -9985,6 +10502,11 @@
 											"id": "stino_lib_cat_name_ver_1.5.2",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "RTCLib by NeiroN", "version": "1.5.2"}
+										},
+										{											"caption": "1.5.4",
+											"id": "stino_lib_cat_name_ver_1.5.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "RTCLib by NeiroN", "version": "1.5.4"}
 										}
 									]								}
 								]							},
@@ -10722,6 +11244,17 @@
 								"children":
 								[									{"caption": "-"},
 									{
+									"caption": "VitconLink",
+									"id": "stino_lib_cat_name_VitconLink",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "VitconLink", "version": "1.0.0"}
+										}
+									]								},
+									{
 									"caption": "VS1053 for use with SdFat",
 									"id": "stino_lib_cat_name_VS1053 for use with SdFat",
 									"children":
@@ -10801,6 +11334,11 @@
 											"id": "stino_lib_cat_name_ver_1.1.3",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "Zumo32U4", "version": "1.1.3"}
+										},
+										{											"caption": "1.1.4",
+											"id": "stino_lib_cat_name_ver_1.1.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "Zumo32U4", "version": "1.1.4"}
 										}
 									]								}
 								]							}
@@ -11065,6 +11603,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.8",
 											"command": "stino_install_lib",
 											"args": {"category": "Display", "name": "Adafruit ILI9341", "version": "1.0.8"}
+										},
+										{											"caption": "1.0.9",
+											"id": "stino_lib_cat_name_ver_1.0.9",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "Adafruit ILI9341", "version": "1.0.9"}
 										}
 									]								},
 									{
@@ -11220,6 +11763,11 @@
 											"id": "stino_lib_cat_name_ver_1.1.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Display", "name": "Adafruit NeoPixel", "version": "1.1.1"}
+										},
+										{											"caption": "1.1.2",
+											"id": "stino_lib_cat_name_ver_1.1.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "Adafruit NeoPixel", "version": "1.1.2"}
 										}
 									]								},
 									{
@@ -11399,6 +11947,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.7",
 											"command": "stino_install_lib",
 											"args": {"category": "Display", "name": "Adafruit ST7735 Library", "version": "1.0.7"}
+										},
+										{											"caption": "1.0.8",
+											"id": "stino_lib_cat_name_ver_1.0.8",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "Adafruit ST7735 Library", "version": "1.0.8"}
 										}
 									]								},
 									{
@@ -11699,6 +12252,11 @@
 											"id": "stino_lib_cat_name_ver_0.1.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Display", "name": "Easy NeoPixels", "version": "0.1.0"}
+										},
+										{											"caption": "0.2.0",
+											"id": "stino_lib_cat_name_ver_0.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "Easy NeoPixels", "version": "0.2.0"}
 										}
 									]								},
 									{
@@ -11873,6 +12431,21 @@
 											"id": "stino_lib_cat_name_ver_1.2.2",
 											"command": "stino_install_lib",
 											"args": {"category": "Display", "name": "ESP8266 Weather Station", "version": "1.2.2"}
+										},
+										{											"caption": "1.2.3",
+											"id": "stino_lib_cat_name_ver_1.2.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "ESP8266 Weather Station", "version": "1.2.3"}
+										},
+										{											"caption": "1.3.0",
+											"id": "stino_lib_cat_name_ver_1.3.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "ESP8266 Weather Station", "version": "1.3.0"}
+										},
+										{											"caption": "1.3.1",
+											"id": "stino_lib_cat_name_ver_1.3.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "ESP8266 Weather Station", "version": "1.3.1"}
 										}
 									]								}
 								]							},
@@ -12124,6 +12697,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.2",
 											"command": "stino_install_lib",
 											"args": {"category": "Display", "name": "HT1632", "version": "1.0.2"}
+										},
+										{											"caption": "1.0.3",
+											"id": "stino_lib_cat_name_ver_1.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "HT1632", "version": "1.0.3"}
 										}
 									]								}
 								]							},
@@ -12540,6 +13118,16 @@
 									"id": "stino_lib_cat_name_Mini Grafx",
 									"children":
 									[										{"caption": "-"},
+										{											"caption": "0.0.10",
+											"id": "stino_lib_cat_name_ver_0.0.10",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "Mini Grafx", "version": "0.0.10"}
+										},
+										{											"caption": "0.0.12",
+											"id": "stino_lib_cat_name_ver_0.0.12",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "Mini Grafx", "version": "0.0.12"}
+										},
 										{											"caption": "0.0.8",
 											"id": "stino_lib_cat_name_ver_0.0.8",
 											"command": "stino_install_lib",
@@ -12749,6 +13337,11 @@
 											"id": "stino_lib_cat_name_ver_2.2.7",
 											"command": "stino_install_lib",
 											"args": {"category": "Display", "name": "NeoPixelBus by Makuna", "version": "2.2.7"}
+										},
+										{											"caption": "2.2.8",
+											"id": "stino_lib_cat_name_ver_2.2.8",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "NeoPixelBus by Makuna", "version": "2.2.8"}
 										}
 									]								},
 									{
@@ -12809,6 +13402,11 @@
 											"id": "stino_lib_cat_name_ver_1.2.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Display", "name": "OctoWS2811", "version": "1.2.0"}
+										},
+										{											"caption": "1.4.0",
+											"id": "stino_lib_cat_name_ver_1.4.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "OctoWS2811", "version": "1.4.0"}
 										}
 									]								}
 								]							},
@@ -13443,6 +14041,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Display", "name": "UC1701", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "UC1701", "version": "1.1.0"}
 										}
 									]								},
 									{
@@ -13658,6 +14261,16 @@
 											"id": "stino_lib_cat_name_ver_1.6.5",
 											"command": "stino_install_lib",
 											"args": {"category": "Other", "name": "Adafruit Circuit Playground", "version": "1.6.5"}
+										},
+										{											"caption": "1.6.6",
+											"id": "stino_lib_cat_name_ver_1.6.6",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "Adafruit Circuit Playground", "version": "1.6.6"}
+										},
+										{											"caption": "1.6.7",
+											"id": "stino_lib_cat_name_ver_1.6.7",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "Adafruit Circuit Playground", "version": "1.6.7"}
 										}
 									]								},
 									{
@@ -13861,6 +14474,16 @@
 											"id": "stino_lib_cat_name_ver_4.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Other", "name": "Arduboy2", "version": "4.0.0"}
+										},
+										{											"caption": "4.0.1",
+											"id": "stino_lib_cat_name_ver_4.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "Arduboy2", "version": "4.0.1"}
+										},
+										{											"caption": "4.0.2",
+											"id": "stino_lib_cat_name_ver_4.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "Arduboy2", "version": "4.0.2"}
 										}
 									]								},
 									{
@@ -13908,6 +14531,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.2",
 											"command": "stino_install_lib",
 											"args": {"category": "Other", "name": "ArduboyTones", "version": "1.0.2"}
+										},
+										{											"caption": "1.0.3",
+											"id": "stino_lib_cat_name_ver_1.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "ArduboyTones", "version": "1.0.3"}
 										}
 									]								},
 									{
@@ -13991,6 +14619,11 @@
 											"id": "stino_lib_cat_name_ver_3.1.5",
 											"command": "stino_install_lib",
 											"args": {"category": "Other", "name": "ArduinoMenu library", "version": "3.1.5"}
+										},
+										{											"caption": "3.1.7",
+											"id": "stino_lib_cat_name_ver_3.1.7",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "ArduinoMenu library", "version": "3.1.7"}
 										}
 									]								},
 									{
@@ -14152,6 +14785,11 @@
 											"id": "stino_lib_cat_name_ver_1.2.3",
 											"command": "stino_install_lib",
 											"args": {"category": "Other", "name": "ATMlib", "version": "1.2.3"}
+										},
+										{											"caption": "1.2.4",
+											"id": "stino_lib_cat_name_ver_1.2.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "ATMlib", "version": "1.2.4"}
 										}
 									]								},
 									{
@@ -14194,6 +14832,22 @@
 											"id": "stino_lib_cat_name_ver_0.1.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Other", "name": "Automaton-Esp8266", "version": "0.1.0"}
+										}
+									]								},
+									{
+									"caption": "AVRUtils",
+									"id": "stino_lib_cat_name_AVRUtils",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "AVRUtils", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "AVRUtils", "version": "1.1.0"}
 										}
 									]								},
 									{
@@ -14413,6 +15067,22 @@
 											"command": "stino_install_lib",
 											"args": {"category": "Other", "name": "CopyThreads", "version": "0.1.0"}
 										}
+									]								},
+									{
+									"caption": "CPPTasks",
+									"id": "stino_lib_cat_name_CPPTasks",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.1.1",
+											"id": "stino_lib_cat_name_ver_0.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "CPPTasks", "version": "0.1.1"}
+										},
+										{											"caption": "0.1.2",
+											"id": "stino_lib_cat_name_ver_0.1.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "CPPTasks", "version": "0.1.2"}
+										}
 									]								}
 								]							},
 							{
@@ -14420,6 +15090,28 @@
 								"id": "stino_lib_cat_initial_D",
 								"children":
 								[									{"caption": "-"},
+									{
+									"caption": "dbg-trace",
+									"id": "stino_lib_cat_name_dbg-trace",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "dbg-trace", "version": "1.1.0"}
+										}
+									]								},
+									{
+									"caption": "debug-cli",
+									"id": "stino_lib_cat_name_debug-cli",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.2.0",
+											"id": "stino_lib_cat_name_ver_1.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "debug-cli", "version": "1.2.0"}
+										}
+									]								},
 									{
 									"caption": "DecodeIR",
 									"id": "stino_lib_cat_name_DecodeIR",
@@ -15049,6 +15741,11 @@
 											"id": "stino_lib_cat_name_ver_0.1.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Other", "name": "LEDMatrixDriver", "version": "0.1.0"}
+										},
+										{											"caption": "0.1.1",
+											"id": "stino_lib_cat_name_ver_0.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "LEDMatrixDriver", "version": "0.1.1"}
 										}
 									]								},
 									{
@@ -15441,6 +16138,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Other", "name": "Serial Controlled Motor Driver", "version": "1.0.1"}
+										},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "Serial Controlled Motor Driver", "version": "1.0.2"}
 										}
 									]								},
 									{
@@ -15549,6 +16251,11 @@
 											"id": "stino_lib_cat_name_ver_2.5.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Other", "name": "uMT", "version": "2.5.0"}
+										},
+										{											"caption": "2.6.0",
+											"id": "stino_lib_cat_name_ver_2.6.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "uMT", "version": "2.6.0"}
 										}
 									]								},
 									{
@@ -16396,6 +17103,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "Adafruit_VL53L0X", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "Adafruit_VL53L0X", "version": "1.0.2"}
 										}
 									]								},
 									{
@@ -16545,6 +17257,17 @@
 										}
 									]								},
 									{
+									"caption": "Bitcraze PMW3901",
+									"id": "stino_lib_cat_name_Bitcraze PMW3901",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "Bitcraze PMW3901", "version": "1.0.0"}
+										}
+									]								},
+									{
 									"caption": "BlueDot BME280 Library",
 									"id": "stino_lib_cat_name_BlueDot BME280 Library",
 									"children":
@@ -16553,6 +17276,16 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "BlueDot BME280 Library", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "BlueDot BME280 Library", "version": "1.0.2"}
+										},
+										{											"caption": "1.0.3",
+											"id": "stino_lib_cat_name_ver_1.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "BlueDot BME280 Library", "version": "1.0.3"}
 										}
 									]								},
 									{
@@ -16560,15 +17293,10 @@
 									"id": "stino_lib_cat_name_BlueRobotics MS5837-30BA Library",
 									"children":
 									[										{"caption": "-"},
-										{											"caption": "1.0.0",
-											"id": "stino_lib_cat_name_ver_1.0.0",
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
 											"command": "stino_install_lib",
-											"args": {"category": "Sensors", "name": "BlueRobotics MS5837-30BA Library", "version": "1.0.0"}
-										},
-										{											"caption": "1.0.1",
-											"id": "stino_lib_cat_name_ver_1.0.1",
-											"command": "stino_install_lib",
-											"args": {"category": "Sensors", "name": "BlueRobotics MS5837-30BA Library", "version": "1.0.1"}
+											"args": {"category": "Sensors", "name": "BlueRobotics MS5837-30BA Library", "version": "1.1.0"}
 										}
 									]								},
 									{
@@ -16994,6 +17722,32 @@
 										}
 									]								},
 									{
+									"caption": "EC_Salinity",
+									"id": "stino_lib_cat_name_EC_Salinity",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "EC_Salinity", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "EC_Salinity", "version": "1.0.1"}
+										},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "EC_Salinity", "version": "1.0.2"}
+										},
+										{											"caption": "1.0.3",
+											"id": "stino_lib_cat_name_ver_1.0.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "EC_Salinity", "version": "1.0.3"}
+										}
+									]								},
+									{
 									"caption": "EduShield",
 									"id": "stino_lib_cat_name_EduShield",
 									"children":
@@ -17012,6 +17766,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.5",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "EduShield", "version": "1.0.5"}
+										},
+										{											"caption": "1.0.7",
+											"id": "stino_lib_cat_name_ver_1.0.7",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "EduShield", "version": "1.0.7"}
 										}
 									]								},
 									{
@@ -17654,6 +18413,17 @@
 										}
 									]								},
 									{
+									"caption": "MPU9250_asukiaaa",
+									"id": "stino_lib_cat_name_MPU9250_asukiaaa",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "MPU9250_asukiaaa", "version": "1.0.0"}
+										}
+									]								},
+									{
 									"caption": "MS5xxx",
 									"id": "stino_lib_cat_name_MS5xxx",
 									"children":
@@ -17703,6 +18473,22 @@
 								"id": "stino_lib_cat_initial_O",
 								"children":
 								[									{"caption": "-"},
+									{
+									"caption": "OctoSonar",
+									"id": "stino_lib_cat_name_OctoSonar",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "OctoSonar", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "OctoSonar", "version": "1.0.1"}
+										}
+									]								},
 									{
 									"caption": "OneWireHub",
 									"id": "stino_lib_cat_name_OneWireHub",
@@ -17817,6 +18603,16 @@
 											"id": "stino_lib_cat_name_ver_2.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "OneWireHub", "version": "2.0.0"}
+										},
+										{											"caption": "2.1.1",
+											"id": "stino_lib_cat_name_ver_2.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "OneWireHub", "version": "2.1.1"}
+										},
+										{											"caption": "2.1.2",
+											"id": "stino_lib_cat_name_ver_2.1.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "OneWireHub", "version": "2.1.2"}
 										}
 									]								},
 									{
@@ -18379,6 +19175,21 @@
 											"id": "stino_lib_cat_name_ver_1.0.2",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "SimpleDHT", "version": "1.0.2"}
+										},
+										{											"caption": "1.0.4",
+											"id": "stino_lib_cat_name_ver_1.0.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "SimpleDHT", "version": "1.0.4"}
+										},
+										{											"caption": "1.0.5",
+											"id": "stino_lib_cat_name_ver_1.0.5",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "SimpleDHT", "version": "1.0.5"}
+										},
+										{											"caption": "1.0.6",
+											"id": "stino_lib_cat_name_ver_1.0.6",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "SimpleDHT", "version": "1.0.6"}
 										}
 									]								},
 									{
@@ -18479,17 +19290,6 @@
 											"id": "stino_lib_cat_name_ver_1.1.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "SmartEverything LSM9DS1", "version": "1.1.0"}
-										}
-									]								},
-									{
-									"caption": "SmartEverything NXP-ST Shield",
-									"id": "stino_lib_cat_name_SmartEverything NXP-ST Shield",
-									"children":
-									[										{"caption": "-"},
-										{											"caption": "1.0.0",
-											"id": "stino_lib_cat_name_ver_1.0.0",
-											"command": "stino_install_lib",
-											"args": {"category": "Sensors", "name": "SmartEverything NXP-ST Shield", "version": "1.0.0"}
 										}
 									]								},
 									{
@@ -18974,6 +19774,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "TouchWheel", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "TouchWheel", "version": "1.1.0"}
 										}
 									]								},
 									{
@@ -19065,6 +19870,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "VL53L0X", "version": "1.0.1"}
+										},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "VL53L0X", "version": "1.0.2"}
 										}
 									]								},
 									{
@@ -19399,6 +20209,11 @@
 											"id": "stino_lib_cat_name_ver_0.5.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Signal Input/Output", "name": "CaptureTimer", "version": "0.5.0"}
+										},
+										{											"caption": "0.7.0",
+											"id": "stino_lib_cat_name_ver_0.7.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "CaptureTimer", "version": "0.7.0"}
 										}
 									]								}
 								]							},
@@ -19537,6 +20352,11 @@
 											"id": "stino_lib_cat_name_ver_0.11.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Signal Input/Output", "name": "ESPiLight", "version": "0.11.1"}
+										},
+										{											"caption": "0.11.2",
+											"id": "stino_lib_cat_name_ver_0.11.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "ESPiLight", "version": "0.11.2"}
 										},
 										{											"caption": "0.9.0",
 											"id": "stino_lib_cat_name_ver_0.9.0",
@@ -19708,6 +20528,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Signal Input/Output", "name": "Indio", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "Indio", "version": "1.1.0"}
 										}
 									]								},
 									{
@@ -19895,6 +20720,11 @@
 											"id": "stino_lib_cat_name_ver_1.3.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Signal Input/Output", "name": "Lixie", "version": "1.3.0"}
+										},
+										{											"caption": "1.4.0",
+											"id": "stino_lib_cat_name_ver_1.4.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "Lixie", "version": "1.4.0"}
 										}
 									]								}
 								]							},
@@ -19903,6 +20733,114 @@
 								"id": "stino_lib_cat_initial_M",
 								"children":
 								[									{"caption": "-"},
+									{
+									"caption": "M10ADC",
+									"id": "stino_lib_cat_name_M10ADC",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "M10ADC", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "M10ADC", "version": "1.0.1"}
+										},
+										{											"caption": "1.0.2",
+											"id": "stino_lib_cat_name_ver_1.0.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "M10ADC", "version": "1.0.2"}
+										}
+									]								},
+									{
+									"caption": "M10CODEC",
+									"id": "stino_lib_cat_name_M10CODEC",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "M10CODEC", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "M10CODEC", "version": "1.0.1"}
+										}
+									]								},
+									{
+									"caption": "M10I2C",
+									"id": "stino_lib_cat_name_M10I2C",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "M10I2C", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "M10JTAG",
+									"id": "stino_lib_cat_name_M10JTAG",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "M10JTAG", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "M10PWM",
+									"id": "stino_lib_cat_name_M10PWM",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "M10PWM", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "M10SD",
+									"id": "stino_lib_cat_name_M10SD",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "M10SD", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "M10SD", "version": "1.0.1"}
+										}
+									]								},
+									{
+									"caption": "M10SerialAUX",
+									"id": "stino_lib_cat_name_M10SerialAUX",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "M10SerialAUX", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "M10SRAM",
+									"id": "stino_lib_cat_name_M10SRAM",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "M10SRAM", "version": "1.0.0"}
+										}
+									]								},
 									{
 									"caption": "MCP3221",
 									"id": "stino_lib_cat_name_MCP3221",
@@ -20105,6 +21043,11 @@
 											"id": "stino_lib_cat_name_ver_1.1.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Signal Input/Output", "name": "PID", "version": "1.1.1"}
+										},
+										{											"caption": "1.2.0",
+											"id": "stino_lib_cat_name_ver_1.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "PID", "version": "1.2.0"}
 										}
 									]								},
 									{
@@ -20423,6 +21366,16 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Signal Input/Output", "name": "SeqButton", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "SeqButton", "version": "1.1.0"}
+										},
+										{											"caption": "1.2.0",
+											"id": "stino_lib_cat_name_ver_1.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "SeqButton", "version": "1.2.0"}
 										}
 									]								},
 									{
@@ -20434,6 +21387,16 @@
 											"id": "stino_lib_cat_name_ver_0.2.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Signal Input/Output", "name": "SmoothADC", "version": "0.2.0"}
+										},
+										{											"caption": "0.3.0",
+											"id": "stino_lib_cat_name_ver_0.3.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "SmoothADC", "version": "0.3.0"}
+										},
+										{											"caption": "0.4.0",
+											"id": "stino_lib_cat_name_ver_0.4.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "SmoothADC", "version": "0.4.0"}
 										}
 									]								},
 									{
@@ -20869,6 +21832,17 @@
 										}
 									]								},
 									{
+									"caption": "ArduinoThreadRunOnce",
+									"id": "stino_lib_cat_name_ArduinoThreadRunOnce",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.1.0",
+											"id": "stino_lib_cat_name_ver_0.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Timing", "name": "ArduinoThreadRunOnce", "version": "0.1.0"}
+										}
+									]								},
+									{
 									"caption": "AsyncDelay",
 									"id": "stino_lib_cat_name_AsyncDelay",
 									"children":
@@ -21066,6 +22040,17 @@
 								"id": "stino_lib_cat_initial_E",
 								"children":
 								[									{"caption": "-"},
+									{
+									"caption": "EasyNTPClient",
+									"id": "stino_lib_cat_name_EasyNTPClient",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Timing", "name": "EasyNTPClient", "version": "1.0.0"}
+										}
+									]								},
 									{
 									"caption": "elapsedMillis",
 									"id": "stino_lib_cat_name_elapsedMillis",
@@ -21667,6 +22652,16 @@
 											"id": "stino_lib_cat_name_ver_2.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Timing", "name": "SeqTimer", "version": "2.0.0"}
+										},
+										{											"caption": "2.1.0",
+											"id": "stino_lib_cat_name_ver_2.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Timing", "name": "SeqTimer", "version": "2.1.0"}
+										},
+										{											"caption": "2.2.0",
+											"id": "stino_lib_cat_name_ver_2.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Timing", "name": "SeqTimer", "version": "2.2.0"}
 										}
 									]								},
 									{
@@ -21762,6 +22757,11 @@
 											"id": "stino_lib_cat_name_ver_1.1.3",
 											"command": "stino_install_lib",
 											"args": {"category": "Timing", "name": "Task by Makuna", "version": "1.1.3"}
+										},
+										{											"caption": "1.1.4",
+											"id": "stino_lib_cat_name_ver_1.1.4",
+											"command": "stino_install_lib",
+											"args": {"category": "Timing", "name": "Task by Makuna", "version": "1.1.4"}
 										}
 									]								},
 									{
@@ -21773,6 +22773,11 @@
 											"id": "stino_lib_cat_name_ver_1.1.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Timing", "name": "Tasker", "version": "1.1.0"}
+										},
+										{											"caption": "1.2.0",
+											"id": "stino_lib_cat_name_ver_1.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Timing", "name": "Tasker", "version": "1.2.0"}
 										}
 									]								},
 									{
@@ -21958,6 +22963,17 @@
 											"command": "stino_install_lib",
 											"args": {"category": "Timing", "name": "WatchDog", "version": "1.2.0"}
 										}
+									]								},
+									{
+									"caption": "wiring-timer",
+									"id": "stino_lib_cat_name_wiring-timer",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "2.4.0",
+											"id": "stino_lib_cat_name_ver_2.4.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Timing", "name": "wiring-timer", "version": "2.4.0"}
+										}
 									]								}
 								]							},
 							{
@@ -22091,6 +23107,17 @@
 										"id": "stino_lib_cat_name_ver_2.0.3",
 										"command": "stino_install_lib",
 										"args": {"category": "Uncategorized", "name": "StereoSID", "version": "2.0.3"}
+									}
+								]							},
+							{
+								"caption": "VitconCommon",
+								"id": "stino_lib_cat_name_VitconCommon",
+								"children":
+								[									{"caption": "-"},
+									{										"caption": "1.0.0",
+										"id": "stino_lib_cat_name_ver_1.0.0",
+										"command": "stino_install_lib",
+										"args": {"category": "Uncategorized", "name": "VitconCommon", "version": "1.0.0"}
 									}
 								]							},
 							{
