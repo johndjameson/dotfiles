@@ -46,6 +46,7 @@ spec/support/
 # ----------------------------------------------------
 
 *.min.*
+*.spec.js
 *.svg
 CHANGELOG
 CHANGELOG.*
