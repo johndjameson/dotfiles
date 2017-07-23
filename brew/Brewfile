@@ -29,6 +29,7 @@ brew 'webkit2png'
 brew 'xz'
 
 cask '1password'
+cask 'ableton-live-suite'
 cask 'adobe-creative-cloud'
 cask 'alfred'
 cask 'arduino'
