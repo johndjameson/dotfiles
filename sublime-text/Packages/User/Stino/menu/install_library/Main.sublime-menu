@@ -4991,6 +4991,11 @@
 											"id": "stino_lib_cat_name_ver_2.5.5",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "TheThingsNetwork", "version": "2.5.5"}
+										},
+										{											"caption": "2.5.6",
+											"id": "stino_lib_cat_name_ver_2.5.6",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "TheThingsNetwork", "version": "2.5.6"}
 										}
 									]								},
 									{
@@ -8304,6 +8309,17 @@
 										}
 									]								},
 									{
+									"caption": "Circios Roboter-Steuerung",
+									"id": "stino_lib_cat_name_Circios Roboter-Steuerung",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "Circios Roboter-Steuerung", "version": "1.0.0"}
+										}
+									]								},
+									{
 									"caption": "CoDrone",
 									"id": "stino_lib_cat_name_CoDrone",
 									"children":
@@ -8435,6 +8451,17 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "ControlledServo", "version": "1.0.0"}
+										}
+									]								},
+									{
+									"caption": "CoogleIOT",
+									"id": "stino_lib_cat_name_CoogleIOT",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "CoogleIOT", "version": "1.0.0"}
 										}
 									]								},
 									{
@@ -9974,6 +10001,11 @@
 											"id": "stino_lib_cat_name_ver_0.0.5",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "OpenBCI_Wifi_Master", "version": "0.0.5"}
+										},
+										{											"caption": "0.0.6",
+											"id": "stino_lib_cat_name_ver_0.0.6",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "OpenBCI_Wifi_Master", "version": "0.0.6"}
 										}
 									]								}
 								]							},
@@ -11067,6 +11099,22 @@
 								"id": "stino_lib_cat_initial_T",
 								"children":
 								[									{"caption": "-"},
+									{
+									"caption": "Tic",
+									"id": "stino_lib_cat_name_Tic",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "Tic", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "Tic", "version": "1.0.1"}
+										}
+									]								},
 									{
 									"caption": "TinySnore",
 									"id": "stino_lib_cat_name_TinySnore",
@@ -13092,6 +13140,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.4",
 											"command": "stino_install_lib",
 											"args": {"category": "Display", "name": "LiquidCrystal", "version": "1.0.4"}
+										},
+										{											"caption": "1.0.6",
+											"id": "stino_lib_cat_name_ver_1.0.6",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "LiquidCrystal", "version": "1.0.6"}
 										}
 									]								},
 									{
@@ -13572,6 +13625,17 @@
 											"id": "stino_lib_cat_name_ver_1.4.3",
 											"command": "stino_install_lib",
 											"args": {"category": "Display", "name": "PCD8544", "version": "1.4.3"}
+										}
+									]								},
+									{
+									"caption": "PL_microEPD",
+									"id": "stino_lib_cat_name_PL_microEPD",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.6",
+											"id": "stino_lib_cat_name_ver_1.0.6",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "PL_microEPD", "version": "1.0.6"}
 										}
 									]								},
 									{
@@ -18667,6 +18731,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "OctoSonar", "version": "1.0.1"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "OctoSonar", "version": "1.1.0"}
 										}
 									]								},
 									{
