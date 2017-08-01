@@ -4549,6 +4549,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.8",
 											"command": "stino_install_lib",
 											"args": {"category": "Communication", "name": "Sodaq_RN2483", "version": "1.0.8"}
+										},
+										{											"caption": "1.0.9",
+											"id": "stino_lib_cat_name_ver_1.0.9",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "Sodaq_RN2483", "version": "1.0.9"}
 										}
 									]								},
 									{
@@ -7227,6 +7232,11 @@
 											"id": "stino_lib_cat_name_ver_3.3.4",
 											"command": "stino_install_lib",
 											"args": {"category": "Data Storage", "name": "extEEPROM", "version": "3.3.4"}
+										},
+										{											"caption": "3.3.5",
+											"id": "stino_lib_cat_name_ver_3.3.5",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Storage", "name": "extEEPROM", "version": "3.3.5"}
 										}
 									]								}
 								]							},
@@ -11421,6 +11431,11 @@
 											"id": "stino_lib_cat_name_ver_1.2.2",
 											"command": "stino_install_lib",
 											"args": {"category": "Device Control", "name": "uStepper", "version": "1.2.2"}
+										},
+										{											"caption": "1.2.3",
+											"id": "stino_lib_cat_name_ver_1.2.3",
+											"command": "stino_install_lib",
+											"args": {"category": "Device Control", "name": "uStepper", "version": "1.2.3"}
 										}
 									]								}
 								]							},
@@ -14573,6 +14588,11 @@
 											"id": "stino_lib_cat_name_ver_2.3.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Other", "name": "ALA", "version": "2.3.0"}
+										},
+										{											"caption": "2.3.2",
+											"id": "stino_lib_cat_name_ver_2.3.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "ALA", "version": "2.3.2"}
 										}
 									]								},
 									{
@@ -18665,6 +18685,16 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "MPU9250_asukiaaa", "version": "1.0.0"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "MPU9250_asukiaaa", "version": "1.1.0"}
+										},
+										{											"caption": "1.1.1",
+											"id": "stino_lib_cat_name_ver_1.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "MPU9250_asukiaaa", "version": "1.1.1"}
 										}
 									]								},
 									{
@@ -20039,6 +20069,11 @@
 											"id": "stino_lib_cat_name_ver_1.1.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "TMP36", "version": "1.1.0"}
+										},
+										{											"caption": "1.2.0",
+											"id": "stino_lib_cat_name_ver_1.2.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "TMP36", "version": "1.2.0"}
 										}
 									]								},
 									{
@@ -21044,6 +21079,16 @@
 											"id": "stino_lib_cat_name_ver_1.0.1",
 											"command": "stino_install_lib",
 											"args": {"category": "Signal Input/Output", "name": "M10CODEC", "version": "1.0.1"}
+										},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "M10CODEC", "version": "1.1.0"}
+										},
+										{											"caption": "1.1.1",
+											"id": "stino_lib_cat_name_ver_1.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "M10CODEC", "version": "1.1.1"}
 										}
 									]								},
 									{
@@ -22572,6 +22617,22 @@
 								"children":
 								[									{"caption": "-"},
 									{
+									"caption": "Neotimer",
+									"id": "stino_lib_cat_name_Neotimer",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.1.0",
+											"id": "stino_lib_cat_name_ver_1.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Timing", "name": "Neotimer", "version": "1.1.0"}
+										},
+										{											"caption": "1.1.1",
+											"id": "stino_lib_cat_name_ver_1.1.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Timing", "name": "Neotimer", "version": "1.1.1"}
+										}
+									]								},
+									{
 									"caption": "NTPClient",
 									"id": "stino_lib_cat_name_NTPClient",
 									"children":
@@ -23308,17 +23369,6 @@
 										"id": "stino_lib_cat_name_ver_1.0.0",
 										"command": "stino_install_lib",
 										"args": {"category": "Uncategorized", "name": "DS3231", "version": "1.0.0"}
-									}
-								]							},
-							{
-								"caption": "Neotimer",
-								"id": "stino_lib_cat_name_Neotimer",
-								"children":
-								[									{"caption": "-"},
-									{										"caption": "1.1.0",
-										"id": "stino_lib_cat_name_ver_1.1.0",
-										"command": "stino_install_lib",
-										"args": {"category": "Uncategorized", "name": "Neotimer", "version": "1.1.0"}
 									}
 								]							},
 							{
