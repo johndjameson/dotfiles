@@ -24,7 +24,6 @@ tmp/
 # ----- Specific ----- #
 
 codeschool/vendor/
-sublime-text/Packages/
 
 # ----- Express ----- #
 
