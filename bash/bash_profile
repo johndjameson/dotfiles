@@ -22,7 +22,6 @@
 . ~/.dotfiles/shell/functions/general
 . ~/.dotfiles/shell/functions/git
 . ~/.dotfiles/shell/functions/mas
-. ~/.dotfiles/shell/functions/sublime-text
 . ~/.dotfiles/shell/functions/vim
 
 # Local

@@ -161,5 +161,5 @@ nnoremap <leader>og :Gbrowse<cr>
 " Reveal file in Finder
 nnoremap <leader>of :Reveal<cr>
 
-" Open file in Sublime Text
-nnoremap <leader>os :! subl '%:p'<cr>
+" Open file in Visual Studio Code
+nnoremap <leader>oc :! code '%:p'<cr>

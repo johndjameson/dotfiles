@@ -249,10 +249,6 @@ alias rehash='rbenv rehash'
 
 alias agf='ag -g'
 
-# ----- Sublime Text ----- #
-
-alias s='sublime'
-
 # ----- Vim ----- #
 
 alias v.a="cd $DOTFILES && vim shell/aliases"
