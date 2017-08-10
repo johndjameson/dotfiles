@@ -162,4 +162,4 @@ nnoremap <leader>og :Gbrowse<cr>
 nnoremap <leader>of :Reveal<cr>
 
 " Open file in Visual Studio Code
-nnoremap <leader>oc :! code '%:p'<cr>
+nnoremap <leader>ov :! code '%:p'<cr>
