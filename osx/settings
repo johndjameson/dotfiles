@@ -89,9 +89,6 @@ defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 # Show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
-# Show all filename extensions
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-
 # Set sidebar icon size to Small
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
