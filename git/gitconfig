@@ -1,11 +1,13 @@
 [user]
   name = John D. Jameson
   email = thejohnjameson@gmail.com
+  signingkey = 02D6EEE53C68B7A8
 
 [color]
   ui = true
 
 [commit]
+  gpgsign = true
   template = ~/.dotfiles/git/template
 
 [core]
