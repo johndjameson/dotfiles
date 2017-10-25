@@ -78,6 +78,13 @@ let g:jsx_ext_required = 0
 let g:vim_markdown_folding_disabled=1
 
 " ====================================================
+"   Prettier
+" ====================================================
+
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql Prettier
+
+" ====================================================
 "   Solarized
 " ====================================================
 
