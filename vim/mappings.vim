@@ -132,6 +132,10 @@ nnoremap <leader>R :Rename ./
 nnoremap <leader>b :Gblame<cr>
 nnoremap <leader>g :Gdiff<cr>
 
+" ========== Prettier ========== "
+
+nnoremap <leader>f :Prettier<cr>
+
 " ========== Tabularize ========== "
 
 vnoremap <leader>t- :Tabularize /-<cr>

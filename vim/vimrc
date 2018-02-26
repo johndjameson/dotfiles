@@ -78,17 +78,16 @@ let g:jsx_ext_required = 0
 let g:vim_markdown_folding_disabled=1
 
 " ====================================================
-"   Prettier
-" ====================================================
-
-let g:prettier#autoformat = 0
-autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql Prettier
-
-" ====================================================
 "   Solarized
 " ====================================================
 
 let g:solarized_termtrans=1
+
+" ====================================================
+"   Vinegar
+" ====================================================
+
+let g:netrw_list_hide = '\(^\|\s\s\)\zs\.\S\+'
 
 " ====================================================
 "   Editor
