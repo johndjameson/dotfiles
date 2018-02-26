@@ -12,6 +12,7 @@
 
 [core]
   editor = vim
+  excludesfile = ~/.dotfiles/git/ignore
 
 [merge]
   tool = opendiff
