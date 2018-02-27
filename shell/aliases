@@ -177,14 +177,6 @@ alias brcu='brew cask uninstall'
 
 alias pbhaml='pbpaste | html2haml --ruby19-attributes | pbcopy'
 
-# ----- Lorem ----- #
-
-alias li='lorem 1 -p'
-alias li2='lorem 2 -p'
-alias li3='lorem 3 -p'
-alias li4='lorem 4 -p'
-alias li5='lorem 5 -p'
-
 # ----- Middleman ----- #
 
 alias mb='bundle exec middleman build'
