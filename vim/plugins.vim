@@ -46,6 +46,7 @@ Plugin 'tpope/vim-surround' " Wrap text with characters
 Plugin 'tpope/vim-vinegar' " netrw improvements
 Plugin 'vim-airline/vim-airline' " Status bar
 Plugin 'vim-airline/vim-airline-themes' " Status bar themes
+Plugin 'vim-syntastic/syntastic' " Syntax checking
 
 " ====================================================
 "   Setup (Continued)
