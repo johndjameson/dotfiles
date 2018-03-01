@@ -18,6 +18,10 @@ let mapleader = ' '
 
 nmap ; :
 
+" Browse command mode
+cnoremap <C-k> <Up>
+cnoremap <C-j> <Down>
+
 " Redo
 nmap U :redo<cr>
 
