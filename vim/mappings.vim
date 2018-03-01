@@ -134,11 +134,6 @@ nnoremap <leader>g :Gdiff<cr>
 
 nnoremap <leader>f :Prettier<cr>
 
-" ========== Surround ========== "
-
-map <leader>( f(cs()
-map <leader>) f(cs)(
-
 " ========== UltiSnips ========== "
 
 " Edit snippets for current file type
