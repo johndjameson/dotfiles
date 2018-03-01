@@ -50,12 +50,6 @@ nnoremap <leader>p viwp
 nmap <silent> <leader>q :bd<cr>
 nmap <silent> <leader>Q :qa!<cr>
 
-" Save file
-map <c-s> <esc>:w<cr>
-imap <c-s> <esc>:w<cr>
-map <c-x> <esc>:x<cr>
-imap <c-x> <esc>:x<cr>
-
 " Yank path
 nmap <silent> <leader>y :let @*=expand("%")<cr>
 
