@@ -39,15 +39,6 @@ let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 
 " ====================================================
-"   CtrlP
-" ====================================================
-
-let g:ctrlp_map = '<c-f>'
-let g:ctrlp_custom_ignore = 'bower_components\|build\|bundle\|node_modules\|public'
-
-call ctrlp_bdelete#init()
-
-" ====================================================
 "   EasyMotion
 " ====================================================
 
@@ -83,13 +74,7 @@ let g:vim_markdown_folding_disabled=1
 
 let g:solarized_termtrans=1
 
-" ====================================================
-"   Vinegar
-" ====================================================
-
-let g:netrw_list_hide = '\(^\|\s\s\)\zs\.\S\+'
-
-" ====================================================
+"====================================================
 "   Syntastic
 " ====================================================
 
@@ -131,7 +116,6 @@ set noswapfile
 " ===== Color Scheme ===== "
 
 syntax on
-
 set t_Co=256
 set background=dark
 colorscheme solarized

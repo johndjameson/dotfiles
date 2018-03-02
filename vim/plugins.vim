@@ -23,8 +23,6 @@ Plugin 'gmarik/vundle'
 Plugin 'airblade/vim-gitgutter' " Shows a git diff in the gutter
 Plugin 'altercation/vim-colors-solarized' " Solarized color scheme
 Plugin 'christoomey/vim-sort-motion' " Mapping for sorting a range of text
-Plugin 'ctrlpvim/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
-Plugin 'd11wtq/ctrlp_bdelete.vim' " CtrlP for deleting open buffers
 Plugin 'ervandew/supertab' " Use <Tab> for insert completion
 Plugin 'henrik/vim-reveal-in-finder' " Reveal the current file in OS X Finder
 Plugin 'kana/vim-textobj-indent' " Text objects for indented blocks of lines
@@ -43,7 +41,6 @@ Plugin 'tpope/vim-fugitive' " Git wrapper
 Plugin 'tpope/vim-markdown' " Markdown runtime files
 Plugin 'tpope/vim-rhubarb' " GitHub extension for fugitive.vim
 Plugin 'tpope/vim-surround' " Wrap text with characters
-Plugin 'tpope/vim-vinegar' " netrw improvements
 Plugin 'vim-airline/vim-airline' " Status bar
 Plugin 'vim-airline/vim-airline-themes' " Status bar themes
 Plugin 'vim-syntastic/syntastic' " Syntax checking
