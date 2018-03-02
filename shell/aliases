@@ -11,7 +11,7 @@
 
 # ----- Bash ----- #
 
-alias reload='bash -l'
+alias reload='bash --login'
 
 # ----- Clear ----- #
 
