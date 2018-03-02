@@ -197,6 +197,7 @@ set wildignore+=*.psd
 set wildignore+=*/cache/*
 set wildignore+=*/log/*
 set wildignore+=*/tmp/*
+set wildignore+=*/vim/bundle/*
 set wildmenu
 
 " ----- Quick Escape ----- "
