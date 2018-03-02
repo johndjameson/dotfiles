@@ -81,6 +81,10 @@ vnoremap <s-tab> <gv
 " Change line from beginning
 nmap <c-c> 0C
 
+" ----- H ----- "
+
+nnoremap <c-h> <c-w><c-h>
+
 " ----- I ----- "
 
 " Change line from first non-whitespace character
@@ -89,10 +93,16 @@ nmap <c-i> ^C
 " ----- J ----- "
 
 cnoremap <c-j> <down>
+nnoremap <c-j> <c-w><c-j>
 
 " ----- K ----- "
 
 cnoremap <c-k> <up>
+nnoremap <c-k> <c-w><c-k>
+
+" ----- L ----- "
+
+nnoremap <c-l> <c-w><c-l>
 
 " -------------------------------------
 "   Leader
