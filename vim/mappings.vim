@@ -21,7 +21,7 @@
 
 " ----- H ----- "
 
-nnoremap <s-h> :bprevious<cr>
+nnoremap <silent> H :bprevious<cr>
 
 " ----- J ----- "
 
@@ -37,7 +37,7 @@ nmap K o<esc>Dk
 
 " ----- L ----- "
 
-nnoremap L :bnext<cr>
+nnoremap <silent> L :bnext<cr>
 
 " ----- P ----- "
 
