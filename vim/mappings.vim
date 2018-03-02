@@ -98,6 +98,8 @@ cnoremap <c-k> <up>
 "   Leader
 " -------------------------------------
 
+" ----- Config ----- "
+
 let mapleader = ' '
 
 " ----- A ----- "
@@ -108,9 +110,14 @@ nnoremap <leader>aj :Ack! --js ''<left>
 nnoremap <leader>am :Ack! --markdown ''<left>
 nnoremap <leader>as :Ack! --sass ''<left>
 
+" ----- C ----- "
+
+" NERDCommenter
+" -> https://github.com/scrooloose/nerdcommenter#default-mappings
+
 " ----- E ----- "
 
-noremap <silent> <leader>e :e<cr>
+let g:EasyMotion_leader_key = '<leader>e'
 
 " ----- F ----- "
 
@@ -121,10 +128,13 @@ nnoremap <leader>f :e **/*/
 nnoremap <leader>gb :Gblame<cr>
 nnoremap <leader>gh :Gbrowse<cr>
 
-" ----- L ----- "
+" ----- J ----- "
 
-" Remove search highlighting
-nnoremap <silent> <leader>l :nohlsearch<cr>
+nnoremap <leader>j :bp<cr>
+
+" ----- K ----- "
+
+nnoremap <leader>k :bn<cr>
 
 " ----- O ----- "
 
@@ -164,10 +174,16 @@ noremap <silent> <leader>x :x<cr>
 
 " Switch between buffers
 nnoremap <leader><leader> <c-^>
-nnoremap <leader>[ :bp<cr>
-nnoremap <leader>] :bn<cr>
 
 " ----- Punctuation ----- "
 
 nnoremap <leader>" :%s/\'/"/g<cr>
 nnoremap <leader>' :%s/\"/'/g<cr>
+
+" ----- Slash ----- "
+
+nnoremap <silent> <leader>/ :nohlsearch<cr>
+
+" ----- Tab ----- "
+
+nnoremap <leader><tab> :b <tab>

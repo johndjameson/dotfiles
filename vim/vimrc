@@ -42,8 +42,6 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 "   EasyMotion
 " -------------------------------------
 
-let g:EasyMotion_leader_key = '<leader>e'
-
 " Display targets in uppercase
 let g:EasyMotion_use_upper = 1
 
@@ -66,13 +64,20 @@ let g:jsx_ext_required = 0
 "   Markdown
 " -------------------------------------
 
-let g:vim_markdown_folding_disabled=1
+let g:vim_markdown_folding_disabled = 1
+
+" -------------------------------------
+"   NERD Commenter
+" -------------------------------------
+
+" let g:NERDCreateDefaultMappings = 0
+let g:NERDSpaceDelims = 1
 
 " -------------------------------------
 "   Solarized
 " -------------------------------------
 
-let g:solarized_termtrans=1
+let g:solarized_termtrans = 1
 
 "-------------------------------------
 "   Syntastic
@@ -104,14 +109,14 @@ set autoindent
 set smartindent
 set smarttab
 
+set expandtab
 set shiftwidth=2
 set softtabstop=2
 set tabstop=2
-set expandtab
 
 set nobackup
-set nowritebackup
 set noswapfile
+set nowritebackup
 
 " ----- Color Scheme ----- "
 
@@ -147,17 +152,15 @@ set visualbell
 
 " ----- Search ----- "
 
-set incsearch
 set hlsearch
 set ignorecase
+set incsearch
+set nohlsearch
 set smartcase
 
-" ----- Wild Menu ----- "
+" ----- Wildcard ----- "
 
-set wildmenu
-
-" ----- Wild Ignore ----- "
-
+set wildcharm=<tab>
 set wildignore+=*.gif
 set wildignore+=*.jpeg
 set wildignore+=*.jpg
@@ -166,6 +169,7 @@ set wildignore+=*.psd
 set wildignore+=*/cache/*
 set wildignore+=*/log/*
 set wildignore+=*/tmp/*
+set wildmenu
 
 " ----- Quick Escape ----- "
 
@@ -176,7 +180,6 @@ set ttimeoutlen=100
 " ----- Events ----- "
 
 if has('autocmd')
-  autocmd bufwritepost .vimrc source $MYVIMRC
   autocmd bufwritepost *.vim source %
 endif
 
