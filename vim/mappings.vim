@@ -76,19 +76,10 @@ vnoremap <s-tab> <gv
 "   Control
 " -------------------------------------
 
-" ----- A ----- "
-
-" Sort indentation level
-nmap <leader>a gsii
-
 " ----- C ----- "
 
 " Change line from beginning
 nmap <c-c> 0C
-
-" ----- F ----- "
-
-nnoremap <c-f> :e **/*/
 
 " ----- I ----- "
 
@@ -121,6 +112,10 @@ nnoremap <leader>as :Ack! --sass ''<left>
 
 noremap <silent> <leader>e :e<cr>
 
+" ----- F ----- "
+
+nnoremap <leader>f :e **/*/
+
 " ----- G ----- "
 
 nnoremap <leader>gb :Gblame<cr>
@@ -150,8 +145,12 @@ nnoremap <silent> <leader>q :bd!<cr>
 
 " ----- R ----- "
 
-nnoremap <leader>r :%s///g<left><left><left>
 nnoremap <leader>R :Rename ./
+nnoremap <leader>r :%s///g<left><left><left>
+
+" ----- S ----- "
+
+nmap <leader>s gsii
 
 " ----- W ----- "
 
@@ -165,8 +164,8 @@ noremap <silent> <leader>x :x<cr>
 
 " Switch between buffers
 nnoremap <leader><leader> <c-^>
-nnoremap <leader>] :bn<cr>
 nnoremap <leader>[ :bp<cr>
+nnoremap <leader>] :bn<cr>
 
 " ----- Punctuation ----- "
 
