@@ -117,7 +117,9 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     'hyper-solarized-dark',
-    'hyper-statusline'
+    'hyper-statusline',
+    'hypercwd',
+    'hyperterm-tabs'
   ],
 
   // in development, you can create a directory under
@@ -129,4 +131,4 @@ module.exports = {
     // Example
     // 'window:devtools': 'cmd+alt+o',
   }
-};
+}
