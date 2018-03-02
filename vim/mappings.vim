@@ -1,26 +1,29 @@
-" ====================================================
+" *************************************
 "
 "   Mappings
-"   -> Keyboard shortcuts and reassignments
+"   -> Keyboard shortcuts
 "
-" ====================================================
+" *************************************
+"
+" cmap - Command-line mode
+" imap - Insert mode
+" nmap - Normal mode
+" omap - Operator pending mode
+" smap - Select mode
+" vmap - Visual and select mode
+" xmap - Visual mode
+"
+" -------------------------------------
 
-" ====================================================
-"   Setup
-" ====================================================
-
-" Assign leader key
-let mapleader = ' '
-
-" ====================================================
+" -------------------------------------
 "   General
-" ====================================================
+" -------------------------------------
 
 nmap ; :
 
 " Browse command mode
-cnoremap <C-k> <Up>
-cnoremap <C-j> <Down>
+cnoremap <c-j> <down>
+cnoremap <c-k> <up>
 
 " Redo
 nmap U :redo<cr>
@@ -30,7 +33,7 @@ nmap J O<esc>Dj
 nmap K o<esc>Dk
 
 " Sort block
-nmap <silent> <c-a> (jV)k :sort<cr>
+nmap <c-a> gsii
 
 " Change line from beginning
 nmap <c-c> 0C
@@ -47,26 +50,6 @@ nnoremap Y y$
 " Change end of line to clipboard text
 nnoremap P v$<left>"_dp
 
-" Replace the current word with clipboard text
-nnoremap <leader>p viwp
-
-" Delete buffer
-nmap <silent> <leader>q :bd<cr>
-nmap <silent> <leader>Q :qa!<cr>
-
-" Yank path
-nmap <silent> <leader>y :let @*=expand("%")<cr>
-
-" Remove search highlighting
-nnoremap <silent> <leader>l :nohlsearch<cr>
-
-nnoremap <leader>" :%s/\'/"/g<cr>
-nnoremap <leader>' :%s/\"/'/g<cr>
-nnoremap <leader>r :%s///g<left><left><left>
-
-" Wrap line of text
-nnoremap <leader>w Vgq
-
 " Disable arrow keys
 nnoremap <left> :echoe 'Use h'<cr>
 nnoremap <right> :echoe 'Use l'<cr>
@@ -78,9 +61,9 @@ map <f10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans
 \ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
 \ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<cr>
 
-" ====================================================
+" -------------------------------------
 "   Window Management
-" ====================================================
+" -------------------------------------
 
 " Navigation
 nnoremap <c-h> <c-w>h
@@ -88,22 +71,23 @@ nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
 
-" Splits
-nnoremap <leader>v <c-w>v<c-w>l
-nnoremap <leader>h <c-w>s<c-w>j
+" -------------------------------------
+"   Control
+" -------------------------------------
 
-" Switch between buffers
-map <leader><leader> <c-^>
+nnoremap <c-f> :e **/*/
 
-" Sizing
-nnoremap + <c-w>>
-nnoremap _ <c-w><
+" ----- EasyMotion ----- "
 
-" ====================================================
-"   Plugins
-" ====================================================
+map L <plug>(easymotion-bd-w)
 
-" ========== Ack ========== "
+" -------------------------------------
+"   Leader
+" -------------------------------------
+
+let mapleader = ' '
+
+" ----- A ----- "
 
 nnoremap <leader>aa :Ack! ''<left>
 nnoremap <leader>ah :Ack! --html ''<left>
@@ -111,42 +95,58 @@ nnoremap <leader>aj :Ack! --js ''<left>
 nnoremap <leader>am :Ack! --markdown ''<left>
 nnoremap <leader>as :Ack! --sass ''<left>
 
-" ========== CtrlP ========== "
+" ----- G ----- "
 
-nnoremap <c-r> :ClearCtrlPCache<cr>:CtrlP<cr>
+nnoremap <leader>gb :Gblame<cr>
 
-" ========== EasyMotion ========== "
+" ----- L ----- "
 
-map L <plug>(easymotion-bd-w)
+" Remove search highlighting
+nnoremap <silent> <leader>l :nohlsearch<cr>
 
-" ========== Eunuch ========== "
+" ----- O ----- "
 
+nnoremap <leader>of :Reveal<cr>
+nnoremap <leader>og :Gbrowse<cr>
+nnoremap <leader>ov :! code '%:p'<cr>
+nnoremap <leader>sd :e ~/.dotfiles/vim/UltiSnips<cr>
+nnoremap <leader>se :UltiSnipsEdit<cr>
+
+" ----- P ----- "
+
+" Replace the current word with clipboard text
+nnoremap <leader>p viwp
+
+" ----- Q ----- "
+
+" Delete buffer
+nnoremap <silent> <leader>Q :qa!<cr>
+nnoremap <silent> <leader>q :bd!<cr>
+
+" ----- R ----- "
+
+nnoremap <leader>r :%s///g<left><left><left>
 nnoremap <leader>R :Rename ./
 
-" ========== Fugitive ========== "
+" ----- W ----- "
 
-nnoremap <leader>b :Gblame<cr>
-nnoremap <leader>g :Gdiff<cr>
+noremap <silent> <leader>w :w<cr>
 
-" ========== Prettier ========== "
+" ----- X ----- "
 
-nnoremap <leader>f :Prettier<cr>
+noremap <silent> <leader>x :x<cr>
 
-" ========== UltiSnips ========== "
+" ----- Y ----- "
 
-" Edit snippets for current file type
-nnoremap <leader>se :UltiSnipsEdit<cr>
-nnoremap <leader>sd :e ~/.dotfiles/vim/UltiSnips<cr>
+" Yank path
+nmap <silent> <leader>y :let @*=expand("%")<cr>
 
-" ====================================================
-"   External Applications
-" ====================================================
+" ----- Leader ----- "
 
-" Open file on GitHub
-nnoremap <leader>og :Gbrowse<cr>
+" Switch between buffers
+nnoremap <leader><leader> <c-^>
 
-" Reveal file in Finder
-nnoremap <leader>of :Reveal<cr>
+" ----- Punctuation ----- "
 
-" Open file in Visual Studio Code
-nnoremap <leader>ov :! code '%:p'<cr>
+nnoremap <leader>" :%s/\'/"/g<cr>
+nnoremap <leader>' :%s/\"/'/g<cr>
