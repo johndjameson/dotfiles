@@ -1,26 +1,26 @@
-" ====================================================
+" -------------------------------------
 "
 "   Vimrc
 "   -> User-defined Vim settings
 "
-" ====================================================
+" -------------------------------------
 
-" ====================================================
+" -------------------------------------
 "   Setup
-" ====================================================
+" -------------------------------------
 
 " Use Vim settings with no vi backward compatibility
 set nocompatible
 
-" ====================================================
+" -------------------------------------
 "   Vundle
-" ====================================================
+" -------------------------------------
 
 source ~/.dotfiles/vim/plugins.vim
 
-" ====================================================
+" -------------------------------------
 "   Airline
-" ====================================================
+" -------------------------------------
 
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
@@ -38,9 +38,9 @@ let g:airline#extensions#tabline#tab_min_count = 2
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 
-" ====================================================
+" -------------------------------------
 "   EasyMotion
-" ====================================================
+" -------------------------------------
 
 let g:EasyMotion_leader_key = '<leader>e'
 
@@ -56,27 +56,27 @@ hi link EasyMotionShade  Comment
 hi link EasyMotionTarget2First Type
 hi link EasyMotionTarget2Second Type
 
-" ====================================================
+" -------------------------------------
 "   JSX
-" ====================================================
+" -------------------------------------
 
 let g:jsx_ext_required = 0
 
-" ====================================================
+" -------------------------------------
 "   Markdown
-" ====================================================
+" -------------------------------------
 
 let g:vim_markdown_folding_disabled=1
 
-" ====================================================
+" -------------------------------------
 "   Solarized
-" ====================================================
+" -------------------------------------
 
 let g:solarized_termtrans=1
 
-"====================================================
+"-------------------------------------
 "   Syntastic
-" ====================================================
+" -------------------------------------
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -88,11 +88,11 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['standard']
 
-" ====================================================
+" -------------------------------------
 "   Editor
-" ====================================================
+" -------------------------------------
 
-" ===== General ===== "
+" ----- General ----- "
 
 set hidden
 
@@ -113,7 +113,7 @@ set nobackup
 set nowritebackup
 set noswapfile
 
-" ===== Color Scheme ===== "
+" ----- Color Scheme ----- "
 
 syntax on
 set t_Co=256
@@ -125,18 +125,19 @@ hi! LineNR guibg=NONE ctermbg=NONE
 hi FoldColumn ctermbg=NONE
 hi SignColumn ctermbg=NONE
 
-" ===== Text Area ===== "
+" ----- Text Area ----- "
 
 set colorcolumn=80
 set cursorline
 set nowrap
 set number
 set scrolloff=4
+set showmatch
 
 " Reveal unwanted whitespace
 set list listchars=tab:»·,trail:·
 
-" ===== Interface ===== "
+" ----- Interface ----- "
 
 set laststatus=2
 set noshowmode
@@ -144,33 +145,44 @@ set ruler
 set showcmd
 set visualbell
 
-" ===== Search ===== "
+" ----- Search ----- "
 
 set incsearch
 set hlsearch
 set ignorecase
 set smartcase
 
-" ===== Ignores ===== "
+" ----- Wild Menu ----- "
 
-set wildignore+=*.gif,*.jpg,*.jpeg,*.png,*.psd
-set wildignore+=*/cache/*,*/log/*,*/tmp/*
+set wildmenu
 
-" ===== Quick Escape ===== "
+" ----- Wild Ignore ----- "
+
+set wildignore+=*.gif
+set wildignore+=*.jpeg
+set wildignore+=*.jpg
+set wildignore+=*.png
+set wildignore+=*.psd
+set wildignore+=*/cache/*
+set wildignore+=*/log/*
+set wildignore+=*/tmp/*
+
+" ----- Quick Escape ----- "
 
 set noesckeys
 set ttimeout
 set ttimeoutlen=100
 
-" ===== Events ===== "
+" ----- Events ----- "
 
 if has('autocmd')
   autocmd bufwritepost .vimrc source $MYVIMRC
+  autocmd bufwritepost *.vim source %
 endif
 
-" ====================================================
+" -------------------------------------
 "   Filetypes
-" ====================================================
+" -------------------------------------
 
 autocmd Filetype markdown setlocal wrap
 autocmd Filetype markdown setlocal linebreak
@@ -184,9 +196,9 @@ autocmd BufNewFile,BufRead *.md.erb set filetype=markdown
 autocmd BufNewFile,BufRead *.sass.erb set filetype=sass
 autocmd BufRead,BufNewFile *.thor set filetype=ruby
 
-" ====================================================
+" -------------------------------------
 "   Imports
-" ====================================================
+" -------------------------------------
 
 source ~/.dotfiles/vim/colors.vim
 source ~/.dotfiles/vim/mappings.vim
