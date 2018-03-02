@@ -53,6 +53,12 @@ hi link EasyMotionTarget2First Type
 hi link EasyMotionTarget2Second Type
 
 " -------------------------------------
+"   Git Gutter
+" -------------------------------------
+
+let g:gitgutter_map_keys = 0
+
+" -------------------------------------
 "   JSX
 " -------------------------------------
 

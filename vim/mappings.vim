@@ -19,6 +19,10 @@
 "   General
 " -------------------------------------
 
+" ----- H ----- "
+
+nnoremap <s-h> :bprevious<cr>
+
 " ----- J ----- "
 
 " Quick escape from insert mode
@@ -33,7 +37,7 @@ nmap K o<esc>Dk
 
 " ----- L ----- "
 
-nmap L <plug>(easymotion-bd-w)
+nnoremap L :bnext<cr>
 
 " ----- P ----- "
 
@@ -51,10 +55,10 @@ nmap Y y$
 
 " ----- Arrow Keys ----- "
 
+nnoremap <down> :echoe 'Use j'<cr>
 nnoremap <left> :echoe 'Use h'<cr>
 nnoremap <right> :echoe 'Use l'<cr>
 nnoremap <up> :echoe 'Use k'<cr>
-nnoremap <down> :echoe 'Use j'<cr>
 
 " ----- Function ----- "
 
@@ -69,8 +73,9 @@ nmap ; :
 
 " ----- Tab ----- "
 
-vnoremap <tab> >gv
+nnoremap <tab> <c-^>
 vnoremap <s-tab> <gv
+vnoremap <tab> >gv
 
 " -------------------------------------
 "   Control
@@ -87,8 +92,7 @@ nnoremap <c-h> <c-w><c-h>
 
 " ----- I ----- "
 
-" Change line from first non-whitespace character
-nmap <c-i> ^C
+unmap <c-i>
 
 " ----- J ----- "
 
@@ -125,9 +129,22 @@ nnoremap <leader>as :Ack! --sass ''<left>
 " NERDCommenter
 " -> https://github.com/scrooloose/nerdcommenter#default-mappings
 
+" <leader>c$       | NERDComEOLComment
+" <leader>c<space> | NERDComToggleComment
+" <leader>cA       | NERDComAppendComment
+" <leader>ca       | NERDComAltDelim
+" <leader>cb       | NERDComAlignedComment
+" <leader>cc       | NERDComComment
+" <leader>ci       | NERDComInvertComment
+" <leader>cl       | NERDComAlignedComment
+" <leader>cm       | NERDComMinimalComment
+" <leader>cn       | NERDComNestedComment
+" <leader>cs       | NERDComSexyComment
+" <leader>cy       | NERDComYankComment
+
 " ----- E ----- "
 
-let g:EasyMotion_leader_key = '<leader>e'
+nnoremap <leader>e :e<cr>
 
 " ----- F ----- "
 
@@ -137,14 +154,6 @@ nnoremap <leader>f :e **/*/
 
 nnoremap <leader>gb :Gblame<cr>
 nnoremap <leader>gh :Gbrowse<cr>
-
-" ----- J ----- "
-
-nnoremap <leader>j :bp<cr>
-
-" ----- K ----- "
-
-nnoremap <leader>k :bn<cr>
 
 " ----- O ----- "
 
@@ -182,8 +191,28 @@ noremap <silent> <leader>x :x<cr>
 
 " ----- Leader ----- "
 
-" Switch between buffers
-nnoremap <leader><leader> <c-^>
+" EasyMotion
+" -> https://github.com/easymotion/vim-easymotion/blob/master/doc/easymotion.txt
+
+" <leader><leader>B       | Beginning of WORD backward
+" <leader><leader>E       | End of WORD forward
+" <leader><leader>F{char} | Find {char} to the left
+" <leader><leader>N       | Jump to latest '/' or '?' backward
+" <leader><leader>T{char} | Till after the {char} to the left
+" <leader><leader>W       | Beginning of WORD forward
+" <leader><leader>b       | Beginning of word backward
+" <leader><leader>e       | End of word forward
+" <leader><leader>f{char} | Find {char} to the right
+" <leader><leader>gE      | End of WORD backward
+" <leader><leader>ge      | End of word backward
+" <leader><leader>j       | Line downward
+" <leader><leader>k       | Line upward
+" <leader><leader>n       | Jump to latest '/' or '?' forward
+" <leader><leader>s       | Find(Search) {char} forward and backward
+" <leader><leader>t{char} | Till before the {char} to the right
+" <leader><leader>w       | Beginning of word forward
+
+let g:EasyMotion_leader_key = '<leader><leader>'
 
 " ----- Punctuation ----- "
 
