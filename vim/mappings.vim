@@ -19,67 +19,89 @@
 "   General
 " -------------------------------------
 
-nmap ; :
-
-" Browse command mode
-cnoremap <c-j> <down>
-cnoremap <c-k> <up>
-
-" Redo
-nmap U :redo<cr>
-
-" Add blank newlines
-nmap J O<esc>Dj
-nmap K o<esc>Dk
-
-" Sort block
-nmap <c-a> gsii
-
-" Change line from beginning
-nmap <c-c> 0C
-
-" Change line from first non-whitespace character
-nmap <c-i> ^C
+" ----- J ----- "
 
 " Quick escape from insert mode
 imap jj <esc>
 
-" Copy to end of line
-nnoremap Y y$
+" Add blank newlines
+nmap J O<esc>Dj
+
+" ----- K ----- "
+
+nmap K o<esc>Dk
+
+" ----- L ----- "
+
+nmap L <plug>(easymotion-bd-w)
+
+" ----- P ----- "
 
 " Change end of line to clipboard text
-nnoremap P v$<left>"_dp
+nmap P v$<left>"_dp
 
-" Disable arrow keys
+" ----- U ----- "
+
+nmap U :redo<cr>
+
+" ----- Y ----- "
+
+" Copy to end of line
+nmap Y y$
+
+" ----- Arrow Keys ----- "
+
 nnoremap <left> :echoe 'Use h'<cr>
 nnoremap <right> :echoe 'Use l'<cr>
 nnoremap <up> :echoe 'Use k'<cr>
 nnoremap <down> :echoe 'Use j'<cr>
+
+" ----- Function ----- "
 
 " View cursor syntax keyword
 map <f10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
 \ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
 \ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<cr>
 
-" -------------------------------------
-"   Window Management
-" -------------------------------------
+" ----- Punctuation ----- "
 
-" Navigation
-nnoremap <c-h> <c-w>h
-nnoremap <c-j> <c-w>j
-nnoremap <c-k> <c-w>k
-nnoremap <c-l> <c-w>l
+nmap ; :
+
+" ----- Tab ----- "
+
+vnoremap <tab> >gv
+vnoremap <s-tab> <gv
 
 " -------------------------------------
 "   Control
 " -------------------------------------
 
+" ----- A ----- "
+
+" Sort indentation level
+nmap <leader>a gsii
+
+" ----- C ----- "
+
+" Change line from beginning
+nmap <c-c> 0C
+
+" ----- F ----- "
+
 nnoremap <c-f> :e **/*/
 
-" ----- EasyMotion ----- "
+" ----- I ----- "
 
-map L <plug>(easymotion-bd-w)
+" Change line from first non-whitespace character
+nmap <c-i> ^C
+
+" ----- J ----- "
+
+cnoremap <c-j> <down>
+
+" ----- K ----- "
+
+cnoremap <c-k> <up>
 
 " -------------------------------------
 "   Leader
@@ -95,9 +117,14 @@ nnoremap <leader>aj :Ack! --js ''<left>
 nnoremap <leader>am :Ack! --markdown ''<left>
 nnoremap <leader>as :Ack! --sass ''<left>
 
+" ----- E ----- "
+
+noremap <silent> <leader>e :e<cr>
+
 " ----- G ----- "
 
 nnoremap <leader>gb :Gblame<cr>
+nnoremap <leader>gh :Gbrowse<cr>
 
 " ----- L ----- "
 
@@ -107,10 +134,9 @@ nnoremap <silent> <leader>l :nohlsearch<cr>
 " ----- O ----- "
 
 nnoremap <leader>of :Reveal<cr>
-nnoremap <leader>og :Gbrowse<cr>
 nnoremap <leader>ov :! code '%:p'<cr>
-nnoremap <leader>sd :e ~/.dotfiles/vim/UltiSnips<cr>
-nnoremap <leader>se :UltiSnipsEdit<cr>
+nnoremap <leader>osd :e ~/.dotfiles/vim/UltiSnips<cr>
+nnoremap <leader>ose :UltiSnipsEdit<cr>
 
 " ----- P ----- "
 
@@ -119,7 +145,6 @@ nnoremap <leader>p viwp
 
 " ----- Q ----- "
 
-" Delete buffer
 nnoremap <silent> <leader>Q :qa!<cr>
 nnoremap <silent> <leader>q :bd!<cr>
 
@@ -136,15 +161,12 @@ noremap <silent> <leader>w :w<cr>
 
 noremap <silent> <leader>x :x<cr>
 
-" ----- Y ----- "
-
-" Yank path
-nmap <silent> <leader>y :let @*=expand("%")<cr>
-
 " ----- Leader ----- "
 
 " Switch between buffers
 nnoremap <leader><leader> <c-^>
+nnoremap <leader>] :bn<cr>
+nnoremap <leader>[ :bp<cr>
 
 " ----- Punctuation ----- "
 
