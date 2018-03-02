@@ -43,7 +43,7 @@ Plugin 'tpope/vim-rhubarb' " GitHub extension for fugitive.vim
 Plugin 'tpope/vim-surround' " Wrap text with characters
 Plugin 'vim-airline/vim-airline' " Status bar
 Plugin 'vim-airline/vim-airline-themes' " Status bar themes
-Plugin 'vim-syntastic/syntastic' " Syntax checking
+Plugin 'w0rp/ale' " Asynchronous lint engine
 
 " ====================================================
 "   Setup (Continued)
