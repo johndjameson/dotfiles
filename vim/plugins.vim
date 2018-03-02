@@ -12,9 +12,9 @@
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#rc()
+call vundle#begin()
 
-Plugin 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
 " ====================================================
 "   Bundles
@@ -49,4 +49,5 @@ Plugin 'w0rp/ale' " Asynchronous lint engine
 "   Setup (Continued)
 " ====================================================
 
+call vundle#end()
 filetype plugin indent on
