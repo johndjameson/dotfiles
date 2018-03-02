@@ -9,20 +9,6 @@
 #   Commands
 # ----------------------------------------------------
 
-# ----- Launch ----- #
-# Open Vim intelligently
-#
-# Usage: `vim_launch`
-
-vim_launch() {
-  # If there are arguments...
-  if [ $# -gt 0 ]; then
-    vim "$@"
-  else
-    vim ./
-  fi
-}
-
 # ----- Search ----- #
 # Soft reset the branch back a number of commits
 #
