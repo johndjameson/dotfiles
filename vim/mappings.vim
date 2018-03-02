@@ -164,8 +164,7 @@ nnoremap <leader>ose :UltiSnipsEdit<cr>
 
 " ----- P ----- "
 
-" Replace the current word with clipboard text
-nnoremap <leader>p viwp
+nnoremap <silent> <leader>f :Prettier \| ALEFix<cr>
 
 " ----- Q ----- "
 

@@ -40,6 +40,21 @@ let g:airline_symbols.branch = '⎇ '
 let g:airline_theme='solarized'
 
 " -------------------------------------
+"   ALE
+" -------------------------------------
+
+let g:airline#extensions#ale#enabled = 1
+let g:ale_fix_on_save = 1
+let g:ale_lint_on_enter = 0
+let g:ale_sign_error = '●'
+let g:ale_set_quickfix = 1
+let g:ale_sign_warning = '.'
+
+let g:ale_fixers = {
+\ 'javascript': ['standard'],
+\}
+
+" -------------------------------------
 "   EasyMotion
 " -------------------------------------
 
@@ -60,6 +75,12 @@ hi link EasyMotionTarget2Second Type
 " -------------------------------------
 
 let g:gitgutter_map_keys = 0
+
+if exists('&signcolumn')
+  set signcolumn=yes
+else
+  let g:gitgutter_sign_column_always = 1
+endif
 
 " -------------------------------------
 "   JSX
