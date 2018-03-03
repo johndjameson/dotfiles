@@ -164,7 +164,7 @@ nnoremap <leader>ose :UltiSnipsEdit<cr>
 
 " ----- P ----- "
 
-nnoremap <silent> <leader>f :Prettier \| ALEFix<cr>
+nnoremap <silent> <leader>p :Prettier \| ALEFix<cr>
 
 " ----- Q ----- "
 
