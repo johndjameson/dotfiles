@@ -214,5 +214,6 @@ alias v.h='sudo vim /etc/hosts'
 alias v.m="cd $DOTFILES && vim vim/mappings.vim"
 alias v.p="cd $DOTFILES && vim vim/plugins.vim"
 alias v.v="cd $DOTFILES && vim vim/vimrc"
+alias v.V="cd $DOTFILES && vim vim/vimrc vim/mappings.vim vim/plugins.vim"
 alias v='vim'
 alias vs="vim_search"
