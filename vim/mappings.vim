@@ -148,7 +148,12 @@ nnoremap <leader>e :e<cr>
 
 " ----- F ----- "
 
-nnoremap <leader>f :e **/*/
+" CtrlP
+" -> https://github.com/ctrlpvim/ctrlp.vim
+
+" <leader>f | Open CtrlP search
+
+let g:ctrlp_map = '<leader>f'
 
 " ----- G ----- "
 
