@@ -182,6 +182,7 @@ set wildignore+=*.png
 set wildignore+=*.psd
 set wildignore+=*/cache/*
 set wildignore+=*/log/*
+set wildignore+=*/node_modules/*
 set wildignore+=*/tmp/*
 set wildmenu
 
