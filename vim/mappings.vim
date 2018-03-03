@@ -86,6 +86,15 @@ vnoremap <tab> >gv
 " Change line from beginning
 nmap <c-c> 0C
 
+" ----- F ----- "
+
+" CtrlP
+" -> https://github.com/ctrlpvim/ctrlp.vim
+
+" <c-f> | Open CtrlP search
+
+let g:ctrlp_map = '<c-f>'
+
 " ----- H ----- "
 
 nnoremap <c-h> <c-w><c-h>
@@ -145,15 +154,6 @@ nnoremap <leader>as :Ack! --sass ''<left>
 " ----- E ----- "
 
 nnoremap <leader>e :e<cr>
-
-" ----- F ----- "
-
-" CtrlP
-" -> https://github.com/ctrlpvim/ctrlp.vim
-
-" <leader>f | Open CtrlP search
-
-let g:ctrlp_map = '<leader>f'
 
 " ----- G ----- "
 
