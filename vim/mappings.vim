@@ -67,7 +67,11 @@ map <f10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans
 \ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
 \ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<cr>
 
-" ----- Punctuation ----- "
+" ----- Hyphen ----- "
+
+nnoremap <silent> - :Explore<cr>
+
+" ----- Semicolon ----- "
 
 nmap ; :
 
@@ -218,7 +222,7 @@ noremap <silent> <leader>x :x<cr>
 
 let g:EasyMotion_leader_key = '<leader><leader>'
 
-" ----- Punctuation ----- "
+" ----- Quotes ----- "
 
 nnoremap <leader>" :%s/\'/"/g<cr>
 nnoremap <leader>' :%s/\"/'/g<cr>
