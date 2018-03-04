@@ -90,6 +90,13 @@ vnoremap <tab> >gv
 " Change line from beginning
 nmap <c-c> 0C
 
+" ----- E ----- "
+
+" Emmet
+" -> https://github.com/mattn/emmet-vim/blob/master/doc/emmet.txt#L1262
+
+let g:user_emmet_expandabbr_key = '<c-e>'
+
 " ----- F ----- "
 
 " CtrlP
