@@ -228,6 +228,7 @@ autocmd BufNewFile,BufRead *.conf set filetype=nginx
 autocmd BufNewFile,BufRead *.haml.erb set filetype=haml
 autocmd BufNewFile,BufRead *.md.erb set filetype=markdown
 autocmd BufNewFile,BufRead *.sass.erb set filetype=sass
+autocmd BufNewFile,BufRead *.scss.liquid set filetype=scss
 autocmd BufRead,BufNewFile *.thor set filetype=ruby
 
 " -------------------------------------
