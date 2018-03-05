@@ -170,6 +170,7 @@ nnoremap <leader>e :e<cr>
 
 nnoremap <leader>gb :Gblame<cr>
 nnoremap <leader>gh :Gbrowse<cr>
+nnoremap <leader>gs :Gstatus<cr>
 
 " ----- O ----- "
 
