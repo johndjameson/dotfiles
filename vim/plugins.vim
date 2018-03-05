@@ -45,6 +45,7 @@ Plugin 'tpope/vim-surround' " Wrap text with characters
 Plugin 'vim-airline/vim-airline' " Status bar
 Plugin 'vim-airline/vim-airline-themes' " Status bar themes
 Plugin 'w0rp/ale' " Asynchronous lint engine
+Plugin 'whatyouhide/vim-textobj-xmlattr' " Text objects for HTML/XML attributes
 
 " ====================================================
 "   Setup (Continued)
