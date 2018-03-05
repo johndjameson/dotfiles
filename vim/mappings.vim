@@ -73,7 +73,7 @@ nnoremap <silent> - :Explore<cr>
 
 " ----- Semicolon ----- "
 
-nmap ; :
+nmap ; <plug>(easymotion-bd-w)
 
 " ----- Tab ----- "
 
