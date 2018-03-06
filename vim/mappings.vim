@@ -172,9 +172,9 @@ nnoremap <silent> <leader>gs :Gstatus<cr>
 " ----- O ----- "
 
 nnoremap <leader>of :Reveal<cr>
-nnoremap <leader>ov :! code '%:p'<cr>
-nnoremap <leader>osd :e ~/.dotfiles/vim/UltiSnips<cr>
+nnoremap <leader>osd :e ~/.dotfiles/vim/UltiSnips/**/
 nnoremap <leader>ose :UltiSnipsEdit<cr>
+nnoremap <leader>ov :! code '%:p'<cr>
 
 " ----- P ----- "
 
