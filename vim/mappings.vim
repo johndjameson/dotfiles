@@ -25,9 +25,6 @@ nnoremap <silent> H :bprevious<cr>
 
 " ----- J ----- "
 
-" Quick escape from insert mode
-imap jj <esc>
-
 " Add blank newlines
 nmap J O<esc>Dj
 
