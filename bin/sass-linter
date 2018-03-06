@@ -1,0 +1,58 @@
+#!/usr/bin/env ruby
+# ****************************************************
+#
+#   Sass Linter
+#   -> Wrapper around 'sass-lint' CLI
+#
+# ----------------------------------------------------
+#   Usage
+# ----------------------------------------------------
+#
+#  `sass-linter stylesheets/*.sass`
+#  `sass-linter stylesheets/*.sass stylesheets/**/*.sass`
+#
+# ****************************************************
+
+# ----------------------------------------------------
+#   Variables
+# ----------------------------------------------------
+
+@cli_directory    = "#{ ENV['HOME'] }/.npm/sass-lint"
+@config_file      = '.sass-lint.yml'
+@config_file_path = "https://raw.githubusercontent.com/drewbarontini/noise/master/#{ @config_file }"
+
+# ----------------------------------------------------
+#   Methods
+# ----------------------------------------------------
+
+def is_cli_installed?
+  Dir.exists? @cli_directory
+end
+
+def is_config_present?
+  File.exists? @config_file
+end
+
+def install_cli
+  puts 'Installing sass-lint via NPM...'
+  system 'npm install -g sass-lint'
+end
+
+def configure
+  system "curl -s #{ @config_file_path } >> #{ @config_file }"
+end
+
+def run
+  ARGV.each do |path|
+    system "sass-lint '#{ path }' -c #{ @config_file } -vq"
+  end
+end
+
+# ----------------------------------------------------
+#   Sequence
+# ----------------------------------------------------
+
+install_cli unless is_cli_installed?
+configure   unless is_config_present?
+
+run

@@ -1,0 +1,77 @@
+#!/usr/bin/env ruby
+# ****************************************************
+#
+#   Measure
+#   -> Output measures of central tendency
+#
+# ----------------------------------------------------
+#   Usage
+# ----------------------------------------------------
+#
+#  `measure path/to/file`
+#  `measure path/to/file mean`
+#  `measure path/to/file median`
+#  `measure path/to/file sum`
+#
+# ****************************************************
+
+# ====================================
+#   Functions
+# ====================================
+
+# ----- Mean ----- #
+
+def mean( array )
+  sum( array ) / array.size
+end
+
+# ----- Median ----- #
+
+def median( array )
+  array = array.sort
+
+  if array.size.odd?
+    array[ ( array.size.to_f / 2 ).floor ]
+  else
+    mean( [ array[ ( array.size / 2 ) - 1 ], array[ array.size / 2 ] ] )
+  end
+end
+
+# ----- Sum ----- #
+
+def sum( array )
+  array.reduce(:+)
+end
+
+# ====================================
+#   Setup
+# ====================================
+
+filename = ARGV[0]
+query    = ARGV[1]
+values   = []
+
+File.open( filename ) do |file|
+  file.each_line do |line|
+    values << ( line.include?( '.' ) ? line.to_f : line.to_i )
+  end
+end
+
+# ====================================
+#   Output
+# ====================================
+
+if query.class == NilClass
+  puts "Mean: #{ mean( values ) }"
+  puts "Median: #{ median( values ) }"
+  puts "Sum: #{ sum( values ) }"
+else
+  case query
+    when 'mean'
+      puts mean( values )
+    when 'median'
+      puts median( values )
+    when 'sum'
+      puts sum( values )
+  end
+end
