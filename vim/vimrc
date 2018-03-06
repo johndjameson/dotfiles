@@ -1,9 +1,9 @@
-" -------------------------------------
+" *************************************
 "
 "   Vimrc
 "   -> User-defined Vim settings
 "
-" -------------------------------------
+" *************************************
 
 " -------------------------------------
 "   Setup
@@ -237,4 +237,5 @@ autocmd BufRead,BufNewFile *.thor set filetype=ruby
 " -------------------------------------
 
 source ~/.dotfiles/vim/colors.vim
+source ~/.dotfiles/vim/functions.vim
 source ~/.dotfiles/vim/mappings.vim
