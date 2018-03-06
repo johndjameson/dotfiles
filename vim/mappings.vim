@@ -168,9 +168,9 @@ nnoremap <leader>e :e<cr>
 
 " ----- G ----- "
 
-nnoremap <leader>gb :Gblame<cr>
-nnoremap <leader>gh :Gbrowse<cr>
-nnoremap <leader>gs :Gstatus<cr>
+nnoremap <silent> <leader>gb :Gblame<cr>
+nnoremap <silent> <leader>gh :Gbrowse<cr>
+nnoremap <silent> <leader>gs :Gstatus<cr>
 
 " ----- O ----- "
 
