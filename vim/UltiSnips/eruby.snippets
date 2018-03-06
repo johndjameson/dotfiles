@@ -1,0 +1,13 @@
+snippet % "Interpolation" i
+<%${1:=} $2 %>
+endsnippet
+
+snippet %e "Interpolation - End" i
+<% end %>
+endsnippet
+
+snippet each "Each"
+<% ${1:collection}.each do |${2:item}| %>
+	$0
+<% end %>
+endsnippet

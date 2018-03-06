@@ -1,0 +1,31 @@
+snippet ba "before_action"
+before_action :${1:method_name}, only: [${2::show}]$0
+endsnippet
+
+snippet bp "binding.pry"
+binding.pry
+endsnippet
+
+snippet bt "belongs_to"
+belongs_to ${1:item}$0
+endsnippet
+
+snippet controller "Controller Class"
+class ${1:Name}Controller < ApplicationController
+	$0
+end
+endsnippet
+
+snippet hm "has_many"
+has_many ${1:items}$0
+endsnippet
+
+snippet model "Model Class"
+class ${1:ModelName} < ActiveRecord::Base
+	$0
+end
+endsnippet
+
+snippet vp "validates_presence_of"
+validates_presence_of ${1::item}$0
+endsnippet

@@ -1,0 +1,40 @@
+snippet func "Function"
+function! ${1:FunctionName}()
+	${0:" ...}
+endfunction
+endsnippet
+
+snippet cm "Comment"
+" $0
+endsnippet
+
+snippet coh "Heading Comment"
+" *************************************
+"
+"   ${1:Title}
+"   -> ${2:Description}
+"
+" *************************************$0
+endsnippet
+
+snippet col "Long Comment"
+" -------------------------------------
+"   ${2:Title}
+" -------------------------------------$0
+endsnippet
+
+snippet cos "Short Comment"
+" ----- ${2:Title} ----- "$0
+endsnippet
+
+snippet coxs "Super-sub-heading Comment"
+" -- ${1:Section Title} -- "
+endsnippet
+
+snippet cr "Carriage Return" i
+<cr>
+endsnippet
+
+snippet ld "Leader" i
+<leader>
+endsnippet

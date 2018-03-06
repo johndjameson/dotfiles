@@ -1,0 +1,85 @@
+snippet .. "Placeholder Comment"
+// ...
+endsnippet
+
+snippet cc "console.clear" b
+console.clear();
+endsnippet
+
+snippet cl "console.log" b
+console.log(${1:'$2'});$0
+endsnippet
+
+snippet ct "console.time" b
+console.time('${1:timer}');
+endsnippet
+
+snippet cte "console.timeEnd" b
+console.timeEnd('${1:timer}');
+endsnippet
+
+snippet db "Debugger" b
+debugger;
+endsnippet
+
+snippet func "Function Declaration" b
+function ${1:functionName}(${2:parameters}) {
+	${3:// ...}
+}$0
+endsnippet
+
+snippet funx "Function Expression" b
+var ${1:functionName} = function(${2:parameters}) {
+	${3:// ...}
+};$0
+endsnippet
+
+snippet if "If Statement" b
+if (${1:condition}) {
+	${2:// ...}
+}$0
+endsnippet
+
+snippet ife "If/Else Statement" b
+if (${1:condition}) {
+	${2:// ...}
+} else {
+	${3:// ...}
+}$0
+endsnippet
+
+snippet ift "Ternary Statement" b
+${1:condition} ? ${2:value} : ${3:other}
+endsnippet
+
+snippet iife "Immediately-invoked Function Expression" b
+(function() {
+
+	${1:// ...}
+
+})();$0
+endsnippet
+
+snippet mxo "module.exports"
+module.exports = {
+	${0:// ...}
+};
+endsnippet
+
+snippet st "setTimeout"
+setTimeout( function() {
+	${1:// ...}
+}, ${2:time} );
+endsnippet
+
+snippet sti "setTimeout Inline"
+setTimeout(${1:// ...}, ${2:time});
+endsnippet
+
+snippet sw "Switch" b
+switch (${1:object}) {
+	case ${2:value}:
+		${3:// ...}
+		break;
+}
+endsnippet

@@ -1,0 +1,82 @@
+snippet a "Link" w
+<a href="${1:http://www.${2:url.com}}"${3: target="_blank"}>${4:Anchor Text}</a>
+endsnippet
+
+snippet body "<body>"
+<body>
+	$0
+</body>
+endsnippet
+
+snippet com "Comment"
+<!-- ${1:...} -->$0
+endsnippet
+
+snippet doctype "Doctype" b
+<!DOCTYPE html>$0
+endsnippet
+
+snippet div "<div>" w
+<div`!p snip.rv=' id="' if t[1] else ""`${1:name}`!p snip.rv = '"' if t[1] else ""``!p snip.rv=' class="' if t[2] else ""`${2:name}`!p snip.rv = '"' if t[2] else ""`>
+	$0
+</div>
+endsnippet
+
+snippet head "<head>"
+<head>
+	<meta charset='utf-8' />
+	<title>${1:`!p snip.rv = snip.basename or "Page Title"`}</title>
+	$0
+</head>
+endsnippet
+
+snippet html5 "HTML5 Template"
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<title>${1}</title>
+		<meta charset='utf-8' />
+	</head>
+	<body>
+		$0
+	</body>
+</html>
+endsnippet
+
+snippet favicon "Favicon"
+<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
+endsnippet
+
+snippet img "<img>" w
+<img src='${1:imgsrc}' alt='$2' />$0
+endsnippet
+
+snippet link "<link>" w
+<link rel='${1:stylesheet}' href='${2:style.css}'>
+endsnippet
+
+snippet meta "<meta>" w
+<meta name='${1:name}' content='${2:content}'>
+endsnippet
+
+snippet metaview "<meta> Responsive"
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+endsnippet
+
+snippet p "paragraph" w
+<p>$0</p>
+endsnippet
+
+snippet scriptsrc "<script src...>" w
+<script src='$1' type='text/javascript'></script>
+endsnippet
+
+snippet script "<script>" w
+<script type='text/javascript'>
+	$0
+</script>
+endsnippet
+
+snippet title "XHTML <title>" w
+<title>${1:`!p snip.rv = snip.basename or "Page Title"`}</title>
+endsnippet

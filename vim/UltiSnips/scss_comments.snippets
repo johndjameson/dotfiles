@@ -1,0 +1,87 @@
+snippet coh "Heading Comment"
+// *************************************
+//
+//   ${1:`!p res = re.sub(r'_', '', snip.basename.title())`}
+//   -> ${2:Description}
+//
+// *************************************$0
+endsnippet
+
+snippet coht "Heading Comment with Template"
+// *************************************
+//
+//   ${1:`!p res = re.sub(r'_', '', snip.basename.title())`}
+//   -> ${2:Description}
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// .has-$3
+//
+// .${3:`!p res = re.sub(r'_', '', snip.basename)`}[${4:modifier}](${5:state})
+//
+// *************************************$0
+endsnippet
+
+snippet col "Long Comment"
+// -------------------------------------
+//   ${1:Title}
+// -------------------------------------$0
+endsnippet
+
+snippet cos "Short Comment"
+// ----- ${1:Title} ----- //$0
+endsnippet
+
+snippet cosd "Short Comment Description"
+// -> ${1:Description}
+//
+// ${0:...}
+//
+endsnippet
+
+snippet module "Component Template"
+// *************************************
+//
+//   ${1:`!p res = re.sub(r'_', '', snip.basename.title())`}
+//   -> ${2:Description}
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// .has-$3
+//
+// .${3:`!p res = re.sub(r'_', '', snip.basename)`}[${4:modifier}](${5:state})
+//
+//   .$3-submodule
+//
+// *************************************
+
+// .$3
+
+// -------------------------------------
+//   Modifiers
+// -------------------------------------
+
+// .$3--modifier
+
+// -------------------------------------
+//   States
+// -------------------------------------
+
+// .$3.is-state
+
+// -------------------------------------
+//   Context
+// -------------------------------------
+
+// .has-$3
+
+// -------------------------------------
+//   Submodules
+// -------------------------------------
+
+// .$3-submodule
+endsnippet

@@ -1,0 +1,45 @@
+snippet # "String Interpolation" i
+#{$0}
+endsnippet
+
+snippet .. "Placeholder Comment"
+// ...$0
+endsnippet
+
+snippet ..r "Responsive Comment"
+// Responsive
+endsnippet
+
+snippet ; "Brackets"
+{
+	$0
+}
+endsnippet
+
+snippet debug "debug"
+* {
+	color: red !important;
+}
+endsnippet
+
+snippet fix "FIXME comment"
+// FIXME${1:(${2})}: $0
+endsnippet
+
+snippet mn "TODO/FIXME/NOTE"
+// FIXME: Magic number!
+endsnippet
+
+snippet note "NOTE comment"
+// NOTE${1:(${2})}: $0
+endsnippet
+
+snippet mq "Media query"
+@media screen and (${1:min-width}: $2) {
+	$0
+}
+endsnippet
+
+snippet todo "TODO comment"
+// TODO${1:(${2})}: $0
+endsnippet
