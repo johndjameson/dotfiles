@@ -41,6 +41,10 @@ nnoremap <silent> L :bnext<cr>
 " Change end of line to clipboard text
 nmap P v$<left>"_dp
 
+" ----- Q ----- "
+
+nnoremap Q :echoe 'Almost used ex mode, dummy'<cr>
+
 " ----- U ----- "
 
 nmap U :redo<cr>
