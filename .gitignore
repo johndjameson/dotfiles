@@ -1,20 +1,13 @@
-.DS_Store
+# -------------------------------------
+#   System
+# -------------------------------------
+
 *.swp
+.DS_Store
 
-# Package Control
-sublime-text/Packages/*
-!sublime-text/Packages/Color Scheme - User
-!sublime-text/Packages/User
-sublime-text/Packages/User/Package Control*
-!sublime-text/Packages/User/Package Control.sublime-settings
-sublime-text/Packages/User/oscrypto-ca-bundle.crt
+# -------------------------------------
+#   Vim
+# -------------------------------------
 
-# Installed Packages
-sublime-text/Packages/Syntax Highlighting for Sass/
-
-# Vim
 vim/.netrwhist
 vim/bundle
-
-# Zsh
-.zhistory
