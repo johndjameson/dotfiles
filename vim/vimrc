@@ -169,7 +169,8 @@ set scrolloff=4
 set showmatch
 
 " Reveal unwanted whitespace
-set list listchars=tab:»·,trail:·
+set list
+set listchars=tab:»·,trail:·
 
 " ----- Interface ----- "
 
