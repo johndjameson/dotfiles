@@ -25,7 +25,8 @@ alias here='open .'
 
 # ----- List ----- #
 
-alias l='ls -hloAF'
+alias l='ls -hloAF | ag -v .DS_Store'
+alias la='ls -hloaF'
 
 # ----- Look Up ----- #
 
