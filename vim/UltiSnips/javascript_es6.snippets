@@ -5,35 +5,35 @@ endsnippet
 snippet af "Arrow Function"
 () => {
 	${0:// ...}
-};
+}
 endsnippet
 
 snippet class "Class"
 class ${1:ClassName} {
 	${0:// ...}
-};
+}
 endsnippet
 
 snippet cf "Constant Function"
 const ${1:functionName} = ($2) => {
 	${0:// ...}
-};
+}
 endsnippet
 
 snippet cfr "Constant Function Object Return"
-const ${1:functionName} = ($2) => (	${0:// ...});
+const ${1:functionName} = ($2) => (	${0:// ...})
 endsnippet
 
 snippet cd "Destructuring Constant (Object)"
-const { $1 } = $2;
+const { $1 } = $2
 endsnippet
 
 snippet cda "Destructuring Constant (Array)"
-const [ $1 ] = $2;
+const [ $1 ] = $2
 endsnippet
 
 snippet exd "export default"
-export default $1;$0
+export default $0
 endsnippet
 
 snippet fd "Function"
@@ -42,12 +42,12 @@ ${1:functionName}($2) {
 }
 endsnippet
 
-snippet imp "Import"
-import ${1:Object} from '${2:./path/to/file}';
+snippet im "Import"
+import ${1:Object} from '${2:./path/to/file}'
 endsnippet
 
 snippet map "Map"
-${1:array}.map(( ${2:item}, index) => {
+${1:array}.map((${2:item}, index) => {
 	${0:// ...}
-});
+})
 endsnippet
