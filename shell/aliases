@@ -207,13 +207,14 @@ alias agf="ag --color-match '30;34' --color-path '30;32' -g"
 
 # ----- Vim ----- #
 
+alias v.V="cd $DOTFILES && vim vim/vimrc vim/mappings.vim vim/plugins.vim"
 alias v.a="cd $DOTFILES && vim shell/aliases"
 alias v.br="cd $DOTFILES && vim brew/Brewfile"
 alias v.c="cd $DOTFILES && vim shell/config"
+alias v.f="cd $DOTFILES && vim vim/functions.vim"
 alias v.h='sudo vim /etc/hosts'
 alias v.m="cd $DOTFILES && vim vim/mappings.vim"
 alias v.p="cd $DOTFILES && vim vim/plugins.vim"
 alias v.v="cd $DOTFILES && vim vim/vimrc"
-alias v.V="cd $DOTFILES && vim vim/vimrc vim/mappings.vim vim/plugins.vim"
 alias v='vim'
 alias vs="vim_search"
