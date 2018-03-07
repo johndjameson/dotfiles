@@ -71,4 +71,5 @@ ssh-add -K ~/.ssh/id_rsa &> /dev/null
 # ----- Colors ----- #
 
 # Enable colorful output globally
-export CLICOLOR=1
+export CLICOLOR=true
+export CLICOLOR_FORCE=true
