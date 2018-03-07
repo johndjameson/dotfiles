@@ -1,13 +1,13 @@
-" ====================================================
+" *************************************
 "
 "   Vundle
 "   -> Vim plugin manager configuration
-"
-" ====================================================
 
-" ====================================================
+" *************************************
+
+" -------------------------------------
 "   Setup
-" ====================================================
+" -------------------------------------
 
 filetype off
 
@@ -16,9 +16,9 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
-" ====================================================
+" -------------------------------------
 "   Bundles
-" ====================================================
+" -------------------------------------
 
 Plugin 'airblade/vim-gitgutter' " Shows a git diff in the gutter
 Plugin 'altercation/vim-colors-solarized' " Solarized color scheme
@@ -47,9 +47,9 @@ Plugin 'vim-airline/vim-airline-themes' " Status bar themes
 Plugin 'w0rp/ale' " Asynchronous lint engine
 Plugin 'whatyouhide/vim-textobj-xmlattr' " Text objects for HTML/XML attributes
 
-" ====================================================
+" -------------------------------------
 "   Setup (Continued)
-" ====================================================
+" -------------------------------------
 
 call vundle#end()
 filetype plugin indent on
