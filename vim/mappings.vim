@@ -165,7 +165,7 @@ nnoremap <leader>as :Ack! --sass ''<left>
 
 " ----- E ----- "
 
-nnoremap <leader>e :e<cr>
+nnoremap <leader>e :e<space>
 
 " ----- G ----- "
 
