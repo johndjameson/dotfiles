@@ -109,6 +109,7 @@ let g:ctrlp_map = '<c-f>'
 
 " ----- H ----- "
 
+cnoremap <c-h> <left>
 nnoremap <c-h> <c-w><c-h>
 
 " ----- I ----- "
@@ -127,6 +128,7 @@ nnoremap <c-k> <c-w><c-k>
 
 " ----- L ----- "
 
+cnoremap <c-l> <right>
 nnoremap <c-l> <c-w><c-l>
 
 " -------------------------------------
