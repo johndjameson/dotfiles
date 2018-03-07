@@ -139,6 +139,7 @@ let mapleader = ' '
 
 " ----- A ----- "
 
+nnoremap <leader>aR :cfdo %s///g \| update<left><left><left><left><left><left><left><left><left><left><left><left>
 nnoremap <leader>aa :Ack! ''<left>
 nnoremap <leader>ah :Ack! --html ''<left>
 nnoremap <leader>aj :Ack! --js ''<left>
