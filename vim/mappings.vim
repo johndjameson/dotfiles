@@ -165,6 +165,7 @@ nnoremap <leader>as :Ack! --sass ''<left>
 
 " ----- E ----- "
 
+nnoremap <leader>E :call LoadSession()<cr>
 nnoremap <leader>e :e<space>
 
 " ----- G ----- "
@@ -200,6 +201,7 @@ nmap <leader>s gsii
 
 " ----- W ----- "
 
+noremap <leader>W :call SaveSession()<cr>
 noremap <silent> <leader>w :w<cr>
 
 " ----- X ----- "
