@@ -30,7 +30,7 @@ alias la='ls -hloaF'
 
 # ----- Look Up ----- #
 
-alias '?'='alias | ack'
+alias '?'="alias | ag --color-match '30;34' --color-path '30;32'"
 
 # ----- Navigation ----- #
 
@@ -203,7 +203,7 @@ alias rehash='rbenv rehash'
 
 # ----- The Silver Searcher ----- #
 
-alias agf='ag -g'
+alias agf="ag --color-match '30;34' --color-path '30;32' -g"
 
 # ----- Vim ----- #
 
