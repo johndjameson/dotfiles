@@ -60,6 +60,22 @@ snippet iife "Immediately-invoked Function Expression" b
 })()$0
 endsnippet
 
+snippet rt "return"
+	return $0
+endsnippet
+
+snippet rto "return {}"
+return {
+	$0
+}
+endsnippet
+
+snippet rtp "return ()"
+return (
+	$0
+)
+endsnippet
+
 snippet st "setTimeout"
 setTimeout( function () {
 	${1:// ...}
