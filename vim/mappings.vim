@@ -198,6 +198,7 @@ nnoremap <leader>r :%s///g<left><left><left>
 " ----- S ----- "
 
 nmap <leader>s gsii
+vnoremap <leader>s :'<,'>sort<cr>
 
 " ----- W ----- "
 
