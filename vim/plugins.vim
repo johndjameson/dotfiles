@@ -26,6 +26,7 @@ Plugin 'christoomey/vim-sort-motion' " Mapping for sorting a range of text
 Plugin 'ctrlpvim/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
 Plugin 'ervandew/supertab' " Use <Tab> for insert completion
 Plugin 'henrik/vim-reveal-in-finder' " Reveal the current file in OS X Finder
+Plugin 'jiangmiao/auto-pairs' " Insert or delete brackets, parens, quotes in pair
 Plugin 'kana/vim-textobj-indent' " Text objects for indented blocks of lines
 Plugin 'kana/vim-textobj-user' " Create your own text objects
 Plugin 'lokaltog/vim-easymotion' " Simpler way to use motions
