@@ -25,7 +25,7 @@ alias here='open .'
 
 # ----- List ----- #
 
-alias l='ls -hloAF | ag -v .DS_Store'
+alias l='ls -hloAF'
 alias la='ls -hloaF'
 
 # ----- Look Up ----- #
@@ -207,6 +207,7 @@ alias agf="ag --color-match '30;34' --color-path '30;32' -g"
 
 # ----- Vim ----- #
 
+alias v.R='cd "$REPOS/rt-svod-fe" && v -S "$DOTFILES/vim/sessions/rt-svod-fe.vim"'
 alias v.V="cd $DOTFILES && vim vim/vimrc vim/mappings.vim vim/functions.vim vim/plugins.vim"
 alias v.a="cd $DOTFILES && vim shell/aliases"
 alias v.br="cd $DOTFILES && vim brew/Brewfile"
