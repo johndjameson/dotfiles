@@ -202,6 +202,7 @@ nnoremap <leader>r :%s///g<left><left><left>
 
 " ----- S ----- "
 
+nmap <leader>S 0f{gsi{h
 nmap <leader>s gsii
 vnoremap <leader>s :'<,'>sort<cr>
 
