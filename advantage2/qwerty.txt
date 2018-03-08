@@ -1,0 +1,44 @@
+* *************************************
+*
+*   Advantage2 - QWERTY
+*   -> OS X remaps
+*
+* *************************************
+
+* -------------------------------------
+*   Top Layer
+* -------------------------------------
+
+* ----- Modifiers ----- *
+
+[caps]>[lctrl]
+[delete]>[rwin]
+[lctrl]>[lwin]
+[rctrl]>[rwin]
+[rwin]>[rctrl]
+
+* ----- Arrow Keys ----- *
+
+[down]>[up]
+[up]>[down]
+
+* ----- Remap ----- *
+
+[intl-\]>[escape]
+
+* ----- Function ----- *
+
+[scroll]>[shutdn]
+
+* -------------------------------------
+*   Keypad Layer
+* -------------------------------------
+
+[kp=]>[kp=mac]
+[kp-rwin]>[kp-rctrl]
+
+[kp-down]>[kp-up]
+[kp-up]>[kp-down]
+
+[kp-lctrl]>[kp-lwin]
+[kp-rctrl]>[kp-rwin]
