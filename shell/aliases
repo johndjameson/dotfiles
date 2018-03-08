@@ -18,6 +18,10 @@ alias reload='bash --login'
 alias c='clear'
 alias cc='clear'
 
+# ----- Copy ----- #
+
+alias cpa="cp $DOTFILES/advantage2/{qwerty,state}.txt /Volumes/ADVANTAGE2/active/"
+
 # ----- Finder ----- #
 
 alias browse='open -a "Google Chrome" .'
@@ -207,6 +211,7 @@ alias agf="ag --color-match '30;34' --color-path '30;32' -g"
 
 # ----- Vim ----- #
 
+alias v.A="cd $DOTFILES && vim advantage2/qwerty.txt advantage2/state.txt"
 alias v.R='cd "$REPOS/rt-svod-fe" && v -S "$DOTFILES/vim/sessions/rt-svod-fe.vim"'
 alias v.V="cd $DOTFILES && vim vim/vimrc vim/mappings.vim vim/functions.vim vim/plugins.vim"
 alias v.a="cd $DOTFILES && vim shell/aliases"
