@@ -22,10 +22,6 @@
 [down]>[up]
 [up]>[down]
 
-* ----- Remap ----- *
-
-[intl-\]>[escape]
-
 * ----- Function ----- *
 
 [scroll]>[shutdn]
