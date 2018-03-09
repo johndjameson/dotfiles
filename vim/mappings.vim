@@ -131,6 +131,10 @@ nnoremap <c-k> <c-w><c-k>
 cnoremap <c-l> <right>
 nnoremap <c-l> <c-w><c-l>
 
+" ----- S ----- "
+
+map <c-s> :NERDTreeToggle<cr>
+
 " -------------------------------------
 "   Leader
 " -------------------------------------

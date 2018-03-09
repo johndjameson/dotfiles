@@ -104,8 +104,13 @@ let g:vim_markdown_folding_disabled = 1
 "   NERD Commenter
 " -------------------------------------
 
-" let g:NERDCreateDefaultMappings = 0
 let g:NERDSpaceDelims = 1
+
+" -------------------------------------
+"   NERD Tree
+" -------------------------------------
+
+let NERDTreeMinimalUI = 1
 
 " -------------------------------------
 "   Netrw

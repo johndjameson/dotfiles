@@ -36,6 +36,7 @@ Plugin 'mxw/vim-jsx' " Highlighting and indenting for JSX
 Plugin 'pangloss/vim-javascript' " Improved Javascript indentation and syntax
 Plugin 'prettier/vim-prettier' " Intelligent code formatter
 Plugin 'scrooloose/nerdcommenter' " Comment functions
+Plugin 'scrooloose/nerdtree' " File system explorer
 Plugin 'sirver/ultisnips' " Snippet management
 Plugin 'terryma/vim-multiple-cursors' " Simultaneous selections
 Plugin 'tpope/vim-eunuch' " Helpers for UNIX
