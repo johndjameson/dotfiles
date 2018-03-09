@@ -9,14 +9,6 @@
 *   Top Layer
 * -------------------------------------
 
-* ----- Modifiers ----- *
-
-[caps]>[lctrl]
-[delete]>[rwin]
-[lctrl]>[lwin]
-[rctrl]>[rwin]
-[rwin]>[rctrl]
-
 * ----- Arrow Keys ----- *
 
 [down]>[up]
@@ -26,15 +18,37 @@
 
 [scroll]>[shutdn]
 
+* ----- Modifiers ----- *
+
+[caps]>[lctrl]
+[delete]>[rwin]
+[lctrl]>[lwin]
+[rctrl]>[rwin]
+[rwin]>[rctrl]
+
+* ----- Keyboard Mode ----- *
+
+[intl-\]>[kptoggle]
+
 * -------------------------------------
 *   Keypad Layer
 * -------------------------------------
 
-[kp=]>[kp=mac]
-[kp-rwin]>[kp-rctrl]
+* ----- Arrow Keys ----- *
 
 [kp-down]>[kp-up]
 [kp-up]>[kp-down]
 
+* ----- Modifiers ----- *
+
 [kp-lctrl]>[kp-lwin]
 [kp-rctrl]>[kp-rwin]
+[kp-rwin]>[kp-rctrl]
+
+* ----- Keypad ----- *
+
+[kp=]>[kp=mac]
+
+* ----- Keyboard Mode ----- *
+
+[kp-insert]>[kptoggle]
