@@ -16,15 +16,15 @@
 
 * ----- Function ----- *
 
-[scroll]>[shutdn]
+* Remapped in Keyboard Maestro
 
 * ----- Modifiers ----- *
 
 [caps]>[lctrl]
-[delete]>[rwin]
-[lctrl]>[lwin]
-[rctrl]>[rwin]
-[rwin]>[rctrl]
+[delete]>[lwin]
+[lalt]>[rwin]
+[lctrl]>[lalt]
+[rctrl]>[ralt]
 
 * ----- Keyboard Mode ----- *
 
