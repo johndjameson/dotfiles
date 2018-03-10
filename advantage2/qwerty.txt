@@ -20,11 +20,22 @@
 
 * ----- Modifiers ----- *
 
+* Left Keywell
+
 [caps]>[lctrl]
-[delete]>[lwin]
-[lalt]>[rwin]
+
+* Left Thumb Cluster
+
+[delete]>[escape]
+[end]>[lwin]
+[lalt]>[lctrl]
 [lctrl]>[lalt]
+
+* Right Thumb Cluster
+
+[pdown]>[rwin]
 [rctrl]>[ralt]
+[rwin]>[rctrl]
 
 * ----- Keyboard Mode ----- *
 
