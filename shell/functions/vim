@@ -17,5 +17,5 @@
 # Usage: `vim_search 'something'`
 
 vim_search() {
-  vim -c "Ag! '$1'"
+  vim -c "Ack! '$1'"
 }
