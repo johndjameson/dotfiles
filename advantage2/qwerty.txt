@@ -16,13 +16,17 @@
 
 * ----- Function ----- *
 
-* Remapped in Keyboard Maestro
+* F1–12 remapped in Keyboard Maestro
+
+[escape]>[null]
 
 * ----- Modifiers ----- *
 
 * Left Keywell
 
+[=]>[null]
 [caps]>[lctrl]
+[intl-\]>[hyphen]
 
 * Left Thumb Cluster
 
@@ -31,15 +35,15 @@
 [lalt]>[lctrl]
 [lctrl]>[lalt]
 
+* Right Keywell
+
+[hyphen]>[=]
+
 * Right Thumb Cluster
 
 [pdown]>[rwin]
 [rctrl]>[ralt]
 [rwin]>[rctrl]
-
-* ----- Keyboard Mode ----- *
-
-[intl-\]>[kptoggle]
 
 * -------------------------------------
 *   Keypad Layer
@@ -59,7 +63,3 @@
 * ----- Keypad ----- *
 
 [kp=]>[kp=mac]
-
-* ----- Keyboard Mode ----- *
-
-[kp-insert]>[kptoggle]
