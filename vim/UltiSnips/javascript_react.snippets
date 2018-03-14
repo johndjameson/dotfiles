@@ -4,12 +4,24 @@ componentDidMount() {
 }
 endsnippet
 
+snippet constr "constructor"
+constructor (props) {
+	super(props)
+
+	$0
+}
+endsnippet
+
 snippet imc "import classnames"
 import classnames from 'classnames'
 endsnippet
 
 snippet imh "import Helmet"
 import Helmet from 'react-helmet'
+endsnippet
+
+snippet iml "import { Link }"
+import { Link } from 'react-router-dom'
 endsnippet
 
 snippet impt "import PropTypes"
@@ -74,12 +86,6 @@ endsnippet
 
 snippet ptsi "PropTypes.string.isRequired"
 PropTypes.string.isRequired
-endsnippet
-
-snippet cdm "componentDidMount()"
-componentDidMount() {
-	${1://...}
-}
 endsnippet
 
 snippet rd "render()"
