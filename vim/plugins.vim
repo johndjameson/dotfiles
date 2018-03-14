@@ -41,6 +41,7 @@ Plugin 'sirver/ultisnips' " Snippet management
 Plugin 'terryma/vim-multiple-cursors' " Simultaneous selections
 Plugin 'tpope/vim-eunuch' " Helpers for UNIX
 Plugin 'tpope/vim-fugitive' " Git wrapper
+Plugin 'tpope/vim-liquid' " Liauid language runtime files
 Plugin 'tpope/vim-markdown' " Markdown runtime files
 Plugin 'tpope/vim-rhubarb' " GitHub extension for fugitive.vim
 Plugin 'tpope/vim-surround' " Wrap text with characters
