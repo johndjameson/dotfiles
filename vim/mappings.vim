@@ -173,7 +173,7 @@ nnoremap <leader>as :Ack! --sass ''<left>
 " ----- E ----- "
 
 nnoremap <leader>E :call LoadSession()<cr>
-nnoremap <leader>e :e<space>
+nnoremap <leader>e :e<cr>
 
 " ----- G ----- "
 
