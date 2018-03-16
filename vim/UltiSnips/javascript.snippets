@@ -2,8 +2,13 @@ snippet .. "Placeholder Comment"
 // ...
 endsnippet
 
-snippet cc "console.clear" b
+snippet ccl "console.clear and log" b
 console.clear()
+console.log('$1')$0
+endsnippet
+
+snippet cc "console.clear" b
+console.clear()$0
 endsnippet
 
 snippet cl "console.log" b
