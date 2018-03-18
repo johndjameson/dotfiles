@@ -16,7 +16,7 @@
 
 * ----- Function ----- *
 
-* F1–12 remapped in Keyboard Maestro
+* F1–15 remapped in Keyboard Maestro and Karabiner
 
 [escape]>[null]
 
