@@ -24,9 +24,8 @@
 
 * Left Keywell
 
-[=]>[null]
+[=]>[hyphen]
 [caps]>[lctrl]
-[intl-\]>[hyphen]
 
 * Left Thumb Cluster
 
