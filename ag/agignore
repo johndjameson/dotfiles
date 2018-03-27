@@ -17,28 +17,10 @@ bower_components/
 build/
 bundle/
 dist/
+api/db.json
 log/
 node_modules/
 tmp/
-
-# ----- Specific ----- #
-
-codeschool/vendor/
-
-# ----- Express ----- #
-
-client/javascripts/vendor/
-public/javascripts/
-public/stylesheets/
-
-# ----- Rails ----- #
-
-app/assets/javascripts/vendor/
-db/seeds/
-lib/
-public/humans.txt
-spec/fixtures/
-spec/support/
 
 # ----------------------------------------------------
 #   Files
