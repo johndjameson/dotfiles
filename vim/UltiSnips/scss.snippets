@@ -26,6 +26,12 @@ snippet fix "FIXME comment"
 // FIXME${1:(${2})}: $0
 endsnippet
 
+snippet md "@include media()"
+@include media('${1:>s}') {
+	$0
+}
+endsnippet
+
 snippet mn "TODO/FIXME/NOTE"
 // FIXME: Magic number!
 endsnippet
