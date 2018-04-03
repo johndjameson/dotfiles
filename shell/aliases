@@ -78,6 +78,7 @@ alias gac='git add --all && git commit --verbose'
 alias gap='clear && git add --patch'
 alias gb='git branch'
 alias gbD='git branch -D'
+alias gbDa='git branch | grep -v "master" | xargs git branch -D'
 alias gba='git branch --all'
 alias gbd='git branch --delete'
 alias gbm='git branch --move' #rename
