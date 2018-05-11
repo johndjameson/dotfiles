@@ -1,8 +1,3 @@
-[user]
-  name = John D. Jameson
-  email = thejohnjameson@gmail.com
-  signingkey = 02D6EEE53C68B7A8
-
 [color]
   ui = true
 
@@ -17,11 +12,20 @@
 [merge]
   tool = opendiff
 
-[push]
-  default = simple
+[merge "npm-merge-driver"]
+  driver = npx npm-merge-driver merge %A %O %B %P
+  name = automatically merge npm lockfiles
+
+[ghi]
+  token = !security find-internet-password -a johndjameson -s github.com -l 'ghi token' -w
 
 [github]
   user = johndjameson
 
-[ghi]
-  token = !security find-internet-password -a johndjameson -s github.com -l 'ghi token' -w
+[push]
+  default = simple
+
+[user]
+  email = thejohnjameson@gmail.com
+  name = John D. Jameson
+  signingkey = 02D6EEE53C68B7A8
