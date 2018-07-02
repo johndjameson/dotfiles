@@ -171,6 +171,11 @@ nnoremap <leader>as :Ack! --sass ''<left>
 nnoremap <leader>E :call LoadSession()<cr>
 nnoremap <leader>e :e<cr>
 
+" ----- F ----- "
+
+nmap <leader>F <plug>(easymotion-F)
+nmap <leader>f <plug>(easymotion-f)
+
 " ----- G ----- "
 
 nnoremap <silent> <leader>gb :Gblame<cr>
