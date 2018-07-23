@@ -155,7 +155,6 @@ alias bru='brew update'
 alias brc='brew cask'
 alias brci='brew cask install'
 alias brcl='brew cask list'
-alias brcs='brew cask search'
 alias brcu='brew cask uninstall'
 
 # ----- Middleman ----- #
