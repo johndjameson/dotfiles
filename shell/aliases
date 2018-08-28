@@ -146,7 +146,7 @@ alias brb='brew bundle'
 alias bri='brew install'
 alias brl='brew list'
 alias bro='brew outdated'
-alias brp='brew cleanup && brew cask cleanup && brew prune'
+alias brp='brew cleanup && brew prune'
 alias brs='brew search'
 alias bru='brew update'
 
