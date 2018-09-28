@@ -54,8 +54,16 @@ snippet imr "import React"
 import React from 'react'
 endsnippet
 
+snippet imrf "import React, { Fragment }"
+import React, { Fragment } from 'react'
+endsnippet
+
 snippet imrc "import React, { Component }"
 import React, { Component } from 'react'
+endsnippet
+
+snippet imrcf "import React, { Component, Fragment }"
+import React, { Component, Fragment } from 'react'
 endsnippet
 
 snippet mdp "mapDispatchToProps"
@@ -110,8 +118,14 @@ snippet ptsi "PropTypes.string.isRequired"
 PropTypes.string.isRequired
 endsnippet
 
+snippet rcl "React class" options
+class ${1:ClassComponent} extends Component {
+  $0
+}
+endsnippet
+
 snippet rd "render()"
-render() {
+render () {
 	${1://...}
 }
 endsnippet
