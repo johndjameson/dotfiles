@@ -81,6 +81,16 @@ hi link EasyMotionTarget2First Type
 hi link EasyMotionTarget2Second Type
 
 " -------------------------------------
+"   Emmet
+" -------------------------------------
+
+let g:user_emmet_settings = {
+\  'javascript.jsx' : {
+\      'extends' : 'jsx',
+\  },
+\}
+
+" -------------------------------------
 "   Git Gutter
 " -------------------------------------
 
