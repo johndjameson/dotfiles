@@ -32,6 +32,7 @@ brew 'xz'
 
 cask '1password'
 cask 'ableton-live-suite9'
+cask 'abstract'
 cask 'adobe-creative-cloud'
 cask 'alfred'
 cask 'arduino'
