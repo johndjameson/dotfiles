@@ -135,6 +135,12 @@ let g:netrw_list_hide='.DS_Store,\.\./,\./'
 let g:netrw_liststyle = 0
 
 " -------------------------------------
+"   Prettier
+" -------------------------------------
+
+let g:prettier#config#single_quote = 'true'
+
+" -------------------------------------
 "   Solarized
 " -------------------------------------
 
