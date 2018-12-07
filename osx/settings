@@ -14,6 +14,7 @@ defaults write com.apple.dock tilesize -int 60
 
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
+defaults write com.apple.Dock autohide-delay -float 0.5
 
 # Dock magnification
 defaults write com.apple.dock magnification -bool true
