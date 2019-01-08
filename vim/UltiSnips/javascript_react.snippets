@@ -34,6 +34,10 @@ componentWillUnmount() {
 }
 endsnippet
 
+snippet dpf "() => null"
+() => null
+endsnippet
+
 snippet imc "import classnames"
 import classnames from 'classnames'
 endsnippet
@@ -94,6 +98,14 @@ const mapStateToProps = (state${1:, ownProps}) => {
 }
 endsnippet
 
+snippet ptb "PropTypes.bool"
+PropTypes.func
+endsnippet
+
+snippet ptbi "PropTypes.bool.isRequired"
+PropTypes.func.isRequired
+endsnippet
+
 snippet ptf "PropTypes.func"
 PropTypes.func
 endsnippet
@@ -116,6 +128,12 @@ endsnippet
 
 snippet ptsi "PropTypes.string.isRequired"
 PropTypes.string.isRequired
+endsnippet
+
+snippet pth "PropTypes.shape"
+PropTypes.shape({
+	$0
+})
 endsnippet
 
 snippet rcl "React class" options
