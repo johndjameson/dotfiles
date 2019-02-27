@@ -45,6 +45,7 @@ alias cdbr="cd $DOTFILES/brew/"
 alias cdd="cd $HOME/Desktop/"
 alias cdi="cd $HOME/Library/Mobile\ Documents/com~apple~CloudDocs"
 alias cdl='cd -'
+alias cdp="cd /Library/Audio/Plug-Ins"
 alias cdv='cd /Volumes'
 
 alias path="echo $(pwd) 'copied to clipboard!' && pwd | pbcopy"
