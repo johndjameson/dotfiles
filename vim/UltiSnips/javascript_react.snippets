@@ -152,6 +152,12 @@ snippet ss "setState()"
 this.setState({ $1 })$0
 endsnippet
 
+snippet ssf "setState(() => {})"
+this.setState((state, props) => ({
+	$1
+}))$0
+endsnippet
+
 snippet stp "static propTypes"
 static propTypes = {
 	$0

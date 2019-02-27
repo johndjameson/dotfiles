@@ -40,6 +40,12 @@ snippet note "NOTE comment"
 // NOTE${1:(${2})}: $0
 endsnippet
 
+snippet mm "@include media"
+@include media('${1:<m}') {
+	$0
+}
+endsnippet
+
 snippet mq "Media query"
 @media screen and (${1:min-width}: $2) {
 	$0
