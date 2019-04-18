@@ -182,6 +182,10 @@ nnoremap <silent> <leader>gb :Gblame<cr>
 nnoremap <silent> <leader>gh :Gbrowse<cr>
 nnoremap <silent> <leader>gs :Gstatus<cr>
 
+" ----- L ----- "
+
+nnoremap <leader>l :set cursorcolumn!<cr>
+
 " ----- O ----- "
 
 nnoremap <leader>oc :copen<cr>
