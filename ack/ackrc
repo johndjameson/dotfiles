@@ -23,8 +23,8 @@
 --type-set=coffee=.coffee
 --type-set=haml=.haml
 --type-set=lock=.lock
---type-set=markdown=.markdown,.md
---type-set=md=.markdown,.md
+--type-set=markdown=.markdown,.md,.mdx
+--type-set=md=.markdown,.md,.mdx
 --type-set=svg=.svg
 
 # ----------------------------------------------------
@@ -33,12 +33,11 @@
 
 # ----- Filetypes ----- #
 
---nocss
 --nolock
---nosvg
 
 # ----- Directories ----- #
 
+--ignore-dir=.cache
 --ignore-dir=.sass-cache
 --ignore-dir=.tmp
 --ignore-dir=api
@@ -48,6 +47,7 @@
 --ignore-dir=dist
 --ignore-dir=log
 --ignore-dir=node_modules
+--ignore-dir=public
 --ignore-dir=server
 --ignore-dir=tmp
 
