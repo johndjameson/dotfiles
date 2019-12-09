@@ -108,10 +108,6 @@ let g:ctrlp_map = '<c-f>'
 cnoremap <c-h> <left>
 nnoremap <c-h> <c-w><c-h>
 
-" ----- I ----- "
-
-unmap <c-i>
-
 " ----- J ----- "
 
 cnoremap <c-j> <down>
