@@ -30,3 +30,5 @@ export HISTCONTROL=ignoredups:erasedups
 # Continually append to history
 shopt -s histappend
 PROMPT_COMMAND+='; history -a; history -n'
+
+export PROMPT_COMMAND+='; enter_directory'

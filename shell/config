@@ -49,6 +49,15 @@ export HOMEBREW_NO_ANALYTICS=1
 export NVM_DIR="$HOME/.nvm"
 . $(brew --prefix nvm)/nvm.sh
 
+enter_directory() {
+  if [[ $PWD == $PREV_PWD ]]; then
+    return
+  fi
+
+  PREV_PWD=$PWD
+  [[ -f ".nvmrc" ]] && nvm use
+}
+
 # Grunt
 
 eval "$(grunt --completion=$SHELL_EXT)"
