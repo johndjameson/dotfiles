@@ -229,3 +229,10 @@ alias v.p="cd $DOTFILES && vim vim/plugins.vim"
 alias v.v="cd $DOTFILES && vim vim/vimrc"
 alias v='vim'
 alias vs="vim_search"
+
+# ----- Yarn ----- #
+
+alias y='yarn'
+alias ya='yarn add'
+alias yb='yarn build'
+alias ys='yarn start'
