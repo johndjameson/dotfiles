@@ -13,11 +13,12 @@
 
 .sass-cache/
 .tmp/
+api/db.json
+artifacts/
 bower_components/
 build/
 bundle/
 dist/
-api/db.json
 log/
 node_modules/
 tmp/
