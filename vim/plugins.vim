@@ -30,6 +30,7 @@ Plugin 'kana/vim-textobj-indent' " Text objects for indented blocks of lines
 Plugin 'kana/vim-textobj-user' " Create your own text objects
 Plugin 'lokaltog/vim-easymotion' " Simpler way to use motions
 Plugin 'mattn/emmet-vim' " Expanding abbreviations
+Plugin 'mg979/vim-visual-multi' " Simultaneous selections
 Plugin 'mileszs/ack.vim' " Search with ack
 Plugin 'mxw/vim-jsx' " Highlighting and indenting for JSX
 Plugin 'pangloss/vim-javascript' " Improved Javascript indentation and syntax
@@ -38,7 +39,6 @@ Plugin 'scrooloose/nerdcommenter' " Comment functions
 Plugin 'scrooloose/nerdtree' " File system explorer
 Plugin 'sirver/ultisnips' " Snippet management
 Plugin 'styled-components/vim-styled-components' " Syntax fixes for Styled Components
-Plugin 'terryma/vim-multiple-cursors' " Simultaneous selections
 Plugin 'tpope/vim-eunuch' " Helpers for UNIX
 Plugin 'tpope/vim-fugitive' " Git wrapper
 Plugin 'tpope/vim-liquid' " Liauid language runtime files
