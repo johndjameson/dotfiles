@@ -193,8 +193,8 @@ nnoremap <leader>ov :! code '%:p'<cr>
 
 " ----- P ----- "
 
-nnoremap <silent> <leader>p :Prettier \| ALEFix<cr>
-vnoremap <silent> <leader>p :'<,'>Prettier<cr>
+nnoremap <silent> <leader>P :Prettier<cr>
+nnoremap <silent> <leader>p :ALEFix<cr>
 
 " ----- Q ----- "
 
