@@ -205,6 +205,7 @@ nnoremap <silent> <leader>q :bd!<cr>
 
 nnoremap <leader>R :Rename ./
 nnoremap <leader>r :%s///g<left><left><left>
+vnoremap <leader>r :s///g<left><left><left>
 
 " ----- S ----- "
 
