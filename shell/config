@@ -58,18 +58,6 @@ enter_directory() {
   [[ -f ".nvmrc" ]] && nvm use
 }
 
-# Grunt
-
-eval "$(grunt --completion=$SHELL_EXT)"
-
-# Gulp
-
-eval "$(gulp --completion=$SHELL_EXT)"
-
-# ----- rbenv ----- #
-
-eval "$(rbenv init - $SHELL_EXT)"
-
 # ----- SSH ----- #
 
 ssh-add -K ~/.ssh/id_rsa &> /dev/null
