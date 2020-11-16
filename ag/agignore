@@ -11,9 +11,9 @@
 
 # ----- General ----- #
 
+.mypy_cache/
 .sass-cache/
 .tmp/
-api/db.json
 artifacts/
 bower_components/
 build/
@@ -21,6 +21,8 @@ bundle/
 dist/
 log/
 node_modules/
+snaps/
+static/bundles/
 tmp/
 
 # ----------------------------------------------------
@@ -31,3 +33,4 @@ tmp/
 *.svg
 CHANGELOG
 CHANGELOG.*
+package-lock.json

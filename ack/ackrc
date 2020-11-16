@@ -38,6 +38,7 @@
 # ----- Directories ----- #
 
 --ignore-dir=.cache
+--ignore-dir=.mypy_cache
 --ignore-dir=.sass-cache
 --ignore-dir=.tmp
 --ignore-dir=api
@@ -48,8 +49,6 @@
 --ignore-dir=dist
 --ignore-dir=log
 --ignore-dir=node_modules
---ignore-dir=public
---ignore-dir=server
 --ignore-dir=tmp
 
 # ----------------------------------------------------
