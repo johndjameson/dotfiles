@@ -213,6 +213,10 @@ alias rehash='rbenv rehash'
 
 alias agf="ag --color-match '30;34' --color-path '30;32' -g"
 
+# ----- Vagrant ----- #
+
+alias vgpy='./scripts/vagrant.py'
+
 # ----- Vim ----- #
 
 alias v.A="cd $DOTFILES && vim advantage2/qwerty.txt advantage2/state.txt"
