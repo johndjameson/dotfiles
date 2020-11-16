@@ -23,6 +23,14 @@ set nocompatible
 source ~/.dotfiles/vim/plugins.vim
 
 " -------------------------------------
+"   Ack
+" -------------------------------------
+
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
+
+" -------------------------------------
 "   Airline
 " -------------------------------------
 
