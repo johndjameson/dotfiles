@@ -199,7 +199,7 @@ hi SignColumn ctermbg=NONE
 
 " ----- Text Area ----- "
 
-set colorcolumn=80
+set colorcolumn=80,100
 set cursorline
 set nowrap
 set number
