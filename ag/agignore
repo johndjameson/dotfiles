@@ -29,8 +29,13 @@ tmp/
 #   Files
 # ----------------------------------------------------
 
+*.gif
+*.jpg
 *.min.*
+*.png
 *.svg
+*.webp
+*.zip
 CHANGELOG
 CHANGELOG.*
 package-lock.json
