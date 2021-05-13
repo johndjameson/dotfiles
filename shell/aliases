@@ -43,6 +43,7 @@ alias ..='cd ../'
 alias cd.="cd $DOTFILES/"
 alias cdbr="cd $DOTFILES/brew/"
 alias cdd="cd $HOME/Desktop/"
+alias cddl="cd $HOME/Downloads/"
 alias cdi="cd $HOME/Library/Mobile\ Documents/com~apple~CloudDocs"
 alias cdl='cd -'
 alias cdp="cd /Library/Audio/Plug-Ins"
