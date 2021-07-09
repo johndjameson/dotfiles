@@ -24,6 +24,7 @@ Plugin 'airblade/vim-gitgutter' " Shows a git diff in the gutter
 Plugin 'altercation/vim-colors-solarized' " Solarized color scheme
 Plugin 'christoomey/vim-sort-motion' " Mapping for sorting a range of text
 Plugin 'ctrlpvim/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
+Plugin 'editorconfig/editorconfig-vim' " Code style settings per project
 Plugin 'ervandew/supertab' " Use <Tab> for insert completion
 Plugin 'henrik/vim-reveal-in-finder' " Reveal the current file in OS X Finder
 Plugin 'kana/vim-textobj-indent' " Text objects for indented blocks of lines
