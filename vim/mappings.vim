@@ -78,6 +78,11 @@ nnoremap <tab> <c-^>
 vnoremap <s-tab> <gv
 vnoremap <tab> >gv
 
+" ----- Operators ----- "
+
+noremap = :vertical resize +10<cr>
+noremap - :vertical resize -10<cr>
+
 " -------------------------------------
 "   Control
 " -------------------------------------
