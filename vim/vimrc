@@ -144,7 +144,8 @@ let g:NERDSpaceDelims = 1
 "   NERD Tree
 " -------------------------------------
 
-let NERDTreeMinimalUI = 1
+let g:NERDTreeMinimalUI = 1
+let g:NERDTreeWinSize = 50
 
 " -------------------------------------
 "   Netrw
