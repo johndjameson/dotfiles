@@ -15,6 +15,7 @@
 .sass-cache/
 .tmp/
 artifacts/
+bootstrap-3.3.7-dist/
 bower_components/
 build/
 bundle/
