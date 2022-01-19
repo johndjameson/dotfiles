@@ -179,6 +179,8 @@ set clipboard=unnamed
 
 set backspace=indent,eol,start
 
+set formatoptions-=r
+
 set autoindent
 set smartindent
 set smarttab
