@@ -176,9 +176,8 @@ nmap <leader>f <plug>(easymotion-f)
 
 " ----- G ----- "
 
-nnoremap <silent> <leader>gb :Gblame<cr>
-nnoremap <silent> <leader>gh :Gbrowse<cr>
-nnoremap <silent> <leader>gs :Gstatus<cr>
+nnoremap <silent> <leader>gb :Git blame<cr>
+nnoremap <silent> <leader>gh :GBrowse<cr>
 
 " ----- L ----- "
 
