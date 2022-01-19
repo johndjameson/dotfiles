@@ -84,6 +84,10 @@ snippet imrcf "import React, { Component, Fragment }"
 import React, { Component, Fragment } from 'react';
 endsnippet
 
+snippet imtb "import Shopify/jsx/components/TextBlock"
+import ${1:TextBlock} from 'Shopify/jsx/components/$1/$1';
+endsnippet
+
 snippet mdp "mapDispatchToProps"
 const mapDispatchToProps = {
 	$0
@@ -112,10 +116,14 @@ const mapStateToProps = (state${1:, ownProps}) => {
 };
 endsnippet
 
-snippet pt "Component.propTypes"
+snippet cpt "Component.propTypes"
 ${1:`!p res = snip.basename`}.propTypes = {
 	${2:children}: ${3:PropTypes.node.isRequired},
 };
+endsnippet
+
+snippet pt "PropTypes"
+PropTypes
 endsnippet
 
 snippet pta "PropTypes.array"
@@ -134,11 +142,11 @@ snippet ptbi "PropTypes.bool.isRequired"
 PropTypes.bool.isRequired
 endsnippet
 
-snippet ptd "PropTypes.node"
+snippet ptnd "PropTypes.node"
 PropTypes.node
 endsnippet
 
-snippet ptdi "PropTypes.node"
+snippet ptndi "PropTypes.node"
 PropTypes.node.isRequired
 endsnippet
 
