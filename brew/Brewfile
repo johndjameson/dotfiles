@@ -36,3 +36,14 @@ cask 'paw'
 cask 'sketch'
 cask 'spotify'
 cask 'visual-studio-code'
+
+mas 'ColorSnapper2', id: 969418666
+mas 'Deliveries', id: 924726344
+mas 'Keynote', id: 409183694
+mas 'Kindle', id: 405399194
+mas 'Name Mangler', id: 603637384
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+mas 'Paste Plain Text', id: 1407015686
+mas 'Pixelmator Pro', id: 1289583905
+mas 'iA Writer', id: 775737590
