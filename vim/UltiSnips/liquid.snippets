@@ -1,0 +1,45 @@
+snippet co "Block Comment"
+{%- comment -%}
+	$0
+{%- endcomment -%}
+endsnippet
+
+snippet coi "Inline Comment"
+{%- comment -%}$0{%- endcomment -%}
+endsnippet
+
+snippet if "Block If"
+{%- if $1 -%}
+	$0
+{%- endif -%}
+endsnippet
+
+snippet ifi "Inline If"
+{%- if $1 -%}$0{%- endif -%}
+endsnippet
+
+snippet ife "Block If/Else"
+{%- if $1 -%}
+	$2
+{%- else -%}
+	$0
+{%- endif -%}
+endsnippet
+
+snippet ifei "Inline If/Else"
+{%- if $1 -%}$2{%- elsif -%}$0{%- endif -%}
+endsnippet
+
+snippet print "print" b
+<pre>$1: {{ $1 }}$0</pre>
+endsnippet
+
+snippet unl "Block Unless"
+{%- unless $1 -%}
+	$0
+{%- endunless -%}
+endsnippet
+
+snippet unli "Inline Unless"
+{%- unless $1 -%}$0{%- endunless -%}
+endsnippet
