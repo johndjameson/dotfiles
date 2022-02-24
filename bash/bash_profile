@@ -27,10 +27,14 @@
 # Local
 
 if [ -d ~/.dotfiles-local ]; then
-
   . ~/.dotfiles-local/shell/variables
   . ~/.dotfiles-local/shell/aliases
+fi
 
+# Sips by
+
+if [ -d ~/.dotfiles-sipsby ]; then
+  . ~/.dotfiles-sipsby/shell/aliases
 fi
 
 # ----- Bash ----- #
