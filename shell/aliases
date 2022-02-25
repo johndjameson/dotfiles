@@ -147,7 +147,7 @@ alias gtl='git tag --list'
 
 alias br='brew'
 alias brU='brew upgrade'
-alias brb.="cd $DOTFILES/brew/ && brew bundle"
+alias brb.="brew bundle --file=~/.dotfiles/brew/Brewfile"
 alias brb='brew bundle'
 alias bri='brew install'
 alias brl='brew list'
