@@ -44,10 +44,15 @@ snippet unli "Inline Unless"
 {%- unless $1 -%}$0{%- endunless -%}
 endsnippet
 
-snippet cotd "Theme Check Disable"
+snippet cotc "Theme Check"
+{%- comment -%}theme-check-disable $1{%- endcomment -%}
+{%- comment -%}theme-check-enable $1{%- endcomment -%}
+endsnippet
+
+snippet cotcd "Theme Check Disable"
 {%- comment -%}theme-check-disable $0{%- endcomment -%}
 endsnippet
 
-snippet cote "Theme Check Enable"
+snippet cotce "Theme Check Enable"
 {%- comment -%}theme-check-enable $0{%- endcomment -%}
 endsnippet
