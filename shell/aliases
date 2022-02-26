@@ -103,7 +103,7 @@ alias ggl='git log --pretty=format:"%C(red)%h%Creset %s %C(magenta)(%cr)" --date
 alias ggo='git log --oneline --stat -1'
 alias ggp='git log --pretty=format:"%C(red)%h%Creset %s %C(magenta)(%cr)" --date=relative -5 --patch'
 alias ggpb='git log --pretty=format:"%s" --date=relative -1 | pbcopy'
-alias ghim='ghi list -u --mine'
+alias ghc='gh repo clone'
 alias gk='git clone'
 alias gl='git pull --rebase'
 alias glp='git pull --rebase && git push'
@@ -152,20 +152,6 @@ alias brp='brew cleanup'
 alias brs='brew search'
 alias bru='brew update'
 
-# Cask
-
-alias brc='brew cask'
-alias brci='brew cask install'
-alias brcl='brew cask list'
-alias brcu='brew cask uninstall'
-
-# ----- Middleman ----- #
-
-alias mb='bundle exec middleman build'
-alias mbc='bundle exec middleman build --clean'
-alias ms='bundle exec middleman server'
-alias msd='bundle exec middleman server --reload-paths data/'
-
 # ----- Node ----- #
 
 alias n='node'
@@ -192,17 +178,6 @@ alias nc='nvm current'
 # ----- Python ----- #
 
 alias serve='python -m SimpleHTTPServer'
-
-# ----- Rake ----- #
-
-alias rk='bundle exec rake'
-alias rkap='RAILS_ENV=development bundle exec rake assets:precompile'
-alias rkapd='rm -rf public/assets/'
-alias rkdbm='bundle exec rake db:migrate'
-alias rkdy='bundle exec rake deploy'
-alias rkj='bundle exec rake jasmine:ci'
-alias rkjw='bundle exec rake jasmine'
-alias rkt='bundle exec rake --tasks'
 
 # ----- Rbenv ----- #
 
