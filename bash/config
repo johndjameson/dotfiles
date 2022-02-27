@@ -11,8 +11,10 @@
 
 # ----- Bash ----- #
 
-if [ -f "$(brew --prefix)"/share/bash-completion/bash_completion ]; then
-  . "$(brew --prefix)"/share/bash-completion/bash_completion
+if [[ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]]; then
+  . "/opt/homebrew/etc/profile.d/bash_completion.sh"
+else
+  echo 'bash-completion@2 not installed. Run `brew install bash-completion@2`'
 fi
 
 # ----- Git ----- #
