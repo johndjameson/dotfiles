@@ -82,6 +82,10 @@ eval "$(rbenv init - $SHELL_EXT)"
 
 ssh-add -K ~/.ssh/id_rsa &> /dev/null
 
+# ----- Starship ----- #
+
+eval "$(starship init $SHELL_EXT)"
+
 # ----------------------------------------------------
 #   User Interface
 # ----------------------------------------------------

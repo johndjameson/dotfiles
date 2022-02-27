@@ -42,7 +42,6 @@ fi
 # ----- Bash ----- #
 
 . ~/.dotfiles/bash/config
-. ~/.dotfiles/bash/prompt
 
 [ -d ~/.dotfiles-local ] && . ~/.dotfiles-local/bash/config
 

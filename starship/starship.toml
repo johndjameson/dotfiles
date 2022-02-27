@@ -1,0 +1,3 @@
+# Shows how long the last command took to execute
+[cmd_duration]
+disabled = true
