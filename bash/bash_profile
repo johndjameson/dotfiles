@@ -29,6 +29,8 @@
 if [ -d ~/.dotfiles-local ]; then
   . ~/.dotfiles-local/shell/variables
   . ~/.dotfiles-local/shell/aliases
+else
+  echo '.dotfiles-local not installed'
 fi
 
 # Sips by
