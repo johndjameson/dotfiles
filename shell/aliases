@@ -29,8 +29,8 @@ alias here='open .'
 
 # ----- List ----- #
 
-alias l='ls -hloAF'
-alias la='ls -hloaF'
+alias l='colorls -go --almost-all --sort-dirs'
+alias lt='colorls -go --almost-all --sort-dirs --tree=2'
 
 # ----- Look Up ----- #
 
