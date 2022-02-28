@@ -1,3 +1,26 @@
-# Shows how long the last command took to execute
 [cmd_duration]
+disabled = true
+
+[directory]
+format = "[$path]($style)[$read_only]($read_only_style)"
+
+[git_branch]
+format =":[$branch]($style) "
+
+[nodejs]
+symbol = "Node "
+style = "fg:yellow"
+
+[package]
+disabled = true
+
+[python]
+symbol = "Python "
+style = "fg:green"
+
+[ruby]
+symbol = "Ruby "
+style = "fg:red"
+
+[vagrant]
 disabled = true
