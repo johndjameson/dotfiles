@@ -12,7 +12,7 @@
 # ----- Bash ----- #
 
 if [[ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]]; then
-  . "/opt/homebrew/etc/profile.d/bash_completion.sh"
+  . "$(brew --prefix)/etc/profile.d/bash_completion.sh"
 else
   echo 'bash-completion@2 not installed. Run `brew install bash-completion@2`'
 fi
