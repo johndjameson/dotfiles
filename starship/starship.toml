@@ -1,18 +1,21 @@
 [character]
-error_symbol = "[▶︎](red)"
-success_symbol = "[▶︎](green)"
+error_symbol = "[>](red)"
+success_symbol = ">"
 
 [cmd_duration]
 disabled = true
 
 [directory]
 format = "[$path]($style)[$read_only]($read_only_style)"
-home_symbol = "john ~"
+home_symbol = "john"
+style = ""
 
 [git_branch]
-format =":[$branch]($style) "
+format = ":[$branch]($style) "
+style = "bold"
 
 [nodejs]
+disabled = true
 style = "fg:yellow"
 symbol = "Node "
 
@@ -20,10 +23,12 @@ symbol = "Node "
 disabled = true
 
 [python]
+disabled = true
 style = "fg:green"
 symbol = "Python "
 
 [ruby]
+disabled = true
 style = "fg:red"
 symbol = "Ruby "
 
