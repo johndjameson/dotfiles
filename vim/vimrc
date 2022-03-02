@@ -168,6 +168,12 @@ let g:prettier#config#single_quote = 'true'
 let g:solarized_termtrans = 1
 
 " -------------------------------------
+"   Visual Multi
+" -------------------------------------
+
+let g:VM_case_setting = 'smart'
+
+" -------------------------------------
 "   Editor
 " -------------------------------------
 
