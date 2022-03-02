@@ -1,3 +1,7 @@
+snippet ass "assign"
+{%- assign $1 = $0 -%}
+endsnippet
+
 snippet co "Block Comment"
 {%- comment -%}
 	$0
@@ -6,6 +10,23 @@ endsnippet
 
 snippet coi "Inline Comment"
 {%- comment -%}$0{%- endcomment -%}
+endsnippet
+
+snippet cotc "Theme Check"
+{%- comment -%}theme-check-disable LiquidTag{%- endcomment -%}
+{%- comment -%}theme-check-enable LiquidTag{%- endcomment -%}
+endsnippet
+
+snippet clv "console.log variable" b
+console.log('$1', $1)$0
+endsnippet
+
+snippet cotcd "Theme Check Disable"
+{%- comment -%}theme-check-disable ${0:LiquidTag}{%- endcomment -%}
+endsnippet
+
+snippet cotce "Theme Check Enable"
+{%- comment -%}theme-check-enable ${0:LiquidTag}{%- endcomment -%}
 endsnippet
 
 snippet if "Block If"
@@ -34,6 +55,10 @@ snippet print "print" b
 <pre>$1: {{ $1 }}$0</pre>
 endsnippet
 
+snippet ren "render"
+{%- render '$0' -%}
+endsnippet
+
 snippet unl "Block Unless"
 {%- unless $1 -%}
 	$0
@@ -42,17 +67,4 @@ endsnippet
 
 snippet unli "Inline Unless"
 {%- unless $1 -%}$0{%- endunless -%}
-endsnippet
-
-snippet cotc "Theme Check"
-{%- comment -%}theme-check-disable $1{%- endcomment -%}
-{%- comment -%}theme-check-enable $1{%- endcomment -%}
-endsnippet
-
-snippet cotcd "Theme Check Disable"
-{%- comment -%}theme-check-disable $0{%- endcomment -%}
-endsnippet
-
-snippet cotce "Theme Check Enable"
-{%- comment -%}theme-check-enable $0{%- endcomment -%}
 endsnippet
