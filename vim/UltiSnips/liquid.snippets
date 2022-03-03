@@ -36,7 +36,7 @@ snippet if "Block If"
 endsnippet
 
 snippet ifi "Inline If"
-{%- if $1 -%}$0{%- endif -%}
+{% if $1 %}$0{% endif %}
 endsnippet
 
 snippet ife "Block If/Else"
@@ -48,7 +48,7 @@ snippet ife "Block If/Else"
 endsnippet
 
 snippet ifei "Inline If/Else"
-{%- if $1 -%}$2{%- elsif -%}$0{%- endif -%}
+{% if $1 %}$2{% elsif %}$0{% endif %}
 endsnippet
 
 snippet print "print" b
