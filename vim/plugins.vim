@@ -31,7 +31,6 @@ call plug#begin()
 " -------------------------------------
 
 Plug 'airblade/vim-gitgutter' " Shows a git diff in the gutter
-Plug 'altercation/vim-colors-solarized' " Solarized color scheme
 Plug 'christoomey/vim-sort-motion' " Mapping for sorting a range of text
 Plug 'ctrlpvim/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
 Plug 'editorconfig/editorconfig-vim' " Code style settings per project
@@ -39,6 +38,7 @@ Plug 'ervandew/supertab' " Use <Tab> for insert completion
 Plug 'henrik/vim-reveal-in-finder' " Reveal the current file in OS X Finder
 Plug 'kana/vim-textobj-indent' " Text objects for indented blocks of lines
 Plug 'kana/vim-textobj-user' " Create your own text objects
+Plug 'lifepillar/vim-solarized8' " Solarized color scheme
 Plug 'lokaltog/vim-easymotion' " Simpler way to use motions
 Plug 'mattn/emmet-vim' " Expanding abbreviations
 Plug 'mg979/vim-visual-multi' " Simultaneous selections

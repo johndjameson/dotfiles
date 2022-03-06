@@ -165,7 +165,19 @@ let g:prettier#config#single_quote = 'true'
 "   Solarized
 " -------------------------------------
 
+syntax on
+
+set background=dark
+set termguicolors
+
+colorscheme solarized8
+
 let g:solarized_termtrans = 1
+let g:solarized_visibility = 'normal'
+
+hi! LineNR guibg=NONE ctermbg=NONE
+hi FoldColumn ctermbg=NONE
+hi SignColumn ctermbg=NONE
 
 " -------------------------------------
 "   Visual Multi
@@ -199,18 +211,6 @@ set tabstop=2
 set nobackup
 set noswapfile
 set nowritebackup
-
-" ----- Color Scheme ----- "
-
-syntax on
-set t_Co=256
-set background=dark
-colorscheme solarized
-
-" Solarized setup (via @drewbarontini)
-hi! LineNR guibg=NONE ctermbg=NONE
-hi FoldColumn ctermbg=NONE
-hi SignColumn ctermbg=NONE
 
 " ----- Text Area ----- "
 
