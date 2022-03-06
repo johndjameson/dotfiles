@@ -17,6 +17,7 @@ brew 'readline'
 brew 'starship'
 brew 'the_silver_searcher'
 brew 'vim'
+brew 'zsh'
 
 cask '1password'
 cask 'alfred'
