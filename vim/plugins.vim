@@ -34,7 +34,6 @@ Plug 'airblade/vim-gitgutter' " Shows a git diff in the gutter
 Plug 'christoomey/vim-sort-motion' " Mapping for sorting a range of text
 Plug 'ctrlpvim/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
 Plug 'editorconfig/editorconfig-vim' " Code style settings per project
-Plug 'ervandew/supertab' " Use <Tab> for insert completion
 Plug 'henrik/vim-reveal-in-finder' " Reveal the current file in OS X Finder
 Plug 'kana/vim-textobj-indent' " Text objects for indented blocks of lines
 Plug 'kana/vim-textobj-user' " Create your own text objects
@@ -44,6 +43,7 @@ Plug 'mattn/emmet-vim' " Expanding abbreviations
 Plug 'mg979/vim-visual-multi' " Simultaneous selections
 Plug 'mileszs/ack.vim' " Search with ack
 Plug 'mxw/vim-jsx' " Highlighting and indenting for JSX
+Plug 'neoclide/coc.nvim', { 'branch': 'release' } " Conquer of Completion
 Plug 'pangloss/vim-javascript' " Improved Javascript indentation and syntax
 Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' } " Intelligent code formatter
 Plug 'ryanoasis/vim-devicons' " Adds file type icons to Vim plugins
@@ -59,7 +59,6 @@ Plug 'tpope/vim-rhubarb' " GitHub extension for fugitive.vim
 Plug 'tpope/vim-surround' " Wrap text with characters
 Plug 'vim-airline/vim-airline' " Status bar
 Plug 'vim-airline/vim-airline-themes' " Status bar themes
-Plug 'w0rp/ale' " Asynchronous lint engine
 Plug 'whatyouhide/vim-textobj-xmlattr' " Text objects for HTML/XML attributes
 
 " -------------------------------------
