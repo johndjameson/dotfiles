@@ -103,11 +103,7 @@ let g:user_emmet_settings = {
 
 let g:gitgutter_map_keys = 0
 
-if exists('&signcolumn')
-  set signcolumn=yes
-else
-  let g:gitgutter_sign_column_always = 1
-endif
+set signcolumn=yes
 
 " -------------------------------------
 "   JSX
@@ -198,6 +194,8 @@ set tabstop=2
 set nobackup
 set noswapfile
 set nowritebackup
+
+set updatetime=300
 
 " ----- Text Area ----- "
 
