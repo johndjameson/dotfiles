@@ -8,6 +8,9 @@
   editor = vim
   excludesfile = ~/.dotfiles/git/ignore
 
+[init]
+  defaultBranch = main
+
 [merge]
   tool = opendiff
 
