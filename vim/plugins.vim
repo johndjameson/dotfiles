@@ -45,7 +45,7 @@ Plug 'mg979/vim-visual-multi' " Simultaneous selections
 Plug 'mileszs/ack.vim' " Search with ack
 Plug 'mxw/vim-jsx' " Highlighting and indenting for JSX
 Plug 'pangloss/vim-javascript' " Improved Javascript indentation and syntax
-Plug 'prettier/vim-prettier' " Intelligent code formatter
+Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' } " Intelligent code formatter
 Plug 'ryanoasis/vim-devicons' " Adds file type icons to Vim plugins
 Plug 'scrooloose/nerdcommenter' " Comment functions
 Plug 'scrooloose/nerdtree' " File system explorer
