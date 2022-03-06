@@ -17,10 +17,6 @@ else
   echo 'bash-completion@2 not installed. Run `brew install bash-completion@2`'
 fi
 
-# ----- Git ----- #
-
-. "$DOTFILES/git/completion/git-completion.bash"
-
 # ----------------------------------------------------
 #   History
 # ----------------------------------------------------
