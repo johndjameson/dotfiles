@@ -28,10 +28,6 @@ nnoremap <silent> H :bprevious<cr>
 " Add blank newlines
 nmap J O<esc>Dj
 
-" ----- K ----- "
-
-nmap K o<esc>Dk
-
 " ----- L ----- "
 
 nnoremap <silent> L :bnext<cr>
@@ -163,6 +159,14 @@ nnoremap <leader>aw :Ack!<cr>
 " <leader>cn       | NERDComNestedComment
 " <leader>cs       | NERDComSexyComment
 " <leader>cy       | NERDComYankComment
+
+" ----- D ----- "
+
+" Display definition overlay
+nnoremap <leader>d :call CocActionAsync('doHover')<cr>
+
+" Go to definition
+nnoremap <leader>D <Plug>(coc-definition)
 
 " ----- E ----- "
 
