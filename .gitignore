@@ -16,5 +16,6 @@ karabiner/automatic_backups
 # -------------------------------------
 
 vim/.netrwhist
-vim/bundle
+vim/autoload/plug.vim
+vim/plugged
 vim/sessions/*.vim

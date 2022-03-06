@@ -1,60 +1,69 @@
 " *************************************
 "
-"   Vundle
+"   Vim-Plug
 "   -> Vim plugin manager configuration
 
 " *************************************
 
 " -------------------------------------
+"   Installation
+" -------------------------------------
+
+" Install vim-plug if not found
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+endif
+
+" Run PlugInstall if there are missing plugins
+autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+  \| PlugInstall --sync | source $MYVIMRC
+\| endif
+
+" -------------------------------------
 "   Setup
 " -------------------------------------
 
-filetype off
-
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
+call plug#begin()
 
 " -------------------------------------
-"   Bundles
+"   Plugins
 " -------------------------------------
 
-Plugin 'airblade/vim-gitgutter' " Shows a git diff in the gutter
-Plugin 'altercation/vim-colors-solarized' " Solarized color scheme
-Plugin 'christoomey/vim-sort-motion' " Mapping for sorting a range of text
-Plugin 'ctrlpvim/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
-Plugin 'editorconfig/editorconfig-vim' " Code style settings per project
-Plugin 'ervandew/supertab' " Use <Tab> for insert completion
-Plugin 'henrik/vim-reveal-in-finder' " Reveal the current file in OS X Finder
-Plugin 'kana/vim-textobj-indent' " Text objects for indented blocks of lines
-Plugin 'kana/vim-textobj-user' " Create your own text objects
-Plugin 'lokaltog/vim-easymotion' " Simpler way to use motions
-Plugin 'mattn/emmet-vim' " Expanding abbreviations
-Plugin 'mg979/vim-visual-multi' " Simultaneous selections
-Plugin 'mileszs/ack.vim' " Search with ack
-Plugin 'mxw/vim-jsx' " Highlighting and indenting for JSX
-Plugin 'pangloss/vim-javascript' " Improved Javascript indentation and syntax
-Plugin 'prettier/vim-prettier' " Intelligent code formatter
-Plugin 'ryanoasis/vim-devicons' " Adds file type icons to Vim plugins
-Plugin 'scrooloose/nerdcommenter' " Comment functions
-Plugin 'scrooloose/nerdtree' " File system explorer
-Plugin 'sirver/ultisnips' " Snippet management
-Plugin 'styled-components/vim-styled-components' " Syntax fixes for Styled Components
-Plugin 'tpope/vim-eunuch' " Helpers for UNIX
-Plugin 'tpope/vim-fugitive' " Git wrapper
-Plugin 'tpope/vim-liquid' " Liauid language runtime files
-Plugin 'tpope/vim-markdown' " Markdown runtime files
-Plugin 'tpope/vim-rhubarb' " GitHub extension for fugitive.vim
-Plugin 'tpope/vim-surround' " Wrap text with characters
-Plugin 'vim-airline/vim-airline' " Status bar
-Plugin 'vim-airline/vim-airline-themes' " Status bar themes
-Plugin 'w0rp/ale' " Asynchronous lint engine
-Plugin 'whatyouhide/vim-textobj-xmlattr' " Text objects for HTML/XML attributes
+Plug 'airblade/vim-gitgutter' " Shows a git diff in the gutter
+Plug 'altercation/vim-colors-solarized' " Solarized color scheme
+Plug 'christoomey/vim-sort-motion' " Mapping for sorting a range of text
+Plug 'ctrlpvim/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
+Plug 'editorconfig/editorconfig-vim' " Code style settings per project
+Plug 'ervandew/supertab' " Use <Tab> for insert completion
+Plug 'henrik/vim-reveal-in-finder' " Reveal the current file in OS X Finder
+Plug 'kana/vim-textobj-indent' " Text objects for indented blocks of lines
+Plug 'kana/vim-textobj-user' " Create your own text objects
+Plug 'lokaltog/vim-easymotion' " Simpler way to use motions
+Plug 'mattn/emmet-vim' " Expanding abbreviations
+Plug 'mg979/vim-visual-multi' " Simultaneous selections
+Plug 'mileszs/ack.vim' " Search with ack
+Plug 'mxw/vim-jsx' " Highlighting and indenting for JSX
+Plug 'pangloss/vim-javascript' " Improved Javascript indentation and syntax
+Plug 'prettier/vim-prettier' " Intelligent code formatter
+Plug 'ryanoasis/vim-devicons' " Adds file type icons to Vim plugins
+Plug 'scrooloose/nerdcommenter' " Comment functions
+Plug 'scrooloose/nerdtree' " File system explorer
+Plug 'sirver/ultisnips' " Snippet management
+Plug 'styled-components/vim-styled-components' " Syntax fixes for Styled Components
+Plug 'tpope/vim-eunuch' " Helpers for UNIX
+Plug 'tpope/vim-fugitive' " Git wrapper
+Plug 'tpope/vim-liquid' " Liauid language runtime files
+Plug 'tpope/vim-markdown' " Markdown runtime files
+Plug 'tpope/vim-rhubarb' " GitHub extension for fugitive.vim
+Plug 'tpope/vim-surround' " Wrap text with characters
+Plug 'vim-airline/vim-airline' " Status bar
+Plug 'vim-airline/vim-airline-themes' " Status bar themes
+Plug 'w0rp/ale' " Asynchronous lint engine
+Plug 'whatyouhide/vim-textobj-xmlattr' " Text objects for HTML/XML attributes
 
 " -------------------------------------
-"   Setup (Continued)
+"   Teardown
 " -------------------------------------
 
-call vundle#end()
-filetype plugin indent on
+call plug#end()
