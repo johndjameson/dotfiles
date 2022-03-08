@@ -103,7 +103,7 @@ alias ggl='git log --pretty=format:"%C(red)%h%Creset %s %C(magenta)(%cr)" --date
 alias ggo='git log --oneline --stat -1'
 alias ggp='git log --pretty=format:"%C(red)%h%Creset %s %C(magenta)(%cr)" --date=relative -5 --patch'
 alias ggpb='git log --pretty=format:"%s" --date=relative -1 | pbcopy'
-alias ghb='gh browse'
+alias ghb='gh browse --branch $(git rev-parse --abbrev-ref HEAD)'
 alias ghc='gh repo clone'
 alias gk='git clone'
 alias gl='git pull --rebase'
