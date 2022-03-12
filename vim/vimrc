@@ -87,8 +87,8 @@ let g:EasyMotion_use_upper = 1
 let g:EasyMotion_keys = 'ASDHJKLQWERTYUIMNOCVBPGF'
 
 " Overwrite default target colors
+hi link EasyMotionShade Comment
 hi link EasyMotionTarget Special
-hi link EasyMotionShade  Comment
 hi link EasyMotionTarget2First Type
 hi link EasyMotionTarget2Second Type
 
