@@ -208,9 +208,10 @@ nnoremap <silent> <leader>q :bd!<cr>
 
 " ----- R ----- "
 
-nnoremap <leader>R :Rename ./
-nnoremap <leader>r :%s///g<left><left><left>
-vnoremap <leader>r :s///g<left><left><left>
+nnoremap <leader>rf :Rename ./
+nnoremap <leader>rr :%s///g<left><left><left>
+nnoremap <leader>rs <Plug>(coc-rename)
+vnoremap <leader>rr :s///g<left><left><left>
 
 " ----- S ----- "
 
