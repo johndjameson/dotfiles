@@ -63,15 +63,9 @@ let g:airline_theme='solarized'
 "   Conquer of Completion
 " -------------------------------------
 
-let g:coc_global_extensions = ['coc-tsserver']
-
-if isdirectory('./node_modules') && isdirectory('./node_modules/prettier')
-  let g:coc_global_extensions += ['coc-prettier']
-endif
-
-if isdirectory('./node_modules') && isdirectory('./node_modules/eslint')
-  let g:coc_global_extensions += ['coc-eslint']
-endif
+let g:coc_global_extensions = ['coc-eslint']
+let g:coc_global_extensions += ['coc-prettier']
+let g:coc_global_extensions += ['coc-tsserver']
 
 command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
 
