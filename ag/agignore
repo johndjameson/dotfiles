@@ -40,3 +40,4 @@ tmp/
 CHANGELOG
 CHANGELOG.*
 package-lock.json
+yarn.json
