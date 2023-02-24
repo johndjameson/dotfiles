@@ -114,3 +114,53 @@ switch (${1:object}) {
 		break
 }
 endsnippet
+
+snippet $ "String Interpolation"
+${ $1 }$0
+endsnippet
+
+snippet af "Arrow Function"
+() => {
+	${0:// ...}
+}
+endsnippet
+
+snippet class "Class"
+class ${1:ClassName} {
+	${0:// ...}
+}
+endsnippet
+
+snippet cf "Constant Function"
+const ${1:functionName} = ($2) => {
+	${0:// ...}
+}
+endsnippet
+
+snippet cfr "Constant Function Object Return"
+const ${1:functionName} = ($2) => (	${0:// ...})
+endsnippet
+
+snippet exd "export default"
+export default $0
+endsnippet
+
+snippet imp "Import"
+import ${1:Object} from '${2:./path/to/file}'
+endsnippet
+
+snippet impo "Import"
+import { ${1:Object} } from '${2:./path/to/file}'
+endsnippet
+
+snippet map "Map"
+${1:array}.map((${2:item}, index) => {
+	${0:// ...}
+})
+endsnippet
+
+snippet for "for loop"
+for (let ${1:i} = 0; $1 < ${2:arr.length}; $1++) {
+	$0
+}
+endsnippet
