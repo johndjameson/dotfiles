@@ -22,6 +22,10 @@ alias cc='clear'
 
 alias cpa="cp $DOTFILES/advantage2/{qwerty,state}.txt /Volumes/ADVANTAGE2/active/"
 
+# ----- DNS ----- #
+
+alias flush_dns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
+
 # ----- Finder ----- #
 
 alias browse='open -a "Google Chrome" .'
