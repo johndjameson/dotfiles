@@ -218,4 +218,5 @@ alias vs="vim_search"
 alias y='yarn'
 alias ya='yarn add'
 alias yb='yarn build'
+alias yd='yarn dev'
 alias ys='yarn start'
