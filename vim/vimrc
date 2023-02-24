@@ -241,6 +241,7 @@ set wildcharm=<tab>
 set wildignore+=*.gif
 set wildignore+=*.jpeg
 set wildignore+=*.jpg
+set wildignore+=*.lock
 set wildignore+=*.log
 set wildignore+=*.png
 set wildignore+=*.psd
