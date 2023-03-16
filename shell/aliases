@@ -49,6 +49,7 @@ alias cdbr="cd $DOTFILES/brew/"
 alias cdd="cd $HOME/Desktop/"
 alias cddl="cd $HOME/Downloads/"
 alias cdi="cd $HOME/Library/Mobile\ Documents/com~apple~CloudDocs"
+alias cdib="cd $HOME/Library/Mobile\ Documents/iCloud~com~apple~iBooks/Documents"
 alias cdl='cd -'
 alias cdp="cd /Library/Audio/Plug-Ins"
 alias cdv='cd /Volumes'
