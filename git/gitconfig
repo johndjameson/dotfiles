@@ -1,9 +1,6 @@
 [color]
   ui = true
 
-[commit]
-  gpgsign = true
-
 [core]
   editor = vim
   excludesfile = ~/.dotfiles/git/ignore
@@ -18,9 +15,6 @@
   driver = npx npm-merge-driver merge %A %O %B %P
   name = automatically merge npm lockfiles
 
-[gpg]
-  program = gpg
-
 [ghi]
   token = !security find-internet-password -a johndjameson -s github.com -l 'ghi token' -w
 
@@ -33,4 +27,3 @@
 [user]
   email = thejohnjameson@gmail.com
   name = John D. Jameson
-  signingkey = 1C0F1401FE5DD8C4
