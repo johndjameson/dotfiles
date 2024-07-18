@@ -207,6 +207,7 @@ alias v.ag="cd $DOTFILES && vim ag/agignore"
 alias v.br="cd $DOTFILES && vim brew/Brewfile"
 alias v.c="cd $DOTFILES && vim shell/config"
 alias v.f="cd $DOTFILES && vim vim/functions.vim"
+alias v.g="cd $DOTFILES && vim git/gitconfig"
 alias v.h='sudo vim /etc/hosts'
 alias v.m="cd $DOTFILES && vim vim/mappings.vim"
 alias v.p="cd $DOTFILES && vim vim/plugins.vim"
