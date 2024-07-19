@@ -1,11 +1,13 @@
 tap 'homebrew/bundle'
 tap 'homebrew/cask-drivers'
 tap 'homebrew/cask-versions'
+tap 'oven-sh/bun'
 
 brew 'ack'
 brew 'autojump'
 brew 'bash'
 brew 'bash-completion@2'
+brew 'bun'
 brew 'gh'
 brew 'git'
 brew 'gpg'
