@@ -33,8 +33,7 @@ alias here='open .'
 
 # ----- List ----- #
 
-alias l='colorls -go --almost-all --sort-dirs'
-alias lt='colorls -go --almost-all --sort-dirs --tree=2'
+alias l='eza --all --bytes --classify=always --icons=auto --oneline --long --group-directories-first --no-user'
 
 # ----- Look Up ----- #
 
