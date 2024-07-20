@@ -24,9 +24,3 @@ __git_complete go _git_checkout
 __git_complete got _git_checkout
 
 __git_complete gp _git_branch
-
-# ----------------------------------------------------
-#   NPM
-# ----------------------------------------------------
-
-source <(npm completion)

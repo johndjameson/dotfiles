@@ -49,10 +49,9 @@ export HOMEBREW_BUNDLE_NO_LOCK=1
 export HOMEBREW_CASK_OPTS='--appdir=/Applications'
 export HOMEBREW_NO_ANALYTICS=1
 
-# ----- NVM ----- #
+# ----- FNM ----- #
 
-export NVM_DIR="$HOME/.nvm"
-. $(brew --prefix nvm)/nvm.sh
+eval "$(fnm env)"
 
 enter_directory() {
   if [[ $PWD == $PREV_PWD ]]; then
@@ -60,7 +59,10 @@ enter_directory() {
   fi
 
   PREV_PWD=$PWD
-  [[ -f ".nvmrc" ]] && nvm use
+
+  if [[ -f .node-version || -f .nvmrc ]]; then
+    fnm use --silent-if-unchanged
+  fi
 }
 
 # ----- OpenSSL ----- #
