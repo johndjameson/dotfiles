@@ -19,6 +19,7 @@ stty -ixon
 PATH_DIRECTORIES=(
   "$HOME/.dotfiles/bin"
   "$HOME/.pyenv/bin"
+  "$HOME/.lmstudio/bin"
   '/Applications/Postgres.app/Contents/Versions/latest/bin'
   '/usr/local/opt/python/libexec/bin'
   '/usr/local/heroku/bin'
