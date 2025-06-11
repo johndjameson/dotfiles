@@ -33,12 +33,6 @@ else
   echo '.dotfiles-local not installed'
 fi
 
-# Sips by
-
-if [ -d ~/.dotfiles-sipsby ]; then
-  . ~/.dotfiles-sipsby/shell/aliases
-fi
-
 # ----- Bash ----- #
 
 . ~/.dotfiles/bash/config
