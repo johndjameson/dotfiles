@@ -81,6 +81,12 @@ fi
 
 eval "$(rbenv init - $SHELL_EXT)"
 
+# ----- Rust ----- #
+
+if [ -f $HOME/.cargo/env ]; then
+  . "$HOME/.cargo/env"
+fi
+
 # ----- SSH ----- #
 
 ssh-add -K ~/.ssh/id_rsa &> /dev/null
