@@ -161,6 +161,7 @@ alias bru='brew update'
 # ----- Node ----- #
 
 alias n='node'
+alias nts='node --experimental-strip-types'
 
 # NPM
 
