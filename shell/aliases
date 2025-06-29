@@ -13,6 +13,10 @@
 
 alias reload='bash --login'
 
+# ----- Claude ----- #
+
+alias cl='claude'
+
 # ----- Clear ----- #
 
 alias c='clear'
