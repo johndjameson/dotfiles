@@ -11,7 +11,7 @@
 
 # ----- Initial ----- #
 
-. ~/.dotfiles/bash/init
+SHELL_EXT='bash'
 
 # ----- Shared ----- #
 
