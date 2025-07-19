@@ -21,8 +21,6 @@ SHELL_EXT='bash'
 . ~/.dotfiles/shell/functions/dependencies
 . ~/.dotfiles/shell/functions/general
 . ~/.dotfiles/shell/functions/git
-. ~/.dotfiles/shell/functions/mas
-. ~/.dotfiles/shell/functions/vim
 
 # Local
 
