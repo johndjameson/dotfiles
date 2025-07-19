@@ -72,10 +72,6 @@ alias ssh_key='pbcopy < ~/.ssh/id_rsa.pub'
 #   Programs
 # ----------------------------------------------------
 
-# ----- Bundler ----- #
-
-alias be='bundle exec'
-
 # ----- Git ----- #
 
 alias 'g?'='git help'
@@ -182,25 +178,13 @@ alias ns='npm start'
 alias nt='npm test'
 alias nu='npm uninstall'
 
-# NVM
-
-alias nc='nvm current'
-
 # ----- Python ----- #
 
 alias serve='python -m SimpleHTTPServer'
 
-# ----- Rbenv ----- #
-
-alias rehash='rbenv rehash'
-
 # ----- The Silver Searcher ----- #
 
 alias agf="ag --color-match '30;34' --color-path '30;32' -g"
-
-# ----- Vagrant ----- #
-
-alias vgpy='./scripts/vagrant.py'
 
 # ----- Vim ----- #
 
@@ -219,11 +203,3 @@ alias v.p="cd $DOTFILES && vim vim/plugins.vim"
 alias v.v="cd $DOTFILES && vim vim/vimrc"
 alias v='vim'
 alias vs="vim_search"
-
-# ----- Yarn ----- #
-
-alias y='yarn'
-alias ya='yarn add'
-alias yb='yarn build'
-alias yd='yarn dev'
-alias ys='yarn start'
