@@ -9,6 +9,11 @@
 #   Imports
 # ----------------------------------------------------
 
+# ----- Setup ----- #
+
+DOTFILES="$HOME/.dotfiles"
+SHELL_EXT='zsh'
+
 # ----- Shared ----- #
 
 . ~/.dotfiles/shell/aliases
