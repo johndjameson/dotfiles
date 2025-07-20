@@ -2,6 +2,7 @@
 
 # Interface
 adjust-cell-height = 10
+macos-titlebar-style = tabs
 theme = "Solarized Dark Higher Contrast"
 window-height = 55
 window-padding-x = 8
@@ -20,3 +21,4 @@ font-thicken = true
 
 # Behavior
 quit-after-last-window-closed = true
+shell-integration = zsh
