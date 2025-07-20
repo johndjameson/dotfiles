@@ -1,10 +1,10 @@
+# https://ghostty.org/docs/config/reference
+
 # Interface
 adjust-cell-height = 10
 theme = "Solarized Dark Higher Contrast"
 window-height = 55
 window-padding-x = 8
-window-position-x = 9999
-window-padding-y = 0,2
 window-width = 118
 
 # Colors
