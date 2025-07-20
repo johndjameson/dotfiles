@@ -11,10 +11,10 @@
 
 # ----- Setup ----- #
 
-DOTFILES="$HOME/.dotfiles"
 SHELL_EXT='bash'
 
 alias reload='bash --login'
+alias switch='zsh --login'
 
 # ----- Shared ----- #
 
@@ -27,18 +27,28 @@ alias reload='bash --login'
 # Local
 
 if [ -d ~/.dotfiles-local ]; then
-  . ~/.dotfiles-local/shell/variables
   . ~/.dotfiles-local/shell/aliases
 else
   echo '.dotfiles-local not installed'
 fi
 
-# ----- Bash ----- #
+# -------------------------------------
+#   Bash-specific config
+# -------------------------------------
 
-. ~/.dotfiles/bash/config
+if [[ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]]; then
+  . "$(brew --prefix)/etc/profile.d/bash_completion.sh"
+  . ~/.dotfiles/shell/completion
+else
+  echo 'bash-completion@2 not installed. Run `brew install bash-completion@2`'
+fi
 
-[ -d ~/.dotfiles-local ] && . ~/.dotfiles-local/bash/config
+# Prevent useless and duplicate entries
+export HISTIGNORE='c:clear:cd:cdd:cdl:cd.:gs:g status:git status:l:v'
+export HISTCONTROL=ignoredups:erasedups
 
-# ----- Completion ----- #
+# Continually append to history
+shopt -s histappend
+PROMPT_COMMAND+='; history -a; history -n'
 
-. ~/.dotfiles/shell/completion
+export PROMPT_COMMAND+='; enter_directory'
