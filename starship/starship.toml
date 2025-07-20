@@ -16,6 +16,7 @@ style = "bold"
 
 [bun]
 disabled = false
+style = "fg:yellow"
 symbol="Bun "
 
 [nodejs]
