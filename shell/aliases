@@ -186,19 +186,18 @@ alias agf="ag --color-match '30;34' --color-path '30;32' -g"
 
 # ----- Vim ----- #
 
-alias v.A="cd ~/.dotfiles && vim advantage2/qwerty.txt advantage2/state.txt"
-alias v.K="cd ~/.dotfiles && vim karabiner/karabiner.json"
-alias v.V="cd ~/.dotfiles && vim vim/vimrc vim/mappings.vim vim/functions.vim vim/plugins.vim"
-alias v.a="cd ~/.dotfiles && vim shell/aliases"
-alias v.ag="cd ~/.dotfiles && vim ag/agignore"
-alias v.br="cd ~/.dotfiles && vim brew/Brewfile"
-alias v.c="cd ~/.dotfiles && vim shell/config"
-alias v.f="cd ~/.dotfiles && vim vim/functions.vim"
-alias v.g="cd ~/.dotfiles && vim ghostty/config"
-alias v.gh="cd ~/.dotfiles && vim git/gitconfig"
-alias v.h='sudo vim /etc/hosts'
-alias v.m="cd ~/.dotfiles && vim vim/mappings.vim"
-alias v.p="cd ~/.dotfiles && vim vim/plugins.vim"
-alias v.v="cd ~/.dotfiles && vim vim/vimrc"
+alias v.A='cd ~/.dotfiles && vim advantage2/qwerty.txt advantage2/state.txt && cd -'
+alias v.K='cd ~/.dotfiles && vim karabiner/karabiner.json && cd -'
+alias v.V='cd ~/.dotfiles && vim vim/vimrc vim/mappings.vim vim/functions.vim vim/plugins.vim && cd -'
+alias v.a='cd ~/.dotfiles && vim shell/aliases && cd -'
+alias v.ag='cd ~/.dotfiles && vim ag/agignore && cd -'
+alias v.br='cd ~/.dotfiles && vim brew/Brewfile && cd -'
+alias v.c='cd ~/.dotfiles && vim shell/config && cd -'
+alias v.f='cd ~/.dotfiles && vim vim/functions.vim && cd -'
+alias v.g='cd ~/.dotfiles && vim ghostty/config && cd -'
+alias v.gh='cd ~/.dotfiles && vim git/gitconfig && cd -'
+alias v.m='cd ~/.dotfiles && vim vim/mappings.vim && cd -'
+alias v.p='cd ~/.dotfiles && vim vim/plugins.vim && cd -'
+alias v.s='cd ~/.dotfiles && vim starship/starship.toml && cd -'
+alias v.v='cd ~/.dotfiles && vim vim/vimrc && cd -'
 alias v='vim'
-alias vs="vim_search"
