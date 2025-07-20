@@ -15,10 +15,11 @@ format = ":[$branch]($style) "
 style = "bold"
 
 [bun]
-disabled = true
+disabled = false
+symbol="Bun "
 
 [nodejs]
-disabled = true
+disabled = false
 style = "fg:yellow"
 symbol = "Node "
 
@@ -35,5 +36,7 @@ disabled = true
 style = "fg:red"
 symbol = "Ruby "
 
-[vagrant]
-disabled = true
+[shell]
+bash_indicator = "bash"
+disabled = false
+zsh_indicator = "zsh"
