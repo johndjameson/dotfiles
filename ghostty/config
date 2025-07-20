@@ -1,0 +1,22 @@
+# Interface
+adjust-cell-height = 10
+theme = "Solarized Dark Higher Contrast"
+window-height = 55
+window-padding-x = 8
+window-position-x = 9999
+window-padding-y = 0,2
+window-width = 118
+
+# Colors
+background = "#012b36"
+cursor-color = "#fff"
+cursor-opacity = 0.8
+
+# Typography
+font-family = "Monaco Nerd Font"
+font-feature = -liga
+font-size = 14
+font-thicken = true
+
+# Behavior
+quit-after-last-window-closed = true
