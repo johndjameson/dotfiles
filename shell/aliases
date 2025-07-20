@@ -9,10 +9,6 @@
 #   Shell
 # ----------------------------------------------------
 
-# ----- Bash ----- #
-
-alias reload='bash --login'
-
 # ----- Claude ----- #
 
 alias cl='claude'

@@ -14,6 +14,8 @@
 DOTFILES="$HOME/.dotfiles"
 SHELL_EXT='bash'
 
+alias reload='bash --login'
+
 # ----- Shared ----- #
 
 . ~/.dotfiles/shell/aliases
