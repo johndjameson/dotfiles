@@ -24,6 +24,9 @@ disabled = false
 style = "fg:yellow"
 symbol = "Node "
 
+[lua]
+symbol = "Lua "
+
 [package]
 disabled = true
 
