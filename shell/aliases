@@ -186,19 +186,22 @@ alias agf="ag --color-match '30;34' --color-path '30;32' -g"
 
 # ----- Vim ----- #
 
+alias v='nvim'
+
+alias v.n='cd ~/.dotfiles && nvim nvim/init.lua && cd -'
+
+alias v.V='cd ~/.dotfiles && nvim vim/vimrc vim/mappings.vim vim/functions.vim vim/plugins.vim && cd -'
+alias v.f='cd ~/.dotfiles && nvim vim/functions.vim && cd -'
+alias v.m='cd ~/.dotfiles && nvim vim/mappings.vim && cd -'
+alias v.p='cd ~/.dotfiles && nvim vim/plugins.vim && cd -'
+alias v.v='cd ~/.dotfiles && nvim vim/vimrc && cd -'
+
 alias v.A='cd ~/.dotfiles && nvim advantage2/qwerty.txt advantage2/state.txt && cd -'
 alias v.K='cd ~/.dotfiles && nvim karabiner/karabiner.json && cd -'
-alias v.V='cd ~/.dotfiles && nvim vim/vimrc vim/mappings.vim vim/functions.vim vim/plugins.vim && cd -'
 alias v.a='cd ~/.dotfiles && nvim shell/aliases && cd -'
 alias v.ag='cd ~/.dotfiles && nvim ag/agignore && cd -'
 alias v.br='cd ~/.dotfiles && nvim brew/Brewfile && cd -'
 alias v.c='cd ~/.dotfiles && nvim shell/config && cd -'
-alias v.f='cd ~/.dotfiles && nvim vim/functions.vim && cd -'
 alias v.g='cd ~/.dotfiles && nvim ghostty/config && cd -'
 alias v.gh='cd ~/.dotfiles && nvim git/gitconfig && cd -'
-alias v.m='cd ~/.dotfiles && nvim vim/mappings.vim && cd -'
-alias v.n='cd ~/.dotfiles && nvim nvim/init.lua && cd -'
-alias v.p='cd ~/.dotfiles && nvim vim/plugins.vim && cd -'
 alias v.s='cd ~/.dotfiles && nvim starship/starship.toml && cd -'
-alias v.v='cd ~/.dotfiles && nvim vim/vimrc && cd -'
-alias v='nvim'
