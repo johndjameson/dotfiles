@@ -22,7 +22,12 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 -- Setup lazy.nvim
+
 require("lazy").setup({
-  spec = { "maxmx03/solarized.nvim", config = function() vim.cmd.colorscheme "solarized" end },
+  spec = {
+    -- import your plugins
+    { import = "plugins" },
+  },
+  -- automatically check for plugin updates
   checker = { enabled = true },
 })
