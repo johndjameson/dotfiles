@@ -16,6 +16,7 @@ ln -fns ~/.dotfiles/nvim ~/.config/nvim
 ln -fns ~/.dotfiles/starship/starship.toml ~/.config/starship.toml
 ln -fns ~/.dotfiles/vim ~/.vim
 ln -fns ~/.dotfiles/vim/vimrc ~/.vimrc
+ln -fns ~/.dotfiles/zsh/.zshrc ~/.zshrc
 
 echo '\nCreating ~/.config/ symlinks\n'
 
