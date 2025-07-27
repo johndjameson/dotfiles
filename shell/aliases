@@ -152,12 +152,8 @@ alias gtl='git tag --list'
 alias br='brew'
 alias brU='brew upgrade'
 alias brb.="brew bundle --file=~/.dotfiles/brew/Brewfile"
-alias brb='brew bundle'
-alias bri='brew install'
-alias bric='brew install --cask'
 alias brl='brew list'
 alias bro='brew outdated'
-alias brp='brew cleanup'
 alias brs='brew search'
 alias bru='brew update'
 
@@ -183,10 +179,6 @@ alias nu='npm uninstall'
 # ----- Python ----- #
 
 alias serve='python -m SimpleHTTPServer'
-
-# ----- The Silver Searcher ----- #
-
-alias agf="ag --color-match '30;34' --color-path '30;32' -g"
 
 # ----- Vim ----- #
 
