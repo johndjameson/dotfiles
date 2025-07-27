@@ -79,6 +79,10 @@ fi
 
 eval "$(rbenv init - $SHELL_EXT)"
 
+# ----- Ripgrep ----- #
+
+export RIPGREP_CONFIG_PATH="$HOME/.dotfiles/ripgrep/ripgreprc"
+
 # ----- Rust ----- #
 
 if [ -f ~/.cargo/env ]; then
