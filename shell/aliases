@@ -37,7 +37,7 @@ alias l='eza --all --bytes --classify=always --icons=auto --oneline --long --gro
 
 # ----- Look Up ----- #
 
-alias '?'="alias | ag --color-match '30;34' --color-path '30;32'"
+alias '?'="alias | rg"
 
 # ----- Navigation ----- #
 
