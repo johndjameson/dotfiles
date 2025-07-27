@@ -70,6 +70,10 @@ alias ssh_key='pbcopy < ~/.ssh/id_rsa.pub'
 #   Programs
 # ----------------------------------------------------
 
+# ----- Erdtree ----- #
+
+alias t='erd'
+
 # ----- Git ----- #
 
 alias 'g?'='git help'
