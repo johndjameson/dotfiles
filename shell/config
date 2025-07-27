@@ -61,6 +61,10 @@ enter_directory() {
 
 export GIT_CONFIG_GLOBAL="$HOME/.dotfiles/git/gitconfig"
 
+# ----- Less ----- #
+
+export LESSHISTFILE="$HOME/.cache/lesshst"
+
 # ----- OpenSSL ----- #
 
 export LIBRARY_PATH="$LIBRARY_PATH:/usr/local/opt/openssl/lib/"
