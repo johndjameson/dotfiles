@@ -19,3 +19,9 @@ vim/.netrwhist
 vim/autoload/plug.vim
 vim/plugged
 vim/sessions/*.vim
+
+# -------------------------------------
+#   Zsh
+# -------------------------------------
+
+zsh/.zcompdump
