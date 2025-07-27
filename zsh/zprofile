@@ -13,9 +13,6 @@
 
 SHELL_EXT='zsh'
 
-alias reload='zsh --login'
-alias switch='bash --login'
-
 # ----- Shared ----- #
 
 . ~/.dotfiles/shell/aliases
@@ -35,6 +32,12 @@ fi
 # -------------------------------------
 #   Zsh-specific config
 # -------------------------------------
+
+export ZDOTDIR="$HOME/.dotfiles/zsh"
+export HISTFILE="$ZDOTDIR/.zsh_history"
+
+alias reload='zsh --login'
+alias switch='bash --login'
 
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
