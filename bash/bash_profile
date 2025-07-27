@@ -54,3 +54,8 @@ shopt -s histappend
 PROMPT_COMMAND+='; history -a; history -n'
 
 export PROMPT_COMMAND+='; enter_directory'
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/john/.lmstudio/bin"
+# End of LM Studio CLI section
+

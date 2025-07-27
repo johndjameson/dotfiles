@@ -12,7 +12,6 @@
 PATH_DIRECTORIES=(
   "~/.dotfiles/bin"
   "~/.pyenv/bin"
-  "~/.lmstudio/bin"
   '/usr/local/opt/python/libexec/bin'
   '/usr/local/bin'
   '/usr/local/sbin'

@@ -45,3 +45,8 @@ if type brew &>/dev/null; then
   autoload -Uz compinit
   compinit
 fi
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/john/.lmstudio/bin"
+# End of LM Studio CLI section
+
