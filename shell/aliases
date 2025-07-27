@@ -43,10 +43,11 @@ alias '?'="alias | rg"
 
 alias ..='cd ../'
 
-alias cd.="cd ~/.dotfiles/"
-alias cdbr="cd ~/.dotfiles/brew/"
-alias cdd="cd ~/Desktop/"
-alias cddl="cd ~/Downloads/"
+alias cd.="cd ~/.dotfiles"
+alias cdbr="cd ~/.dotfiles/brew"
+alias cdc="cd ~/.config"
+alias cdd="cd ~/Desktop"
+alias cddl="cd ~/Downloads"
 alias cdi="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
 alias cdib="cd ~/Library/Mobile\ Documents/iCloud~com~apple~iBooks/Documents"
 alias cdj="cd ~/Repos/johndjameson.com"
