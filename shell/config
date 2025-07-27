@@ -63,7 +63,11 @@ export GIT_CONFIG_GLOBAL="$HOME/.dotfiles/git/gitconfig"
 
 # ----- Less ----- #
 
-export LESSHISTFILE="$HOME/.cache/lesshst"
+export LESSHISTFILE="$HOME/.cache/less/lesshst"
+
+# ----- Node ----- #
+
+export NODE_REPL_HISTORY="$HOME/.cache/node/node_repl_history"
 
 # ----- OpenSSL ----- #
 

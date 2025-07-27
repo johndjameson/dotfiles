@@ -3,8 +3,13 @@
 set -x
 echo '\nCreating system directories\n'
 
+mkdir -p ~/.cache/node
 mkdir -p ~/.config
 mkdir -p ~/Repos
+
+echo '\nCreating system files\n'
+
+touch ~/.cache/node/node_repl_history
 
 echo '\nCreating ~/ config symlinks\n'
 
