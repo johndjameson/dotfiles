@@ -11,6 +11,8 @@
 
 # ----- Setup ----- #
 
+export INPUTRC="$HOME/.dotfiles/bash/inputrc"
+
 SHELL_EXT='bash'
 
 alias reload='bash --login'
