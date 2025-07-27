@@ -2,7 +2,7 @@
   ui = true
 
 [core]
-  editor = vim
+  editor = nvim
   excludesfile = ~/.dotfiles/git/ignore
 
 [init]
