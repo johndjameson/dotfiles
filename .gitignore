@@ -19,6 +19,7 @@ vim/.netrwhist
 vim/autoload/plug.vim
 vim/plugged
 vim/sessions/*.vim
+vim/viminfo
 
 # -------------------------------------
 #   Zsh
