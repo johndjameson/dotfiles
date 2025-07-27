@@ -20,5 +20,6 @@ font-size = 14
 font-thicken = true
 
 # Behavior
+confirm-close-surface = false
 quit-after-last-window-closed = true
 shell-integration = zsh
