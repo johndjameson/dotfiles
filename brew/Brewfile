@@ -19,6 +19,7 @@ brew 'starship'
 brew 'the_silver_searcher'
 brew 'vim'
 brew 'zsh'
+brew 'zsh-autosuggestions'
 brew 'zsh-completions'
 
 cask '1password'

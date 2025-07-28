@@ -40,11 +40,13 @@ alias reload='zsh --login'
 alias switch='bash --login'
 
 if type brew &>/dev/null; then
+  source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
 
   autoload -Uz compinit
   compinit
 fi
+
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/john/.lmstudio/bin"
