@@ -25,5 +25,6 @@ vim/viminfo
 #   Zsh
 # -------------------------------------
 
+zsh/.zcompcache
 zsh/.zcompdump
 zsh/.zsh_history
