@@ -1,1 +1,5 @@
+disk_usage = "logical"
+hidden = true
 icons = true
+layout = "inverted"
+sort = "name"
