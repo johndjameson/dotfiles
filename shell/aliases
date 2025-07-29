@@ -74,6 +74,7 @@ alias ssh_key='pbcopy < ~/.ssh/id_rsa.pub'
 # ----- Erdtree ----- #
 
 alias t='erd'
+alias td='erd --dirs-only'
 
 # ----- Git ----- #
 
