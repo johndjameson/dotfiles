@@ -14,5 +14,8 @@ vim.api.nvim_set_keymap('n', '<leader>q', ':bd!<CR>', { desc = 'Close buffer', n
 vim.api.nvim_set_keymap('n', '<leader>w', ':w<CR>', { desc = 'Write file', noremap = true })
 vim.api.nvim_set_keymap('n', '<leader>x', ':x<CR>', { desc = 'Write file and close', noremap = true })
 vim.api.nvim_set_keymap('n', 'U', ':redo<CR>', { desc = 'Redo', noremap = true })
+vim.api.nvim_set_keymap('n', 'H', ':bprev<CR>', { desc = 'Next buffer', noremap = true })
+vim.api.nvim_set_keymap('n', 'L', ':bnext<CR>', { desc = 'Previous buffer', noremap = true })
 
 require("config.lazy")
+require("bufferline").setup{}
