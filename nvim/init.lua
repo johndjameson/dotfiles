@@ -2,6 +2,10 @@ vim.g.mapleader = ' ' -- Map leader to spacebar
 
 vim.opt.termguicolors = true -- Enable HEX colors
 vim.opt.number = true -- Show line numbers (absolute)
+vim.opt.signcolumn = 'yes'
+
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
 
 vim.opt.clipboard = 'unnamedplus' -- Copy and paste using system clipboard
 
