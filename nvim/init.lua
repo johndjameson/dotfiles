@@ -1,5 +1,7 @@
 vim.g.mapleader = ' ' -- Map leader to spacebar
 
+vim.opt.list = true
+vim.opt.listchars = { tab = '» ', trail = '·' }
 vim.opt.termguicolors = true -- Enable HEX colors
 vim.opt.number = true -- Show line numbers (absolute)
 vim.opt.signcolumn = 'yes'
