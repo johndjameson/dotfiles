@@ -186,14 +186,12 @@ alias serve='python -m SimpleHTTPServer'
 
 alias v='nvim'
 
-alias v.n='cd ~/.dotfiles && nvim nvim/init.lua && cd -'
-alias v.N='cd ~/.dotfiles && nvim nvim/init.lua nvim/lua/config/lazy.lua nvim/lua/plugins && cd -'
+alias v.n='cd ~/.dotfiles && nvim nvim/init.lua nvim/lua/config/lazy.lua nvim/lua/plugins && cd -'
 
-alias v.V='cd ~/.dotfiles && nvim vim/vimrc vim/mappings.vim vim/functions.vim vim/plugins.vim && cd -'
 alias v.f='cd ~/.dotfiles && nvim vim/functions.vim && cd -'
 alias v.m='cd ~/.dotfiles && nvim vim/mappings.vim && cd -'
 alias v.p='cd ~/.dotfiles && nvim vim/plugins.vim && cd -'
-alias v.v='cd ~/.dotfiles && nvim vim/vimrc && cd -'
+alias v.v='cd ~/.dotfiles && nvim vim/vimrc vim/mappings.vim vim/functions.vim vim/plugins.vim && cd -'
 
 alias v.A='cd ~/.dotfiles && nvim advantage2/qwerty.txt advantage2/state.txt && cd -'
 alias v.K='cd ~/.dotfiles && nvim karabiner/karabiner.json && cd -'
