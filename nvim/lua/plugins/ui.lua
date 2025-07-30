@@ -24,7 +24,7 @@ return {
 		end,
 	},
 	{
-	'nvim-telescope/telescope.nvim', branch = '0.1.x',
+		'nvim-telescope/telescope.nvim', branch = '0.1.x',
 		dependencies = { 'nvim-lua/plenary.nvim' },
 		config = function()
 			require('telescope').setup({
@@ -54,5 +54,15 @@ return {
 			vim.keymap.set('n', '<c-f>', builtin.find_files, { desc = 'Telescope find files' })
 			vim.keymap.set('n', '<c-g>', builtin.live_grep, { desc = 'Telescope live grep' })
 		end,
+	},
+	{
+		"nvim-neo-tree/neo-tree.nvim",
+		branch = "v3.x",
+		dependencies = {
+			"nvim-lua/plenary.nvim",
+			"MunifTanjim/nui.nvim",
+			"nvim-tree/nvim-web-devicons", -- optional, but recommended
+		},
+		lazy = false, -- neo-tree will lazily load itself
 	}
 }
