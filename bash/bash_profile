@@ -30,8 +30,6 @@ alias switch='zsh --login'
 
 if [ -d ~/.dotfiles-local ]; then
   . ~/.dotfiles-local/shell/aliases
-else
-  echo '.dotfiles-local not installed'
 fi
 
 # -------------------------------------
