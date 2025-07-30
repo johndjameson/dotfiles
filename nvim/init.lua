@@ -1,10 +1,13 @@
 vim.g.mapleader = ' ' -- Map leader to spacebar
 
-vim.opt.list = true
-vim.opt.listchars = { tab = '» ', trail = '·' }
-vim.opt.termguicolors = true -- Enable HEX colors
+vim.opt.colorcolumn = { '80', '100' } -- Vertical lines
+vim.opt.cursorline = true -- Horizontal line on cursor position
+vim.opt.list = true -- Show invisible characters
+vim.opt.listchars = { tab = '» ', trail = '·' } -- Custom tab/space characters
 vim.opt.number = true -- Show line numbers (absolute)
+vim.opt.scrolloff = 4  -- Keep 4 lines visible above/below cursor when scrolling
 vim.opt.signcolumn = 'yes'
+vim.opt.termguicolors = true -- Enable HEX colors
 vim.opt.wrap = false
 
 vim.opt.shiftwidth = 2
