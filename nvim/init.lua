@@ -23,6 +23,4 @@ vim.api.nvim_set_keymap('n', 'U', ':redo<CR>', { desc = 'Redo', noremap = true }
 vim.api.nvim_set_keymap('n', 'H', ':bprev<CR>', { desc = 'Next buffer', noremap = true })
 vim.api.nvim_set_keymap('n', 'L', ':bnext<CR>', { desc = 'Previous buffer', noremap = true })
 
-vim.keymap.set('n', '<c-f>', function() require('telescope.builtin').find_files() end, { desc = 'Telescope find files' })
-
 require("config.lazy")
