@@ -24,10 +24,3 @@ vim.api.nvim_set_keymap('n', 'H', ':bprev<CR>', { desc = 'Next buffer', noremap 
 vim.api.nvim_set_keymap('n', 'L', ':bnext<CR>', { desc = 'Previous buffer', noremap = true })
 
 require("config.lazy")
-require("bufferline").setup({
-	highlights = {
-		buffer_selected = {
-			italic = false,
-		},
-	},
-})
