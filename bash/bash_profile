@@ -20,11 +20,11 @@ alias switch='zsh --login'
 
 # ----- Shared ----- #
 
-. ~/.dotfiles/shell/aliases
-. ~/.dotfiles/shell/config
-. ~/.dotfiles/shell/functions/dependencies
-. ~/.dotfiles/shell/functions/general
-. ~/.dotfiles/shell/functions/git
+. ~/.dotfiles/shell/aliases.sh
+. ~/.dotfiles/shell/config.sh
+. ~/.dotfiles/shell/functions/dependencies.sh
+. ~/.dotfiles/shell/functions/general.sh
+. ~/.dotfiles/shell/functions/git.sh
 
 # Local
 
@@ -38,7 +38,7 @@ fi
 
 if [[ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]]; then
   . "$(brew --prefix)/etc/profile.d/bash_completion.sh"
-  . ~/.dotfiles/shell/completion
+  . ~/.dotfiles/shell/completion.sh
 else
   echo 'bash-completion@2 not installed. Run `brew install bash-completion@2`'
 fi

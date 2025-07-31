@@ -15,11 +15,11 @@ SHELL_EXT='zsh'
 
 # ----- Shared ----- #
 
-. ~/.dotfiles/shell/aliases
-. ~/.dotfiles/shell/config
-. ~/.dotfiles/shell/functions/dependencies
-. ~/.dotfiles/shell/functions/general
-. ~/.dotfiles/shell/functions/git
+. ~/.dotfiles/shell/aliases.sh
+. ~/.dotfiles/shell/config.sh
+. ~/.dotfiles/shell/functions/dependencies.sh
+. ~/.dotfiles/shell/functions/general.sh
+. ~/.dotfiles/shell/functions/git.sh
 
 # Local
 
