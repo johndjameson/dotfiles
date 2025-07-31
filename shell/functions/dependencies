@@ -9,38 +9,12 @@
 #   Git
 # ----------------------------------------------------
 
-# ----- Branch If Repo ----- #
-# Show the Git branch if it's a repo
-#
-# Usage: `branch_if_repo`
-
-function branch_if_repo() {
-  if [ $(git rev-parse --is-inside-work-tree 2> /dev/null) ]; then
-    # Working directory clean
-    if (( $(git status --porcelain | wc -l | tr -d "[:space:]") == 0 )); then
-      printf "$GREEN($(parse_git_branch))"
-
-    # Working directory dirty
-    else
-
-      # Untracked files
-      if [[ $(git status --porcelain | grep -c "^ \?\?") -gt 0 ]]; then
-        printf "$RED($(parse_git_branch))"
-
-      # Modified/removed files
-      else
-        printf "$YELLOW($(parse_git_branch))"
-      fi
-    fi
-  fi
-}
-
 # ----- Parse Git Branch ----- #
 # Get the current Git branch
 #
 # Usage: `parse_git_branch`
 
 function parse_git_branch() {
-  ref=$(git symbolic-ref HEAD 2> /dev/null) || return
+  local ref=$(git symbolic-ref HEAD 2> /dev/null) || return
   printf "${ref#refs/heads/}"
 }
