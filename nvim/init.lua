@@ -24,11 +24,20 @@ vim.keymap.set('n', '<c-j>', '<c-w><c-j>', { desc = 'Down panel' })
 vim.keymap.set('n', '<c-k>', '<c-w><c-k>', { desc = 'Up panel' })
 vim.keymap.set('n', '<c-l>', '<c-w><c-l>', { desc = 'Right panel' })
 vim.keymap.set('n', '<leader>Q', ':qa!<CR>', { desc = 'Close all' })
+vim.keymap.set('n', '<leader>of', ':Finder<CR>', { desc = 'Open current buffer in Finder' })
 vim.keymap.set('n', '<leader>q', ':bd!<CR>', { desc = 'Close buffer' })
 vim.keymap.set('n', '<leader>w', ':w<CR>', { desc = 'Write file' })
 vim.keymap.set('n', '<leader>x', ':x<CR>', { desc = 'Write file and close' })
 vim.keymap.set('n', 'H', ':bprev<CR>', { desc = 'Next buffer', silent = true })
 vim.keymap.set('n', 'L', ':bnext<CR>', { desc = 'Previous buffer', silent = true })
 vim.keymap.set('n', 'U', ':redo<CR>', { desc = 'Redo' })
+
+vim.api.nvim_create_user_command('Finder',
+	function()
+		local path = vim.api.nvim_buf_get_name(0)
+		os.execute('open -R ' .. path)
+	end,
+	{}
+)
 
 require("config.lazy")
