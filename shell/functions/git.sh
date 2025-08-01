@@ -31,9 +31,9 @@ function git_reset_soft() {
   git reset --soft "HEAD~$1"
 }
 
-# ----- Branch Origin Main ----- #
+# ----- Branch Origin Default ----- #
 
-function git_branch_origin_main() {
+function git_branch_origin_default() {
 	local branch=$1
 	git fetch
 	git checkout -b $branch $(git rev-parse --abbrev-ref origin/HEAD)
