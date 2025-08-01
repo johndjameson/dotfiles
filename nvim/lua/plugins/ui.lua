@@ -65,9 +65,9 @@ return {
 		},
 		lazy = false, -- neo-tree will lazily load itself
 		config = function ()
-			require('neo-tree').setup({
-				vim.keymap.set('n', '<C-s>', ':Neotree toggle<CR>', { desc = 'Toggle sidenav' })
-			})
+			require('neo-tree').setup({})
+			vim.keymap.set('n', '<leader>os', ':Neotree toggle<CR>', { desc = 'Toggle sidenav' })
+			vim.keymap.set('n', '<leader>on', ':Neotree reveal<CR>', { desc = 'Reveal current butter in sidenav' })
 		end,
 	}
 }
