@@ -28,10 +28,10 @@ require("lazy").setup({
     -- import your plugins
     { import = "plugins" },
   },
-	install = { colorscheme = { "solarized" } },
+  install = { colorscheme = { "solarized" } },
   -- automatically check for plugin updates
   checker = {
-		enabled = true,
-		notify = false
-	},
+    enabled = true,
+    notify = false,
+  },
 })
