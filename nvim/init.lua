@@ -10,7 +10,9 @@ vim.opt.signcolumn = 'yes'
 vim.opt.termguicolors = true -- Enable HEX colors
 vim.opt.wrap = false
 
+vim.opt.expandtab = true
 vim.opt.shiftwidth = 2
+vim.opt.smartindent = true
 vim.opt.tabstop = 2
 
 vim.opt.clipboard = 'unnamedplus' -- Copy and paste using system clipboard
