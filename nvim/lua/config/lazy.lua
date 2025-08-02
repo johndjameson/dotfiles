@@ -24,14 +24,15 @@ vim.g.maplocalleader = "\\"
 -- Setup lazy.nvim
 
 require("lazy").setup({
-  spec = {
-    -- import your plugins
-    { import = "plugins" },
+  change_detection = {
+    notify = false,
   },
-  install = { colorscheme = { "solarized" } },
-  -- automatically check for plugin updates
   checker = {
     enabled = true,
     notify = false,
+  },
+  install = { colorscheme = { "solarized" } },
+  spec = {
+    { import = "plugins" },
   },
 })
