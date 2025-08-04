@@ -29,7 +29,7 @@ alias switch='zsh --login'
 # Local
 
 if [ -d ~/.dotfiles-local ]; then
-  . ~/.dotfiles-local/shell/aliases
+  . ~/.dotfiles-local/shell/config.sh
 fi
 
 # -------------------------------------

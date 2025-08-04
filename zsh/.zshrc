@@ -24,9 +24,7 @@ SHELL_EXT='zsh'
 # Local
 
 if [ -d ~/.dotfiles-local ]; then
-  . ~/.dotfiles-local/shell/aliases
-else
-  echo '.dotfiles-local not installed'
+  . ~/.dotfiles-local/shell/config.sh
 fi
 
 # -------------------------------------
