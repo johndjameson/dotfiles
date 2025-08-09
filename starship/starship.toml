@@ -6,12 +6,10 @@ success_symbol = ">"
 disabled = true
 
 [directory]
-format = "[$path]($style)[$read_only]($read_only_style) "
 home_symbol = "john"
 style = ""
 
 [git_branch]
-format = ":[$branch]($style) "
 style = "bold"
 
 [bun]
