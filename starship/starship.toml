@@ -6,7 +6,7 @@ success_symbol = ">"
 disabled = true
 
 [directory]
-format = "[$path]($style)[$read_only]($read_only_style)"
+format = "[$path]($style)[$read_only]($read_only_style) "
 home_symbol = "john"
 style = ""
 
