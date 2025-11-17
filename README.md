@@ -1,7 +1,7 @@
 Dotfiles
 ========
 
-Shell configuration for a Vim and Sass lovin' front-end developer.
+Shell configuration for a Vim software engineer.
 
 Miscellaneous
 -------------
